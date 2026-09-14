@@ -1,0 +1,49 @@
+{
+ "type": "standard",
+ "title": "Thippagondanahalli Reservoir",
+ "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Thippagondanahalli Reservoir</span></span>",
+ "namespace": {
+  "id": 0,
+  "text": ""
+ },
+ "wikibase_item": "Q7784715",
+ "titles": {
+  "canonical": "Thippagondanahalli_Reservoir",
+  "normalized": "Thippagondanahalli Reservoir",
+  "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Thippagondanahalli Reservoir</span></span>"
+ },
+ "pageid": 5233538,
+ "thumbnail": {
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/TGHallidam.JPG/330px-TGHallidam.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "width": 330,
+  "height": 248
+ },
+ "originalimage": {
+  "source": "https://upload.wikimedia.org/wikipedia/commons/f/f7/TGHallidam.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "width": 2048,
+  "height": 1536
+ },
+ "lang": "en",
+ "dir": "ltr",
+ "revision": "1362058369",
+ "tid": "eabd5eaf-7578-11f1-a9f5-0580037f0be7",
+ "timestamp": "2026-07-01T18:16:02Z",
+ "description": "Reservoir west of Bangalore, India",
+ "description_source": "local",
+ "content_urls": {
+  "desktop": {
+   "page": "https://en.wikipedia.org/wiki/Thippagondanahalli_Reservoir",
+   "revisions": "https://en.wikipedia.org/wiki/Thippagondanahalli_Reservoir?action=history",
+   "edit": "https://en.wikipedia.org/wiki/Thippagondanahalli_Reservoir?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Thippagondanahalli_Reservoir"
+  },
+  "mobile": {
+   "page": "https://en.wikipedia.org/wiki/Thippagondanahalli_Reservoir",
+   "revisions": "https://en.wikipedia.org/wiki/Special:History/Thippagondanahalli_Reservoir",
+   "edit": "https://en.wikipedia.org/wiki/Thippagondanahalli_Reservoir?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Thippagondanahalli_Reservoir"
+  }
+ },
+ "extract": "Thippagondanahalli Reservoir, also known as T G Halli Dam or Chamarajasagara, is located at the confluence of the Arkavathy and Kumudavathi rivers, 35 kilometres (22 mi) west of Bangalore, India. It is used by the Bangalore Water Supply and Sewerage Board as a major source of drinking water for western Bangalore. The lake is a man-made reservoir, created by the building of a dam which was inaugurated in 1933. M. Visvesvaraya supervised the construction work.",
+ "extract_html": "<p><b>Thippagondanahalli Reservoir</b>, also known as <b>T G Halli Dam</b> or <b>Chamarajasagara</b>, is located at the confluence of the Arkavathy and Kumudavathi rivers, 35 kilometres (22 mi) west of Bangalore, India. It is used by the Bangalore Water Supply and Sewerage Board as a major source of drinking water for western Bangalore. The lake is a man-made reservoir, created by the building of a dam which was inaugurated in 1933. M. Visvesvaraya supervised the construction work.</p>"
+}

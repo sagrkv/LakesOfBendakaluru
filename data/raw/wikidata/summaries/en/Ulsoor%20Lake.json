@@ -1,0 +1,53 @@
+{
+ "type": "standard",
+ "title": "Ulsoor Lake",
+ "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Ulsoor Lake</span></span>",
+ "namespace": {
+  "id": 0,
+  "text": ""
+ },
+ "wikibase_item": "Q30587793",
+ "titles": {
+  "canonical": "Ulsoor_Lake",
+  "normalized": "Ulsoor Lake",
+  "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Ulsoor Lake</span></span>"
+ },
+ "pageid": 15638588,
+ "thumbnail": {
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Ulsoor_lake_Bangalore_India.jpg/330px-Ulsoor_lake_Bangalore_India.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "width": 330,
+  "height": 147
+ },
+ "originalimage": {
+  "source": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Ulsoor_lake_Bangalore_India.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "width": 3840,
+  "height": 1709
+ },
+ "lang": "en",
+ "dir": "ltr",
+ "revision": "1366777973",
+ "tid": "82d851af-8bcc-11f1-ba79-2f2100c56602",
+ "timestamp": "2026-07-30T04:09:51Z",
+ "description": "Lake in Bangalore, India",
+ "description_source": "local",
+ "coordinates": {
+  "lat": 12.98147222,
+  "lon": 77.61921389
+ },
+ "content_urls": {
+  "desktop": {
+   "page": "https://en.wikipedia.org/wiki/Ulsoor_Lake",
+   "revisions": "https://en.wikipedia.org/wiki/Ulsoor_Lake?action=history",
+   "edit": "https://en.wikipedia.org/wiki/Ulsoor_Lake?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Ulsoor_Lake"
+  },
+  "mobile": {
+   "page": "https://en.wikipedia.org/wiki/Ulsoor_Lake",
+   "revisions": "https://en.wikipedia.org/wiki/Special:History/Ulsoor_Lake",
+   "edit": "https://en.wikipedia.org/wiki/Ulsoor_Lake?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Ulsoor_Lake"
+  }
+ },
+ "extract": "Ulsoor Lake or Halasuru Lake, one of the biggest lakes in Bangalore, is located on the eastern side of the city. It derives its name from the name of the locality it is situated, namely, Halasuru, close to M G Road. It is spread over 50 ha and has several islands. Even though the lake is dated to Kempe Gowdas's time, the present lake was created by Lewin Bentham Bowring, the then Commissioner of Bangalore. A part of the lake is controlled by the Madras Engineer Group, and the rest by the Bruhat Bengaluru Mahanagara Palike (BBMP)",
+ "extract_html": "<p><b>Ulsoor Lake</b> or <b>Halasuru Lake</b>, one of the biggest lakes in Bangalore, is located on the eastern side of the city. It derives its name from the name of the locality it is situated, namely, Halasuru, close to M G Road. It is spread over 50 ha and has several islands. Even though the lake is dated to Kempe Gowdas's time, the present lake was created by Lewin Bentham Bowring, the then Commissioner of Bangalore. A part of the lake is controlled by the Madras Engineer Group, and the rest by the Bruhat Bengaluru Mahanagara Palike (BBMP)</p>"
+}

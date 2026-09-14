@@ -1,0 +1,42 @@
+[
+ {
+  "key": "dmg-2011",
+  "title": "Bangalore Lakes Water Quality Results (2011)",
+  "publisher": "Department of Mines and Geology, Karnataka (via India Water Portal and OpenCity)",
+  "url": "https://data.opencity.in/dataset/bengaluru-lakes-water-quality-data",
+  "license": "not stated",
+  "credit": "Water quality 2011: Department of Mines and Geology, Karnataka",
+  "asOf": "2011",
+  "retrieved": "2026-09-11"
+ },
+ {
+  "key": "lakes-2015",
+  "title": "Bangalore Lakes - Water Quality (2015)",
+  "publisher": "not stated; listed on OpenCity under Bengaluru Lakes Data and Reports",
+  "url": "https://data.opencity.in/dataset/bengaluru-lakes-data-and-reports",
+  "license": "not stated",
+  "credit": "Water quality 2015: Bengaluru Lakes Data and Reports, OpenCity",
+  "asOf": "2015",
+  "retrieved": "2026-09-11"
+ },
+ {
+  "key": "jakkur-2015",
+  "title": "Jakkur Lake: analysis 2016",
+  "publisher": "not stated; listed on OpenCity under Bengaluru Lakes Data and Reports",
+  "url": "https://data.opencity.in/dataset/bengaluru-lakes-data-and-reports",
+  "license": "not stated",
+  "credit": "Jakkur Lake water analysis 2015-16: Bengaluru Lakes Data and Reports, OpenCity",
+  "asOf": "2016",
+  "retrieved": "2026-09-11"
+ },
+ {
+  "key": "nwmp-2021",
+  "title": "Water Quality Data for Lakes and Ponds - NWMP 2021",
+  "publisher": "Central Pollution Control Board (CPCB)",
+  "url": "https://data.opencity.in/dataset/water-quality-data-of-lakes-and-ponds-in-india",
+  "license": "Other (Public Domain), as marked on OpenCity",
+  "credit": "Water quality 2021: Central Pollution Control Board, NWMP",
+  "asOf": "2021",
+  "retrieved": "2026-09-11"
+ }
+]

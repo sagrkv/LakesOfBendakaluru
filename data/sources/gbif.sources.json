@@ -1,0 +1,13 @@
+[
+ {
+  "key": "gbif-2026-09",
+  "title": "GBIF occurrence search: records within 50 m of each lake outline",
+  "publisher": "GBIF.org, with data from eBird (Cornell Lab of Ornithology), iNaturalist and other publishers",
+  "url": "https://www.gbif.org/occurrence/search",
+  "license": "Per dataset, by record share: CC BY 4.0 99.1%, CC BY NC 4.0 0.9%, CC0 1.0 0.0%",
+  "credit": "Species records: GBIF.org occurrence data, mostly eBird",
+  "citation": "GBIF.org (2026-09-11) GBIF Occurrence Search, counts by lake via https://api.gbif.org/v1/occurrence/search",
+  "asOf": "2026-09-11",
+  "retrieved": "2026-09-11"
+ }
+]

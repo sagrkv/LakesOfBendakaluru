@@ -1,0 +1,53 @@
+{
+ "type": "standard",
+ "title": "Kanva Reservoir",
+ "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Kanva Reservoir</span></span>",
+ "namespace": {
+  "id": 0,
+  "text": ""
+ },
+ "wikibase_item": "Q6365696",
+ "titles": {
+  "canonical": "Kanva_Reservoir",
+  "normalized": "Kanva Reservoir",
+  "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Kanva Reservoir</span></span>"
+ },
+ "pageid": 17094854,
+ "thumbnail": {
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Kanva_dam.jpg/330px-Kanva_dam.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "width": 330,
+  "height": 248
+ },
+ "originalimage": {
+  "source": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Kanva_dam.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "width": 3072,
+  "height": 2304
+ },
+ "lang": "en",
+ "dir": "ltr",
+ "revision": "1366035819",
+ "tid": "1d582e4c-8877-11f1-b5bb-698331280dbe",
+ "timestamp": "2026-07-25T22:21:00Z",
+ "description": "Lake in Karnataka, India",
+ "description_source": "local",
+ "coordinates": {
+  "lat": 12.72926667,
+  "lon": 77.19818056
+ },
+ "content_urls": {
+  "desktop": {
+   "page": "https://en.wikipedia.org/wiki/Kanva_Reservoir",
+   "revisions": "https://en.wikipedia.org/wiki/Kanva_Reservoir?action=history",
+   "edit": "https://en.wikipedia.org/wiki/Kanva_Reservoir?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Kanva_Reservoir"
+  },
+  "mobile": {
+   "page": "https://en.wikipedia.org/wiki/Kanva_Reservoir",
+   "revisions": "https://en.wikipedia.org/wiki/Special:History/Kanva_Reservoir",
+   "edit": "https://en.wikipedia.org/wiki/Kanva_Reservoir?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Kanva_Reservoir"
+  }
+ },
+ "extract": "Kanva Reservoir is an artificial lake and tourist attraction 69 kilometres (43 mi) from Bangalore, India, formed by the damming of the Kanva River in an irrigation project. The Kanva Reservoir is an artificial lake located in the Channapatna, a town known for its wooden toys. It was built in 1946 to serve as a source of drinking water for the surrounding areas, as well as for irrigation purposes. The reservoir is formed by a dam built across the Kaveri River, which is one of the largest rivers in South India. There is a fisheries training and research center near the dam, which was established to train the local residents in fish farming so that they could become economically independent.",
+ "extract_html": "<p><b>Kanva Reservoir</b> is an artificial lake and tourist attraction 69 kilometres (43 mi) from Bangalore, India, formed by the damming of the Kanva River in an irrigation project. The Kanva Reservoir is an artificial lake located in the Channapatna, a town known for its wooden toys. It was built in 1946 to serve as a source of drinking water for the surrounding areas, as well as for irrigation purposes. The reservoir is formed by a dam built across the Kaveri River, which is one of the largest rivers in South India. There is a fisheries training and research center near the dam, which was established to train the local residents in fish farming so that they could become economically independent.</p>"
+}

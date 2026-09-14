@@ -1,0 +1,53 @@
+{
+ "type": "standard",
+ "title": "Madiwala Lake",
+ "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Madiwala Lake</span></span>",
+ "namespace": {
+  "id": 0,
+  "text": ""
+ },
+ "wikibase_item": "Q30621418",
+ "titles": {
+  "canonical": "Madiwala_Lake",
+  "normalized": "Madiwala Lake",
+  "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Madiwala Lake</span></span>"
+ },
+ "pageid": 14393141,
+ "thumbnail": {
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Birds_at_Madiwala_Lake.jpg/330px-Birds_at_Madiwala_Lake.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "width": 330,
+  "height": 152
+ },
+ "originalimage": {
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Birds_at_Madiwala_Lake.jpg/3840px-Birds_at_Madiwala_Lake.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "width": 4000,
+  "height": 1844
+ },
+ "lang": "en",
+ "dir": "ltr",
+ "revision": "1362852496",
+ "tid": "0baaf7e4-7959-11f1-9d2e-0b5c3a0107e2",
+ "timestamp": "2026-07-06T16:37:58Z",
+ "description": "Lake in Bengaluru",
+ "description_source": "local",
+ "coordinates": {
+  "lat": 12.90583333,
+  "lon": 77.61472222
+ },
+ "content_urls": {
+  "desktop": {
+   "page": "https://en.wikipedia.org/wiki/Madiwala_Lake",
+   "revisions": "https://en.wikipedia.org/wiki/Madiwala_Lake?action=history",
+   "edit": "https://en.wikipedia.org/wiki/Madiwala_Lake?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Madiwala_Lake"
+  },
+  "mobile": {
+   "page": "https://en.wikipedia.org/wiki/Madiwala_Lake",
+   "revisions": "https://en.wikipedia.org/wiki/Special:History/Madiwala_Lake",
+   "edit": "https://en.wikipedia.org/wiki/Madiwala_Lake?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Madiwala_Lake"
+  }
+ },
+ "extract": "Madiwala lake is one of the biggest lakes in Bangalore, India spread over an area of 114.3 hectare. The water in the lake was fit for drinking till the early 1990s. Since then it has become unfit for drinking due to industrial waste and sewage entering the waterbody. It has gradually become polluted.",
+ "extract_html": "<p><b>Madiwala lake</b> is one of the biggest lakes in Bangalore, India spread over an area of 114.3 hectare. The water in the lake was fit for drinking till the early 1990s. Since then it has become unfit for drinking due to industrial waste and sewage entering the waterbody. It has gradually become polluted.</p>"
+}

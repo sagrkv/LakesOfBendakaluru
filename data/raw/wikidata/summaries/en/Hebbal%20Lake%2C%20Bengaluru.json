@@ -1,0 +1,53 @@
+{
+ "type": "standard",
+ "title": "Hebbal Lake, Bengaluru",
+ "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Hebbal Lake, Bengaluru</span></span>",
+ "namespace": {
+  "id": 0,
+  "text": ""
+ },
+ "wikibase_item": "Q5695346",
+ "titles": {
+  "canonical": "Hebbal_Lake,_Bengaluru",
+  "normalized": "Hebbal Lake, Bengaluru",
+  "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Hebbal Lake, Bengaluru</span></span>"
+ },
+ "pageid": 12997240,
+ "thumbnail": {
+  "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Hebbal_lake_water.jpg/330px-Hebbal_lake_water.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "width": 330,
+  "height": 201
+ },
+ "originalimage": {
+  "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Hebbal_lake_water.jpg/3840px-Hebbal_lake_water.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "width": 3888,
+  "height": 2368
+ },
+ "lang": "en",
+ "dir": "ltr",
+ "revision": "1366023886",
+ "tid": "f562ce42-886a-11f1-9eda-d0871ef10f10",
+ "timestamp": "2026-07-25T20:53:59Z",
+ "description": "Lake in Bangalore, India",
+ "description_source": "local",
+ "coordinates": {
+  "lat": 13.04666667,
+  "lon": 77.58694444
+ },
+ "content_urls": {
+  "desktop": {
+   "page": "https://en.wikipedia.org/wiki/Hebbal_Lake%2C_Bengaluru",
+   "revisions": "https://en.wikipedia.org/wiki/Hebbal_Lake%2C_Bengaluru?action=history",
+   "edit": "https://en.wikipedia.org/wiki/Hebbal_Lake%2C_Bengaluru?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Hebbal_Lake%2C_Bengaluru"
+  },
+  "mobile": {
+   "page": "https://en.wikipedia.org/wiki/Hebbal_Lake%2C_Bengaluru",
+   "revisions": "https://en.wikipedia.org/wiki/Special:History/Hebbal_Lake%2C_Bengaluru",
+   "edit": "https://en.wikipedia.org/wiki/Hebbal_Lake%2C_Bengaluru?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Hebbal_Lake%2C_Bengaluru"
+  }
+ },
+ "extract": "Hebbal Lake is located in the north of Bangalore at the mouth of National Highway 7, along the junction of Bellary Road and the Outer Ring Road (ORR). Epigraphic evidence suggests that the lake is much older than commonly assumed. The presence of the Bhoopasandra inscription, dated to the 8th century CE and found near the lake, indicates human settlement and religious activity in the area around 1,300 years ago. Further insights into the region's antiquity come from the work of historian and epigraphist Dr. P. V. Krishnamurthy. In his study of the Bhoopasandra inscription, he documents a grant made to a Durga idol, originally located near the Hebbal lake bund. The inscription references individuals associated with agrarian professions and water management, suggesting the existence of organized settlements and water bodies in the area over 1,200 years ago. This evidence indicates that Hebbal Lake, or its precursor, may have been integral to the region's socio-economic fabric during that period.",
+ "extract_html": "<p><b>Hebbal Lake</b> is located in the north of Bangalore at the mouth of National Highway 7, along the junction of Bellary Road and the Outer Ring Road (ORR). Epigraphic evidence suggests that the lake is much older than commonly assumed. The presence of the Bhoopasandra inscription, dated to the 8th century CE and found near the lake, indicates human settlement and religious activity in the area around 1,300 years ago. Further insights into the region's antiquity come from the work of historian and epigraphist Dr. P. V. Krishnamurthy. In his study of the Bhoopasandra inscription, he documents a grant made to a Durga idol, originally located near the Hebbal lake bund. The inscription references individuals associated with agrarian professions and water management, suggesting the existence of organized settlements and water bodies in the area over 1,200 years ago. This evidence indicates that Hebbal Lake, or its precursor, may have been integral to the region's socio-economic fabric during that period.</p>"
+}

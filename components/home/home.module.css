@@ -1,0 +1,22 @@
+/*
+ * The name is printed on the sheet, so it settles with it: 103% to full size, 600 ms, once.
+ * No shadow here; the sheet's shadow comes from the global `land` animation.
+ */
+.print {
+  animation: print 600ms var(--ease-settle) both;
+}
+
+@keyframes print {
+  from {
+    scale: 1.03;
+  }
+  to {
+    scale: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .print {
+    animation: none;
+  }
+}

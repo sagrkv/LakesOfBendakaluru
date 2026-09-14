@@ -1,0 +1,41 @@
+{
+ "type": "standard",
+ "title": "ಬೆಳ್ಳಂದೊರು ಕೆರೆ",
+ "displaytitle": "<span lang=\"kn\" dir=\"ltr\"><span class=\"mw-page-title-main\">ಬೆಳ್ಳಂದೊರು ಕೆರೆ</span></span>",
+ "namespace": {
+  "id": 0,
+  "text": ""
+ },
+ "wikibase_item": "Q4883488",
+ "titles": {
+  "canonical": "ಬೆಳ್ಳಂದೊರು_ಕೆರೆ",
+  "normalized": "ಬೆಳ್ಳಂದೊರು ಕೆರೆ",
+  "display": "<span lang=\"kn\" dir=\"ltr\"><span class=\"mw-page-title-main\">ಬೆಳ್ಳಂದೊರು ಕೆರೆ</span></span>"
+ },
+ "pageid": 22671,
+ "lang": "kn",
+ "dir": "ltr",
+ "revision": "1356165",
+ "tid": "9f69167d-27f9-11f1-baf2-593db001bace",
+ "timestamp": "2026-03-25T03:20:50Z",
+ "coordinates": {
+  "lat": 12.93416667,
+  "lon": 77.66277778
+ },
+ "content_urls": {
+  "desktop": {
+   "page": "https://kn.wikipedia.org/wiki/%E0%B2%AC%E0%B3%86%E0%B2%B3%E0%B3%8D%E0%B2%B3%E0%B2%82%E0%B2%A6%E0%B3%8A%E0%B2%B0%E0%B3%81_%E0%B2%95%E0%B3%86%E0%B2%B0%E0%B3%86",
+   "revisions": "https://kn.wikipedia.org/wiki/%E0%B2%AC%E0%B3%86%E0%B2%B3%E0%B3%8D%E0%B2%B3%E0%B2%82%E0%B2%A6%E0%B3%8A%E0%B2%B0%E0%B3%81_%E0%B2%95%E0%B3%86%E0%B2%B0%E0%B3%86?action=history",
+   "edit": "https://kn.wikipedia.org/wiki/%E0%B2%AC%E0%B3%86%E0%B2%B3%E0%B3%8D%E0%B2%B3%E0%B2%82%E0%B2%A6%E0%B3%8A%E0%B2%B0%E0%B3%81_%E0%B2%95%E0%B3%86%E0%B2%B0%E0%B3%86?action=edit",
+   "talk": "https://kn.wikipedia.org/wiki/%E0%B2%9A%E0%B2%B0%E0%B3%8D%E0%B2%9A%E0%B3%86%E0%B2%AA%E0%B3%81%E0%B2%9F:%E0%B2%AC%E0%B3%86%E0%B2%B3%E0%B3%8D%E0%B2%B3%E0%B2%82%E0%B2%A6%E0%B3%8A%E0%B2%B0%E0%B3%81_%E0%B2%95%E0%B3%86%E0%B2%B0%E0%B3%86"
+  },
+  "mobile": {
+   "page": "https://kn.wikipedia.org/wiki/%E0%B2%AC%E0%B3%86%E0%B2%B3%E0%B3%8D%E0%B2%B3%E0%B2%82%E0%B2%A6%E0%B3%8A%E0%B2%B0%E0%B3%81_%E0%B2%95%E0%B3%86%E0%B2%B0%E0%B3%86",
+   "revisions": "https://kn.wikipedia.org/wiki/Special:History/%E0%B2%AC%E0%B3%86%E0%B2%B3%E0%B3%8D%E0%B2%B3%E0%B2%82%E0%B2%A6%E0%B3%8A%E0%B2%B0%E0%B3%81_%E0%B2%95%E0%B3%86%E0%B2%B0%E0%B3%86",
+   "edit": "https://kn.wikipedia.org/wiki/%E0%B2%AC%E0%B3%86%E0%B2%B3%E0%B3%8D%E0%B2%B3%E0%B2%82%E0%B2%A6%E0%B3%8A%E0%B2%B0%E0%B3%81_%E0%B2%95%E0%B3%86%E0%B2%B0%E0%B3%86?action=edit",
+   "talk": "https://kn.wikipedia.org/wiki/%E0%B2%9A%E0%B2%B0%E0%B3%8D%E0%B2%9A%E0%B3%86%E0%B2%AA%E0%B3%81%E0%B2%9F:%E0%B2%AC%E0%B3%86%E0%B2%B3%E0%B3%8D%E0%B2%B3%E0%B2%82%E0%B2%A6%E0%B3%8A%E0%B2%B0%E0%B3%81_%E0%B2%95%E0%B3%86%E0%B2%B0%E0%B3%86"
+  }
+ },
+ "extract": "ಬೆಳ್ಳಂದೊರು ಕೆರೆ ಬೆಂಗಳೂರು ನಗರದ ಆಗ್ನೇಯ ಭಾಗದಲ್ಲಿದೆ. ಇದು ಈ ನಗರದ ಎಲ್ಲದಕ್ಕಿಂತ ದೊಡ್ಡ ಕೆರೆ.",
+ "extract_html": "<p><b>ಬೆಳ್ಳಂದೊರು ಕೆರೆ</b> ಬೆಂಗಳೂರು ನಗರದ ಆಗ್ನೇಯ ಭಾಗದಲ್ಲಿದೆ. ಇದು ಈ ನಗರದ ಎಲ್ಲದಕ್ಕಿಂತ ದೊಡ್ಡ ಕೆರೆ.</p>"
+}

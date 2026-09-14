@@ -1,0 +1,53 @@
+{
+ "type": "standard",
+ "title": "Sarakki lake",
+ "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Sarakki lake</span></span>",
+ "namespace": {
+  "id": 0,
+  "text": ""
+ },
+ "wikibase_item": "Q7423007",
+ "titles": {
+  "canonical": "Sarakki_lake",
+  "normalized": "Sarakki lake",
+  "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Sarakki lake</span></span>"
+ },
+ "pageid": 37328276,
+ "thumbnail": {
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Sarakki_lake_at_night.jpg/330px-Sarakki_lake_at_night.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "width": 330,
+  "height": 248
+ },
+ "originalimage": {
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Sarakki_lake_at_night.jpg/3840px-Sarakki_lake_at_night.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "width": 4000,
+  "height": 3000
+ },
+ "lang": "en",
+ "dir": "ltr",
+ "revision": "1366623971",
+ "tid": "9a480e6e-8afc-11f1-bd91-5c0de860a93d",
+ "timestamp": "2026-07-29T03:21:35Z",
+ "description": "Lake in India",
+ "description_source": "local",
+ "coordinates": {
+  "lat": 12.89833333,
+  "lon": 77.57777778
+ },
+ "content_urls": {
+  "desktop": {
+   "page": "https://en.wikipedia.org/wiki/Sarakki_lake",
+   "revisions": "https://en.wikipedia.org/wiki/Sarakki_lake?action=history",
+   "edit": "https://en.wikipedia.org/wiki/Sarakki_lake?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Sarakki_lake"
+  },
+  "mobile": {
+   "page": "https://en.wikipedia.org/wiki/Sarakki_lake",
+   "revisions": "https://en.wikipedia.org/wiki/Special:History/Sarakki_lake",
+   "edit": "https://en.wikipedia.org/wiki/Sarakki_lake?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Sarakki_lake"
+  }
+ },
+ "extract": "Sarakki lake is a lake in the southern part of Bengaluru, India, in the suburb of the J. P. Nagar. It is one of the largest lakes in Bangalore and located on Puttenahalli main road. Sarakki is a portmanteau of the native Kannada language words, Saavira Hakki, which translates to \"a thousand birds\".",
+ "extract_html": "<p><b>Sarakki lake</b> is a lake in the southern part of Bengaluru, India, in the suburb of the J. P. Nagar. It is one of the largest lakes in Bangalore and located on Puttenahalli main road. Sarakki is a portmanteau of the native Kannada language words, <i>Saavira Hakki</i>, which translates to \"a thousand birds\".</p>"
+}

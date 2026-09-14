@@ -1,0 +1,22 @@
+[
+ {
+  "key": "landrecords-lake-digital",
+  "title": "Lake (Digital) maps, Bengaluru Urban",
+  "publisher": "Department of Survey, Settlement and Land Records, Government of Karnataka",
+  "url": "https://landrecords.karnataka.gov.in/service3/Lakeencroachment.aspx",
+  "license": "not stated",
+  "credit": "Lake maps: Survey, Settlement and Land Records Department, Karnataka",
+  "asOf": "not stated",
+  "retrieved": "2026-09-11"
+ },
+ {
+  "key": "landrecords-lake-survey",
+  "title": "Lake (Survey) maps, Bengaluru Urban and Bengaluru Rural",
+  "publisher": "Department of Survey, Settlement and Land Records, Government of Karnataka",
+  "url": "https://landrecords.karnataka.gov.in/service3/lakesurvey.aspx",
+  "license": "not stated",
+  "credit": "Lake maps: Survey, Settlement and Land Records Department, Karnataka",
+  "asOf": "not stated",
+  "retrieved": "2026-09-11"
+ }
+]

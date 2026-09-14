@@ -1,0 +1,39 @@
+{
+ "type": "standard",
+ "title": "Lakes in Bengaluru",
+ "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Lakes in Bengaluru</span></span>",
+ "namespace": {
+  "id": 0,
+  "text": ""
+ },
+ "wikibase_item": "Q6478987",
+ "titles": {
+  "canonical": "Lakes_in_Bengaluru",
+  "normalized": "Lakes in Bengaluru",
+  "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Lakes in Bengaluru</span></span>"
+ },
+ "pageid": 19041261,
+ "lang": "en",
+ "dir": "ltr",
+ "revision": "1373649238",
+ "tid": "423fe3b5-aa68-11f1-9e8b-b037bdcec07f",
+ "timestamp": "2026-09-07T03:00:19Z",
+ "description": "",
+ "description_source": "local",
+ "content_urls": {
+  "desktop": {
+   "page": "https://en.wikipedia.org/wiki/Lakes_in_Bengaluru",
+   "revisions": "https://en.wikipedia.org/wiki/Lakes_in_Bengaluru?action=history",
+   "edit": "https://en.wikipedia.org/wiki/Lakes_in_Bengaluru?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Lakes_in_Bengaluru"
+  },
+  "mobile": {
+   "page": "https://en.wikipedia.org/wiki/Lakes_in_Bengaluru",
+   "revisions": "https://en.wikipedia.org/wiki/Special:History/Lakes_in_Bengaluru",
+   "edit": "https://en.wikipedia.org/wiki/Lakes_in_Bengaluru?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Lakes_in_Bengaluru"
+  }
+ },
+ "extract": "Lakes and tanks in the metropolitan area of Greater Bangalore and the district of Bangalore Urban are reservoirs of varying sizes constructed over a number of centuries by various empires and dynasties for rainwater harvesting. Historically, these reservoirs were primarily either irrigation tanks or for the water supply, with secondary uses such as bathing and washing. The need for creating and sustaining these man-made dammed freshwater reservoirs was created by the absence of a major river nearby coupled with a growing settlement. As Bangalore grew from a small settlement into a city, both of the primary historical uses of the tanks changed. Agricultural land witnessed urbanization and alternate sources of water were provisioned, such as through borewells, piped reservoir water and later river water from further away.",
+ "extract_html": "<p>Lakes and tanks in the metropolitan area of Greater Bangalore and the district of Bangalore Urban are reservoirs of varying sizes constructed over a number of centuries by various empires and dynasties for rainwater harvesting. Historically, these reservoirs were primarily either irrigation tanks or for the water supply, with secondary uses such as bathing and washing. The need for creating and sustaining these man-made dammed freshwater reservoirs was created by the absence of a major river nearby coupled with a growing settlement. As Bangalore grew from a small settlement into a city, both of the primary historical uses of the tanks changed. Agricultural land witnessed urbanization and alternate sources of water were provisioned, such as through borewells, piped reservoir water and later river water from further away.</p>"
+}

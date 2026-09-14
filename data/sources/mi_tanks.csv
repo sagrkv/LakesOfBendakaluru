@@ -1,0 +1,147 @@
+source,miTankId,name,owner,district,taluk,gramPanchayat,village,commandAreaHa,spreadAreaHa,storageMcft,designedUtilisationMcft,embankmentType,embankmentHeightM,embankmentTopWidthM,embankmentLengthM,wasteWeirTypeRaw,kodiLengthM,wasteWeirFlowCumecs,wasteWeirType
+nwdp-mi-tanks,KA21030095,Boodigere Ammanikere,Minor Irrigation Department,Bengaluru Rural,Devanahalli,Boodigere,Bhudagere Amanikere,161.8,136.98,131.86,131.86,Homogeneous,4.2,5,1172,Sloping Apron,,32.87,sloping apron
+nwdp-mi-tanks,KA21030094,Bidalapura Ammanikere,Minor Irrigation Department,Bengaluru Rural,Devanahalli,Nalluru,Bidhlupura Amanikere,80.53,80.93,18.21,18.21,Homogeneous,1.3,2.5,728,Sloping Apron,,39.27,sloping apron
+nwdp-mi-tanks,KA21030100,Bettakote Ammanikere,Minor Irrigation Department,Bengaluru Rural,Devanahalli,Bettakote,Bettakote Amanikere,212.46,181.76,130.58,130.58,Homogeneous,6,3,1445,Sloping Apron,,35.53,sloping apron
+nwdp-mi-tanks,KA21030093,Konaginabele Kere,Minor Irrigation Department,Bengaluru Rural,Devanahalli,I.Basapura,Konaginabele,93,22.68,20.89,20.89,Homogeneous,3.5,2.5,992,Sloping Apron,46,14.61,sloping apron
+nwdp-mi-tanks,KA21030107,Aradeshanahalli Kere,Minor Irrigation Department,Bengaluru Rural,Devanahalli,Jalige,J.I. Aradeshanahalli,119.1,77.7,43.41,43.41,Homogeneous,3.8,5,995,Clear over fall,46,13.22,clear overfall
+nwdp-mi-tanks,KA21030091,Chikkasanne Bandeammanikere,Minor Irrigation Department,Bengaluru Rural,Devanahalli,Vishwanathapura,Bommawara,146.72,43.1,72.47,72.47,Homogeneous,4.5,2.5,932,Sloping Apron,20,14.07,sloping apron
+nwdp-mi-tanks,KA21030088,Vijayapura Ammanikere,Minor Irrigation Department,Bengaluru Rural,Devanahalli,Harohalli,Chikkanahalli,145.3,114.52,56.21,56.21,Homogeneous,4.5,8,1085,Clear over fall,,107.76,clear overfall
+nwdp-mi-tanks,KA21030087,Karahalli Ammanikere,Minor Irrigation Department,Bengaluru Rural,Devanahalli,Karahalli,Karahalli Amanikere,200,28.32,12.09,12.09,Homogeneous,2.8,4,905,Sloping Apron,,54.22,sloping apron
+nwdp-mi-tanks,KA21030092,Thatamachanahalli Ammanikere,Minor Irrigation Department,Bengaluru Rural,Devanahalli,Venkatagirikote,Thatamachanahallikere,324,169,130.44,130.44,Homogeneous,6,2,1680,Clear over fall,,87.12,clear overfall
+nwdp-mi-tanks,KA21030090,Channarayapatna Ammanikere,Minor Irrigation Department,Bengaluru Rural,Devanahalli,Channarayapatna,Hyedalu,77.3,88.62,52.32,52.32,Homogeneous,4.5,2.5,730,Clear over fall,50,43.66,clear overfall
+nwdp-mi-tanks,KA21030089,Bannimangala Ammanikere,Minor Irrigation Department,Bengaluru Rural,Devanahalli,Alooru Duddanahalli,Binnamangala Amanikere,84.61,56,41.8,41.8,Homogeneous,3,4.5,1022,Sloping Apron,65,123.47,sloping apron
+nwdp-mi-tanks,KA21030085,Devanahalli Hireammanikere,Minor Irrigation Department,Bengaluru Rural,Devanahalli,ULB-Devanahalli-TMC,Hire Amanikere,45.02,87,30.47,30.47,Homogeneous,5,10,725,Sloping Apron,,22.14,sloping apron
+nwdp-mi-tanks,KA21030036,Devasthanadha Ammanikere,Minor Irrigation Department,Bengaluru Rural,Devanahalli,Bidaluru,Devasthana Amanikere,93.2,16,16,16,Homogeneous,3,3,1230,Sloping Apron,22,22.37,sloping apron
+nwdp-mi-tanks,KA21030108,Alur Dunahalli Kere,Minor Irrigation Department,Bengaluru Rural,Devanahalli,Alooru Duddanahalli,Alurududdanahalli,87.04,22.66,43,43,Homogeneous,2,3.5,782,Sloping Apron,25,32.05,sloping apron
+nwdp-mi-tanks,KA28050291,Amani Bhadranakere,Minor Irrigation Department,Bengaluru Rural,Devanahalli,Godlumuddenahalli,Yaluvahalli,1053,190.28,320.17,224.12,Zonal,5.5,8.5,1500,Over Fall,14.36,133.56,overfall
+nwdp-mi-tanks,KA21020013,Honnavara Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Honnavara,Honnavara,86.32,35,9.03,9.03,Homogeneous,0,2.4,247,Clear Over fall,50,25.99,clear overfall
+nwdp-mi-tanks,KA21020040,Madhure Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Honnavara,Isthuru,291,11,11.54,11.54,Homogeneous,9.75,3.5,637,Sloping Apron,35.5,25.88,sloping apron
+nwdp-mi-tanks,KA21020041,Doddatumakuru Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Doddathumakuru,Dodda Tumakuru,111.7,15.5,4.24,4.24,Homogeneous,2.1,4.2,575,Sloping Apron,40,20.3,sloping apron
+nwdp-mi-tanks,KA21020017,Simpadipura Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Honnavara,Shimpadipura,48.56,198.7,89.43,89.43,Homogeneous,4.2,6,1350,Sloping Apron,25,52.38,sloping apron
+nwdp-mi-tanks,KA21020021,Kadanuru Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Kadanuru,Kadanuru,40.16,29.3,7.07,7.07,Homogeneous,4,5,1050,Sloping Apron,45,28.14,sloping apron
+nwdp-mi-tanks,KA21020020,Haadripura Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Hadripura,Hadhripura,70.28,47.35,10.96,10.96,Homogeneous,2.4,3.7,990,Sloping Apron,25,62.57,sloping apron
+nwdp-mi-tanks,KA21020016,Ujjani Gowrammana Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Hosahalli,Ujjini,57.51,13.6,8.84,8.84,Homogeneous,10.7,3,170,Clear Over fall,50,88.22,clear overfall
+nwdp-mi-tanks,KA28010207,Ujjanihole Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Hosahalli,Hosahalli,324,16.19,46.97,324,Homogeneous,4,1.8,1200,Clear Over Fall,14.3,211.14,clear overfall
+nwdp-mi-tanks,KA21020031,Arudi Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Aroodi,J.I.Arodi,64.35,41.99,17.67,17.67,Homogeneous,3.5,3.5,515,Sloping Apron,,32.79,sloping apron
+nwdp-mi-tanks,KA21020037,Heggadihalli Amani Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Heggadihalli,Heggadihalli,52.3,6.15,6.36,6.36,Homogeneous,2.4,3,360,Sloping Apron,30,24.21,sloping apron
+nwdp-mi-tanks,KA21020026,Sriramanahalli Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Sasalu,Thodalabande,112.5,39.02,20.15,20.15,Homogeneous,2.3,3.5,1150,Sloping Apron,30,9,sloping apron
+nwdp-mi-tanks,KA21020015,Machhenahalli Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Sasalu,Sriramanahalli,184.76,9.04,9.54,9.54,Homogeneous,16.46,2.4,363,Sloping Apron,50,49.41,sloping apron
+nwdp-mi-tanks,KA21020025,Kottigemachenahalli Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Hosahalli,Kottigemachanahalli,61.9,41.23,14.65,14.65,Homogeneous,3.6,4,750,Sloping Apron,25,32.22,sloping apron
+nwdp-mi-tanks,KA21020022,Mallasandra Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Hosahalli,Mallasandra,93.48,74,98.63,98.63,Homogeneous,7,2.5,540,Ogee Weir,40,155.72,ogee weir
+nwdp-mi-tanks,KA21020024,Gundamgere Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Hosahalli,Sonnenahalli,,,,,,,,,,,,
+nwdp-mi-tanks,KA21020044,Kanchiganala Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Rajaghatta,Kanchiganala,43.89,10.01,10.25,10.25,Homogeneous,2.9,2.5,1175,Sloping Apron,50,30.66,sloping apron
+nwdp-mi-tanks,KA21020052,Beedigere Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Melekote,Gantiganahalli,74.06,35.2,7.42,7.42,Homogeneous,2.4,4,540,Sloping Apron,45,32.22,sloping apron
+nwdp-mi-tanks,KA21020050,Tirumagondanahalli Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Hadonahalli,Thirumagondanahalli,81,47.5,21.21,21.21,Homogeneous,4,4.5,1200,Sloping Apron,45,33.58,sloping apron
+nwdp-mi-tanks,KA21020036,Melekote Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Melekote,Melekote,68.8,26.68,12.37,12.37,Homogeneous,2.4,1.8,540,Sloping Apron,20,37.51,sloping apron
+nwdp-mi-tanks,KA21020051,Machagondanahalli Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Heggadihalli,Machagondanahalli,62.7,6.02,6.72,6.72,Homogeneous,3,4,750,Sloping Apron,40,14.55,sloping apron
+nwdp-mi-tanks,KA21020035,Lakshmidevipura Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Hadonahalli,Lakshmidevipura,40.5,31.5,8.13,8.13,Homogeneous,5.5,2.4,930,Sloping Apron,50,64.29,sloping apron
+nwdp-mi-tanks,KA21020049,Linganahalli Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Konaghatta,Linganahalli,113.31,124.3,39.6,39.6,Homogeneous,3.3,2.5,930,Sloping Apron,40,29.39,sloping apron
+nwdp-mi-tanks,KA21020030,Hanabe Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Hanabe,Hanabe,122.95,51.25,60.1,60.1,Homogeneous,3,2.4,1050,Sloping Apron,30,157.98,sloping apron
+nwdp-mi-tanks,KA21020048,Gulyanandigunda Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Heggadihalli,Gulyanandhigundhi,,,,,,,,,,,,
+nwdp-mi-tanks,KA21020039,Dandudasakodigehalli Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Heggadihalli,Dandadasakodagenahalli,48.56,10.64,6.72,6.72,Homogeneous,1.8,2.4,480,Sloping Apron,30,21.69,sloping apron
+nwdp-mi-tanks,KA21020029,Tippuru Timmamana Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Tippuru,Gundasandra,101.86,61.85,21.91,21.91,Homogeneous,2.5,4,1200,Sloping Apron,40,50.59,sloping apron
+nwdp-mi-tanks,KA21020027,Koluru Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Kodigehalli,Koluru,53.31,30.88,19.44,19.44,Homogeneous,2.7,3,950,Clear Over fall,40,33.95,clear overfall
+nwdp-mi-tanks,KA21020028,Talagavara Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Kodigehalli,Amanipalana Kere,74.06,30.71,18.03,18.03,Homogeneous,1.8,4.5,840,Sloping Apron,20,86.35,sloping apron
+nwdp-mi-tanks,KA21020046,Shivapura Amani Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Konaghatta,Shivapuradha Amanikere,104.01,30.27,24.74,24.74,Homogeneous,4,5,1050,Sloping Apron,40,28.6,sloping apron
+nwdp-mi-tanks,KA21020047,Konaghatta Amani Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Konaghatta,Konagatta,68.44,58.25,12.73,12.73,Homogeneous,2.7,2.5,810,Sloping Apron,80,58.38,sloping apron
+nwdp-mi-tanks,KA21020038,Talanajogihalli Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Kodigehalli,Amanipalana Kere,52.15,73.65,30.4,30.4,Homogeneous,1.8,2.4,660,Sloping Apron,35,44.56,sloping apron
+nwdp-mi-tanks,KA21020023,Maadagondanahalli Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Kodigehalli,Madhagondanahalli,52.06,28.73,9.9,9.9,Homogeneous,3,2.5,990,Sloping Apron,40,33.35,sloping apron
+nwdp-mi-tanks,KA21020045,Rajaghatta Amani Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Rajaghatta,Rajaghattadha Amanikere,46.86,18.56,7.42,7.42,Homogeneous,5,4.5,810,Sloping Apron,60,82.42,sloping apron
+nwdp-mi-tanks,KA21020019,Chikkahejjaji Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Doddabelavangala,Kasaba Doddabelavangala,189.4,29,16.97,16.97,Homogeneous,2.4,6.5,840,Clear Over fall,,22.71,clear overfall
+nwdp-mi-tanks,KA21020018,Hejjaji Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Doddabelavangala,Dodda Hejjaji,50.59,71.05,31.81,31.81,Homogeneous,3,7,1050,Sloping Apron,35,70.02,sloping apron
+nwdp-mi-tanks,KA21020043,Aralumallige Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Aralumallige,Aralu Mallige,165.66,42.49,15.91,15.91,Homogeneous,2.4,2,840,Sloping Apron,60,74.63,sloping apron
+nwdp-mi-tanks,KA21020033,Nagara Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,ULB-Doddaballapur-CMC,Khas Bhag,,,,,,,,,,,,
+nwdp-mi-tanks,KA21020014,Sonnenahalli Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Doddabelavangala,Rampura,77.38,116.95,28.88,28.88,Homogeneous,2.7,7,990,Sloping Apron,20,41.28,sloping apron
+nwdp-mi-tanks,KA21020042,Kesturu Kere,Minor Irrigation Department,Bengaluru Rural,Dod Ballapur,Kesturu,Kesthuru,50.59,96.72,51.26,51.26,Homogeneous,2.4,4.7,1410,Sloping Apron,60,37.51,sloping apron
+nwdp-mi-tanks,KA21040126,Bellikere Kere,Minor Irrigation Department,Bengaluru Rural,Hoskote,Mutsandra,Bellikere,51,40,11,10.5,Homogeneous,4.5,1.5,870,Clear over fall,18,41.34,clear overfall
+nwdp-mi-tanks,KA21040129,Medimallasandra Kere,Minor Irrigation Department,Bengaluru Rural,Hoskote,Anugondanahalli,Medimallasandra,47,32,16.87,9.68,Homogeneous,4,1.8,870,Clear over fall,48,29.73,clear overfall
+nwdp-mi-tanks,KA21040130,Samethanahalli Kere,Minor Irrigation Department,Bengaluru Rural,Hoskote,Samethanahalli,Samethanahalli,40,10,6.11,8.24,Homogeneous,4,3.5,960,Sloping appron,18,44.17,sloping apron
+nwdp-mi-tanks,KA21040128,Mallasandra Kere,Minor Irrigation Department,Bengaluru Rural,Hoskote,Samethanahalli,Mallasandra,69,10.5,2.2,14.21,Homogeneous,4.5,5,900,Clear over fall,56,84.58,clear overfall
+nwdp-mi-tanks,KA21040132,Kodihalli,Minor Irrigation Department,Bengaluru Rural,Hoskote,Vagata,Kodihalli,79,75,27.22,16.27,Homogeneous,3.5,1.8,810,Clear over fall,28,57.96,clear overfall
+nwdp-mi-tanks,KA21040131,Makanahalli,Minor Irrigation Department,Bengaluru Rural,Hoskote,Vagata,Makanahalli,43,38,7.91,8.85,Homogeneous,3,1.5,600,Sloping appron,25,46.15,sloping apron
+nwdp-mi-tanks,KA21040118,Kondrahalli,Minor Irrigation Department,Bengaluru Rural,Hoskote,Nandagudi,N.Hosahalli,42,7,9.13,8.65,Homogeneous,3,1.6,1110,Clear over fall,40,45.31,clear overfall
+nwdp-mi-tanks,KA21040136,Nelavagilu,Minor Irrigation Department,Bengaluru Rural,Hoskote,Nelavagilu,Nelavagilu,43,44,16.3,8.85,Homogeneous,3.8,1.6,930,Clear over fall,20,59.46,clear overfall
+nwdp-mi-tanks,KA21040138,Isturu,Minor Irrigation Department,Bengaluru Rural,Hoskote,Ittasandra,Isthuru Amanikere,43.5,30.5,11.98,8.96,Homogeneous,3.6,1.8,900,Clear over fall,35,58.33,clear overfall
+nwdp-mi-tanks,KA21040137,Teniyuru,Minor Irrigation Department,Bengaluru Rural,Hoskote,Doddaralagere,Theneyuru,78.5,66.8,25.18,16.16,Homogeneous,4,4.5,990,Clear over fall,35,45.87,clear overfall
+nwdp-mi-tanks,KA21040139,Arehalli,Minor Irrigation Department,Bengaluru Rural,Hoskote,Nelavagilu,Arehalli,43,32,18.83,8.85,Homogeneous,3.6,1.8,840,Clear over fall,18,45.31,clear overfall
+nwdp-mi-tanks,KA21040134,Hulluru Amanikere,Minor Irrigation Department,Bengaluru Rural,Hoskote,Doddahulluru,Hulluru Amanikere,212,300,120,43.65,Homogeneous,6,1.8,960,Clear over fall,46,79.28,clear overfall
+nwdp-mi-tanks,KA21040133,Kurubarahalli,Minor Irrigation Department,Bengaluru Rural,Hoskote,Kumbalahalli,Kurubarahalli,50,10.5,4.25,10.3,Homogeneous,8,1.8,500,Clear over fall,18,9.32,clear overfall
+nwdp-mi-tanks,KA21040113,Nalluru,Minor Irrigation Department,Bengaluru Rural,Hoskote,Chokkahalli,Doddanallarahalli,43,38,31.13,8.85,Homogeneous,3.5,1.5,900,Clear over fall,45,97.01,clear overfall
+nwdp-mi-tanks,KA21040135,Tavarakere,Minor Irrigation Department,Bengaluru Rural,Hoskote,Thavarekere,Tavarekere,62,90,28.1,12.77,Homogeneous,3.5,2.5,900,Clear over fall,20,46.44,clear overfall
+nwdp-mi-tanks,KA21040127,Hasigala,Minor Irrigation Department,Bengaluru Rural,Hoskote,Lakkondahalli,Kammasandra,82,38,14,16.89,Homogeneous,4,4.5,1320,Sloping appron,65,56.35,sloping apron
+nwdp-mi-tanks,KA21040120,Sulibele,Minor Irrigation Department,Bengaluru Rural,Hoskote,Sulibele,Kasaba Sulibele,196,69,11.3,40.36,Homogeneous,3.5,1.8,1110,Clear over fall,30,49.84,clear overfall
+nwdp-mi-tanks,KA21040117,Vagata Agrahara,Minor Irrigation Department,Bengaluru Rural,Hoskote,Vagata,Vagata,48,28,18.66,9.88,Homogeneous,3.5,1.8,660,Clear over fall,20,60.48,clear overfall
+nwdp-mi-tanks,KA21040121,Tivatta,Minor Irrigation Department,Bengaluru Rural,Hoskote,Orohalli,Thavatahalli,,,,,,,,,,,,
+nwdp-mi-tanks,KA21040116,Kolathuru,Minor Irrigation Department,Bengaluru Rural,Hoskote,Jadigenahalli,Kolatthuru,63,40,10.5,12.97,Homogeneous,4.5,1.8,870,Clear over fall,35,67.39,clear overfall
+nwdp-mi-tanks,KA21040119,Hosakote Kere Vadapi To Motada Ane,Minor Irrigation Department,Bengaluru Rural,Hoskote,Kumbalahalli,Amanichikkakere,48,150,9.1,9.88,Homogeneous,5,1.8,1110,Clear over fall,60,0,clear overfall
+nwdp-mi-tanks,KA21040123,Nidagatta,Minor Irrigation Department,Bengaluru Rural,Hoskote,Mugabala,Nidaghatta,46,55,30.8,9.47,Homogeneous,3.5,1.8,850,Ogee type,18,27.38,ogee weir
+nwdp-mi-tanks,KA21040125,Turu,Minor Irrigation Department,Bengaluru Rural,Hoskote,Mugabala,J.I.Chennapura,54,28,7.5,11.12,Homogeneous,3,1.5,750,Natural,19,13.03,natural
+nwdp-mi-tanks,KA21010113,Srinivaspura,Minor Irrigation Department,Bengaluru Rural,Nelamangala,Shreenivasapura,Srinivasapura,44,12.58,5.93,5.93,Homogeneous,2,3,575,Sloping Apron,40,34.6,sloping apron
+nwdp-mi-tanks,KA21010103,Arishinakunte,Minor Irrigation Department,Bengaluru Rural,Nelamangala,Arishinakunte,Arasinakunte,44.8,25.5,6.03,6.03,Homogeneous,2.7,1.2,695,Sloping Apron,30,53.48,sloping apron
+nwdp-mi-tanks,KA21010102,Nelamangla,Minor Irrigation Department,Bengaluru Rural,Nelamangala,ULB-Nelmangala-TMC,Kasaba Nelamangala,59.2,22.5,8.01,8.01,Homogeneous,2,2.5,840,Sloping Apron,30,30.21,sloping apron
+nwdp-mi-tanks,KA21010108,Beguru Kere,Minor Irrigation Department,Bengaluru Rural,Nelamangala,T.Beguru,Begur,114,53.42,15.47,15.47,Homogeneous,3.6,1.2,870,Sloping Apron,72,151.22,sloping apron
+nwdp-mi-tanks,KA21010107,Gollahallikere,Minor Irrigation Department,Bengaluru Rural,Nelamangala,Gollahalli,Gollarahalli,54,10.93,7.26,7.26,Homogeneous,1.8,1.2,400,Sloping Apron,40,22.71,sloping apron
+nwdp-mi-tanks,KA21010104,Kambalu,Minor Irrigation Department,Bengaluru Rural,Nelamangala,Shivagange,Kambalu,51.2,16.59,6.92,6.92,Homogeneous,2.1,3.5,750,Clear Over Fall,50,28.77,clear overfall
+nwdp-mi-tanks,KA21010244,Devarahosahalli,Minor Irrigation Department,Bengaluru Rural,Nelamangala,Agalakuppe,Hale Nijagallu,160,34.64,21.6,21.6,Homogeneous,4,3.5,1020,Sloping Apron,30,64.27,sloping apron
+nwdp-mi-tanks,KA21010098,Maralukunte,Minor Irrigation Department,Bengaluru Rural,Nelamangala,Maralukunte,Maralakunte,73.25,24.89,9.13,9.13,Homogeneous,3,2.9,400,Clear Over Fall,40,31.99,clear overfall
+nwdp-mi-tanks,KA21010096,Madaga,Minor Irrigation Department,Bengaluru Rural,Nelamangala,Maralukunte,Madhaga,80.9,14.38,10.89,10.89,Homogeneous,3.6,3.7,405,Clear Over Fall,60,159,clear overfall
+nwdp-mi-tanks,KA21020230,Mudalakalenahalli Kere,Minor Irrigation Department,Bengaluru Rural,Nelamangala,Maralukunte,Baraguru,,,,,,,,,,,,
+nwdp-mi-tanks,KA21010111,Belekonanakere,Minor Irrigation Department,Bengaluru Rural,Nelamangala,Doddabele,Doddabele,57.4,14.97,7.78,7.78,Homogeneous,1.5,3,660,Clear Over fall,30,20.41,clear overfall
+nwdp-mi-tanks,KA21010094,Thyamagondluherekere,Minor Irrigation Department,Bengaluru Rural,Nelamangala,Thayamagondlu,Thyamagondlu Amanikere,200.3,90.24,27.12,27.12,Homogeneous,3.5,4,1680,Sloping Apron,30,210.14,sloping apron
+nwdp-mi-tanks,KA21010097,Niduvanda,Minor Irrigation Department,Bengaluru Rural,Nelamangala,Sompura,Nidavandha,,,,,,,,,,,,
+nwdp-mi-tanks,KA21010101,Halenejagallukere,Minor Irrigation Department,Bengaluru Rural,Nelamangala,Agalakuppe,Hale Nijagallu,97.53,13.76,13.34,13.34,Homogeneous,3,2.9,240,Clear Over Fall,20,30.97,clear overfall
+nwdp-mi-tanks,KA21010095,Manneamanikere,Minor Irrigation Department,Bengaluru Rural,Nelamangala,Manne,Manne,83.4,14.93,11.29,11.29,Homogeneous,5.5,4.5,930,Sloping Apron,25,108.15,sloping apron
+nwdp-mi-tanks,KA21010100,Obalapura,Minor Irrigation Department,Bengaluru Rural,Nelamangala,Kodigehalli,Obalapura,53,54.22,7.14,7.14,Homogeneous,2.5,2.9,690,Sloping Apron,,28.11,sloping apron
+nwdp-mi-tanks,KA21010106,Kuluvanahalli,Minor Irrigation Department,Bengaluru Rural,Nelamangala,Kuluvanahalli,Dhodderi,52.4,24.05,7.07,7.07,Homogeneous,4.2,3.5,700,Clear Over Fall,72,474.04,clear overfall
+nwdp-mi-tanks,KA21010110,Baradikere,Minor Irrigation Department,Bengaluru Rural,Nelamangala,Boodihal,Baradi,130.5,22.26,17.71,17.71,Homogeneous,2.7,3,515,Sloping Apron,40,58.1,sloping apron
+nwdp-mi-tanks,KA18060086,,Minor Irrigation Department,Bengaluru Rural,Nelamangala,Shivagange,Kuthagatta,,,,,,,,,,,,
+nwdp-mi-tanks,KA21010112,Bidaloorugangammanagudikere,Minor Irrigation Department,Bengaluru Rural,Nelamangala,Kalalughatta,Kodihalli,57.52,42.49,7.8,7.8,Homogeneous,2.4,3,900,Sloping Apron,50,444.22,sloping apron
+nwdp-mi-tanks,KA21010109,Billinakotekere,Minor Irrigation Department,Bengaluru Rural,Nelamangala,Kuluvanahalli,Hosahalli,53.3,30.35,7.18,7.18,Homogeneous,3.6,2.9,660,Clear Over Fall,25,42.98,clear overfall
+nwdp-mi-tanks,KA21010105,Sondilavadi,Minor Irrigation Department,Bengaluru Rural,Nelamangala,Thayamagondlu,Thyamagondlu Amanikere,199.4,49.08,27.02,27.02,Homogeneous,3.5,3.8,690,Sloping Apron,30,184.12,sloping apron
+nwdp-mi-tanks,KA20030021,Bommasandra Lake,Minor Irrigation Department,Bengaluru Urban,Anekal,ULB-Bommasandra-Hebbagodi-Chandapura-TMC,Hellalige,48.8,22.66,9.8,10.05,Homogeneous,6,2.5,720,"…""…",32.3,100,sloping apron
+nwdp-mi-tanks,KA20030013,Hulimangala Kere,Minor Irrigation Department,Bengaluru Urban,Anekal,Hulimangala,Hulimangala,76.4,27.11,14.3,15.73,Homogeneous,6,2.5,1020,"…""…",18.5,66,sloping apron
+nwdp-mi-tanks,KA20030135,,Minor Irrigation Department,Bengaluru Urban,Anekal,Bannerughatta,Kannaiakana Agrahara,,,,,,,,,,,,
+nwdp-mi-tanks,KA20030003,Muttanallur Kere,Minor Irrigation Department,Bengaluru Urban,Anekal,ULB-Bommasandra-Hebbagodi-Chandapura-TMC,Ramasagara,260,167.94,125.37,53.54,Homogeneous,6,2.5,1710,"…""…",94,282,
+nwdp-mi-tanks,KA20030026,Bhujangadasana Kere,Minor Irrigation Department,Bengaluru Urban,Anekal,Mantapa,Hullahalli,48.8,25.49,10.75,10.05,Homogeneous,5,2.5,450,"…""…",34,40,
+nwdp-mi-tanks,KA20030017,Mugaluru Kere,Minor Irrigation Department,Bengaluru Urban,Anekal,Muguluru,Mugaluru,52.8,16.18,20.69,10.87,Homogeneous,5,2.5,720,"…""…",29,35,
+nwdp-mi-tanks,KA20030006,Rajana Kere,Minor Irrigation Department,Bengaluru Urban,Anekal,Vanakanahalli,Telagarahalli,48.8,24.68,14.85,10.05,Homogeneous,6,2.5,690,Clear over fall,27,66.6,clear overfall
+nwdp-mi-tanks,KA20030019,Bidaragere Kere,Minor Irrigation Department,Bengaluru Urban,Anekal,Karpur,Bidaragere,40.8,24.68,10.65,8.4,Homogeneous,5.5,4,72,"…""…",30.5,66.09,clear overfall
+nwdp-mi-tanks,KA20030027,Anekal Kere,Minor Irrigation Department,Bengaluru Urban,Anekal,ULB-Anekal-TMC,Anekal,113.2,69.39,40.17,23.31,Homogeneous,6,8,1590,Sloping apron,30,519,sloping apron
+nwdp-mi-tanks,KA20030009,Karpuru Kere,Minor Irrigation Department,Bengaluru Urban,Anekal,Karpur,Karpoora,60.8,33.58,25.25,12.52,Homogeneous,5.5,2.5,690,"..""..",26.5,66.6,sloping apron
+nwdp-mi-tanks,KA20030042,Mysurammanadoddi Kere,Minor Irrigation Department,Bengaluru Urban,Anekal,Indlawadi,J.I.Begganadoddi,,,,,,,,,,,,
+nwdp-mi-tanks,KA20030024,Bommandahalli Kere,Minor Irrigation Department,Bengaluru Urban,Anekal,Indlawadi,Kadachikkanahalli,177,16.18,19.67,36.45,Homogeneous,12,2.5,343,Sloping apron,43,133,sloping apron
+nwdp-mi-tanks,KA20030025,Marasuru Kere,Minor Irrigation Department,Bengaluru Urban,Anekal,Marasuru,Marasuru,112.8,19.63,13.69,23.23,Homogeneous,6,2.5,1110,Sloping apron,92,188,sloping apron
+nwdp-mi-tanks,KA20030029,Mayasandra Kere,Minor Irrigation Department,Bengaluru Urban,Anekal,Mayasandra,Mayasandra,76.4,52.61,16.43,15.73,Homogeneous,6,2.5,1140,"…""…",94.2,66,sloping apron
+nwdp-mi-tanks,KA20030005,Haragadde Kere,Minor Irrigation Department,Bengaluru Urban,Anekal,Haragadde,Haragaddhe,61.6,32.78,18.56,12.68,Homogeneous,6,6,930,"…""…",12,66,sloping apron
+nwdp-mi-tanks,KA20030016,Hennagara Kere,Minor Irrigation Department,Bengaluru Urban,Anekal,Hennagara,Rajapura,280,56.25,100.48,57.66,Homogeneous,6,6,930,"…""…",42,282,sloping apron
+nwdp-mi-tanks,KA20030008,Jigani Kere,Minor Irrigation Department,Bengaluru Urban,Anekal,ULB-Jigani-TMC,Jigani,141.6,121.4,76.68,29.16,Homogeneous,0.06,6,1440,"…""…",81.54,80,sloping apron
+nwdp-mi-tanks,KA20030007,Bidare Amaani Kere,Minor Irrigation Department,Bengaluru Urban,Anekal,Mantapa,Nallasandra,51.6,40.06,30.12,10.63,Homogeneous,5,2.5,570,"…""…",32,50,sloping apron
+nwdp-mi-tanks,KA20030018,Bidaraguppe Kere,Minor Irrigation Department,Bengaluru Urban,Anekal,Bidaraguppe,Arenuru,98.83,72.84,36.51,20.35,Homogeneous,6,8,720,"…""…",103.9,70,sloping apron
+nwdp-mi-tanks,KA20030010,Arehalli Kere,Minor Irrigation Department,Bengaluru Urban,Anekal,Mayasandra,Manchanahalli,91.2,82.55,54.47,18.78,Homogeneous,5.5,2.5,630,"…""…",55,66,sloping apron
+nwdp-mi-tanks,KA20030090,Singena Agrahara Kere,Minor Irrigation Department,Bengaluru Urban,Anekal,Muththanalluru,Singena Agrahara,67.2,53.82,20.3,13.84,Homogeneous,5.5,2.5,720,"…""…",52.4,66,sloping apron
+nwdp-mi-tanks,KA20030004,Sarjapura Chikka Kere,Minor Irrigation Department,Bengaluru Urban,Anekal,Sarjapura,Sarjapura,60.6,36.01,18.56,12.48,Homogeneous,5,2.5,900,Sloping apron,25,66,sloping apron
+nwdp-mi-tanks,KA20030022,Huskur Kere,Minor Irrigation Department,Bengaluru Urban,Anekal,Huskuru,Huskuru,52.8,39.66,20.69,10.87,Homogeneous,5.5,2.5,750,"…""…",60,40,sloping apron
+nwdp-mi-tanks,KA20030023,Sarjapura Kere,Minor Irrigation Department,Bengaluru Urban,Anekal,Sarjapura,Sarjapura,177.2,82.55,51.73,36.49,Homogeneous,6,2.5,1020,"…""…",50.7,66,sloping apron
+nwdp-mi-tanks,KA20030015,Gattahalli Kere,Minor Irrigation Department,Bengaluru Urban,Anekal,Shantipura,Gettehalli,40.4,59.54,19.47,8.32,Homogeneous,5.5,2.5,480,"…""…",11,40,sloping apron
+nwdp-mi-tanks,KA20030014,Tandithana Agrahara Kere,Minor Irrigation Department,Bengaluru Urban,Anekal,Muguluru,Pandithana Agrahara,43.2,16.18,10.04,8.9,Homogeneous,5.5,2.5,600,"…""…",97,40,sloping apron
+nwdp-mi-tanks,KA20040083,Kodathi Lake,Minor Irrigation Department,Bengaluru Urban,Bengaluru East,Kodathi,Sulakunte,49.77,88.2,2.69,2.69,Homogeneous,8,2.5,650,Flush escape,30,21.04,flush escape
+nwdp-mi-tanks,KA20040008,,Minor Irrigation Department,Bengaluru Urban,Bengaluru East,Halanayakanahalli,Halanayakanahalli,46.13,78.97,2.4,2.4,Homogeneous,7,2.5,900,Flush escape,35,24.44,flush escape
+nwdp-mi-tanks,KA20040059,Yellamallappa Lake,Minor Irrigation Department,Bengaluru Urban,Bengaluru East,Bidarahalli,Hirandahalli,176.98,46,110,36.44,Homogeneous,7,2.5,800,Flush escape,30,62.3,flush escape
+nwdp-mi-tanks,KA20040044,Rampura Lake/Maragondanahalli Lake,Minor Irrigation Department,Bengaluru Urban,Bengaluru East,Bidarahalli,Hoovinane,145.8,42,27,30.02,Homogeneous,7,2.5,1100,Flush escape,55,56.63,flush escape
+nwdp-mi-tanks,KA20040056,Bidrahalli Lake,Minor Irrigation Department,Bengaluru Urban,Bengaluru East,Bidarahalli,Byyappanahalli,49,29,11,10.09,Homogeneous,6,2.5,950,Flush escape,20,28.32,flush escape
+nwdp-mi-tanks,KA20040045,Gubbi Lake,Minor Irrigation Department,Bengaluru Urban,Bengaluru East,Doddagubbi,Doddagubbi,66.75,22,13,13.74,Homogeneous,6,2.5,850,Flush escape,30,45.31,flush escape
+nwdp-mi-tanks,KA21040198,Hosakote Kere Kodi Halla,Minor Irrigation Department,Bengaluru Urban,Bengaluru East,Manduru,Jyothipura,939.27,1300,800,193.41,Homogeneous,7,7.2,2160,Clear over fall,93,89.36,clear overfall
+nwdp-mi-tanks,KA20010012,Allur,Minor Irrigation Department,Bengaluru Urban,Bengaluru North,Huskoor,Vaderahalli,62.48,38.55,20.59,12.87,Homogeneous,7,2.5,615,Sloping apron,75,52.5,sloping apron
+nwdp-mi-tanks,KA20050031,Mahadevkodege,Minor Irrigation Department,Bengaluru Urban,Bengaluru North,Bandikodage Halli,Mahadevakodagehalli,52.61,69.1,17.32,10.83,Homogeneous,6,2.5,990,Flush escape,18.5,11.35,flush escape
+nwdp-mi-tanks,KA20050030,Baglur,Minor Irrigation Department,Bengaluru Urban,Bengaluru North,Sathanooru,Hosahalli,83,89.15,27.34,17.09,Homogeneous,6,2.5,750,Sloping apron,26.7,18.69,sloping apron
+nwdp-mi-tanks,KA20050028,Singanayakanahalli,Minor Irrigation Department,Bengaluru Urban,Bengaluru North,Singanaayakana Halli,Shinganayakanahalli Amanikere,74.12,105.85,24.43,15.26,Homogeneous,7,7.5,570,Sloping apron,36,25.2,sloping apron
+nwdp-mi-tanks,KA20050029,Jala,Minor Irrigation Department,Bengaluru Urban,Bengaluru North,Dodda Jaala,Doddajala Amanikere,107.6,62.5,36.96,22.16,Homogeneous,5.5,2.5,720,Sloping apron,40,28,sloping apron
+nwdp-mi-tanks,KA20050027,Bandikodegehalli,Minor Irrigation Department,Bengaluru Urban,Bengaluru North,Bandikodage Halli,Bandikodigehalli Amanikere,121.5,78,39.99,25.02,Homogeneous,6,2.5,600,Sloping apron,25,15.3,sloping apron
+nwdp-mi-tanks,KA20050026,Addevishwanathapura,Minor Irrigation Department,Bengaluru Urban,Bengaluru North,Rajaanu Kunte,Adde Viswanathapura,46,33.35,15.08,9.47,Homogeneous,7,2.5,900,Sloping apron,22,15.4,sloping apron
+nwdp-mi-tanks,KA20010072,Sundekoppa,Minor Irrigation Department,Bengaluru Urban,Bengaluru North,Sondekoppa,Kondekoppa,76.5,60.2,25.21,15.75,Homogeneous,8,2.5,1000,Sloping apron,83,58.1,sloping apron
+nwdp-mi-tanks,KA20020219,Agara Hosa Kere Lake,Minor Irrigation Department,Bengaluru Urban,Bengaluru South,Agara,Badamanavarthekaval,78.97,23.5,20,16.26,Homogeneous,6,2.2,540,Ogee weir,40,28.32,ogee weir
+nwdp-mi-tanks,KA29020158,Matti Taltalk Kere,Minor Irrigation Department,Bengaluru Urban,Bengaluru South,Nelaguli,K.G.Nelaguli,,,,,,,,,,,,
+nwdp-mi-tanks,KA20020206,Chikkalingashasthri Kere Lake,Minor Irrigation Department,Bengaluru Urban,Bengaluru South,Tharalu,K.G.Thattiguppe,74.92,17.6,17,15.43,Homogeneous,6.9,8.8,570,Flush escape,26,62.3,flush escape
+nwdp-mi-tanks,KA20020174,Obichudanahally Tank,Minor Irrigation Department,Bengaluru Urban,Bengaluru South,Tharalu,K.G.Gulakamale,268.51,35,70,55.29,Homogeneous,10.97,2.55,595,Ogee weir,34,24.44,ogee weir
+nwdp-mi-tanks,KA20020220,Udayapalya Lake,Minor Irrigation Department,Bengaluru Urban,Bengaluru South,Kaggalipura,K.G.Kaggalipura,42.52,14.8,9.88,8.76,Homogeneous,5.9,2,130,"......."".....",22,45.31,ogee weir
+nwdp-mi-tanks,KA20020175,Vaderahalli Lake,Minor Irrigation Department,Bengaluru Urban,Bengaluru South,Agara,Badamanavarthekaval,525.28,42.96,116,108.16,Homogeneous,28.2,2.55,561,Flush escape,66,11.6,flush escape

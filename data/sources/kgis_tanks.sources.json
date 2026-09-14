@@ -1,0 +1,32 @@
+[
+ {
+  "key": "kgis-tanks",
+  "title": "Bengaluru Urban Lakes (Tanks) Map",
+  "url": "https://data.opencity.in/dataset/lakes-and-ponds-in-bengaluru-district",
+  "publisher": "Karnataka State Remote Sensing Applications Centre (KSRSAC), Karnataka GIS, via OpenCity",
+  "license": "Public domain (as marked on OpenCity)",
+  "credit": "Water-body polygons: KSRSAC / KGIS, via OpenCity",
+  "asOf": "not stated",
+  "retrieved": "2026-09-11"
+ },
+ {
+  "key": "kgis-ponds",
+  "title": "Bengaluru Urban Ponds Map",
+  "url": "https://data.opencity.in/dataset/lakes-and-ponds-in-bengaluru-district",
+  "publisher": "Karnataka State Remote Sensing Applications Centre (KSRSAC), Karnataka GIS, via OpenCity",
+  "license": "Public domain (as marked on OpenCity)",
+  "credit": "Water-body polygons: KSRSAC / KGIS, via OpenCity",
+  "asOf": "not stated",
+  "retrieved": "2026-09-11"
+ },
+ {
+  "key": "kgis-wetlands",
+  "title": "Bengaluru Urban Wetlands Map",
+  "url": "https://data.opencity.in/dataset/wetlands-of-karnataka-and-bengaluru-urban",
+  "publisher": "Karnataka State Remote Sensing Applications Centre (KSRSAC), Karnataka GIS, via OpenCity",
+  "license": "Public domain (as marked on OpenCity)",
+  "credit": "Water-body polygons: KSRSAC / KGIS, via OpenCity",
+  "asOf": "not stated",
+  "retrieved": "2026-09-11"
+ }
+]

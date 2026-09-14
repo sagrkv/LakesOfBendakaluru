@@ -1,0 +1,43 @@
+{
+ "type": "standard",
+ "title": "Rachenahalli Lake",
+ "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Rachenahalli Lake</span></span>",
+ "namespace": {
+  "id": 0,
+  "text": ""
+ },
+ "wikibase_item": "Q107645662",
+ "titles": {
+  "canonical": "Rachenahalli_Lake",
+  "normalized": "Rachenahalli Lake",
+  "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Rachenahalli Lake</span></span>"
+ },
+ "pageid": 68204922,
+ "lang": "en",
+ "dir": "ltr",
+ "revision": "1366614654",
+ "tid": "51d81f28-8af3-11f1-a28d-200a9ed055fb",
+ "timestamp": "2026-07-29T02:15:08Z",
+ "description": "Lake in Karnataka",
+ "description_source": "local",
+ "coordinates": {
+  "lat": 13.06333333,
+  "lon": 77.61194444
+ },
+ "content_urls": {
+  "desktop": {
+   "page": "https://en.wikipedia.org/wiki/Rachenahalli_Lake",
+   "revisions": "https://en.wikipedia.org/wiki/Rachenahalli_Lake?action=history",
+   "edit": "https://en.wikipedia.org/wiki/Rachenahalli_Lake?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Rachenahalli_Lake"
+  },
+  "mobile": {
+   "page": "https://en.wikipedia.org/wiki/Rachenahalli_Lake",
+   "revisions": "https://en.wikipedia.org/wiki/Special:History/Rachenahalli_Lake",
+   "edit": "https://en.wikipedia.org/wiki/Rachenahalli_Lake?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Rachenahalli_Lake"
+  }
+ },
+ "extract": "Rachenahalli Lake is a lake in Bangalore, India. It is located in Thanisandra in North Bangalore. It is about 1.4km from Amruthahalli police station.",
+ "extract_html": "<p><b>Rachenahalli Lake</b> is a lake in Bangalore, India. It is located in Thanisandra in North Bangalore. It is about 1.4km from Amruthahalli police station.</p>"
+}

@@ -1,0 +1,53 @@
+{
+ "type": "standard",
+ "title": "Vibhutipura Lake",
+ "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Vibhutipura Lake</span></span>",
+ "namespace": {
+  "id": 0,
+  "text": ""
+ },
+ "wikibase_item": "Q7924608",
+ "titles": {
+  "canonical": "Vibhutipura_Lake",
+  "normalized": "Vibhutipura Lake",
+  "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Vibhutipura Lake</span></span>"
+ },
+ "pageid": 9207715,
+ "thumbnail": {
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/VibhuthipuraLake_10_Jun_2023.jpg/330px-VibhuthipuraLake_10_Jun_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "width": 330,
+  "height": 248
+ },
+ "originalimage": {
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/VibhuthipuraLake_10_Jun_2023.jpg/3840px-VibhuthipuraLake_10_Jun_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "width": 4032,
+  "height": 3024
+ },
+ "lang": "en",
+ "dir": "ltr",
+ "revision": "1366779513",
+ "tid": "ae5c3cbb-8bce-11f1-9d4f-092b1f86559c",
+ "timestamp": "2026-07-30T04:25:23Z",
+ "description": "Lake in Karnataka, India",
+ "description_source": "local",
+ "coordinates": {
+  "lat": 12.9678,
+  "lon": 77.6761
+ },
+ "content_urls": {
+  "desktop": {
+   "page": "https://en.wikipedia.org/wiki/Vibhutipura_Lake",
+   "revisions": "https://en.wikipedia.org/wiki/Vibhutipura_Lake?action=history",
+   "edit": "https://en.wikipedia.org/wiki/Vibhutipura_Lake?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Vibhutipura_Lake"
+  },
+  "mobile": {
+   "page": "https://en.wikipedia.org/wiki/Vibhutipura_Lake",
+   "revisions": "https://en.wikipedia.org/wiki/Special:History/Vibhutipura_Lake",
+   "edit": "https://en.wikipedia.org/wiki/Vibhutipura_Lake?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Vibhutipura_Lake"
+  }
+ },
+ "extract": "Vibuthipura Lake is a lake in the suburb of Hindustan Aeronautics Limited, in the southeast of the city of Bengaluru. The lake is the part of Bellandur-Varthur Lake series.",
+ "extract_html": "<p><b>Vibuthipura Lake</b> is a lake in the suburb of Hindustan Aeronautics Limited, in the southeast of the city of Bengaluru. The lake is the part of Bellandur-Varthur Lake series.</p>"
+}

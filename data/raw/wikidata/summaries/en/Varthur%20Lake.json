@@ -1,0 +1,53 @@
+{
+ "type": "standard",
+ "title": "Varthur",
+ "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Varthur</span></span>",
+ "namespace": {
+  "id": 0,
+  "text": ""
+ },
+ "wikibase_item": "Q7916202",
+ "titles": {
+  "canonical": "Varthur",
+  "normalized": "Varthur",
+  "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Varthur</span></span>"
+ },
+ "pageid": 16036019,
+ "thumbnail": {
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Sunset_vtr_lake.jpg/330px-Sunset_vtr_lake.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "width": 330,
+  "height": 248
+ },
+ "originalimage": {
+  "source": "https://upload.wikimedia.org/wikipedia/commons/6/61/Sunset_vtr_lake.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "width": 2592,
+  "height": 1944
+ },
+ "lang": "en",
+ "dir": "ltr",
+ "revision": "1359772403",
+ "tid": "e894c3cd-69fa-11f1-abc1-da6a24e78b30",
+ "timestamp": "2026-06-17T03:16:19Z",
+ "description": "Small City in Bangalore, Karnataka, India",
+ "description_source": "local",
+ "coordinates": {
+  "lat": 12.940699,
+  "lon": 77.746596
+ },
+ "content_urls": {
+  "desktop": {
+   "page": "https://en.wikipedia.org/wiki/Varthur",
+   "revisions": "https://en.wikipedia.org/wiki/Varthur?action=history",
+   "edit": "https://en.wikipedia.org/wiki/Varthur?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Varthur"
+  },
+  "mobile": {
+   "page": "https://en.wikipedia.org/wiki/Varthur",
+   "revisions": "https://en.wikipedia.org/wiki/Special:History/Varthur",
+   "edit": "https://en.wikipedia.org/wiki/Varthur?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Varthur"
+  }
+ },
+ "extract": "Varthuru is a suburb situated in the Eastern periphery of Bangalore City and part of the internationally famous Whitefield township. Varthur is a Hobli and part of the Bruhat Bangalore Mahanagara Palike. Varthur was a Legislative Assembly in the state of Karnataka but was split into three legislative assemblies C.V.Raman Nagar, Mahadevapura and Krishnarajapura in the year 2008. It is also one of the wards of BBMP. It is located in South-Eastern Bangalore between old Airport road and Sarjapur road. Varthur is very close to ITPB.",
+ "extract_html": "<p><b>Varthuru</b> is a suburb situated in the Eastern periphery of Bangalore City and part of the internationally famous Whitefield township. Varthur is a Hobli and part of the Bruhat Bangalore Mahanagara Palike. Varthur was a Legislative Assembly in the state of Karnataka but was split into three legislative assemblies C.V.Raman Nagar, Mahadevapura and Krishnarajapura in the year 2008. It is also one of the wards of BBMP. It is located in South-Eastern Bangalore between old Airport road and Sarjapur road. Varthur is very close to ITPB.</p>"
+}

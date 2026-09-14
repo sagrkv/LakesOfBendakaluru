@@ -1,0 +1,49 @@
+{
+ "type": "standard",
+ "title": "Agara Lake",
+ "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Agara Lake</span></span>",
+ "namespace": {
+  "id": 0,
+  "text": ""
+ },
+ "wikibase_item": "Q28824239",
+ "titles": {
+  "canonical": "Agara_Lake",
+  "normalized": "Agara Lake",
+  "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Agara Lake</span></span>"
+ },
+ "pageid": 25714687,
+ "thumbnail": {
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Agara_Lake_%2825279546271%29.jpg/330px-Agara_Lake_%2825279546271%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "width": 330,
+  "height": 115
+ },
+ "originalimage": {
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Agara_Lake_%2825279546271%29.jpg/3840px-Agara_Lake_%2825279546271%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "width": 7158,
+  "height": 2484
+ },
+ "lang": "en",
+ "dir": "ltr",
+ "revision": "1365858511",
+ "tid": "195bdd59-87a5-11f1-a9cb-e10bc19fb4a3",
+ "timestamp": "2026-07-24T21:17:39Z",
+ "description": "Lake in Bengaluru",
+ "description_source": "local",
+ "content_urls": {
+  "desktop": {
+   "page": "https://en.wikipedia.org/wiki/Agara_Lake",
+   "revisions": "https://en.wikipedia.org/wiki/Agara_Lake?action=history",
+   "edit": "https://en.wikipedia.org/wiki/Agara_Lake?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Agara_Lake"
+  },
+  "mobile": {
+   "page": "https://en.wikipedia.org/wiki/Agara_Lake",
+   "revisions": "https://en.wikipedia.org/wiki/Special:History/Agara_Lake",
+   "edit": "https://en.wikipedia.org/wiki/Agara_Lake?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Agara_Lake"
+  }
+ },
+ "extract": "Agara lake is an 80-acre lake located in Agara, Bangalore. It is part of the Varthur lake series. Madiwala Lake is upstream while Bellandur Lake is downstream. Inter-lake connections have seen fragmentation and urbanisation.",
+ "extract_html": "<p><b>Agara lake</b> is an 80-acre lake located in Agara, Bangalore. It is part of the Varthur lake series. Madiwala Lake is upstream while Bellandur Lake is downstream. Inter-lake connections have seen fragmentation and urbanisation.</p>"
+}

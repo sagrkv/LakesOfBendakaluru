@@ -1,0 +1,32 @@
+[
+ {
+  "key": "bwssb-stp-locations",
+  "title": "BWSSB Sewage Treatment Plants (STP) Locations and Details",
+  "publisher": "Bangalore Water Supply and Sewerage Board (BWSSB), via OpenCity",
+  "url": "https://data.opencity.in/dataset/bwssb-sewage-treatment-plant-locations",
+  "license": "Other (Public Domain)",
+  "credit": "BWSSB, via OpenCity",
+  "asOf": "not stated",
+  "retrieved": "2026-09-11"
+ },
+ {
+  "key": "bwssb-stp-es-2024-25",
+  "title": "Economic Survey of Karnataka 2024-25: BWSSB STP Status",
+  "publisher": "Planning, Programme Monitoring and Statistics Department, Government of Karnataka, via OpenCity",
+  "url": "https://data.opencity.in/dataset/economic-survey-of-karnataka-2024-25",
+  "license": "Other (Public Domain)",
+  "credit": "Economic Survey of Karnataka 2024-25, via OpenCity",
+  "asOf": "2024-25",
+  "retrieved": "2026-09-11"
+ },
+ {
+  "key": "bwssb-stp-es-2025-26",
+  "title": "Economic Survey of Karnataka 2025-26: BWSSB STPs and Inflows",
+  "publisher": "Planning, Programme Monitoring and Statistics Department, Government of Karnataka, via OpenCity",
+  "url": "https://data.opencity.in/dataset/economic-survey-of-karnataka-2025-26",
+  "license": "Other (Public Domain)",
+  "credit": "Economic Survey of Karnataka 2025-26, via OpenCity",
+  "asOf": "2025-26",
+  "retrieved": "2026-09-11"
+ }
+]

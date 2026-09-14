@@ -1,0 +1,53 @@
+{
+ "type": "standard",
+ "title": "Hesaraghatta Lake",
+ "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Hesaraghatta Lake</span></span>",
+ "namespace": {
+  "id": 0,
+  "text": ""
+ },
+ "wikibase_item": "Q5745519",
+ "titles": {
+  "canonical": "Hesaraghatta_Lake",
+  "normalized": "Hesaraghatta Lake",
+  "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Hesaraghatta Lake</span></span>"
+ },
+ "pageid": 19818479,
+ "thumbnail": {
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/BangaloreLake.jpg/330px-BangaloreLake.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "width": 330,
+  "height": 219
+ },
+ "originalimage": {
+  "source": "https://upload.wikimedia.org/wikipedia/commons/5/59/BangaloreLake.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "width": 899,
+  "height": 597
+ },
+ "lang": "en",
+ "dir": "ltr",
+ "revision": "1366024595",
+ "tid": "994c7b47-886b-11f1-8168-1d27780c13fe",
+ "timestamp": "2026-07-25T20:58:34Z",
+ "description": "Freshwater lake in Bengaluru Urban, Karnataka",
+ "description_source": "local",
+ "coordinates": {
+  "lat": 13.15,
+  "lon": 77.49
+ },
+ "content_urls": {
+  "desktop": {
+   "page": "https://en.wikipedia.org/wiki/Hesaraghatta_Lake",
+   "revisions": "https://en.wikipedia.org/wiki/Hesaraghatta_Lake?action=history",
+   "edit": "https://en.wikipedia.org/wiki/Hesaraghatta_Lake?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Hesaraghatta_Lake"
+  },
+  "mobile": {
+   "page": "https://en.wikipedia.org/wiki/Hesaraghatta_Lake",
+   "revisions": "https://en.wikipedia.org/wiki/Special:History/Hesaraghatta_Lake",
+   "edit": "https://en.wikipedia.org/wiki/Hesaraghatta_Lake?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Hesaraghatta_Lake"
+  }
+ },
+ "extract": "Hesaraghatta Lake is a humanmade reservoir located 18 km to the north-west of Bengaluru in Karnataka state, India. It is a fresh water lake created in the year 1894 across the Arkavathy River to meet the drinking water needs of the city. Sir K. Seshadri Iyer, the then Dewan of erstwhile Mysore state and the then Chief Engineer of Mysuru, M. C. Hutchins, planned to build the scheme called the \"Chamarajendra Water Works\" to store a three-years' water supply to the city.",
+ "extract_html": "<p><b>Hesaraghatta Lake</b> is a humanmade reservoir located 18 km to the north-west of Bengaluru in Karnataka state, India. It is a fresh water lake created in the year 1894 across the Arkavathy River to meet the drinking water needs of the city. Sir K. Seshadri Iyer, the then Dewan of erstwhile Mysore state and the then Chief Engineer of Mysuru, M. C. Hutchins, planned to build the scheme called the \"Chamarajendra Water Works\" to store a three-years' water supply to the city.</p>"
+}

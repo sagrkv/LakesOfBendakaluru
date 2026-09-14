@@ -1,0 +1,53 @@
+{
+ "type": "standard",
+ "title": "Bellandur Lake",
+ "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Bellandur Lake</span></span>",
+ "namespace": {
+  "id": 0,
+  "text": ""
+ },
+ "wikibase_item": "Q4883488",
+ "titles": {
+  "canonical": "Bellandur_Lake",
+  "normalized": "Bellandur Lake",
+  "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Bellandur Lake</span></span>"
+ },
+ "pageid": 25699563,
+ "thumbnail": {
+  "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Bellandur_lake_%2821559868065%29.jpg/330px-Bellandur_lake_%2821559868065%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "width": 330,
+  "height": 164
+ },
+ "originalimage": {
+  "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Bellandur_lake_%2821559868065%29.jpg/3840px-Bellandur_lake_%2821559868065%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "width": 5198,
+  "height": 2578
+ },
+ "lang": "en",
+ "dir": "ltr",
+ "revision": "1365907446",
+ "tid": "0104b542-87d7-11f1-8c97-c02ec21f6e48",
+ "timestamp": "2026-07-25T03:14:53Z",
+ "description": "Lake in the southeast Bengaluru",
+ "description_source": "local",
+ "coordinates": {
+  "lat": 12.93416667,
+  "lon": 77.66277778
+ },
+ "content_urls": {
+  "desktop": {
+   "page": "https://en.wikipedia.org/wiki/Bellandur_Lake",
+   "revisions": "https://en.wikipedia.org/wiki/Bellandur_Lake?action=history",
+   "edit": "https://en.wikipedia.org/wiki/Bellandur_Lake?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Bellandur_Lake"
+  },
+  "mobile": {
+   "page": "https://en.wikipedia.org/wiki/Bellandur_Lake",
+   "revisions": "https://en.wikipedia.org/wiki/Special:History/Bellandur_Lake",
+   "edit": "https://en.wikipedia.org/wiki/Bellandur_Lake?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Bellandur_Lake"
+  }
+ },
+ "extract": "Bellandur Lake is located in the suburb of Bellandur in the southeast of the city of Bengaluru. It is the largest lake in the city. It is a part of Bellandur drainage system that drains the southern and the south-eastern parts of the city. The lake is a receptor from three chains of lakes upstream, and has a catchment area of about 148 square kilometres. Water from this lake flows further east to the Varthur Lake, from where it flows down the plateau and eventually into the Pinakani river basin.",
+ "extract_html": "<p><b>Bellandur Lake</b> is located in the suburb of Bellandur in the southeast of the city of Bengaluru. It is the largest lake in the city. It is a part of Bellandur drainage system that drains the southern and the south-eastern parts of the city. The lake is a receptor from three chains of lakes upstream, and has a catchment area of about 148 square kilometres. Water from this lake flows further east to the Varthur Lake, from where it flows down the plateau and eventually into the Pinakani river basin.</p>"
+}

@@ -1,0 +1,12 @@
+[
+ {
+  "key": "inaturalist-2026-09",
+  "title": "iNaturalist verifiable observations within 50 m of each lake outline",
+  "publisher": "iNaturalist (California Academy of Sciences and National Geographic Society) and its observers",
+  "url": "https://www.inaturalist.org/observations?place_id=any&verifiable=true",
+  "license": "Each observation carries its observer's license (CC-BY-NC 54.4%, ALL-RIGHTS-RESERVED 24.3%, CC-BY 11.6%, CC-BY-NC-ND 4.6%, CC0 3.3%); we publish counts and species names only",
+  "credit": "Observations: iNaturalist community, via iNaturalist.org",
+  "asOf": "2026-09-11",
+  "retrieved": "2026-09-11"
+ }
+]

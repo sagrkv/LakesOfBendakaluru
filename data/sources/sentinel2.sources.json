@@ -1,0 +1,22 @@
+[
+ {
+  "key": "sentinel2-2026-dry",
+  "title": "Sentinel-2 L2A median composite, dry season 2026-03-20 to 2026-05-19",
+  "publisher": "European Space Agency, Copernicus programme; cloud-optimised copies by Element 84 Earth Search",
+  "url": "https://registry.opendata.aws/sentinel-2-l2a-cogs/",
+  "license": "Copernicus Sentinel data terms and conditions (free, full and open)",
+  "credit": "Contains modified Copernicus Sentinel data 2026",
+  "asOf": "2026-05-19",
+  "retrieved": "2026-09-11"
+ },
+ {
+  "key": "sentinel2-2025-postmonsoon",
+  "title": "Sentinel-2 L2A median composite, postmonsoon season 2025-10-01 to 2025-12-28",
+  "publisher": "European Space Agency, Copernicus programme; cloud-optimised copies by Element 84 Earth Search",
+  "url": "https://registry.opendata.aws/sentinel-2-l2a-cogs/",
+  "license": "Copernicus Sentinel data terms and conditions (free, full and open)",
+  "credit": "Contains modified Copernicus Sentinel data 2025",
+  "asOf": "2025-12-28",
+  "retrieved": "2026-09-11"
+ }
+]

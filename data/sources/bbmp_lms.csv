@@ -1,0 +1,183 @@
+bbmpLmsId,name,zone,lat,lon,latRaw,lonRaw,coordNote,url,source
+16,Kelagina Byrasandra Lake,East,12.958444,77.662056,12.958444,77.662056,,https://lms.bbmpgov.in/viewlakenew/16,bbmp-lms
+21,Sankey Lake,West,13.0093,77.5741,13.0093,77.5741,,https://lms.bbmpgov.in/viewlakenew/21,bbmp-lms
+22,Nayandahalli Lake,West,12.9397,77.5214,12.9397,77.5214,,https://lms.bbmpgov.in/viewlakenew/22,bbmp-lms
+24,Kempambudhi Lake,South,12.952306,77.559889,12.952306,77.559889,,https://lms.bbmpgov.in/viewlakenew/24,bbmp-lms
+25,Kacharakanahalli Lake,East,,,13.010618,77.373320,"longitude 77.37332 looks like packed DMS (77 deg 37' 33""), which would move it about 27 km east; not corrected",https://lms.bbmpgov.in/viewlakenew/25,bbmp-lms
+31,Doddabidarakallu Lake,Dasarahalli,12.9951,77.5644,12.9951,77.5644,,https://lms.bbmpgov.in/viewlakenew/31,bbmp-lms
+32,Byrasandra Lake (Chikkapete Lake),South,12.930083,77.595639,12.930083,77.595639,,https://lms.bbmpgov.in/viewlakenew/32,bbmp-lms
+34,Lakshmipura Lake,Dasarahalli,13.0863,77.5304,13.0863,77.5304,,https://lms.bbmpgov.in/viewlakenew/34,bbmp-lms
+36,Abbigere Lake,Dasarahalli,13.0799,77.5269,13.0799,77.5269,,https://lms.bbmpgov.in/viewlakenew/36,bbmp-lms
+37,Mallasandra Gudde Lake,Dasarahalli,13.057,77.5187,13.0570,77.5187,,https://lms.bbmpgov.in/viewlakenew/37,bbmp-lms
+38,Mesthripalya Lake,South,12.932,77.626083,12.932,77.626083,,https://lms.bbmpgov.in/viewlakenew/38,bbmp-lms
+39,Shivapura Lake,Dasarahalli,13.02449,77.50453,13.02449,77.50453,,https://lms.bbmpgov.in/viewlakenew/39,bbmp-lms
+40,Nelagadarenahalli Lake,Dasarahalli,,,13.0245,17.5045,"outside Bengaluru, likely a typo",https://lms.bbmpgov.in/viewlakenew/40,bbmp-lms
+41,Deepanjali Lake,South,12.949302,77.530909,12.949302,77.530909,,https://lms.bbmpgov.in/viewlakenew/41,bbmp-lms
+42,Bagalaguntte Lake,Dasarahalli,13.058,77.4999,13.0580,77.4999,,https://lms.bbmpgov.in/viewlakenew/42,bbmp-lms
+43,Kamagondanahalli Lake,Dasarahalli,13.0676,77.525,13.0676,77.5250,,https://lms.bbmpgov.in/viewlakenew/43,bbmp-lms
+44,Gowdanapalya Lake,South,12.907639,77.556278,12.907639,77.556278,,https://lms.bbmpgov.in/viewlakenew/44,bbmp-lms
+45,Dasarahalli Lake,Dasarahalli,13.0398,77.5137,13.0398,77.5137,,https://lms.bbmpgov.in/viewlakenew/45,bbmp-lms
+47,Singapura Lake,Yelahanka,13.08522,77.53858,13.08522,77.53858,,https://lms.bbmpgov.in/viewlakenew/47,bbmp-lms
+48,Yediyur Lake,South,12.933361,77.576694,12.933361,77.576694,,https://lms.bbmpgov.in/viewlakenew/48,bbmp-lms
+49,Bellahalli Lake,Yelahanka,13.104397,77.642883,13.104397,77.642883,,https://lms.bbmpgov.in/viewlakenew/49,bbmp-lms
+58,Doddabommasandra Lake,Yelahanka,13.064694,77.564028,13.064694,77.564028,,https://lms.bbmpgov.in/viewlakenew/58,bbmp-lms
+59,Narasipura Lake-1 (survey no.20),Yelahanka,13.072694,77.558194,13.072694,77.558194,,https://lms.bbmpgov.in/viewlakenew/59,bbmp-lms
+60,Narasipura Lake-2 (survey no.26),Yelahanka,13.076278,77.554444,13.076278,77.554444,,https://lms.bbmpgov.in/viewlakenew/60,bbmp-lms
+61,Hulimavu Lake,Bommanahalli,12.870333,77.603361,12.870333,77.603361,,https://lms.bbmpgov.in/viewlakenew/61,bbmp-lms
+62,Rachenahalli Lake,Yelahanka,13.061694,77.614861,13.061694,77.614861,,https://lms.bbmpgov.in/viewlakenew/62,bbmp-lms
+63,Amruthahalli Lake,Yelahanka,13.062028,77.599111,13.062028,77.599111,,https://lms.bbmpgov.in/viewlakenew/63,bbmp-lms
+64,Venkateshpura Lake,Yelahanka,13.077694,77.623583,13.077694,77.623583,,https://lms.bbmpgov.in/viewlakenew/64,bbmp-lms
+65,Jakkur Lake,Yelahanka,13.085528,77.61125,13.085528,77.61125,,https://lms.bbmpgov.in/viewlakenew/65,bbmp-lms
+66,Arekere Lake,Bommanahalli,12.882722,77.598944,12.882722,77.598944,,https://lms.bbmpgov.in/viewlakenew/66,bbmp-lms
+67,Agrahara Lake,Yelahanka,13.089528,77.625194,13.089528,77.625194,,https://lms.bbmpgov.in/viewlakenew/67,bbmp-lms
+68,Chokkanahalli Lake,Yelahanka,13.081917,77.636667,13.081917,77.636667,,https://lms.bbmpgov.in/viewlakenew/68,bbmp-lms
+69,Sarakki Lake,Bommanahalli,12.898833,77.579444,12.898833,77.579444,,https://lms.bbmpgov.in/viewlakenew/69,bbmp-lms
+70,Thirumenahalli Lake,Yelahanka,13.092861,77.628444,13.092861,77.628444,,https://lms.bbmpgov.in/viewlakenew/70,bbmp-lms
+71,Puttenahalli Lake (Bommanahalli),Bommanahalli,12.890222,77.587639,12.890222,77.587639,,https://lms.bbmpgov.in/viewlakenew/71,bbmp-lms
+72,Kogilu Lake,Yelahanka,13.109639,77.6185,13.109639,77.6185,,https://lms.bbmpgov.in/viewlakenew/72,bbmp-lms
+73,Palanahalli Lake (Kattigenahalli),Yelahanka,13.1163,77.6155,13.1163,77.6155,,https://lms.bbmpgov.in/viewlakenew/73,bbmp-lms
+74,Ibblur Lake,Bommanahalli,12.922111,77.666583,12.922111,77.666583,,https://lms.bbmpgov.in/viewlakenew/74,bbmp-lms
+75,Kattigenahalli Lake,Yelahanka,13.115861,77.616472,13.115861,77.616472,,https://lms.bbmpgov.in/viewlakenew/75,bbmp-lms
+76,Bettahalli lake,Yelahanka,13.090917,77.551972,13.090917,77.551972,,https://lms.bbmpgov.in/viewlakenew/76,bbmp-lms
+77,Shivanahalli Lake,Yelahanka,13.091417,77.595611,13.091417,77.595611,,https://lms.bbmpgov.in/viewlakenew/77,bbmp-lms
+78,Mangammana Palya Lake,Bommanahalli,12.902083,77.639139,12.902083,77.639139,,https://lms.bbmpgov.in/viewlakenew/78,bbmp-lms
+79,Allalasandra Lake,Yelahanka,13.091611,77.586222,13.091611,77.586222,,https://lms.bbmpgov.in/viewlakenew/79,bbmp-lms
+80,Medi Agrahara Lake,Yelahanka,13.09897,77.52711,13.09897,77.52711,,https://lms.bbmpgov.in/viewlakenew/80,bbmp-lms
+81,Kodige Singasandra Lake,Bommanahalli,12.877806,77.641861,12.877806,77.641861,,https://lms.bbmpgov.in/viewlakenew/81,bbmp-lms
+82,Vaderahalli lake,Yelahanka,13.09439,77.541,13.09439,77.541,,https://lms.bbmpgov.in/viewlakenew/82,bbmp-lms
+83,Singasandra Lake,Bommanahalli,12.882278,77.645497,12.882278,77.645497,,https://lms.bbmpgov.in/viewlakenew/83,bbmp-lms
+84,Yalahanka Lake,Yelahanka,13.112917,77.594694,13.112917,77.594694,,https://lms.bbmpgov.in/viewlakenew/84,bbmp-lms
+85,Harohalli Lake,Yelahanka,13.138389,77.577444,13.138389,77.577444,,https://lms.bbmpgov.in/viewlakenew/85,bbmp-lms
+86,Agara Lake,Bommanahalli,12.922611,77.641806,12.922611,77.641806,,https://lms.bbmpgov.in/viewlakenew/86,bbmp-lms
+87,Avalahalli Lake,Yelahanka,13.13985,77.568308,13.13985,77.568308,,https://lms.bbmpgov.in/viewlakenew/87,bbmp-lms
+88,Somasundra Palya Lake,Bommanahalli,12.898361,77.647944,12.898361,77.647944,,https://lms.bbmpgov.in/viewlakenew/88,bbmp-lms
+89,Ramagondanahalli Lake,Yelahanka,13.118972,77.553306,13.118972,77.553306,,https://lms.bbmpgov.in/viewlakenew/89,bbmp-lms
+90,Veerasagara Lake,Yelahanka,13.102139,77.556361,13.102139,77.556361,,https://lms.bbmpgov.in/viewlakenew/90,bbmp-lms
+91,Garveybhavipalya Lake,Bommanahalli,12.89625,77.637056,12.89625,77.637056,,https://lms.bbmpgov.in/viewlakenew/91,bbmp-lms
+93,Attur Lake,Yelahanka,13.11125,77.561972,13.11125,77.561972,,https://lms.bbmpgov.in/viewlakenew/93,bbmp-lms
+95,Kengeri Lake,RR Nagar,12.947,77.461,12.94700,77.46100,,https://lms.bbmpgov.in/viewlakenew/95,bbmp-lms
+96,Busegowdana lake,RR Nagar,12.964,77.458,12.96400,77.45800,,https://lms.bbmpgov.in/viewlakenew/96,bbmp-lms
+97,Basavanapura Lake,Bommanahalli,12.844556,77.589167,12.844556,77.589167,,https://lms.bbmpgov.in/viewlakenew/97,bbmp-lms
+98,Gottigere Lake,Bommanahalli,,,12.852684,77.90227,"outside Bengaluru, likely a typo",https://lms.bbmpgov.in/viewlakenew/98,bbmp-lms
+99,Subbarayana Lake,Bommanahalli,12.863472,77.584806,12.863472,77.584806,,https://lms.bbmpgov.in/viewlakenew/99,bbmp-lms
+100,Kalena Agrahara Lake STP,Bommanahalli,12.865417,77.589667,12.865417,77.589667,,https://lms.bbmpgov.in/viewlakenew/100,bbmp-lms
+101,Mylasandra (Sunnakallu palya) lake,RR Nagar,12.922,77.48,12.92200,77.48000,,https://lms.bbmpgov.in/viewlakenew/101,bbmp-lms
+102,Dubasipalay lake (Valagerahalli),RR Nagar,12.912,77.437,12.91200,77.43700,,https://lms.bbmpgov.in/viewlakenew/102,bbmp-lms
+103,Chikkammanahalli Lake,Bommanahalli,12.848583,77.603361,12.848583,77.603361,,https://lms.bbmpgov.in/viewlakenew/103,bbmp-lms
+104,Mangammanahalli lake,RR Nagar,12.88053,77.49142,12.88053,77.49142,,https://lms.bbmpgov.in/viewlakenew/104,bbmp-lms
+105,Gandhinagar Hosakere,RR Nagar,12.946,77.471,12.94600,77.47100,,https://lms.bbmpgov.in/viewlakenew/105,bbmp-lms
+106,Kammanahalli Lake (Meenakshi Lake),Bommanahalli,12.855611,77.603944,12.855611,77.603944,,https://lms.bbmpgov.in/viewlakenew/106,bbmp-lms
+107,Varahasandra Lake,RR Nagar,12.88053,77.49142,12.88053,77.49142,,https://lms.bbmpgov.in/viewlakenew/107,bbmp-lms
+108,Yelenahalli Lake,Bommanahalli,12.866583,77.614111,12.866583,77.614111,,https://lms.bbmpgov.in/viewlakenew/108,bbmp-lms
+109,Chikkabasthi lake,RR Nagar,12.89233,77.48361,12.89233,77.48361,,https://lms.bbmpgov.in/viewlakenew/109,bbmp-lms
+110,Nyanappanahalli Lake ( Akshayanagara Lake),Bommanahalli,12.871213,77.614528,12.871213,77.614528,,https://lms.bbmpgov.in/viewlakenew/110,bbmp-lms
+111,Chikkagowdanapaly lake,RR Nagar,12.87214,77.51403,12.87214,77.51403,,https://lms.bbmpgov.in/viewlakenew/111,bbmp-lms
+112,Konasandra Lake,RR Nagar,12.865,77.531,12.86500,77.53100,,https://lms.bbmpgov.in/viewlakenew/112,bbmp-lms
+113,Kothanuru Lake,Bommanahalli,12.875738,77.57822,12.875738,77.57822,,https://lms.bbmpgov.in/viewlakenew/113,bbmp-lms
+114,Lingadeeranahalli-13 Lake,RR Nagar,12.87214,77.51403,12.87214,77.51403,,https://lms.bbmpgov.in/viewlakenew/114,bbmp-lms
+115,Talghatapura Lake,RR Nagar,12.865,77.531,12.86500,77.53100,,https://lms.bbmpgov.in/viewlakenew/115,bbmp-lms
+116,Konanakunte Lake,Bommanahalli,12.89125,77.568972,12.53285,77.3408.3,decoded from packed DMS,https://lms.bbmpgov.in/viewlakenew/116,bbmp-lms
+117,Chunchaghatta Kere,Bommanahalli,12.88775,77.575194,12.88775,77.575194,,https://lms.bbmpgov.in/viewlakenew/117,bbmp-lms
+118,Bayyapanapalya Kunte Lake,RR Nagar,12.868,77.543,12.86800,77.54300,,https://lms.bbmpgov.in/viewlakenew/118,bbmp-lms
+119,Swarnakunte Gudda Kere,Bommanahalli,12.862722,77.607861,12.862722,77.607861,,https://lms.bbmpgov.in/viewlakenew/119,bbmp-lms
+120,H Gollahalli kere,RR Nagar,12.87394,77.48314,12.87394,77.48314,,https://lms.bbmpgov.in/viewlakenew/120,bbmp-lms
+121,Ullala lake,RR Nagar,12.96,77.482,12.96000,77.48200,,https://lms.bbmpgov.in/viewlakenew/121,bbmp-lms
+122,Subedarana Kere,Bommanahalli,12.859861,77.616583,12.859861,77.616583,,https://lms.bbmpgov.in/viewlakenew/122,bbmp-lms
+123,Jogi kere,RR Nagar,12.86311,77.53839,12.86311,77.53839,,https://lms.bbmpgov.in/viewlakenew/123,bbmp-lms
+124,Basapura Lake - 1,Bommanahalli,12.869697,77.649827,12.869697,77.649827,,https://lms.bbmpgov.in/viewlakenew/124,bbmp-lms
+125,Handrahalli kere,RR Nagar,13.01,77.487,13.01000,77.48700,,https://lms.bbmpgov.in/viewlakenew/125,bbmp-lms
+126,Lingadeeranahalli (handrahalli),RR Nagar,13.004,77.482,13.00400,77.48200,,https://lms.bbmpgov.in/viewlakenew/126,bbmp-lms
+127,Herohalli Lake,RR Nagar,12.989,77.488,12.98900,77.48800,,https://lms.bbmpgov.in/viewlakenew/127,bbmp-lms
+128,Gattigerepalya (Sompura) lake,RR Nagar,12.88311,77.50214,12.88311,77.50214,,https://lms.bbmpgov.in/viewlakenew/128,bbmp-lms
+129,Basapura Lake - 2,Bommanahalli,12.868686,77.643905,12.868686,77.643905,,https://lms.bbmpgov.in/viewlakenew/129,bbmp-lms
+130,Sompura Lake,RR Nagar,12.876,77.5,12.87600,77.50000,,https://lms.bbmpgov.in/viewlakenew/130,bbmp-lms
+131,Vishwaneedum Lake,RR Nagar,12.983,77.492,12.98300,77.49200,,https://lms.bbmpgov.in/viewlakenew/131,bbmp-lms
+132,Hosakerehalli lake,RR Nagar,12.92744,77.53286,12.92744,77.53286,,https://lms.bbmpgov.in/viewlakenew/132,bbmp-lms
+133,Srigandadakaval lake,RR Nagar,12.984,77.50094,12.98400,77.50094,,https://lms.bbmpgov.in/viewlakenew/133,bbmp-lms
+134,Begur Lake,Bommanahalli,12.874722,77.629972,12.874722,77.629972,,https://lms.bbmpgov.in/viewlakenew/134,bbmp-lms
+135,Chikka Begur Lake,Bommanahalli,12.885484,77.636387,12.885484,77.636387,,https://lms.bbmpgov.in/viewlakenew/135,bbmp-lms
+136,Parappana Agrahara lake,Bommanahalli,12.879028,77.660833,12.879028,77.660833,,https://lms.bbmpgov.in/viewlakenew/136,bbmp-lms
+137,Konappana Agrahara Lake,Bommanahalli,12.87858,77.668732,12.87858,77.668732,,https://lms.bbmpgov.in/viewlakenew/137,bbmp-lms
+138,Kudlu Doddakere,Bommanahalli,12.884778,77.664306,12.884778,77.664306,,https://lms.bbmpgov.in/viewlakenew/138,bbmp-lms
+139,Kudlu Chikka Kere STP,Bommanahalli,12.891778,77.655222,12.891778,77.655222,,https://lms.bbmpgov.in/viewlakenew/139,bbmp-lms
+140,Chowdeshwari layout Lake,Bommanahalli,12.865218,77.660523,12.865218,77.660523,,https://lms.bbmpgov.in/viewlakenew/140,bbmp-lms
+142,Annappanakere,Bommanahalli,12.899611,77.565583,12.899611,77.565583,,https://lms.bbmpgov.in/viewlakenew/142,bbmp-lms
+143,Chikkabasavanapura Lake,Mahadevapura,13.01039902,77.71345131,13.01039902,77.71345131,,https://lms.bbmpgov.in/viewlakenew/143,bbmp-lms
+144,Vasantpura Lake,Bommanahalli,12.89125,77.556778,12.89125,77.556778,,https://lms.bbmpgov.in/viewlakenew/144,bbmp-lms
+145,Kalyanikunte lake,Bommanahalli,12.894643,77.554026,12.894643,77.554026,,https://lms.bbmpgov.in/viewlakenew/145,bbmp-lms
+146,Pattanagere/ Kenchenhalli lake,RR Nagar,12.92585,77.50094,12.92585,77.50094,,https://lms.bbmpgov.in/viewlakenew/146,bbmp-lms
+147,Mahadevapura Lake-1,Mahadevapura,12.98751469,77.69209663,12.98751469,77.69209663,,https://lms.bbmpgov.in/viewlakenew/147,bbmp-lms
+148,Devarakere Lake,Bommanahalli,12.897784,77.554447,12.897784,77.554447,,https://lms.bbmpgov.in/viewlakenew/148,bbmp-lms
+149,Mallathahalli lake,RR Nagar,12.962,77.495,12.96200,77.49500,,https://lms.bbmpgov.in/viewlakenew/149,bbmp-lms
+150,Dorekere Lake,Bommanahalli,12.902833,77.550139,12.902833,77.550139,,https://lms.bbmpgov.in/viewlakenew/150,bbmp-lms
+151,Vijanapura kere,Mahadevapura,13.0090106,77.6767429,13.0090106,77.6767429,,https://lms.bbmpgov.in/viewlakenew/151,bbmp-lms
+152,J.P Park Lake,RR Nagar,13.03508,77.55031,13.03508,77.55031,,https://lms.bbmpgov.in/viewlakenew/152,bbmp-lms
+153,Subramanyapura Lake,Bommanahalli,12.896222,77.542806,12.896222,77.542806,,https://lms.bbmpgov.in/viewlakenew/153,bbmp-lms
+154,Sigehalli Lake,Mahadevapura,13.01777605,77.71316825,13.01777605,77.71316825,,https://lms.bbmpgov.in/viewlakenew/154,bbmp-lms
+155,Uttarahalli Lake,Bommanahalli,12.907833,77.541167,12.907833,77.541167,,https://lms.bbmpgov.in/viewlakenew/155,bbmp-lms
+156,Halage vaderahalli Lake,RR Nagar,12.92417,77.51481,12.92417,77.51481,,https://lms.bbmpgov.in/viewlakenew/156,bbmp-lms
+157,Devsandra kere,Mahadevapura,13.0056256,77.69415965,13.0056256,77.69415965,,https://lms.bbmpgov.in/viewlakenew/157,bbmp-lms
+158,Gubbalalu Lake,Bommanahalli,12.880806,77.540583,12.880806,77.540583,,https://lms.bbmpgov.in/viewlakenew/158,bbmp-lms
+159,Nagarabhavi Lake,RR Nagar,12.965,77.508,12.96500,77.50800,,https://lms.bbmpgov.in/viewlakenew/159,bbmp-lms
+160,Challakere Lake,Mahadevapura,13.0266513,77.6450424,13.0266513,77.6450424,,https://lms.bbmpgov.in/viewlakenew/160,bbmp-lms
+161,Doddakallsandra Lake,Bommanahalli,12.882,77.560972,12.882,77.560972,,https://lms.bbmpgov.in/viewlakenew/161,bbmp-lms
+162,Kalkere Lake,Mahadevapura,13.0483103,77.665277,13.0483103,77.665277,,https://lms.bbmpgov.in/viewlakenew/162,bbmp-lms
+163,Kembattahalli lake,Bommanahalli,12.857666,77.576555,12.857666,77.576555,,https://lms.bbmpgov.in/viewlakenew/163,bbmp-lms
+164,Bhimana Kuppe kere,RR Nagar,12.91517,77.52867,12.91517,77.52867,,https://lms.bbmpgov.in/viewlakenew/164,bbmp-lms
+165,Vibhuthipura kere,Mahadevapura,13.0696506,77.47431665,13.0696506,77.47431665,,https://lms.bbmpgov.in/viewlakenew/165,bbmp-lms
+166,Junnasandra lake,Mahadevapura,12.9011233,77.6759405,12.9011233,77.6759405,,https://lms.bbmpgov.in/viewlakenew/166,bbmp-lms
+167,K R Puram (BEML)/ Benniganahalli Lake,Mahadevapura,12.99792245,77.6661744,12.99792245,77.6661744,,https://lms.bbmpgov.in/viewlakenew/167,bbmp-lms
+168,Gunjur mouji kere,Mahadevapura,12.9162739,77.7370651,12.9162739,77.7370651,,https://lms.bbmpgov.in/viewlakenew/168,bbmp-lms
+169,Hormavu Agara Lake,Mahadevapura,13.03544195,77.6588153,13.03544195,77.6588153,,https://lms.bbmpgov.in/viewlakenew/169,bbmp-lms
+170,Rampura kere,Mahadevapura,,,13.255061,78.1815755,"outside Bengaluru, likely a typo",https://lms.bbmpgov.in/viewlakenew/170,bbmp-lms
+171,Nagareshwara-Nagenahalli Lake,Mahadevapura,13.0754414,77.6427875,13.0754414,77.6427875,,https://lms.bbmpgov.in/viewlakenew/171,bbmp-lms
+172,Gangashetty Lake,Mahadevapura,13.00513957,77.69296543,13.00513957,77.69296543,,https://lms.bbmpgov.in/viewlakenew/172,bbmp-lms
+173,Horamavu Lake,Mahadevapura,13.02498366,77.6671948,13.02498366,77.6671948,,https://lms.bbmpgov.in/viewlakenew/173,bbmp-lms
+174,Vengaiahna kere /K.R.Puram Tank,Mahadevapura,13.01626685,77.69980345,13.01626685,77.69980345,,https://lms.bbmpgov.in/viewlakenew/174,bbmp-lms
+175,Anjanapura lake,Bommanahalli,12.865417,77.566611,12.865417,77.566611,,https://lms.bbmpgov.in/viewlakenew/175,bbmp-lms
+176,Pattandur agrahara lake-124,Mahadevapura,12.9778747,77.7361157,12.9778747,77.7361157,,https://lms.bbmpgov.in/viewlakenew/176,bbmp-lms
+177,Mahadevapura Lake-2,Mahadevapura,12.99261796,77.68597188,12.99261796,77.68597188,,https://lms.bbmpgov.in/viewlakenew/177,bbmp-lms
+178,Pattandur agrahara -54 Lake,Mahadevapura,12.975882,77.7441517,12.975882,77.7441517,,https://lms.bbmpgov.in/viewlakenew/178,bbmp-lms
+179,B. Narayanapura Lake,Mahadevapura,12.9965266,77.68274905,12.9965266,77.68274905,,https://lms.bbmpgov.in/viewlakenew/179,bbmp-lms
+180,Chikkabellandur Lake,Mahadevapura,12.9119828,77.7182613,12.9119828,77.7182613,,https://lms.bbmpgov.in/viewlakenew/180,bbmp-lms
+181,Bhattarahalli Lake,Mahadevapura,13.0243462,77.70893235,13.0243462,77.70893235,,https://lms.bbmpgov.in/viewlakenew/181,bbmp-lms
+182,Kowdenahalli lake,Mahadevapura,13.024346,77.708932,13.024346,77.708932,,https://lms.bbmpgov.in/viewlakenew/182,bbmp-lms
+183,Sitaram Palya lake,Mahadevapura,12.9820736,77.7111293,12.9820736,77.7111293,,https://lms.bbmpgov.in/viewlakenew/183,bbmp-lms
+184,Ambalipura Kelagina kere,Mahadevapura,13.0243365,77.708932,13.0243365,77.708932,,https://lms.bbmpgov.in/viewlakenew/184,bbmp-lms
+185,Nalluralli tank,Mahadevapura,12.9745158,77.7332348,12.9745158,77.7332348,,https://lms.bbmpgov.in/viewlakenew/185,bbmp-lms
+186,Gunjur Palya kere,Mahadevapura,12.93306795,77.70768341,12.93306795,77.70768341,,https://lms.bbmpgov.in/viewlakenew/186,bbmp-lms
+187,Hoodi kere,Mahadevapura,12.9988922,77.7109916,12.9988922,77.7109916,,https://lms.bbmpgov.in/viewlakenew/187,bbmp-lms
+188,Gunjuru Karmelaram lake,Mahadevapura,12.91684385,77.7405091,12.91684385,77.7405091,,https://lms.bbmpgov.in/viewlakenew/188,bbmp-lms
+189,Panathur lake-2,Mahadevapura,12.9317685,77.7069855,12.9317685,77.7069855,,https://lms.bbmpgov.in/viewlakenew/189,bbmp-lms
+190,Panathur lake -1,Mahadevapura,12.9318396,77.7051451,12.9318396,77.7051451,,https://lms.bbmpgov.in/viewlakenew/190,bbmp-lms
+191,Jimkenahalli Lake/ Varanasi Lake,Mahadevapura,13.0272011,77.6867567,13.0272011,77.6867567,,https://lms.bbmpgov.in/viewlakenew/191,bbmp-lms
+192,Hoodi Giddanakere Lake,Mahadevapura,12.9935345,77.7178375,12.9935345,77.7178375,,https://lms.bbmpgov.in/viewlakenew/192,bbmp-lms
+193,Amblipura melina kere,Mahadevapura,12.9052905,77.7137513,12.9052905,77.7137513,,https://lms.bbmpgov.in/viewlakenew/193,bbmp-lms
+194,Kaigondanahalli Lake,Mahadevapura,12.8846067,77.685083,12.8846067,77.685083,,https://lms.bbmpgov.in/viewlakenew/194,bbmp-lms
+195,Kasavanahalli lake,Mahadevapura,12.90427665,77.66790535,12.90427665,77.66790535,,https://lms.bbmpgov.in/viewlakenew/195,bbmp-lms
+196,Bhoganahalli Lake,Mahadevapura,12.9231235,77.6978445,12.9231235,77.6978445,,https://lms.bbmpgov.in/viewlakenew/196,bbmp-lms
+197,Haraluru kere,Mahadevapura,12.89697462,77.66504399,12.89697462,77.66504399,,https://lms.bbmpgov.in/viewlakenew/197,bbmp-lms
+198,Sadaramangala Lake,Mahadevapura,13.0001277,77.7255132,13.0001277,77.7255132,,https://lms.bbmpgov.in/viewlakenew/198,bbmp-lms
+199,Sowl kere,Mahadevapura,12.9182153,77.67989115,12.9182153,77.67989115,,https://lms.bbmpgov.in/viewlakenew/199,bbmp-lms
+200,Devarabeesanahalli Lake,Mahadevapura,12.91456545,77.63479,12.91456545,77.63479,,https://lms.bbmpgov.in/viewlakenew/200,bbmp-lms
+201,Doddanekundi lake,Mahadevapura,12.9747317,77.6861555,12.9747317,77.6861555,,https://lms.bbmpgov.in/viewlakenew/201,bbmp-lms
+202,Doddakanenahalli kere,Mahadevapura,12.9128108,77.6908309,12.9128108,77.6908309,,https://lms.bbmpgov.in/viewlakenew/202,bbmp-lms
+203,Garudachar Palya (Goshala) Lake,Mahadevapura,12.9869034,77.6976839,12.9869034,77.6976839,,https://lms.bbmpgov.in/viewlakenew/203,bbmp-lms
+204,Munnekolalu kere,Mahadevapura,12.9606603,77.7089091,12.9606603,77.7089091,,https://lms.bbmpgov.in/viewlakenew/204,bbmp-lms
+205,Garudachar Palya Lake,Mahadevapura,12.9905842,77.6956237,12.9905842,77.6956237,,https://lms.bbmpgov.in/viewlakenew/205,bbmp-lms
+206,Chinnappanahalli lake,Mahadevapura,12.9662146,77.7049222,12.9662146,77.7049222,,https://lms.bbmpgov.in/viewlakenew/206,bbmp-lms
+207,Shilavanthana kere,Mahadevapura,12.9643932,77.7426379,12.9643932,77.7426379,,https://lms.bbmpgov.in/viewlakenew/207,bbmp-lms
+208,Siddapura Lake,Mahadevapura,12.9582271,77.7245904,12.9582271,77.7245904,,https://lms.bbmpgov.in/viewlakenew/208,bbmp-lms
+209,Kundalahalli Lake,Mahadevapura,12.9698526,77.7182155,12.9698526,77.7182155,,https://lms.bbmpgov.in/viewlakenew/209,bbmp-lms
+210,Kenchanapura lake,RR Nagar,12.957,77.451,12.95700,77.45100,,https://lms.bbmpgov.in/viewlakenew/210,bbmp-lms
+211,Kodigehalli lake,RR Nagar,12.977,77.468,12.97700,77.46800,,https://lms.bbmpgov.in/viewlakenew/211,bbmp-lms
+212,Bheemana Katte kere,RR Nagar,12.91517,77.52867,12.91517,77.52867,,https://lms.bbmpgov.in/viewlakenew/212,bbmp-lms
+213,Kannali Lake,RR Nagar,12.964,77.458,12.96400,77.45800,,https://lms.bbmpgov.in/viewlakenew/213,bbmp-lms
+214,Soolikere,RR Nagar,12.947,77.461,12.94700,77.46100,,https://lms.bbmpgov.in/viewlakenew/214,bbmp-lms
+221,Ulsoor lake,East,12.981944,77.619167,12.585500,77.370900,decoded from packed DMS,https://lms.bbmpgov.in/viewlakenew/221,bbmp-lms
+223,Kaggadasapura Lake,East,12.981767,77.670783,12.981767,77.670783,,https://lms.bbmpgov.in/viewlakenew/223,bbmp-lms
+224,Kariobanahalli Lake (Narasappanahalli kere),Dasarahalli,13.01723,77.49834,13.01723,77.49834,,https://lms.bbmpgov.in/viewlakenew/224,bbmp-lms
+228,Srinivasapura Lake,Yelahanka,13.105972,77.625278,13.105972,77.625278,,https://lms.bbmpgov.in/viewlakenew/228,bbmp-lms
+231,Madiwala Lake,South,12.9062301,77.6143924,12.9062301,77.6143924,,https://lms.bbmpgov.in/viewlakenew/231,bbmp-lms
+232,Nagavara Lake,Yelahanka,,,13,"2'42.88""N","latitude split across both fields (13 deg 2' 42.88"" N); no longitude given",https://lms.bbmpgov.in/viewlakenew/232,bbmp-lms
+233,Hebbal Lake,Yelahanka,,,13,"2'48.40""N","latitude split across both fields (13 deg 2' 48.40"" N); no longitude given",https://lms.bbmpgov.in/viewlakenew/233,bbmp-lms

@@ -1,0 +1,22 @@
+[
+ {
+  "key": "jrc-gsw-1-5",
+  "title": "Global Surface Water v1.5, 1984-2024 (occurrence, change, seasonality, recurrence, transitions, extent)",
+  "publisher": "European Commission Joint Research Centre / Google",
+  "url": "https://global-surface-water.appspot.com/download",
+  "license": "CC BY 4.0",
+  "credit": "Source: EC JRC/Google (Pekel et al. 2016, Nature 540, 418-422)",
+  "asOf": "2024",
+  "retrieved": "2026-09-11"
+ },
+ {
+  "key": "jrc-gsw-1-4-yearly",
+  "title": "Global Surface Water v1.4 yearly water classification history, 1984-2021",
+  "publisher": "European Commission Joint Research Centre / Google",
+  "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GSWE/YearlyClassification/LATEST/",
+  "license": "CC BY 4.0",
+  "credit": "Source: EC JRC/Google (Pekel et al. 2016, Nature 540, 418-422)",
+  "asOf": "2021",
+  "retrieved": "2026-09-11"
+ }
+]

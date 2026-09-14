@@ -1,0 +1,20 @@
+[
+ {
+  "key": "esri-world-imagery",
+  "title": "World Imagery",
+  "publisher": "Esri",
+  "url": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a4",
+  "license": "Esri terms of use",
+  "credit": "Satellite view: Esri, Maxar, Earthstar Geographics, and the GIS User Community",
+  "retrieved": "2026-09-14"
+ },
+ {
+  "key": "carto-light-nolabels",
+  "title": "CARTO Positron basemap, no labels",
+  "publisher": "CARTO",
+  "url": "https://carto.com/attributions",
+  "license": "CARTO basemap terms; map data ODbL",
+  "credit": "Streets under the map: (c) OpenStreetMap contributors, (c) CARTO",
+  "retrieved": "2026-09-14"
+ }
+]

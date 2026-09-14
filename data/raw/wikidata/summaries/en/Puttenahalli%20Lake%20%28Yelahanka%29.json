@@ -1,0 +1,43 @@
+{
+ "type": "standard",
+ "title": "Puttenahalli Lake (Yelahanka)",
+ "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Puttenahalli Lake (Yelahanka)</span></span>",
+ "namespace": {
+  "id": 0,
+  "text": ""
+ },
+ "wikibase_item": "Q7262461",
+ "titles": {
+  "canonical": "Puttenahalli_Lake_(Yelahanka)",
+  "normalized": "Puttenahalli Lake (Yelahanka)",
+  "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Puttenahalli Lake (Yelahanka)</span></span>"
+ },
+ "pageid": 11019936,
+ "lang": "en",
+ "dir": "ltr",
+ "revision": "1362896900",
+ "tid": "b9cc96e0-7985-11f1-a858-2d88172d2ced",
+ "timestamp": "2026-07-06T21:57:48Z",
+ "description": "Lake in Yelahanka, India",
+ "description_source": "local",
+ "coordinates": {
+  "lat": 13.11111111,
+  "lon": 77.57611111
+ },
+ "content_urls": {
+  "desktop": {
+   "page": "https://en.wikipedia.org/wiki/Puttenahalli_Lake_(Yelahanka)",
+   "revisions": "https://en.wikipedia.org/wiki/Puttenahalli_Lake_(Yelahanka)?action=history",
+   "edit": "https://en.wikipedia.org/wiki/Puttenahalli_Lake_(Yelahanka)?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Puttenahalli_Lake_(Yelahanka)"
+  },
+  "mobile": {
+   "page": "https://en.wikipedia.org/wiki/Puttenahalli_Lake_(Yelahanka)",
+   "revisions": "https://en.wikipedia.org/wiki/Special:History/Puttenahalli_Lake_(Yelahanka)",
+   "edit": "https://en.wikipedia.org/wiki/Puttenahalli_Lake_(Yelahanka)?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Puttenahalli_Lake_(Yelahanka)"
+  }
+ },
+ "extract": "Puttenahalli WS Lake also spelled as Puttanahalli Lake is a 10-hectare water body near Yelahanka, 14 km north of Bangalore.",
+ "extract_html": "<p><b>Puttenahalli WS Lake</b> also spelled as <b>Puttanahalli Lake</b> is a 10-hectare water body near Yelahanka, 14 km north of Bangalore.</p>"
+}

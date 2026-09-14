@@ -1,0 +1,43 @@
+{
+ "type": "standard",
+ "title": "Yelahanka Lake",
+ "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Yelahanka Lake</span></span>",
+ "namespace": {
+  "id": 0,
+  "text": ""
+ },
+ "wikibase_item": "Q104841470",
+ "titles": {
+  "canonical": "Yelahanka_Lake",
+  "normalized": "Yelahanka Lake",
+  "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Yelahanka Lake</span></span>"
+ },
+ "pageid": 28555409,
+ "lang": "en",
+ "dir": "ltr",
+ "revision": "1366934929",
+ "tid": "1021b1af-8c72-11f1-bb23-fee501ca0b02",
+ "timestamp": "2026-07-30T23:54:55Z",
+ "description": "Lake in Karnataka, India",
+ "description_source": "local",
+ "coordinates": {
+  "lat": 13.11138889,
+  "lon": 77.59527778
+ },
+ "content_urls": {
+  "desktop": {
+   "page": "https://en.wikipedia.org/wiki/Yelahanka_Lake",
+   "revisions": "https://en.wikipedia.org/wiki/Yelahanka_Lake?action=history",
+   "edit": "https://en.wikipedia.org/wiki/Yelahanka_Lake?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Yelahanka_Lake"
+  },
+  "mobile": {
+   "page": "https://en.wikipedia.org/wiki/Yelahanka_Lake",
+   "revisions": "https://en.wikipedia.org/wiki/Special:History/Yelahanka_Lake",
+   "edit": "https://en.wikipedia.org/wiki/Yelahanka_Lake?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Yelahanka_Lake"
+  }
+ },
+ "extract": "Yelahanka Lake is a water body near Yelahanka, a suburb of Bangalore.",
+ "extract_html": "<p><b>Yelahanka Lake</b> is a water body near Yelahanka, a suburb of Bangalore.</p>"
+}

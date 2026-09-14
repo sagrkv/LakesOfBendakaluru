@@ -1,0 +1,12 @@
+[
+ {
+  "key": "esa-worldcover-2021",
+  "title": "ESA WorldCover 10 m 2021 v200, tile N12E075",
+  "publisher": "European Space Agency",
+  "url": "https://esa-worldcover.org/en",
+  "license": "CC BY 4.0",
+  "credit": "(c) ESA WorldCover project 2021 / Contains modified Copernicus Sentinel data (2021) processed by ESA WorldCover consortium",
+  "asOf": "2021",
+  "retrieved": "2026-09-11"
+ }
+]

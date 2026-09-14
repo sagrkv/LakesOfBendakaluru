@@ -1,0 +1,18 @@
+{
+ "dmg-2011": {
+  "url": "https://data.opencity.in/dataset/c125a42f-2b5e-4664-9b87-236d615b9910/resource/08b9e909-9fae-4aa6-9e5d-43690fd8a6d3/download/3f883f14-43c1-4efc-b971-358b6ca025e1.csv",
+  "retrieved": "2026-09-11"
+ },
+ "lakes-2015": {
+  "url": "https://data.opencity.in/dataset/36741bed-897a-496a-aec3-24341aec1953/resource/76774808-5caa-42bb-b3e8-15608fcb72aa/download/1fa9501f-5174-4a03-8199-5eb3f3805b44.pdf",
+  "retrieved": "2026-09-11"
+ },
+ "jakkur-2015": {
+  "url": "https://data.opencity.in/dataset/36741bed-897a-496a-aec3-24341aec1953/resource/ec3af22c-a187-46dd-98c1-ece4ce2fb2e4/download/137964fe-8173-44b2-9717-5f0c4b6fa0de.pdf",
+  "retrieved": "2026-09-11"
+ },
+ "nwmp-2021": {
+  "url": "https://data.opencity.in/dataset/b315fb5d-4625-457b-86e4-5fec7f7831ea/resource/60886be0-840a-44da-8c83-9823b193c8b6/download/4e742cc5-01ee-4851-ad32-8ce486bf552b.pdf",
+  "retrieved": "2026-09-11"
+ }
+}

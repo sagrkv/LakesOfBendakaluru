@@ -1,0 +1,1392 @@
+key,downstreamKey,downstreamMethod,downstreamKeyStreams,downstreamKeyDem,agree,upstreamKeys,cascadeDepth,catchmentKm2,valleyBasin,outletLon,outletLat,source
+abbigere-kere,chikkabanavara-kere,dem,,chikkabanavara-kere,,kuvempunagar-lake;singapura-lake,2,5.19,Arkavathi,77.529444,13.081667,cascade-streams-dem
+acchanakere,varthur-lake,streams,varthur-lake,varthur-lake,True,chinnappanahalli-kere1,1,1.78,Koramangala-Challaghatta,77.708176,12.95744,cascade-streams-dem
+achanakere,mahadevapura-kere,dem,,mahadevapura-kere,,,0,0.52,Koramangala-Challaghatta,77.694722,12.990556,cascade-streams-dem
+adarang-lake,,,,,,,0,1.14,"unnamed, leaves to W",77.213889,13.1425,cascade-streams-dem
+adde-lake,kodaturu-kere,dem,,kodaturu-kere,,addevishwanathapura-lake;sriramanahalli-lake,1,8.38,Arkavathi,77.547778,13.210833,cascade-streams-dem
+addevishwanathapura-lake,adde-lake,dem,,adde-lake,,,0,3.89,Arkavathi,77.554167,13.186667,cascade-streams-dem
+addiganahalli-lake,muddenahalli-lake,dem,,muddenahalli-lake,,,0,0.55,Hebbal,77.570278,13.180278,cascade-streams-dem
+addigenakere,uramundinakere-3,dem,,uramundinakere-3,,,0,0.81,Dakshina Pinakini,77.596111,12.813889,cascade-streams-dem
+adesonatti-lake,madivala-lake,dem,,madivala-lake,,,0,1.78,Dakshina Pinakini,77.720278,12.771944,cascade-streams-dem
+adigondanahalli-kere,indlabele-kere,dem,,indlabele-kere,,bikkanhalli-lake;sollepura-kere,2,6.53,Dakshina Pinakini,77.758333,12.821944,cascade-streams-dem
+adikelallanapalya-kere,,,,,,jogipalya-low-kere,1,1.86,Kumudvathi,77.3225,13.1,cascade-streams-dem
+adkepalya-lake,ganadalu-lake,dem,,ganadalu-lake,,,0,1.27,Jayamangali,77.384722,13.347222,cascade-streams-dem
+aduru-lake,nosenuru-gollahalli-lake-2,dem,,nosenuru-gollahalli-lake-2,,adurupalya-lake;aiyanapalya-lake,1,2.26,Arkavathi,77.650833,12.733056,cascade-streams-dem
+adurupalya-lake,aduru-lake,dem,,aduru-lake,,,0,0.72,Arkavathi,77.657222,12.732222,cascade-streams-dem
+agara-kere,lingapura-lake-2,dem,,lingapura-lake-2,,konashetty-kere,1,11.13,Vrishabhavathi,77.488333,12.849444,cascade-streams-dem
+agara-lake,bellandur-lake,streams,bellandur-lake,bellandur-lake,True,begur-lake;chikkabegur-kere;garvebhavipalya-lake;madiwala-lake;somasundrapalya-lake;tavarekere-lake;yellukunte-govt-lake,4,77.63,Koramangala-Challaghatta,77.645958,12.924942,cascade-streams-dem
+agrahara-lake,jakkur-lake,streams,jakkur-lake,jakkur-lake,True,chokkanahalli-lake;thirumenahalli-lake,1,2.89,Hebbal,77.623182,13.087986,cascade-streams-dem
+aiyanapalya-lake,aduru-lake,dem,,aduru-lake,,,0,0.73,Arkavathi,77.653333,12.725833,cascade-streams-dem
+ajjanahalli-kere,,,,,,,0,1.08,Vrishabhavathi,77.389444,12.915,cascade-streams-dem
+ajjegowdana-katte,kannalli-kere,dem,,kannalli-kere,,,0,0.43,Vrishabhavathi,77.465278,12.9825,cascade-streams-dem
+alagondahalli-lake,sitanayakanahalli-lake,dem,,sitanayakanahalli-lake,,,0,0.92,Dakshina Pinakini,77.918889,13.056667,cascade-streams-dem
+alahalli-kere,o-b-chudanahalli-lake,dem,,o-b-chudanahalli-lake,,kembathahali-kere,1,2.67,Suvarnamukhi,77.565833,12.865,cascade-streams-dem
+alijenahalli-kere,timmasandra-kere-2,dem,,timmasandra-kere-2,,,0,1.1,Arkavathi,77.570833,13.331389,cascade-streams-dem
+allasandra-lake,jakkur-lake,streams,jakkur-lake,jakkur-lake,True,,0,4.32,Hebbal,77.589018,13.089652,cascade-streams-dem
+alur-kere,,,,,,honnasandra-kere,5,35.73,Arkavathi,77.458056,13.093889,cascade-streams-dem
+aluru-lake1,muganahalli-kere,dem,,muganahalli-kere,,,0,1.28,Kumudvathi,77.247222,13.148333,cascade-streams-dem
+amalgunte-lake,,,,,,,0,1.45,Kumadvati,77.414444,13.472222,cascade-streams-dem
+amanimulli-kere,chikka-sanne-kere,dem,,chikka-sanne-kere,,arasanahalli-lake;solluru-kere,4,36.34,Dakshina Pinakini,77.665278,13.242222,cascade-streams-dem
+ambalagere-n,purushanahalli-kere,dem,,purushanahalli-kere,,,0,2.61,Arkavathi,77.390556,13.246667,cascade-streams-dem
+ambalagere-w,purushanahalli-kere,dem,,purushanahalli-kere,,,0,1.19,Arkavathi,77.381944,13.245,cascade-streams-dem
+ambalipura-kelagina-kere,ibbalur-govt-lake,dem,,ibbalur-govt-lake,,,0,0.23,Koramangala-Challaghatta,77.664722,12.918056,cascade-streams-dem
+ampapura-lake,,,,,,,0,0.11,Vrishabhavathi,77.429167,12.826667,cascade-streams-dem
+amruthahalli-lake,rachenahalli-lake,streams,rachenahalli-lake,rachenahalli-lake,True,,0,3.64,Hebbal,77.599851,13.060765,cascade-streams-dem
+amrutnagar-lake,o-b-chudanahalli-lake,dem,,o-b-chudanahalli-lake,,,0,0.63,Suvarnamukhi,77.558333,12.848333,cascade-streams-dem
+anantapura-kere,virapanjipura-5r,dem,,virapanjipura-5r,,kangondanahalli-kere,1,3.83,Kumudvathi,77.375,13.13,cascade-streams-dem
+andhrahalli-lake,kachohalli-kere,dem,,kachohalli-kere,,,0,2.34,Arkavathi,77.485,13.010833,cascade-streams-dem
+annamma-kere,doraikere,dem,,doraikere,,,0,0.51,Vrishabhavathi,77.565,12.9,cascade-streams-dem
+antarahalli-kere,kolur-kere-2,dem,,kolur-kere-2,,,0,2.18,Arkavathi,77.508056,13.355556,cascade-streams-dem
+aradeshanahalli-kere,aradeshanahalli-kere-2,dem,,aradeshanahalli-kere-2,,bachchahalli-kere;bannamangala-n-kere;jalige-kere;kolipura-kere;panditapur-lake,6,56.17,Arkavathi,77.565833,13.231667,cascade-streams-dem
+aradeshanahalli-kere-2,kodaturu-kere,dem,,kodaturu-kere,,aradeshanahalli-kere;suradhenupur-lake,7,72.11,Arkavathi,77.553333,13.219167,cascade-streams-dem
+aralakunte,mylappanahalli-kere-1,dem,,mylappanahalli-kere-1,,,0,0.52,Arkavathi,77.541389,13.150833,cascade-streams-dem
+aralamallige-kere,dodda-tumkur-kere,dem,,dodda-tumkur-kere,,basavanapura-lake;galibilikote-lake;menasi-lake;shravanur-lake-2;talagavara-kere;vanigarahalli-lake,5,135.84,Arkavathi,77.510556,13.276667,cascade-streams-dem
+arasanahalli-lake,amanimulli-kere,dem,,amanimulli-kere,,naraganahalli-lake,2,6.51,Dakshina Pinakini,77.645833,13.241111,cascade-streams-dem
+arebommanahalli-2r,govindapura-lo-kere,dem,,govindapura-lo-kere,,arebommanahalli-low;arebommanahalli-up-kere,1,3.03,Kumudvathi,77.297222,13.142778,cascade-streams-dem
+arebommanahalli-low,arebommanahalli-2r,dem,,arebommanahalli-2r,,,0,0.36,Kumudvathi,77.283889,13.140556,cascade-streams-dem
+arebommanahalli-up-kere,arebommanahalli-2r,dem,,arebommanahalli-2r,,,0,0.86,Kumudvathi,77.286944,13.145833,cascade-streams-dem
+arehalii-kere,juzuvadi-kere,dem,,juzuvadi-kere,,attibele-kere;bhaktipura-kere;kambalipura-lake;manchanha-left;mayasandra;mayasandra-east-lake,8,87.75,Dakshina Pinakini,77.763333,12.764722,cascade-streams-dem
+arehalli-kunte,bhimmanakuppe-govt-lake,dem,,bhimmanakuppe-govt-lake,,,0,0.31,Vrishabhavathi,77.531667,12.914444,cascade-streams-dem
+arehalli-lake,,,,,,nelavagilu-lake,5,23.5,Palar,77.951111,13.217778,cascade-streams-dem
+arehalli-lake-2,deshpande-guttahalli-lake,dem,,deshpande-guttahalli-lake,,,0,0.93,Dakshina Pinakini,77.8275,12.931111,cascade-streams-dem
+arekere-lake,madiwala-lake,dem,,madiwala-lake,,,0,2.28,Koramangala-Challaghatta,77.600278,12.883333,cascade-streams-dem
+arekere-lake-2,budamanahalli-lake,dem,,budamanahalli-lake,,,0,0.68,Arkavathi,77.540556,13.190833,cascade-streams-dem
+arenur-kere,indlabele-kere,dem,,indlabele-kere,,medhalli-kere,2,4.55,Dakshina Pinakini,77.778056,12.811111,cascade-streams-dem
+arjunabettahalli-kere,gollahalli-kere,dem,,gollahalli-kere,,,0,0.54,Arkavathi,77.418333,13.163333,cascade-streams-dem
+arluru-kere-s,kolatur-kere,dem,,kolatur-kere,,,0,1.81,Dakshina Pinakini,77.835278,13.060833,cascade-streams-dem
+asirvanam-ashram-1,asirvanam-ashram-2,dem,,asirvanam-ashram-2,,,0,0.35,Vrishabhavathi,77.468056,12.886667,cascade-streams-dem
+asirvanam-ashram-2,,,,,,asirvanam-ashram-1;kambhipura-govt-karabu-kere-2,1,0.73,Vrishabhavathi,77.468056,12.884167,cascade-streams-dem
+attibele-kere,arehalii-kere,dem,,arehalii-kere,,krishnasagara-lake-2,1,1.73,Dakshina Pinakini,77.756667,12.774167,cascade-streams-dem
+attur-kere,hullur-kere,dem,,hullur-kere,,nidigatte-kere,2,17.59,Dakshina Pinakini,77.858889,13.105,cascade-streams-dem
+atturu-kere,puttenahalli-lake,streams,puttenahalli-lake,puttenahalli-lake,True,ramagonddanahalli-kere;veerasagara-kere,2,8.94,Hebbal,77.565409,13.109928,cascade-streams-dem
+avadenahlli-lake,haleuru-lake,dem,,haleuru-lake,,karpuru-lake;rachamanahalli-north-lake,5,20.59,Dakshina Pinakini,77.718889,12.750556,cascade-streams-dem
+avalahalli-kere,avalahalli-kere-2,dem,,avalahalli-kere-2,,avalahalli-lake-2,1,1.94,Hebbal,77.56,13.140833,cascade-streams-dem
+avalahalli-kere-2,harohalli-kere,dem,,harohalli-kere,,avalahalli-kere,2,4.26,Hebbal,77.569444,13.14,cascade-streams-dem
+avalahalli-kere-3,huskur-govt-lake,dem,,huskur-govt-lake,,rayasandra-lake-2,1,0.54,Dakshina Pinakini,77.708056,12.876667,cascade-streams-dem
+avalahalli-lake,lagamenahalli-lake,dem,,lagamenahalli-lake,,,0,0.6,Dakshina Pinakini,77.746667,13.066667,cascade-streams-dem
+avalahalli-lake-2,avalahalli-kere,dem,,avalahalli-kere,,,0,0.5,Hebbal,77.555,13.138056,cascade-streams-dem
+avalakuppe-lake,,,,,,,0,0.22,Arkavathi,77.328889,12.996667,cascade-streams-dem
+averahalli-kere,,,,,,,0,1.31,Arkavathi,77.415556,13.038889,cascade-streams-dem
+averhalli-kere,kerekattiganuru-kere,dem,,kerekattiganuru-kere,,,0,1.46,Kumudvathi,77.255556,13.1925,cascade-streams-dem
+ayyannanapalya-lake,shantegaudanapalya-lake,dem,,shantegaudanapalya-lake,,,0,0.53,Kumudvathi,77.253333,13.281667,cascade-streams-dem
+b-channasandra-lake,kaggadasapura-lake,dem,,kaggadasapura-lake,,,0,1.82,Koramangala-Challaghatta,77.663889,12.9975,cascade-streams-dem
+b-narayanapura-kere,bande-mahadevapura-kere,dem,,bande-mahadevapura-kere,,,0,0.61,Koramangala-Challaghatta,77.683333,12.996389,cascade-streams-dem
+bachchahalli-kere,aradeshanahalli-kere,dem,,aradeshanahalli-kere,,lingadhiragollonahalli-kere;nagadenahalli-kere,5,29.84,Arkavathi,77.589722,13.258889,cascade-streams-dem
+badakukere,kommaghatta-govt-lake,dem,,kommaghatta-govt-lake,,,0,0.54,Vrishabhavathi,77.470278,12.956667,cascade-streams-dem
+bagalagunte-govt-lake,,,,,,,0,0.64,Arkavathi,77.498611,13.058611,cascade-streams-dem
+bagaluru-majare-kunte,chagalatti-lake,dem,,chagalatti-lake,,,0,0.77,Dakshina Pinakini,77.663056,13.1125,cascade-streams-dem
+bagur-lake,,,,,,,0,5.48,Dakshina Pinakini,77.839444,12.900556,cascade-streams-dem
+bail-narsapur-lake-1,doddaganahalli-lake,dem,,doddaganahalli-lake,,bail-narsapur-lake-2;bail-narsapur-lake-3;gundarahalli-lake-2,4,9.21,Palar,77.945556,13.179167,cascade-streams-dem
+bail-narsapur-lake-2,bail-narsapur-lake-1,dem,,bail-narsapur-lake-1,,bail-narsapur-lake-4,1,1.05,Palar,77.938889,13.173333,cascade-streams-dem
+bail-narsapur-lake-3,bail-narsapur-lake-1,dem,,bail-narsapur-lake-1,,sattigenahalli-lake-1,3,4.0,Palar,77.944167,13.174444,cascade-streams-dem
+bail-narsapur-lake-4,bail-narsapur-lake-2,dem,,bail-narsapur-lake-2,,,0,0.55,Palar,77.932778,13.171389,cascade-streams-dem
+bainahalli-lake,dodda-jala-amani-kere,dem,,dodda-jala-amani-kere,,gadenahali-lake,1,7.41,Dakshina Pinakini,77.626944,13.181667,cascade-streams-dem
+bairasandra-kere,lingapura-lake-2,dem,,lingapura-lake-2,,,0,1.75,Vrishabhavathi,77.487778,12.835278,cascade-streams-dem
+baiyappanahalli-kere,bidarahalli-kere,dem,,bidarahalli-kere,,gunduru-kere,1,11.91,Hebbal,77.724167,13.070556,cascade-streams-dem
+balchakuppe-lake,gangenahalli-lake,dem,,gangenahalli-lake,,,0,0.73,Arkavathi,77.4,12.9675,cascade-streams-dem
+balchakuppe-lake-1,,,,,,,0,0.22,Arkavathi,77.382778,12.970278,cascade-streams-dem
+balekere,ontekere,dem,,ontekere,,,0,0.36,Suvarnamukhi,77.534722,12.764167,cascade-streams-dem
+balligere-lake,kenchanapura-kere,dem,,kenchanapura-kere,,,0,1.67,Kumudvathi,77.365556,13.249167,cascade-streams-dem
+banahalli-kere-w,banahallli-kere,dem,,banahallli-kere,,giddlahallipura-kere;nadagudi-kere,1,4.61,Palar,77.907222,13.216944,cascade-streams-dem
+banahallli-kere,siddanhalli-lake-1,dem,,siddanhalli-lake-1,,banahalli-kere-w,2,6.28,Palar,77.913333,13.217778,cascade-streams-dem
+banavati-lake,,,,,,,0,4.35,Kumadvati,77.385,13.473889,cascade-streams-dem
+bande-mahadevapura-kere,doddanekundi-kere,streams,doddanekundi-kere,doddanekundi-kere,True,b-narayanapura-kere,1,1.1,Koramangala-Challaghatta,77.686511,12.991604,cascade-streams-dem
+bandenalasandra-lake,hennagara-kere,dem,,hennagara-kere,,kyalasanahalli-govt-lake,2,2.96,Dakshina Pinakini,77.652222,12.793889,cascade-streams-dem
+bandikodigenahalli-amani-kere,hunasuru-lake,dem,,hunasuru-lake,,dodda-jala-amani-kere;mallenahalli-lake;yartiganahalli-lake,3,50.59,Dakshina Pinakini,77.691111,13.178333,cascade-streams-dem
+bangalapet-lake,vidyanagar-lake,dem,,vidyanagar-lake,,uramundinakere,4,12.96,Dakshina Pinakini,77.688611,12.826111,cascade-streams-dem
+banhalli-lake,,,,,,tattanur-lake,4,11.26,Dakshina Pinakini,77.824167,12.918611,cascade-streams-dem
+bannamangala-n-kere,aradeshanahalli-kere,dem,,aradeshanahalli-kere,,,0,0.95,Arkavathi,77.577778,13.266389,cascade-streams-dem
+bannerghatta-lake,ragihalli-lake,dem,,ragihalli-lake,,bannerghatta-lake-2,5,2.29,Suvarnamukhi,77.5575,12.790833,cascade-streams-dem
+bannerghatta-lake-2,bannerghatta-lake,dem,,bannerghatta-lake,,hakkibikki-lake,4,2.07,Suvarnamukhi,77.561389,12.791389,cascade-streams-dem
+bannerughatta-kunte,bilwaradahalli-kere,dem,,bilwaradahalli-kere,,,0,0.26,Suvarnamukhi,77.578611,12.818889,cascade-streams-dem
+baradi-kere,beguru-kere,dem,,beguru-kere,,bhairanayakanahalli;chikkanahalli-down-kere;chikkanahalli-up;hasarahalli-kere,2,15.49,Kumudvathi,77.371389,13.176667,cascade-streams-dem
+basammanahalli-kere,,,,,,,0,0.34,Vrishabhavathi,77.350278,12.869167,cascade-streams-dem
+basavanagar-lake,rajapalya-hoodikere,dem,,rajapalya-hoodikere,,,0,0.39,Hebbal,77.714444,12.983889,cascade-streams-dem
+basavanapalya-lake,maragondanahalli-lak,dem,,maragondanahalli-lak,,,0,0.71,Vrishabhavathi,77.403611,12.929722,cascade-streams-dem
+basavanapura-kere,shegehalli-kere,dem,,shegehalli-kere,,,0,0.83,Hebbal,77.7125,13.010833,cascade-streams-dem
+basavanapura-kere-2,gottigere-kere,dem,,gottigere-kere,,,0,0.95,Koramangala-Challaghatta,77.588611,12.845833,cascade-streams-dem
+basavanapura-lake,aralamallige-kere,dem,,aralamallige-kere,,,0,0.24,Arkavathi,77.426944,13.333889,cascade-streams-dem
+bashettihalli-kere,virapura-kere,dem,,virapura-kere,,guddadahalli-kere,2,4.94,Arkavathi,77.555833,13.266389,cascade-streams-dem
+bavikere-kere,hanumanttanapalya-kere,dem,,hanumanttanapalya-kere,,obanayakanahalli-2r,1,2.54,Kumudvathi,77.364722,13.089722,cascade-streams-dem
+bayappanahalli-lake,yellamallappashetti-kere,dem,,yellamallappashetti-kere,,,0,0.04,Hebbal,77.706944,13.069444,cascade-streams-dem
+begihalli-govt-kere,hosakere-3,dem,,hosakere-3,,,0,0.72,Dakshina Pinakini,77.608889,12.794722,cascade-streams-dem
+begur-kere,cholapanahalli-kere,dem,,cholapanahalli-kere,,,0,7.62,Dakshina Pinakini,77.848333,13.138611,cascade-streams-dem
+begur-lake,agara-lake,streams,agara-lake,agara-lake,True,kelaginakere;mylasandra-dodda-agrahara-kere;vitasandra-govt-lake,3,12.52,Koramangala-Challaghatta,77.627071,12.87689,cascade-streams-dem
+beguru-kere,,,,,,baradi-kere;bettahalli-kere;bhairanahalli-5r;kachanahalli-kere,4,45.5,Kumudvathi,77.344444,13.148056,cascade-streams-dem
+belalu-kere,,,,,,chandrappa-circle-kere,1,1.6,Vrishabhavathi,77.380278,12.893333,cascade-streams-dem
+belkere-lake,,,,,,gonigatpura-lake-3,3,9.53,Dakshina Pinakini,77.799444,12.93,cascade-streams-dem
+bellandur-lake,varthur-lake,streams,varthur-lake,varthur-lake,True,agara-lake;hoysalanagara-lake;koramangala-kere-2;mestripalya-lake;ulsoor-lake,5,152.34,Koramangala-Challaghatta,77.678178,12.93883,cascade-streams-dem
+bellihalli-kere,kannuru-kere,dem,,kannuru-kere,,,0,1.65,Hebbal,77.643889,13.103333,cascade-streams-dem
+benachikal-lake,guttepalya-lake-2,dem,,guttepalya-lake-2,,,0,0.23,Suvarnamukhi,77.533056,12.796389,cascade-streams-dem
+bendiganahalli-lake,indlabele-kere,dem,,indlabele-kere,,,0,1.01,Dakshina Pinakini,77.741667,12.812222,cascade-streams-dem
+beratena-agrahara-lake,doddanagamanagala-lake,dem,,doddanagamanagala-lake,,,0,0.63,Dakshina Pinakini,77.661111,12.865556,cascade-streams-dem
+bettahalli-kere,beguru-kere,dem,,beguru-kere,,bettahalli-kere-2,1,4.75,Kumudvathi,77.375278,13.164167,cascade-streams-dem
+bettahalli-kere-2,bettahalli-kere,dem,,bettahalli-kere,,,0,3.35,Kumudvathi,77.384167,13.165278,cascade-streams-dem
+bettahallikaval-lake,kaggalhalli-lake,dem,,kaggalhalli-lake,,,0,0.97,Suvarnamukhi,77.510556,12.734722,cascade-streams-dem
+bettahalsur-kere,chikka-jala-amani-kere,dem,,chikka-jala-amani-kere,,,0,1.78,Dakshina Pinakini,77.614167,13.160833,cascade-streams-dem
+bettahalsur-narayanapura-kunte-newly-created,chikka-jala-amani-kere,dem,,chikka-jala-amani-kere,,,0,0.04,Dakshina Pinakini,77.599722,13.161389,cascade-streams-dem
+bettakote-amani-kere,bidarpura-lake,dem,,bidarpura-lake,,chikka-sanne-kere;dodda-sanne-kere;melinatota-kere,6,133.34,Dakshina Pinakini,77.737222,13.206389,cascade-streams-dem
+bettenahalli-lake,jalige-kere,dem,,jalige-kere,,maragondanahalli-quarry,1,2.9,Arkavathi,77.5925,13.209167,cascade-streams-dem
+bettrayandoddi-lake,rayaradoddi-lake,dem,,rayaradoddi-lake,,shanuboganahalli-lake,3,16.1,Suvarnamukhi,77.547778,12.817778,cascade-streams-dem
+bhaaktarahalli-lake-2,bhaktarahalli-lake,dem,,bhaktarahalli-lake,,,0,0.28,Arkavathi,77.428056,13.324167,cascade-streams-dem
+bhadripura-lake,karpuru-lake,dem,,karpuru-lake,,,0,1.27,Dakshina Pinakini,77.705556,12.708056,cascade-streams-dem
+bhairagaudanahalli-kere,gururvanahalli-kere,dem,,gururvanahalli-kere,,mallarabanavadi-kere-2,2,7.38,Arkavathi,77.372222,13.061389,cascade-streams-dem
+bhairanahali-lake-1,sonnanaikanahalli-lake,dem,,sonnanaikanahalli-lake,,,0,2.88,Dakshina Pinakini,77.927778,13.103611,cascade-streams-dem
+bhairanahalli-5r,beguru-kere,dem,,beguru-kere,,jakkanahalli-6r;minnapura-kere,3,11.0,Kumudvathi,77.348056,13.164167,cascade-streams-dem
+bhairanayakanahalli,baradi-kere,dem,,baradi-kere,,vadakunte-low-4r,1,3.56,Kumudvathi,77.367778,13.194167,cascade-streams-dem
+bhairanayakanahallipalya,hasarahalli-kere,dem,,hasarahalli-kere,,,0,1.67,Kumudvathi,77.381389,13.204167,cascade-streams-dem
+bhairapur-lake,kakolu-kere,dem,,kakolu-kere,,budamanahalli-lake;chokkanahalli-lake-2,2,8.32,Arkavathi,77.520278,13.197778,cascade-streams-dem
+bhairasandrapalya-lake,dodda-tumkur-kere,dem,,dodda-tumkur-kere,,gajagadahalli-kere,2,4.71,Arkavathi,77.513889,13.24,cascade-streams-dem
+bhairashettihalli-kere,tirumagondanapalya-kere,dem,,tirumagondanapalya-kere,,,0,2.41,Arkavathi,77.399444,13.155,cascade-streams-dem
+bhaktarahalli-kere,,,,,,kodihalli-kere-2;nadvatti-lake,7,79.09,Dakshina Pinakini,77.785556,13.016667,cascade-streams-dem
+bhaktarahalli-lake,rampura-lake-2,dem,,rampura-lake-2,,bhaaktarahalli-lake-2,1,1.57,Arkavathi,77.423889,13.3175,cascade-streams-dem
+bhaktipura-kere,arehalii-kere,dem,,arehalii-kere,,,0,0.87,Dakshina Pinakini,77.763333,12.753889,cascade-streams-dem
+bhattarahalli-kere,yellamallappashetti-kere,dem,,yellamallappashetti-kere,,,0,0.63,Hebbal,77.71,13.023611,cascade-streams-dem
+bheemanakuppe-kere,hunisemaradapalya-kere,dem,,hunisemaradapalya-kere,,,0,0.18,Vrishabhavathi,77.432778,12.906111,cascade-streams-dem
+bhimapura-kere,yelachchahalli-kere,dem,,yelachchahalli-kere,,shivanapura-kere,1,7.35,Dakshina Pinakini,77.911944,13.145833,cascade-streams-dem
+bhimaravutanahalli-lake,mallanayakanahalli-lake,dem,,mallanayakanahalli-lake,,,0,1.38,Arkavathi,77.415278,13.325,cascade-streams-dem
+bhimmanakuppe-govt-lake,halagevaderahalli-kere-2,dem,,halagevaderahalli-kere-2,,arehalli-kunte,1,0.68,Vrishabhavathi,77.528333,12.915556,cascade-streams-dem
+bhoganahalli-kere,varthur-lake,dem,,varthur-lake,,,0,0.41,Koramangala-Challaghatta,77.700278,12.923056,cascade-streams-dem
+bhov-palya-lake,sasalu-lake,dem,,sasalu-lake,,tammaganhalli-lake,1,2.46,Jayamangali,77.393889,13.409722,cascade-streams-dem
+bhovihalli-lake,hegganahalli-lake,dem,,hegganahalli-lake,,,0,2.06,Dakshina Pinakini,77.612222,13.213889,cascade-streams-dem
+bhujangadasana-amanikere-govt-lake,jigani-kere,dem,,jigani-kere,,damarasanakunte;hongekere;matadakere;sakalavara-govt-kharabu-lake,2,7.03,Dakshina Pinakini,77.613889,12.818889,cascade-streams-dem
+bhusandra-kere,,,,,,,0,0.23,Kumudvathi,77.319167,13.0775,cascade-streams-dem
+bhutanahlli-lake,rayaradoddi-lake,dem,,rayaradoddi-lake,,,0,0.29,Suvarnamukhi,77.556389,12.804167,cascade-streams-dem
+bidaluru-kere,devanahalli-kere,dem,,devanahalli-kere,,,0,3.75,Dakshina Pinakini,77.687222,13.286111,cascade-streams-dem
+bidaluru-kere-2,devanahalli-kere,dem,,devanahalli-kere,,,0,1.77,Dakshina Pinakini,77.681389,13.282778,cascade-streams-dem
+bidara-amanikere,kempu-vaderahalli-lake,dem,,kempu-vaderahalli-lake,,medihalli-lake;narayanapura-lake;nullvenkateshpuram-1-lake;telagarahalli-lake,2,13.67,Dakshina Pinakini,77.687222,12.718056,cascade-streams-dem
+bidarahalli-kere,yellamallappashetti-kere,dem,,yellamallappashetti-kere,,baiyappanahalli-kere,2,14.4,Hebbal,77.722222,13.062222,cascade-streams-dem
+bidareagrahara-kere,,,,,,khajisonnenahalli-kunte4,1,0.88,Hebbal,77.746389,13.032222,cascade-streams-dem
+bidarguppe-kere,,,,,,lower-medhalli-kere,1,3.84,Dakshina Pinakini,77.792778,12.806111,cascade-streams-dem
+bidarpura-lake,hosakote-doddaamanikere,dem,,hosakote-doddaamanikere,,bettakote-amani-kere,7,145.26,Dakshina Pinakini,77.773333,13.183333,cascade-streams-dem
+bidikere,kachiganal-n-kere,dem,,kachiganal-n-kere,,chaugondanahalli-kere,2,23.1,Arkavathi,77.606944,13.352222,cascade-streams-dem
+bikkanhalli-lake,adigondanahalli-kere,dem,,adigondanahalli-kere,,hosahalli-govt-lake,1,2.71,Dakshina Pinakini,77.760833,12.838333,cascade-streams-dem
+bilijaji-kere,,,,,,guddadahalli-lake,1,2.7,Arkavathi,77.468611,13.132222,cascade-streams-dem
+billapura-govt-kere,sarjapur-lake,dem,,sarjapur-lake,,,0,0.96,Dakshina Pinakini,77.787222,12.840278,cascade-streams-dem
+bilwaradahalli-kere,shanuboganahalli-lake,dem,,shanuboganahalli-lake,,bannerughatta-kunte;kalkere-sarkari-kunte;kallukere-kunte;ramegowdanakere,1,3.59,Suvarnamukhi,77.574722,12.831389,cascade-streams-dem
+bimanakuppe-kere,,,,,,,0,0.02,Vrishabhavathi,77.454722,12.908056,cascade-streams-dem
+bingipura-lake,varadanakunte,dem,,varadanakunte,,,0,0.79,Dakshina Pinakini,77.628333,12.822222,cascade-streams-dem
+binnamangala-kere-l,yedahala-lake,dem,,yedahala-lake,,binnamangala-kere-u,2,7.72,Dakshina Pinakini,77.746389,13.258611,cascade-streams-dem
+binnamangala-kere-u,binnamangala-kere-l,dem,,binnamangala-kere-l,,lalagondanahalli-kere,1,6.79,Dakshina Pinakini,77.745556,13.261111,cascade-streams-dem
+biranapalya-kere,hosahalli-lake-2,dem,,hosahalli-lake-2,,,0,2.38,Arkavathi,77.456111,13.18,cascade-streams-dem
+birgondanahalli-kere,tyamagondal-kere,dem,,tyamagondal-kere,,,0,0.73,Kumudvathi,77.277778,13.219167,cascade-streams-dem
+bodanahosahalli-kere-n,sametanahali-lake,dem,,sametanahali-lake,,,0,1.1,Dakshina Pinakini,77.800278,12.984722,cascade-streams-dem
+bodanahosahalli-lake,sametanahali-lake,dem,,sametanahali-lake,,,0,1.95,Dakshina Pinakini,77.802222,12.981944,cascade-streams-dem
+bommalingayyanapalya-lake,siddayyanpalya-lake,dem,,siddayyanpalya-lake,,,0,0.89,Jayamangali,77.261944,13.290833,cascade-streams-dem
+bommanahalli-lake,hosakote-doddaamanikere,dem,,hosakote-doddaamanikere,,,0,2.81,Dakshina Pinakini,77.745278,13.078056,cascade-streams-dem
+bommanahalli-lake-2,vanigarahalli-lake,dem,,vanigarahalli-lake,,,0,0.45,Arkavathi,77.434444,13.348333,cascade-streams-dem
+bommanahalli-lower,bommanahalli-up3r,dem,,bommanahalli-up3r,,,0,0.58,Kumudvathi,77.364167,13.120833,cascade-streams-dem
+bommanahalli-up3r,virapanjipura-lower5,dem,,virapanjipura-lower5,,bommanahalli-lower,1,1.26,Kumudvathi,77.362778,13.125278,cascade-streams-dem
+bommasandra-lake,kittiganahalli-lake,dem,,kittiganahalli-lake,,,0,1.86,Dakshina Pinakini,77.691111,12.808056,cascade-streams-dem
+bommashettihalli-kere,honnasandra-kere,dem,,honnasandra-kere,,gopalpura-kere;hadyalu-kere,3,21.59,Arkavathi,77.433889,13.125833,cascade-streams-dem
+budamanahalli-lake,bhairapur-lake,dem,,bhairapur-lake,,arekere-lake-2,1,1.89,Arkavathi,77.531389,13.195556,cascade-streams-dem
+budigere-amani-kere,hosakote-doddaamanikere,dem,,hosakote-doddaamanikere,,mahadeva-kodigehalli-lake;singahalli-lake,6,142.7,Dakshina Pinakini,77.751111,13.141111,cascade-streams-dem
+bukkasagara-lake,jigani-kere,dem,,jigani-kere,,ramasagara-lake,1,1.61,Dakshina Pinakini,77.623333,12.783889,cascade-streams-dem
+buragkunte-lake,sarjapur-lake,dem,,sarjapur-lake,,,0,0.72,Dakshina Pinakini,77.780556,12.840556,cascade-streams-dem
+byadarahalli-kere,govindapura-lo-kere,dem,,govindapura-lo-kere,,tippagondanhalli-low-kere,2,2.0,Kumudvathi,77.315,13.148889,cascade-streams-dem
+byadarahalli-lake,melangavimath-lake,dem,,melangavimath-lake,,sigepalya-lake,1,2.36,Kumudvathi,77.236111,13.159167,cascade-streams-dem
+byagadadenhalli-kere-2,haleuru-lake,dem,,haleuru-lake,,,0,0.72,Dakshina Pinakini,77.6975,12.751389,cascade-streams-dem
+byalhalli-lake,,,,,,yadgondahalli-lake,5,25.54,Dakshina Pinakini,77.810278,12.936389,cascade-streams-dem
+byappanahalli-kere,ulsoor-lake,streams,ulsoor-lake,ulsoor-lake,True,,0,7.17,Koramangala-Challaghatta,77.619572,12.990493,cascade-streams-dem
+byappanahalli-lake,sathanur-kere,dem,,sathanur-kere,,,0,1.25,Dakshina Pinakini,77.650833,13.125,cascade-streams-dem
+bydarahalli-kere-s,chikka-sanne-kere,dem,,chikka-sanne-kere,,,0,0.65,Dakshina Pinakini,77.667222,13.277222,cascade-streams-dem
+byrasandra,byrasandra-2,streams,byrasandra-2,byrasandra-2,True,,0,1.14,Koramangala-Challaghatta,77.656791,12.979105,cascade-streams-dem
+byrasandra-2,kaggadasapura-lake,streams,kaggadasapura-lake,kaggadasapura-lake,True,byrasandra,1,1.57,Koramangala-Challaghatta,77.662902,12.978272,cascade-streams-dem
+byrasandra-kere,tavarekere-lake,streams,tavarekere-lake,tavarekere-lake,True,,0,1.39,Koramangala-Challaghatta,77.599018,12.930497,cascade-streams-dem
+byyandanahalli-kere,,,,,,kachohalli-kere,3,15.88,Arkavathi,77.446389,13.007222,cascade-streams-dem
+carmelarm,gunjuruplaya-kere,dem,,gunjuruplaya-kere,,gunjuru-kunte5,1,0.65,Koramangala-Challaghatta,77.711389,12.917778,cascade-streams-dem
+chagalatti-kunte-2,mahadevanakodag-lake,dem,,mahadevanakodag-lake,,chagalatti-lake,2,4.44,Dakshina Pinakini,77.675278,13.126944,cascade-streams-dem
+chagalatti-lake,chagalatti-kunte-2,dem,,chagalatti-kunte-2,,bagaluru-majare-kunte,1,2.03,Dakshina Pinakini,77.663889,13.119722,cascade-streams-dem
+chalamakunti-lake,hittarahalli-lake,dem,,hittarahalli-lake,,chalamakunti-lake-2,1,4.63,Dakshina Pinakini,77.732222,13.126111,cascade-streams-dem
+chalamakunti-lake-2,chalamakunti-lake,dem,,chalamakunti-lake,,,0,1.49,Dakshina Pinakini,77.726389,13.115,cascade-streams-dem
+challahalli-lake,kakolu-kere,dem,,kakolu-kere,,karimsonnenahalli-kere,1,7.29,Arkavathi,77.515833,13.219167,cascade-streams-dem
+chaluvekere,,,,,,rampura-kere-2,1,0.83,Vrishabhavathi,77.440556,12.875,cascade-streams-dem
+chandrappa-circle-kere,belalu-kere,dem,,belalu-kere,,,0,0.47,Vrishabhavathi,77.374722,12.901667,cascade-streams-dem
+chandrashekarapura-kere,hulimavu-kere,dem,,hulimavu-kere,,swarna-kunte-gudde-lake,1,0.33,Koramangala-Challaghatta,77.605,12.864167,cascade-streams-dem
+channadevi-agrahara,gadigarapalya-kere,dem,,gadigarapalya-kere,,mallonalli-lake,1,1.65,Arkavathi,77.461111,13.214722,cascade-streams-dem
+channarayapatna-lake,hosakote-doddaamanikere,dem,,hosakote-doddaamanikere,,yedahala-lake,4,46.43,Dakshina Pinakini,77.799167,13.248889,cascade-streams-dem
+channasandra-kunte2,rampura-kere,dem,,rampura-kere,,,0,0.02,Hebbal,77.680833,13.039444,cascade-streams-dem
+channatimmayyanapalya-lake,hosahalli-kere,dem,,hosahalli-kere,,,0,0.66,Kumudvathi,77.263889,13.212778,cascade-streams-dem
+channenahalli-lake,,,,,,nagana-kere,1,1.93,Arkavathi,77.42,12.985278,cascade-streams-dem
+chaugondanahalli-kere,bidikere,dem,,bidikere,,chennapura-kere;tapasipura-kere;tapasipura-kere-2,1,17.34,Arkavathi,77.623889,13.358056,cascade-streams-dem
+chavdappanhalli-lake,hosakote-doddaamanikere,dem,,hosakote-doddaamanikere,,,0,0.4,Dakshina Pinakini,77.759444,13.152778,cascade-streams-dem
+chellakere-kere,kalkere-kere,streams,kalkere-kere,kalkere-kere,True,,0,6.11,Hebbal,77.64457,13.028268,cascade-streams-dem
+chengirayanapura-kere,tammrayasandra-kere,dem,,tammrayasandra-kere,,,0,1.82,Dakshina Pinakini,77.870833,13.174167,cascade-streams-dem
+chennadasipalya-lake,yellachikuppe-lake,dem,,yellachikuppe-lake,,,0,0.36,Vrishabhavathi,77.416944,12.961944,cascade-streams-dem
+chennapura-kere,chaugondanahalli-kere,dem,,chaugondanahalli-kere,,,0,4.04,Arkavathi,77.636667,13.369444,cascade-streams-dem
+chenvinayanahalli-kere,,,,,,somapura-kere,2,6.13,Vrishabhavathi,77.481667,12.874444,cascade-streams-dem
+chichuruaganapalli-lake,kagganur-n,dem,,kagganur-n,,,0,1.57,Dakshina Pinakini,77.802222,12.845,cascade-streams-dem
+chikadasarahalli-kere-n,ittangur-kere,dem,,ittangur-kere,,,0,0.71,Dakshina Pinakini,77.7875,12.892778,cascade-streams-dem
+chikadasarahalli-kere-s,ittangur-kere,dem,,ittangur-kere,,,0,0.78,Dakshina Pinakini,77.781389,12.888333,cascade-streams-dem
+chikka-hejjaji-lake,mallohalli-kere,dem,,mallohalli-kere,,,0,0.01,Arkavathi,77.431667,13.275278,cascade-streams-dem
+chikka-jala-amani-kere,dodda-jala-amani-kere,dem,,dodda-jala-amani-kere,,bettahalsur-kere;bettahalsur-narayanapura-kunte-newly-created,1,8.81,Dakshina Pinakini,77.631667,13.175278,cascade-streams-dem
+chikka-kammanahalli,kammanahalli-lake,dem,,kammanahalli-lake,,,0,1.23,Koramangala-Challaghatta,77.602778,12.849444,cascade-streams-dem
+chikka-kammanahalli-e,mylasandra-dodda-agrahara-kere,dem,,mylasandra-dodda-agrahara-kere,,mylasandra-hosakere,1,1.39,Koramangala-Challaghatta,77.618333,12.853611,cascade-streams-dem
+chikka-mankalal-lake,tanniranhalli-lake,dem,,tanniranhalli-lake,,,0,1.19,Jayamangali,77.357222,13.307222,cascade-streams-dem
+chikka-sanne-kere,bettakote-amani-kere,dem,,bettakote-amani-kere,,amanimulli-kere;bydarahalli-kere-s,5,50.41,Dakshina Pinakini,77.686667,13.235,cascade-streams-dem
+chikka-taggali-kere,gonakanahalli-kere,dem,,gonakanahalli-kere,,,0,6.94,Dakshina Pinakini,77.883611,13.056667,cascade-streams-dem
+chikkaamani-kere,hosakote-doddaamanikere,dem,,hosakote-doddaamanikere,,dandupalya-lake;hullur-kere;kolatur-kere;kurubarhalli-lake,6,158.11,Dakshina Pinakini,77.7825,13.083333,cascade-streams-dem
+chikkabanahalli-kere,valagerekalahalli-kere,dem,,valagerekalahalli-kere,,tigalara-chowddenahalli-govt-karabukere,1,3.89,Dakshina Pinakini,77.762778,12.885,cascade-streams-dem
+chikkabanavara-kere,,,,,,abbigere-kere;kammagondanahalli-lake;lakshmipura-kere;mallasandra-gudde-lake;mallasandra-lake-2,3,21.38,Arkavathi,77.504722,13.085278,cascade-streams-dem
+chikkabegur-kere,agara-lake,streams,agara-lake,agara-lake,True,kodagi-singasandra-kere;singasandra,1,3.34,Koramangala-Challaghatta,77.634848,12.884945,cascade-streams-dem
+chikkabellanduru-kere,gunjuruplaya-kere,streams,gunjuruplaya-kere,gunjuruplaya-kere,True,gramadakere-2;malluru-kunte;mullur-lake;mulluru-kere;sulakunte-kunte7,2,12.36,Koramangala-Challaghatta,77.720675,12.916887,cascade-streams-dem
+chikkabettahalli,veerasagara-kere,dem,,veerasagara-kere,,,0,0.18,Hebbal,77.556667,13.093333,cascade-streams-dem
+chikkagubbi-kere,doddagubbi-kere,dem,,doddagubbi-kere,,kannuru-kere,2,12.79,Hebbal,77.665278,13.085833,cascade-streams-dem
+chikkakalenahalli-lake,sakkare-gollahalli-lake,dem,,sakkare-gollahalli-lake,,chikkakalenahalli-lake-2,1,2.61,Arkavathi,77.405278,13.335833,cascade-streams-dem
+chikkakalenahalli-lake-2,chikkakalenahalli-lake,dem,,chikkakalenahalli-lake,,,0,0.51,Arkavathi,77.414722,13.335,cascade-streams-dem
+chikkakere,kommaghatta-govt-lake,dem,,kommaghatta-govt-lake,,,0,0.99,Vrishabhavathi,77.470556,12.945833,cascade-streams-dem
+chikkaluru-kere,chikkaluru-rampura-kere,dem,,chikkaluru-rampura-kere,,ramohalli-kere;thimappanakere,4,9.2,Vrishabhavathi,77.4275,12.893333,cascade-streams-dem
+chikkaluru-rampura-kere,,,,,,chikkaluru-kere;chikkelluru-kere;lakkayanapalya-kere,5,17.93,Vrishabhavathi,77.433056,12.8825,cascade-streams-dem
+chikkanaga-mangala-kunte-1,huskur-govt-lake,dem,,huskur-govt-lake,,,0,0.0,Dakshina Pinakini,77.698611,12.86,cascade-streams-dem
+chikkanagamangala-govt-kere,govt-gulimangalada-lake,dem,,govt-gulimangalada-lake,,,0,1.45,Dakshina Pinakini,77.691111,12.854444,cascade-streams-dem
+chikkanahalli-down-kere,baradi-kere,dem,,baradi-kere,,,0,1.65,Kumudvathi,77.386389,13.184444,cascade-streams-dem
+chikkanahalli-kere-n,pachapalya-kere-e,dem,,pachapalya-kere-e,,,0,0.03,Vrishabhavathi,77.349167,12.888056,cascade-streams-dem
+chikkanahalli-lake,indlavadi-lake,dem,,indlavadi-lake,,indlavadipura-lake,1,0.93,Arkavathi,77.646111,12.719444,cascade-streams-dem
+chikkanahalli-lake-2,siddayyanpalya-lake,dem,,siddayyanpalya-lake,,,0,4.73,Jayamangali,77.294167,13.299167,cascade-streams-dem
+chikkanahalli-lake-2-2,shravanur-lake-2,dem,,shravanur-lake-2,,,0,0.6,Arkavathi,77.446389,13.3175,cascade-streams-dem
+chikkanahalli-lake-3,shravanur-lake-2,dem,,shravanur-lake-2,,,0,0.96,Arkavathi,77.442222,13.321667,cascade-streams-dem
+chikkanahalli-up,baradi-kere,dem,,baradi-kere,,,0,0.69,Kumudvathi,77.378889,13.188333,cascade-streams-dem
+chikkanekundi-lake-land,govt-mutsandra-kere,dem,,govt-mutsandra-kere,,halasahalli-thippasandra-kunte-2;tippasandra-lake,4,8.1,Dakshina Pinakini,77.773056,12.931111,cascade-streams-dem
+chikkannayyan-kere,govindapura-lo-kere,dem,,govindapura-lo-kere,,dodderi-kere-2;govanhalli-kere;kodihalli-kere;lakkenahalli-kere-2;mahimpura-kere;sondilvadi-kere,7,151.28,Kumudvathi,77.304722,13.164444,cascade-streams-dem
+chikkatogur-kere,doddatogur-lake,dem,,doddatogur-lake,,,0,1.2,Dakshina Pinakini,77.645833,12.850833,cascade-streams-dem
+chikkavaderapura-govt-karabu-kunte,govt-kere-2,dem,,govt-kere-2,,,0,0.0,Dakshina Pinakini,77.7525,12.895833,cascade-streams-dem
+chikkavaderapura-govt-kunte-2,heggondanalli-govt-lake,dem,,heggondanalli-govt-lake,,,0,0.02,Koramangala-Challaghatta,77.748889,12.896111,cascade-streams-dem
+chikkelluru-kere,chikkaluru-rampura-kere,dem,,chikkaluru-rampura-kere,,chikkelluru-kunte-2,1,0.16,Vrishabhavathi,77.419722,12.879722,cascade-streams-dem
+chikkelluru-kunte-1,,,,,,,0,0.18,Vrishabhavathi,77.418611,12.873611,cascade-streams-dem
+chikkelluru-kunte-2,chikkelluru-kere,dem,,chikkelluru-kere,,,0,0.01,Vrishabhavathi,77.418889,12.877222,cascade-streams-dem
+chikkobanahalli-kere,nagadenahalli-kere,dem,,nagadenahalli-kere,,hosuru-kere;managondanahalli-kere,3,11.35,Arkavathi,77.609167,13.285833,cascade-streams-dem
+chikkondahalli-lake-2,chikkondahalli-lake-3,dem,,chikkondahalli-lake-3,,tarabahalli-lake,2,10.3,Palar,77.938333,13.232778,cascade-streams-dem
+chikkondahalli-lake-3,,,,,,chikkondahalli-lake-2,3,12.61,Palar,77.946667,13.230556,cascade-streams-dem
+chimachanahalli-lake,hosakote-doddaamanikere,dem,,hosakote-doddaamanikere,,tellohalli-lake,2,21.77,Dakshina Pinakini,77.7825,13.209722,cascade-streams-dem
+chimasandra-kere,yellamallappashetti-kere,dem,,yellamallappashetti-kere,,,0,2.68,Hebbal,77.738889,13.042778,cascade-streams-dem
+chinakurchi-kunte2,chinnakurchi-kere-2,dem,,chinnakurchi-kere-2,,,0,0.57,Vrishabhavathi,77.463889,12.8125,cascade-streams-dem
+chindanahalli-kere,mugbal-kere,dem,,mugbal-kere,,,0,0.9,Dakshina Pinakini,77.901389,13.109167,cascade-streams-dem
+chinna-agraharam-lake,madivalam-lake,dem,,madivalam-lake,,,0,1.09,Dakshina Pinakini,77.750833,12.708889,cascade-streams-dem
+chinna-kempanahalli-kere,sikayanahalli-kere,dem,,sikayanahalli-kere,,,0,0.43,Dakshina Pinakini,77.625278,13.273889,cascade-streams-dem
+chinnakurchi-kere-1,lingapura-lake-2,dem,,lingapura-lake-2,,chinnakurchi-kere-2,2,4.07,Vrishabhavathi,77.464444,12.822222,cascade-streams-dem
+chinnakurchi-kere-2,chinnakurchi-kere-1,dem,,chinnakurchi-kere-1,,chinakurchi-kunte2,1,3.18,Vrishabhavathi,77.465,12.819444,cascade-streams-dem
+chinnammanakere,,,,,,,0,0.11,Suvarnamukhi,77.500833,12.832222,cascade-streams-dem
+chinnappanahalli-kere1,acchanakere,dem,,acchanakere,,,0,1.05,Koramangala-Challaghatta,77.7075,12.965,cascade-streams-dem
+chittekarepalya-lake,matadakere,dem,,matadakere,,,0,0.43,Dakshina Pinakini,77.621667,12.830556,cascade-streams-dem
+chokkanahalli-lake,agrahara-lake,dem,,agrahara-lake,,,0,0.6,Hebbal,77.629167,13.085,cascade-streams-dem
+chokkanahalli-lake-2,bhairapur-lake,dem,,bhairapur-lake,,chokkanahalli-lake-2-kere,1,4.18,Arkavathi,77.525278,13.189167,cascade-streams-dem
+chokkanahalli-lake-2-kere,chokkanahalli-lake-2,dem,,chokkanahalli-lake-2,,,0,2.07,Arkavathi,77.531944,13.180556,cascade-streams-dem
+chokkasandra-lake,harohall-govt-lake,dem,,harohall-govt-lake,,,0,0.71,Dakshina Pinakini,77.725556,12.868889,cascade-streams-dem
+cholanayakanahalli-kere-l,,,,,,,0,0.14,Arkavathi,77.364444,12.958611,cascade-streams-dem
+cholapanahalli-kere,hullur-kere,dem,,hullur-kere,,begur-kere,1,13.83,Dakshina Pinakini,77.848611,13.119722,cascade-streams-dem
+choodasandra-govt-lake,govt-vaddakere,dem,,govt-vaddakere,,,0,0.79,Koramangala-Challaghatta,77.679722,12.887222,cascade-streams-dem
+choudahalli-lake,nelaguli-lake,dem,,nelaguli-lake,,dinnepalya-lake,1,8.09,Suvarnamukhi,77.494167,12.777222,cascade-streams-dem
+chunchanaghatta-kere,sarakki-lake,streams,sarakki-lake,sarakki-lake,True,kothanaru-kere,1,2.85,Koramangala-Challaghatta,77.573742,12.891889,cascade-streams-dem
+chunchnakuppe-kere,,,,,,,0,0.44,Vrishabhavathi,77.379444,12.9075,cascade-streams-dem
+chunchnakuppe-kere-e,,,,,,kallupallya-kere;muddinapalya-lake,3,3.7,Vrishabhavathi,77.381111,12.911667,cascade-streams-dem
+chunchnakuppe-kere-s,,,,,,,0,0.58,Vrishabhavathi,77.390556,12.905556,cascade-streams-dem
+d-shettihalli-kere,doddenahalli-kere,dem,,doddenahalli-kere,,,0,2.94,Dakshina Pinakini,77.88,13.155278,cascade-streams-dem
+dakshina-pinakini-r,,,,,,,0,0.63,Dakshina Pinakini,77.838333,12.888889,cascade-streams-dem
+damarasanakunte,bhujangadasana-amanikere-govt-lake,dem,,bhujangadasana-amanikere-govt-lake,,sarka-kunte,1,0.41,Dakshina Pinakini,77.616667,12.836111,cascade-streams-dem
+dandupalya-lake,chikkaamani-kere,dem,,chikkaamani-kere,,,0,2.27,Dakshina Pinakini,77.815556,13.074722,cascade-streams-dem
+dasanapura-kunte-2,,,,,,,0,0.02,Arkavathi,77.433333,13.065833,cascade-streams-dem
+dasanapura-lake,juzuvadi-kere,dem,,juzuvadi-kere,,,0,1.08,Dakshina Pinakini,77.771111,12.7475,cascade-streams-dem
+dasanayakanahalli-kere,mahadevanakodag-lake,dem,,mahadevanakodag-lake,,marenahalli-chokkanahalli-kunte-new,1,1.96,Dakshina Pinakini,77.691389,13.114722,cascade-streams-dem
+dasanayakanahalli-kunte,mahadeva-kodigehalli-lake,dem,,mahadeva-kodigehalli-lake,,,0,0.01,Dakshina Pinakini,77.695556,13.121111,cascade-streams-dem
+dasarahalli-kere,doddabidarakallu-lake,streams,doddabidarakallu-lake,doddabidarakallu-lake,True,,0,4.21,Arkavathi,77.510691,13.040489,cascade-streams-dem
+dasarahalli-kere-2,hosakote-doddaamanikere,dem,,hosakote-doddaamanikere,,dodda-sagarahalli-kere;sonnenahalli-kere-2,4,38.24,Dakshina Pinakini,77.723889,13.319167,cascade-streams-dem
+deevatigeramnahalli-kere,,,,,,,0,0.76,Vrishabhavathi,77.530556,12.948611,cascade-streams-dem
+degonahalli-kere,tonachinakuppre-kere,dem,,tonachinakuppre-kere,,,0,0.49,Kumudvathi,77.360833,13.143889,cascade-streams-dem
+degonahalli-lower-kere,virapanjipura-5r,dem,,virapanjipura-5r,,,0,0.51,Kumudvathi,77.371667,13.138611,cascade-streams-dem
+deshpande-guttahalli-lake,,,,,,arehalli-lake-2,1,1.61,Dakshina Pinakini,77.821667,12.925556,cascade-streams-dem
+devaganahalli-lake,devara-kere,dem,,devara-kere,,kengal-lake,1,4.35,"unnamed, leaves to W",77.211389,13.2025,cascade-streams-dem
+devagere-kere,lingapura-lake-2,dem,,lingapura-lake-2,,,0,0.82,Vrishabhavathi,77.463056,12.853056,cascade-streams-dem
+devagondi-kere,oblapura-lake,dem,,oblapura-lake,,,0,1.65,Dakshina Pinakini,77.837222,12.976111,cascade-streams-dem
+devamachehalli-lake,,,,,,,0,0.49,Arkavathi,77.384444,12.967222,cascade-streams-dem
+devanahalli-kere,melinatota-kere,dem,,melinatota-kere,,bidaluru-kere;bidaluru-kere-2;maligenahalli-kere,1,10.72,Dakshina Pinakini,77.6975,13.278611,cascade-streams-dem
+devangondi-lake,oblapura-lake,dem,,oblapura-lake,,lingdir-malasandra-lake;medhalli-lake,1,4.14,Dakshina Pinakini,77.841389,12.971111,cascade-streams-dem
+devara-kere,,,,,,devaganahalli-lake;kulaghatta;lakkanapalya-lake;lakkanapalya-lake-2,2,19.75,"unnamed, leaves to W",77.203611,13.194444,cascade-streams-dem
+devarabisanahalli-kere,varthur-lake,streams,varthur-lake,varthur-lake,True,,0,1.1,Koramangala-Challaghatta,77.686511,12.924942,cascade-streams-dem
+devarahalli-lake,tindlu-lake,dem,,tindlu-lake,,,0,0.53,Arkavathi,77.603056,13.238611,cascade-streams-dem
+devarakere,doraikere,streams,doraikere,doraikere,True,vasanthapura-katte,2,1.77,Vrishabhavathi,77.554854,12.898833,cascade-streams-dem
+dhandithimmayyanapalya-lake,,,,,,,0,1.36,Jayamangali,77.353056,13.362222,cascade-streams-dem
+dibburu-kere,koluvarayanahalli-lake,dem,,koluvarayanahalli-lake,,hosa-kere;ittagalapura-kere;madappanahalli-lake-2-2,3,5.46,Arkavathi,77.535,13.163889,cascade-streams-dem
+dinne-soluru-kere,solluru-kere,dem,,solluru-kere,,sikayanahalli-kere,2,7.8,Dakshina Pinakini,77.646944,13.268611,cascade-streams-dem
+dinnehalli-tanda-lake,sonnenahalli-lake-2,dem,,sonnenahalli-lake-2,,,0,0.89,Kumadvati,77.470278,13.371389,cascade-streams-dem
+dinnepalya-lake,choudahalli-lake,dem,,choudahalli-lake,,,0,1.18,Suvarnamukhi,77.488611,12.809722,cascade-streams-dem
+dobbasapete-lake,lakkuru-lake,dem,,lakkuru-lake,,,0,1.85,Kumudvathi,77.246389,13.228611,cascade-streams-dem
+dodbele-kere,kalalghatta-kere,dem,,kalalghatta-kere,,tadsighatta-kere,3,17.72,Kumudvathi,77.332778,13.223611,cascade-streams-dem
+dodda-bettahalli,vaderahalli-kere,dem,,vaderahalli-kere,,,0,0.16,Arkavathi,77.553056,13.0925,cascade-streams-dem
+dodda-bommasandra-lake,hebbal-lake,streams,hebbal-lake,hebbal-lake,True,narasipura-lake-1,2,10.34,Hebbal,77.566242,13.061876,cascade-streams-dem
+dodda-chimanahalli,naraganahalli-lake,dem,,naraganahalli-lake,,,0,0.76,Dakshina Pinakini,77.618056,13.245556,cascade-streams-dem
+dodda-hejjaji-lake,mallohalli-kere,dem,,mallohalli-kere,,kasaghatta-lake,3,14.32,Arkavathi,77.406111,13.277222,cascade-streams-dem
+dodda-jala-amani-kere,bandikodigenahalli-amani-kere,dem,,bandikodigenahalli-amani-kere,,bainahalli-lake;chikka-jala-amani-kere;tarabanahalli-lake,2,27.27,Dakshina Pinakini,77.650556,13.174444,cascade-streams-dem
+dodda-koliga-kere,sulibelekere,dem,,sulibelekere,,,0,4.92,Dakshina Pinakini,77.835556,13.164444,cascade-streams-dem
+dodda-nallala-kere,nidigatte-kere,dem,,nidigatte-kere,,,0,2.58,Dakshina Pinakini,77.892222,13.084167,cascade-streams-dem
+dodda-sagarahalli-kere,dasarahalli-kere-2,dem,,dasarahalli-kere-2,,,0,11.84,Dakshina Pinakini,77.695278,13.331667,cascade-streams-dem
+dodda-sanne-kere,bettakote-amani-kere,dem,,bettakote-amani-kere,,kannamangala-kere-2,4,28.68,Dakshina Pinakini,77.694722,13.223333,cascade-streams-dem
+dodda-thimmasandra-kere-s,,,,,,mahalchouadenahalli-kere-n;mahalchoudadenahalli-kere-e;sarjapur-lake;valagerekalahalli-kere,4,46.2,Dakshina Pinakini,77.818611,12.876667,cascade-streams-dem
+dodda-tumkur-kere,kakolu-kere,dem,,kakolu-kere,,aralamallige-kere;bhairasandrapalya-lake;virapura-kere,8,273.88,Arkavathi,77.528333,13.229167,cascade-streams-dem
+dodda-vadagere-kere,puttenahalli-kere,dem,,puttenahalli-kere,,halenahalli-kere;halenahalli-kere-s,2,6.88,Arkavathi,77.406944,13.216389,cascade-streams-dem
+doddaballapur-kere,virapura-kere,dem,,virapura-kere,,mutturu-kere;pindkur;pindkur-timmanahalli-kere;siddenayakanahalli-kere-u,6,95.43,Arkavathi,77.548611,13.289167,cascade-streams-dem
+doddabanahalli-kere,,,,,,,0,1.12,Hebbal,77.755278,13.021667,cascade-streams-dem
+doddabele-small-2r,konana-kere,dem,,konana-kere,,kollipaya-2r,1,1.55,Kumudvathi,77.355833,13.216667,cascade-streams-dem
+doddabidarakallu-lake,madavara-kere,dem,,madavara-kere,,dasarahalli-kere,1,8.46,Arkavathi,77.493333,13.043056,cascade-streams-dem
+doddadunnasandra-lake,medimalsandra-lake-2,dem,,medimalsandra-lake-2,,,0,1.87,Dakshina Pinakini,77.825556,12.970833,cascade-streams-dem
+doddaganahalli-lake,,,,,,bail-narsapur-lake-1;n-hosahalli-lake,5,27.72,Palar,77.948333,13.190278,cascade-streams-dem
+doddaghataginebbe-lake,,,,,,,0,2.63,Dakshina Pinakini,77.787778,13.040833,cascade-streams-dem
+doddagubbi-kere,rampura-kere,dem,,rampura-kere,,chikkagubbi-kere;yarappanahalli-kere,3,21.02,Hebbal,77.674444,13.073611,cascade-streams-dem
+doddakallasandra-lake,o-b-chudanahalli-lake,dem,,o-b-chudanahalli-lake,,,0,1.25,Suvarnamukhi,77.56,12.881944,cascade-streams-dem
+doddakanneli-gramadakere,sowl-kere,streams,sowl-kere,sowl-kere,True,,0,0.61,Koramangala-Challaghatta,77.690399,12.910221,cascade-streams-dem
+doddakarenahalli-kere,,,,,,,0,1.31,Kumudvathi,77.348611,13.071111,cascade-streams-dem
+doddakodlu,haraluru-kere,streams,haraluru-kere,haraluru-kere,True,karabu-kere-konappana-agrahara-lake;parapana-agahara-lake,1,3.04,Koramangala-Challaghatta,77.663457,12.887445,cascade-streams-dem
+doddanagamanagala-lake,gattihalli-govt-lake,dem,,gattihalli-govt-lake,,beratena-agrahara-lake;doddatogur-lake;konappana-agrahara-lake,2,11.65,Dakshina Pinakini,77.68,12.871111,cascade-streams-dem
+doddanekundi-kere,varthur-lake,streams,varthur-lake,varthur-lake,True,bande-mahadevapura-kere;garudacharpalya-lake;kaggadasapura-lake;mahadevapura-kere;yekkalagatta-kere-mahadevepura-kere,3,20.34,Koramangala-Challaghatta,77.690955,12.97105,cascade-streams-dem
+doddanekundi-kunte,rajapalya-hoodikere,dem,,rajapalya-hoodikere,,,0,0.56,Hebbal,77.713889,12.982778,cascade-streams-dem
+doddastadamaradapala-kere,ramohalli-kere,dem,,ramohalli-kere,,ganapathihalli-kere;ketohalli-kere-n,2,3.44,Vrishabhavathi,77.408889,12.910556,cascade-streams-dem
+doddatogur-lake,doddanagamanagala-lake,dem,,doddanagamanagala-lake,,chikkatogur-kere,1,4.6,Dakshina Pinakini,77.660556,12.857778,cascade-streams-dem
+doddebele-kere,,,,,,,0,3.6,Vrishabhavathi,77.483056,12.890833,cascade-streams-dem
+doddenahalli-kere,kembliganahalli-kere,dem,,kembliganahalli-kere,,d-shettihalli-kere,1,9.44,Dakshina Pinakini,77.8825,13.138611,cascade-streams-dem
+dodderi-kere,,,,,,dodderi-kere-2-2,1,0.24,Vrishabhavathi,77.373333,12.870556,cascade-streams-dem
+dodderi-kere-2,chikkannayyan-kere,dem,,chikkannayyan-kere,,,0,0.98,Kumudvathi,77.314722,13.168889,cascade-streams-dem
+dodderi-kere-2-2,dodderi-kere,dem,,dodderi-kere,,,0,0.02,Vrishabhavathi,77.371944,12.871944,cascade-streams-dem
+dodderi-kere-se,,,,,,dodderi-kere-sw,1,0.5,Vrishabhavathi,77.377778,12.864444,cascade-streams-dem
+dodderi-kere-sw,dodderi-kere-se,dem,,dodderi-kere-se,,,0,0.05,Vrishabhavathi,77.371111,12.866667,cascade-streams-dem
+dodmaranhalli-lake,muddinapalya-lake,dem,,muddinapalya-lake,,kadusiddanapalya-lak,1,0.59,Vrishabhavathi,77.381389,12.928611,cascade-streams-dem
+dommasandra-kere-s,valagerekalahalli-kere,dem,,valagerekalahalli-kere,,kodagikere,2,4.88,Dakshina Pinakini,77.758889,12.875833,cascade-streams-dem
+dommasandra-kunte-7,kodagikere,dem,,kodagikere,,,0,0.01,Dakshina Pinakini,77.749444,12.873056,cascade-streams-dem
+donenahalli-kere-lower,donenahalli-kere-upper,dem,,donenahalli-kere-upper,,,0,0.3,Vrishabhavathi,77.372222,12.885833,cascade-streams-dem
+donenahalli-kere-upper,,,,,,donenahalli-kere-lower,1,0.47,Vrishabhavathi,77.375,12.886667,cascade-streams-dem
+doraikere,,,,,,annamma-kere;devarakere;goudanakere;jarganahalli-lake,3,8.32,Vrishabhavathi,77.548889,12.903056,cascade-streams-dem
+dummy,sulibelekere,dem,,sulibelekere,,,0,0.05,Dakshina Pinakini,77.836667,13.181389,cascade-streams-dem
+dummy-2,kondrahalli-lake,dem,,kondrahalli-lake,,,0,0.03,Palar,77.9125,13.185,cascade-streams-dem
+dyavasandra-lake,hennagara-kere,dem,,hennagara-kere,,haregadde-lank;nosenuru-lake,2,6.65,Dakshina Pinakini,77.6525,12.761111,cascade-streams-dem
+dyavasandra-lake-2,siddayyanpalya-lake,dem,,siddayyanpalya-lake,,mutagadahalli-lake,1,5.04,Jayamangali,77.356389,13.278333,cascade-streams-dem
+earannana-kunte,,,,,,,0,0.07,Arkavathi,77.502778,13.124444,cascade-streams-dem
+elenahalli-lake,nyanappanahalli-kere,dem,,nyanappanahalli-kere,,,0,0.2,Koramangala-Challaghatta,77.614167,12.867222,cascade-streams-dem
+ettakodi-lake,tattanur-lake,dem,,tattanur-lake,,ettakodi-lake-2,1,2.09,Dakshina Pinakini,77.849167,12.925278,cascade-streams-dem
+ettakodi-lake-2,ettakodi-lake,dem,,ettakodi-lake,,,0,0.91,Dakshina Pinakini,77.853889,12.927778,cascade-streams-dem
+gabburu-lower-tank,,,,,,,0,0.39,Kumudvathi,77.349722,13.076389,cascade-streams-dem
+gaddam-bachchahalli-kere,timmasandra-kere-2,dem,,timmasandra-kere-2,,,0,0.55,Arkavathi,77.563889,13.325833,cascade-streams-dem
+gadenahali-lake,bainahalli-lake,dem,,bainahalli-lake,,,0,0.31,Dakshina Pinakini,77.617778,13.192778,cascade-streams-dem
+gadenahalli-lake,tarabanahalli-lake,dem,,tarabanahalli-lake,,,0,0.53,Dakshina Pinakini,77.622222,13.199444,cascade-streams-dem
+gadigarapalya-kere,hesaraghatta-kere-east,dem,,hesaraghatta-kere-east,,channadevi-agrahara,2,2.33,Arkavathi,77.459167,13.2125,cascade-streams-dem
+gadipalya-lake,,,,,,gadipalya-lake-2;taralu-lake,9,37.65,Suvarnamukhi,77.514722,12.770278,cascade-streams-dem
+gadipalya-lake-2,gadipalya-lake,dem,,gadipalya-lake,,,0,0.67,Suvarnamukhi,77.523889,12.773889,cascade-streams-dem
+gadipalyada-halla-lake,,,,,,,0,0.23,Suvarnamukhi,77.530556,12.760833,cascade-streams-dem
+gajagadahalli-kere,bhairasandrapalya-lake,dem,,bhairasandrapalya-lake,,gajagadahalli-lake,1,2.02,Arkavathi,77.4975,13.240556,cascade-streams-dem
+gajagadahalli-lake,gajagadahalli-kere,dem,,gajagadahalli-kere,,,0,0.19,Arkavathi,77.496111,13.245278,cascade-streams-dem
+galibilikote-lake,aralamallige-kere,dem,,aralamallige-kere,,,0,0.7,Arkavathi,77.431111,13.341944,cascade-streams-dem
+ganadalu-lake,sriramanahalli-lake-2,dem,,sriramanahalli-lake-2,,adkepalya-lake;kanakenahalli-lake,2,34.86,Jayamangali,77.381389,13.396111,cascade-streams-dem
+ganakallu-kere,,,,,,,0,0.58,Arkavathi,77.3775,12.958333,cascade-streams-dem
+ganapathihalli-kere,doddastadamaradapala-kere,dem,,doddastadamaradapala-kere,,ganapathihalli-lake,1,1.45,Vrishabhavathi,77.401944,12.913889,cascade-streams-dem
+ganapathihalli-lake,ganapathihalli-kere,dem,,ganapathihalli-kere,,,0,0.96,Vrishabhavathi,77.400278,12.916944,cascade-streams-dem
+gandaragolipura-kere,madhure-kere,dem,,madhure-kere,,,0,0.87,Arkavathi,77.423333,13.229167,cascade-streams-dem
+gandarajapura-kere,rajaghatta-kere,dem,,rajaghatta-kere,,,0,0.54,Arkavathi,77.598611,13.333056,cascade-streams-dem
+gandhigram-lower,gandigram-n,dem,,gandigram-n,,,0,0.07,Kumudvathi,77.344444,13.046667,cascade-streams-dem
+gandhinagar-lake,rachamanahalli-lake,dem,,rachamanahalli-lake,,,0,0.81,Dakshina Pinakini,77.735833,12.709167,cascade-streams-dem
+gandigram-n,,,,,,gandhigram-lower,1,0.42,Kumudvathi,77.340278,13.050278,cascade-streams-dem
+gangasandra-kere,palana-kere,dem,,palana-kere,,hadonahalli-kere;tippenhalli-kere,2,14.39,Arkavathi,77.544722,13.355833,cascade-streams-dem
+gangavara-lake,hosakote-doddaamanikere,dem,,hosakote-doddaamanikere,,naganhalli-lake,1,7.02,Dakshina Pinakini,77.764722,13.162222,cascade-streams-dem
+gangenahalli-lake,,,,,,balchakuppe-lake;tavarekere-lake-2,1,4.41,Arkavathi,77.391944,12.977778,cascade-streams-dem
+gangondanahalli-kere,lakkenahalli-kere,dem,,lakkenahalli-kere,,govt-karabu;narasappanahalli-kere,2,8.16,Arkavathi,77.472222,13.017778,cascade-streams-dem
+gangondanahalli-kunte3,lakkenahalli-kere,dem,,lakkenahalli-kere,,,0,0.0,Arkavathi,77.461944,13.024722,cascade-streams-dem
+gangondanahalli-lake,,,,,,lakkenahalli-kunte-1,1,0.17,Arkavathi,77.456667,13.021944,cascade-streams-dem
+ganigarahalli-kere,,,,,,kebbapalya-ne;tubinkere,5,8.79,Arkavathi,77.510278,13.091944,cascade-streams-dem
+gantiganahalli-kere,yelahanka-lake,dem,,yelahanka-lake,,suggatta-lake;suggatta-lake-2,2,6.07,Hebbal,77.589722,13.139444,cascade-streams-dem
+garudacharpalya-lake,doddanekundi-kere,dem,,doddanekundi-kere,,,0,0.35,Koramangala-Challaghatta,77.701944,12.981667,cascade-streams-dem
+garvebhavipalya-lake,agara-lake,dem,,agara-lake,,,0,0.93,Koramangala-Challaghatta,77.636111,12.895833,cascade-streams-dem
+gattihalli-govt-lake,huskur-govt-lake,dem,,huskur-govt-lake,,doddanagamanagala-lake,3,14.97,Dakshina Pinakini,77.695556,12.876111,cascade-streams-dem
+giddanahalli-lake,,,,,,mahimanapalya-lake,1,2.76,Arkavathi,77.423333,12.993333,cascade-streams-dem
+giddatapura-lake,makanahalli-kere-s,dem,,makanahalli-kere-s,,,0,1.89,Dakshina Pinakini,77.835833,12.9975,cascade-streams-dem
+giddenahalli-lake,mysorammanadoddi-lake,dem,,mysorammanadoddi-lake,,giddenahalli-lake-2;mahanthalingapura-lake,1,2.02,Arkavathi,77.6225,12.759722,cascade-streams-dem
+giddenahalli-lake-2,giddenahalli-lake,dem,,giddenahalli-lake,,,0,0.3,Arkavathi,77.6125,12.760833,cascade-streams-dem
+giddlahallipura-kere,banahalli-kere-w,dem,,banahalli-kere-w,,,0,1.36,Palar,77.893889,13.2175,cascade-streams-dem
+girupalya-kere,,,,,,,0,0.64,Vrishabhavathi,77.445833,12.890278,cascade-streams-dem
+gollahalli-govt-lake,governament-attikere,dem,,governament-attikere,,maragondanahalli-kere,1,3.72,Dakshina Pinakini,77.663611,12.8275,cascade-streams-dem
+gollahalli-kere,hadyalu-kere,dem,,hadyalu-kere,,arjunabettahalli-kere,1,3.71,Arkavathi,77.415278,13.152222,cascade-streams-dem
+gollapura3r,guddegaudanachannoha,dem,,guddegaudanachannoha,,,0,0.0,Kumudvathi,77.353611,13.205278,cascade-streams-dem
+gollarapalya-kere,sandekuppe-kere,dem,,sandekuppe-kere,,hunnegere-low-kere,3,3.29,Arkavathi,77.396389,13.023333,cascade-streams-dem
+gollarapalya-lake,,,,,,,0,0.65,Suvarnamukhi,77.469167,12.758056,cascade-streams-dem
+gonakanahalli-kere,jadigenahalli-kere,dem,,jadigenahalli-kere,,chikka-taggali-kere;taggali-hosahalli-kere,1,12.97,Dakshina Pinakini,77.875556,13.054167,cascade-streams-dem
+gonigatpura-lake,gonigatpura-lake-2,dem,,gonigatpura-lake-2,,,0,0.53,Dakshina Pinakini,77.790833,12.906389,cascade-streams-dem
+gonigatpura-lake-2,gonigatpura-lake-3,dem,,gonigatpura-lake-3,,gonigatpura-lake,1,1.27,Dakshina Pinakini,77.7875,12.912222,cascade-streams-dem
+gonigatpura-lake-3,belkere-lake,dem,,belkere-lake,,gonigatpura-lake-2;neriga-lake,2,6.24,Dakshina Pinakini,77.789167,12.918889,cascade-streams-dem
+gonipura-1,gonipura-2,dem,,gonipura-2,,,0,0.96,Vrishabhavathi,77.447222,12.839444,cascade-streams-dem
+gonipura-2,lingapura-lake-3,dem,,lingapura-lake-3,,gonipura-1,1,1.48,Vrishabhavathi,77.446667,12.836111,cascade-streams-dem
+gonipura-lake,lingapura-lake-3,dem,,lingapura-lake-3,,,0,0.56,Vrishabhavathi,77.443056,12.831944,cascade-streams-dem
+gonur-lake,hosakote-doddaamanikere,dem,,hosakote-doddaamanikere,,,0,18.88,Dakshina Pinakini,77.751111,13.346389,cascade-streams-dem
+gopalpura-kere,bommashettihalli-kere,dem,,bommashettihalli-kere,,,0,2.02,Arkavathi,77.433889,13.141389,cascade-streams-dem
+gopenahalli-lake,siddayyanpalya-lake,dem,,siddayyanpalya-lake,,,0,0.41,Jayamangali,77.294167,13.278611,cascade-streams-dem
+gopsandra-lake,hosakote-doddaamanikere,dem,,hosakote-doddaamanikere,,teniyur-kere,3,32.45,Dakshina Pinakini,77.817778,13.231389,cascade-streams-dem
+gottamaranahalli-lake,singena-agrahara-govt-sanna-kere,dem,,singena-agrahara-govt-sanna-kere,,govt-gulimangalada-lake,2,6.72,Dakshina Pinakini,77.710278,12.847778,cascade-streams-dem
+gottigere-kere,hulimavu-kere,streams,hulimavu-kere,hulimavu-kere,True,basavanapura-kere-2,1,2.69,Koramangala-Challaghatta,77.590129,12.855503,cascade-streams-dem
+goudanakere,doraikere,dem,,doraikere,,,0,0.72,Vrishabhavathi,77.555556,12.906667,cascade-streams-dem
+govanhalli-kere,chikkannayyan-kere,dem,,chikkannayyan-kere,,,0,1.23,Kumudvathi,77.313056,13.179167,cascade-streams-dem
+governament-attikere,uramundinakere,dem,,uramundinakere,,gollahalli-govt-lake,2,4.73,Dakshina Pinakini,77.669167,12.826111,cascade-streams-dem
+govindaehettipalya-lake,uramundinakere,dem,,uramundinakere,,virasandra-lake,1,2.68,Dakshina Pinakini,77.675,12.838611,cascade-streams-dem
+govindapur-kere,vadagehalli-kere,dem,,vadagehalli-kere,,,0,0.71,Dakshina Pinakini,77.855833,13.033056,cascade-streams-dem
+govindapura-kere,islur-kere,dem,,islur-kere,,,0,6.29,Dakshina Pinakini,77.878333,13.215833,cascade-streams-dem
+govindapura-lo-kere,,,,,,arebommanahalli-2r;byadarahalli-kere;chikkannayyan-kere;hulkur-kere;kempaura-agrahara-up-kere;kuppemala-kere;timmasandra-kere;tippagondanahalli-lower-kere,8,231.01,Kumudvathi,77.324167,13.126111,cascade-streams-dem
+govt-dinnekere,varthur-lake,dem,,varthur-lake,,,0,0.04,Koramangala-Challaghatta,77.716944,12.932778,cascade-streams-dem
+govt-gulimangalada-lake,gottamaranahalli-lake,dem,,gottamaranahalli-lake,,chikkanagamangala-govt-kere,1,3.87,Dakshina Pinakini,77.697222,12.853889,cascade-streams-dem
+govt-karabu,gangondanahalli-kere,dem,,gangondanahalli-kere,,,0,0.21,Arkavathi,77.484444,13.020833,cascade-streams-dem
+govt-katte,mahadevanakodag-lake,dem,,mahadevanakodag-lake,,,0,0.07,Dakshina Pinakini,77.690556,13.119722,cascade-streams-dem
+govt-kere-1,tippasandra-lake,dem,,tippasandra-lake,,govt-kere-2,2,2.06,Dakshina Pinakini,77.76,12.911111,cascade-streams-dem
+govt-kere-2,govt-kere-1,dem,,govt-kere-1,,chikkavaderapura-govt-karabu-kunte,1,0.86,Dakshina Pinakini,77.757778,12.905278,cascade-streams-dem
+govt-lake,kannalli-kere,dem,,kannalli-kere,,seegehalli-kere,1,2.27,Vrishabhavathi,77.459722,12.968333,cascade-streams-dem
+govt-maggekere,,,,,,,0,0.39,Vrishabhavathi,77.446389,12.884167,cascade-streams-dem
+govt-mutsandra-kere,mutsandra-lake,dem,,mutsandra-lake,,chikkanekundi-lake-land,5,10.84,Dakshina Pinakini,77.779444,12.939444,cascade-streams-dem
+govt-vaddakere,halanayakanahalli-kere,dem,,halanayakanahalli-kere,,choodasandra-govt-lake,1,0.89,Koramangala-Challaghatta,77.680833,12.887222,cascade-streams-dem
+govt-vadenakere,tattaguppe-lake,dem,,tattaguppe-lake,,,0,0.3,Suvarnamukhi,77.590833,12.794444,cascade-streams-dem
+gramada-kere,,,,,,nelamangala-big-kere,2,17.0,Arkavathi,77.433611,13.081111,cascade-streams-dem
+gramadakere,varthur-lake,streams,varthur-lake,varthur-lake,True,kachamaranahalli-govt-lake,3,6.19,Koramangala-Challaghatta,77.737896,12.917721,cascade-streams-dem
+gramadakere-2,chikkabellanduru-kere,dem,,chikkabellanduru-kere,,solikunte-kere,1,3.85,Koramangala-Challaghatta,77.722222,12.891111,cascade-streams-dem
+gubbalal-kere,,,,,,,0,0.79,Vrishabhavathi,77.54,12.881389,cascade-streams-dem
+gublai-lske,vasantpur-lake,dem,,vasantpur-lake,,,0,0.06,Vrishabhavathi,77.546944,12.886667,cascade-streams-dem
+guddadahalli-kere,bashettihalli-kere,dem,,bashettihalli-kere,,guddadahalli-kere-e,1,2.53,Arkavathi,77.567778,13.275278,cascade-streams-dem
+guddadahalli-kere-e,guddadahalli-kere,dem,,guddadahalli-kere,,,0,0.4,Arkavathi,77.576389,13.280833,cascade-streams-dem
+guddadahalli-lake,bilijaji-kere,dem,,bilijaji-kere,,,0,0.26,Arkavathi,77.458889,13.140556,cascade-streams-dem
+guddegaudanachannoha,jakkanahalli-6r,dem,,jakkanahalli-6r,,gollapura3r,1,0.51,Kumudvathi,77.353889,13.198889,cascade-streams-dem
+guddehatti-lake,jigla-kere,dem,,jigla-kere,,guddehatti-lake-2,1,2.47,Dakshina Pinakini,77.746111,12.799444,cascade-streams-dem
+guddehatti-lake-2,guddehatti-lake,dem,,guddehatti-lake,,,0,0.74,Dakshina Pinakini,77.740833,12.798611,cascade-streams-dem
+guduppana-lake,,,,,,,0,2.81,Suvarnamukhi,77.501944,12.753333,cascade-streams-dem
+guduppana-lake-2,,,,,,,0,0.37,Suvarnamukhi,77.512222,12.7625,cascade-streams-dem
+guduvanahalli-lake,yedahala-lake,dem,,yedahala-lake,,,0,12.68,Dakshina Pinakini,77.760556,13.278611,cascade-streams-dem
+gulagunganahalli-lak,maragondanahalli-govt-lake,dem,,maragondanahalli-govt-lake,,,0,2.4,Vrishabhavathi,77.414167,12.940556,cascade-streams-dem
+gulakayipura-govt-lake,mutsandra-lake,dem,,mutsandra-lake,,,0,0.1,Dakshina Pinakini,77.776667,12.944167,cascade-streams-dem
+gulya-down,madhure-kere,dem,,madhure-kere,,honnadevipura-kere;purushanahalli-kere,2,14.82,Arkavathi,77.4125,13.235833,cascade-streams-dem
+gundappanayakanahalli-lake,singrayanapalya-lake,dem,,singrayanapalya-lake,,,0,2.76,Kumadvati,77.401944,13.460833,cascade-streams-dem
+gundarahalli-lake-2,bail-narsapur-lake-1,dem,,bail-narsapur-lake-1,,marasandhalli-lake-2,1,2.77,Palar,77.948611,13.1675,cascade-streams-dem
+gundenahalli-kere,sondilvadi-kere,dem,,sondilvadi-kere,,kerekattiganuru-kere,5,21.56,Kumudvathi,77.280556,13.188889,cascade-streams-dem
+gundur-kere-n,,,,,,sitanayakanahalli-lake,2,172.58,Dakshina Pinakini,77.834444,12.881944,cascade-streams-dem
+gunduru-kere,baiyappanahalli-kere,dem,,baiyappanahalli-kere,,,0,7.07,Hebbal,77.718333,13.088611,cascade-streams-dem
+gunduru-lake,shegehalli-kere,streams,shegehalli-kere,shegehalli-kere,True,,0,1.0,Hebbal,77.704565,13.002992,cascade-streams-dem
+gunjuru-kunte5,carmelarm,dem,,carmelarm,,,0,0.0,Koramangala-Challaghatta,77.708333,12.915833,cascade-streams-dem
+gunjuruplaya-kere,varthur-lake,streams,varthur-lake,varthur-lake,True,carmelarm;chikkabellanduru-kere,3,15.04,Koramangala-Challaghatta,77.724564,12.920498,cascade-streams-dem
+gururvanahalli-kere,,,,,,bhairagaudanahalli-kere;kempalinganahalli-kere;mallarabanavadi-kere,3,13.56,Arkavathi,77.365556,13.049722,cascade-streams-dem
+guruvanahalli-kere,kerekattiganuru-kere,dem,,kerekattiganuru-kere,,,0,0.48,Kumudvathi,77.260833,13.163056,cascade-streams-dem
+guttepalya-lake,taralu-lake,dem,,taralu-lake,,hakkibikki-lake-2;ragihalli-lake,7,8.68,Suvarnamukhi,77.533056,12.783333,cascade-streams-dem
+guttepalya-lake-2,taralu-lake,dem,,taralu-lake,,benachikal-lake,1,0.82,Suvarnamukhi,77.532778,12.788611,cascade-streams-dem
+hado-shiddapura-kere,halanayakanahalli-kere,dem,,halanayakanahalli-kere,,,0,1.29,Koramangala-Challaghatta,77.701944,12.891667,cascade-streams-dem
+hadonahalli-kere,gangasandra-kere,dem,,gangasandra-kere,,,0,0.92,Arkavathi,77.547778,13.371944,cascade-streams-dem
+hadyalu-kere,bommashettihalli-kere,dem,,bommashettihalli-kere,,gollahalli-kere;maitanahalli-kere;tirumagondanapalya-kere,2,14.69,Arkavathi,77.421389,13.136667,cascade-streams-dem
+haji-hosahalli-kere,parmanahalli-kere,dem,,parmanahalli-kere,,haji-hosahalli-n,3,11.24,Dakshina Pinakini,77.854444,13.012222,cascade-streams-dem
+haji-hosahalli-kere-s,parmanahalli-kere,dem,,parmanahalli-kere,,,0,3.51,Dakshina Pinakini,77.8575,13.0025,cascade-streams-dem
+haji-hosahalli-n,haji-hosahalli-kere,dem,,haji-hosahalli-kere,,kattigenahalli-lower,2,9.67,Dakshina Pinakini,77.863056,13.013333,cascade-streams-dem
+hakkibikki-lake,bannerghatta-lake-2,dem,,bannerghatta-lake-2,,hakkibikki-lake-3,3,1.6,Suvarnamukhi,77.562778,12.796667,cascade-streams-dem
+hakkibikki-lake-2,guttepalya-lake,dem,,guttepalya-lake,,,0,0.23,Suvarnamukhi,77.563333,12.800278,cascade-streams-dem
+hakkibikki-lake-3,hakkibikki-lake,dem,,hakkibikki-lake,,salindradoddi-lake,2,1.37,Suvarnamukhi,77.567778,12.798056,cascade-streams-dem
+halagevaderahalli-kere-2,kenchinahalli-kere,streams,kenchinahalli-kere,kenchinahalli-kere,True,bhimmanakuppe-govt-lake,2,3.13,Vrishabhavathi,77.514024,12.923831,cascade-streams-dem
+halammanapalya-lake,,,,,,,0,0.78,Arkavathi,77.372222,12.944722,cascade-streams-dem
+halammanapalya-lake-1,muddinapalya-lake,dem,,muddinapalya-lake,,,0,0.09,Vrishabhavathi,77.375556,12.934167,cascade-streams-dem
+halanayakanahalli-kere,sowl-kere,dem,,sowl-kere,,govt-vaddakere;hado-shiddapura-kere,2,7.0,Koramangala-Challaghatta,77.691944,12.901667,cascade-streams-dem
+halasahalli-thippasandra-kunte-2,chikkanekundi-lake-land,dem,,chikkanekundi-lake-land,,,0,0.0,Dakshina Pinakini,77.76,12.922778,cascade-streams-dem
+haldenahalli-lake,karpuru-lake,dem,,karpuru-lake,,,0,0.98,Dakshina Pinakini,77.708333,12.721389,cascade-streams-dem
+hale-chandapura-lake,hale-chandapura-lake-2,dem,,hale-chandapura-lake-2,,tirumagondanahalli-lake,1,5.06,Dakshina Pinakini,77.721944,12.800278,cascade-streams-dem
+hale-chandapura-lake-2,muttanallur-kere,dem,,muttanallur-kere,,hale-chandapura-lake,2,5.96,Dakshina Pinakini,77.717222,12.806944,cascade-streams-dem
+halehalli-south-lake,mayasandra,dem,,mayasandra,,,0,1.4,Dakshina Pinakini,77.750833,12.731944,cascade-streams-dem
+halenahalli-kere,dodda-vadagere-kere,dem,,dodda-vadagere-kere,,halenahalli-up,1,2.03,Arkavathi,77.390833,13.220833,cascade-streams-dem
+halenahalli-kere-s,dodda-vadagere-kere,dem,,dodda-vadagere-kere,,halenahalli-sw,1,1.62,Arkavathi,77.390833,13.218056,cascade-streams-dem
+halenahalli-sw,halenahalli-kere-s,dem,,halenahalli-kere-s,,,0,0.57,Arkavathi,77.383611,13.216944,cascade-streams-dem
+halenahalli-up,halenahalli-kere,dem,,halenahalli-kere,,,0,1.33,Arkavathi,77.387778,13.224167,cascade-streams-dem
+haleuru-lake,kambalipura-lake,dem,,kambalipura-lake,,avadenahlli-lake;byagadadenhalli-kere-2;kun-madiwala-lake;marasur-lake,6,53.37,Dakshina Pinakini,77.718333,12.754167,cascade-streams-dem
+hallimarandapalya-lake,hunnigere-lake,dem,,hunnigere-lake,,,0,0.48,Arkavathi,77.367222,12.931667,cascade-streams-dem
+hancharahalli-lake,hosakote-doddaamanikere,dem,,hosakote-doddaamanikere,,jyotipura-lake,1,6.26,Dakshina Pinakini,77.749444,13.1,cascade-streams-dem
+handenhalli-lake,oblapura-lake,dem,,oblapura-lake,,,0,2.93,Dakshina Pinakini,77.848056,12.9625,cascade-streams-dem
+handrahalli-kere,kachohalli-kere,dem,,kachohalli-kere,,lingadheeranahalli-karabu-katte,1,0.56,Arkavathi,77.481944,13.003889,cascade-streams-dem
+hanpalya-kere,,,,,,,0,0.86,Kumudvathi,77.341944,13.098611,cascade-streams-dem
+hanumantapura-lake,,,,,,,0,1.76,Palar,77.954167,13.2325,cascade-streams-dem
+hanumanttanapalya-kere,srinivasapura-kere,dem,,srinivasapura-kere,,bavikere-kere,2,6.2,Kumudvathi,77.350556,13.088611,cascade-streams-dem
+haraluru-kere,kasavanahalli-kere,streams,kasavanahalli-kere,kasavanahalli-kere,True,doddakodlu;kudlu-chikere,2,5.73,Koramangala-Challaghatta,77.661513,12.898833,cascade-streams-dem
+haranakatte,kommaghatta-govt-lake,dem,,kommaghatta-govt-lake,,,0,0.49,Vrishabhavathi,77.471944,12.957222,cascade-streams-dem
+haregadde-lank,dyavasandra-lake,dem,,dyavasandra-lake,,,0,0.76,Dakshina Pinakini,77.660833,12.751389,cascade-streams-dem
+harohali-lake,kilaranahalli-lake,dem,,kilaranahalli-lake,,,0,0.94,Jayamangali,77.370278,13.429167,cascade-streams-dem
+harohali-lake-2,marimakanaha-lake,dem,,marimakanaha-lake,,,0,0.01,Jayamangali,77.39,13.430278,cascade-streams-dem
+harohall-govt-lake,huskur-govt-lake,dem,,huskur-govt-lake,,chokkasandra-lake,1,2.34,Dakshina Pinakini,77.716944,12.866389,cascade-streams-dem
+harohalli-kere,yelahanka-lake,streams,yelahanka-lake,yelahanka-lake,True,avalahalli-kere-2;muddenahalli-lake;singanayakayahalli-kere,3,23.57,Hebbal,77.579575,13.136315,cascade-streams-dem
+harohallipalya-lake,hesaraghatta-lake,dem,,hesaraghatta-lake,,,0,2.18,Arkavathi,77.507778,13.177222,cascade-streams-dem
+harokyathanahalli-kere,,,,,,harokyathanahalli-kunte2,1,0.87,Arkavathi,77.445,13.051944,cascade-streams-dem
+harokyathanahalli-kunte2,harokyathanahalli-kere,dem,,harokyathanahalli-kere,,,0,0.06,Arkavathi,77.439722,13.056111,cascade-streams-dem
+hasarahalli-kere,baradi-kere,dem,,baradi-kere,,bhairanayakanahallipalya;nagenahalli-kere,1,4.47,Kumudvathi,77.372222,13.191389,cascade-streams-dem
+hebbal-lake,nagawara-lake,streams,nagawara-lake,nagawara-lake,True,dodda-bommasandra-lake;j-p-park-kere;kodigehalli-kunte3,3,33.56,Hebbal,77.591796,13.045211,cascade-streams-dem
+heggadadevanapura-kere,,,,,,,0,0.87,Arkavathi,77.458611,13.078333,cascade-streams-dem
+hegganahalli-lake,sadahalli-kere,dem,,sadahalli-kere,,bhovihalli-lake,1,6.1,Dakshina Pinakini,77.618611,13.219444,cascade-streams-dem
+heggondanalli-govt-lake,kachamaranahalli-govt-lake,dem,,kachamaranahalli-govt-lake,,chikkavaderapura-govt-kunte-2,1,0.91,Koramangala-Challaghatta,77.745833,12.900833,cascade-streams-dem
+hejjala-e,,,,,,,0,0.64,Vrishabhavathi,77.418611,12.858611,cascade-streams-dem
+hejjala-kere,,,,,,,0,1.6,Vrishabhavathi,77.413333,12.860278,cascade-streams-dem
+hemigepura-kunte-3,,,,,,,0,0.15,Vrishabhavathi,77.516944,12.881389,cascade-streams-dem
+hempapura-kere,kuppemala-kere,dem,,kuppemala-kere,,,0,0.11,Kumudvathi,77.279444,13.128333,cascade-streams-dem
+hennagara-kere,kittiganahalli-lake,dem,,kittiganahalli-lake,,bandenalasandra-lake;dyavasandra-lake;jigani-kere;konasandra-lake;mastenahalli-lake,5,69.99,Dakshina Pinakini,77.669722,12.7825,cascade-streams-dem
+herohalli-lake,kachohalli-kere,dem,,kachohalli-kere,,,0,2.61,Arkavathi,77.488333,12.988889,cascade-streams-dem
+herohalli-thotadakere,mallathahalli-lake,dem,,mallathahalli-lake,,,0,0.37,Vrishabhavathi,77.493056,12.982778,cascade-streams-dem
+hesaraghatta-kere-east,hesaraghatta-lake,dem,,hesaraghatta-lake,,gadigarapalya-kere;hosahalli-lake-2;kallodu-kere;kukkanahalli-kere;kukkonallipalya-lake;madhure-kere;ramdevanahalli-kere;shiresandra-kere,7,178.02,Arkavathi,77.485,13.173333,cascade-streams-dem
+hesaraghatta-lake,,,,,,harohallipalya-lake;hesaraghatta-kere-east;kakolu-kere;kukkalahalli-lake;sonnenahalli-kere,10,603.54,Arkavathi,77.488889,13.142222,cascade-streams-dem
+hettakki-lake,sattigenahalli-lake-2,dem,,sattigenahalli-lake-2,,,0,2.24,Palar,77.935,13.158333,cascade-streams-dem
+hilaligi-lake,kittiganahalli-lake,dem,,kittiganahalli-lake,,hilaligi-lake-2;vidyanagar-lake,6,17.7,Dakshina Pinakini,77.702778,12.815556,cascade-streams-dem
+hilaligi-lake-2,hilaligi-lake,dem,,hilaligi-lake,,,0,0.26,Dakshina Pinakini,77.701667,12.820833,cascade-streams-dem
+hinnakki-lake,kittiganahalli-lake,dem,,kittiganahalli-lake,,nayanahalli-lake,1,5.92,Dakshina Pinakini,77.678056,12.776389,cascade-streams-dem
+hire-kere,kodihalli-kere,dem,,kodihalli-kere,,kanavalli-lake;karehalli-kere;obalapura-kere;vinayakanagar-lake,5,58.27,Kumudvathi,77.307778,13.2175,cascade-streams-dem
+hiregenahalli-kere,hosakote-doddaamanikere,dem,,hosakote-doddaamanikere,,,0,3.81,Dakshina Pinakini,77.730833,13.337778,cascade-streams-dem
+hittarahalli-lake,hosakote-doddaamanikere,dem,,hosakote-doddaamanikere,,chalamakunti-lake,2,6.69,Dakshina Pinakini,77.743889,13.129167,cascade-streams-dem
+holegeripura-lake,hosakote-doddaamanikere,dem,,hosakote-doddaamanikere,,sulibelekere,4,45.49,Dakshina Pinakini,77.795556,13.179444,cascade-streams-dem
+hommedevanahalli-kere,sakalavara-govt-kharabu-lake,dem,,sakalavara-govt-kharabu-lake,,,0,0.18,Dakshina Pinakini,77.601944,12.834722,cascade-streams-dem
+hompalaghatta-east-lake,kuvempu-nagara-lake,dem,,kuvempu-nagara-lake,,visweswaraihnagar-lake,1,0.85,Dakshina Pinakini,77.715833,12.693056,cascade-streams-dem
+hompalaghatta-lake,telagarahalli-lake,dem,,telagarahalli-lake,,,0,1.56,Dakshina Pinakini,77.701111,12.689722,cascade-streams-dem
+honepalya-kere,kempaura-agrahara-up-kere,dem,,kempaura-agrahara-up-kere,,margondanahalli-kere,1,1.98,Kumudvathi,77.272222,13.1625,cascade-streams-dem
+hongekere,bhujangadasana-amanikere-govt-lake,dem,,bhujangadasana-amanikere-govt-lake,,hullahalli-kere,1,1.23,Dakshina Pinakini,77.6125,12.831667,cascade-streams-dem
+honna-kalashapura-lake,kempu-vaderahalli-lake,dem,,kempu-vaderahalli-lake,,,0,0.52,Dakshina Pinakini,77.698056,12.724167,cascade-streams-dem
+honnadevipura-kere,gulya-down,dem,,gulya-down,,karepura-lake,1,2.78,Arkavathi,77.405278,13.244444,cascade-streams-dem
+honnadevipura-lake,mallohalli-kere,dem,,mallohalli-kere,,,0,0.08,Arkavathi,77.4225,13.243889,cascade-streams-dem
+honnasandra-kere,alur-kere,dem,,alur-kere,,bommashettihalli-kere;totagere-kere,4,28.41,Arkavathi,77.449444,13.121667,cascade-streams-dem
+honnashetti-kere,varadanakunte,dem,,varadanakunte,,,0,0.07,Dakshina Pinakini,77.624722,12.817778,cascade-streams-dem
+honnenahalli-kere,muddenahalli-lake,dem,,muddenahalli-lake,,,0,0.71,Hebbal,77.563611,13.162222,cascade-streams-dem
+honnenahalli-lake,hosahalli-kere,dem,,hosahalli-kere,,,0,1.86,Kumudvathi,77.249722,13.211111,cascade-streams-dem
+hoodi-kere-2,kodigehalli-lake,streams,kodigehalli-lake,kodigehalli-lake,True,,0,1.66,Hebbal,77.717897,12.999937,cascade-streams-dem
+horamavu-agara,kalkere-kere,streams,kalkere-kere,kalkere-kere,True,horamavu-kere,1,4.24,Hebbal,77.65818,13.037989,cascade-streams-dem
+horamavu-kere,horamavu-agara,streams,horamavu-agara,horamavu-agara,True,,0,1.59,Hebbal,77.665124,13.02549,cascade-streams-dem
+hosa-bairohalli,,,,,,,0,0.38,Vrishabhavathi,77.456944,12.915,cascade-streams-dem
+hosa-dimbahalli-kere,tammrayasandra-kere,dem,,tammrayasandra-kere,,,0,0.51,Dakshina Pinakini,77.861667,13.175278,cascade-streams-dem
+hosa-katte-newly-created,maragondanahalli-govt-lake,dem,,maragondanahalli-govt-lake,,,0,0.07,Vrishabhavathi,77.423333,12.938056,cascade-streams-dem
+hosa-kere,dibburu-kere,dem,,dibburu-kere,,itgalpura-lake;pappayanna-kunte,2,1.5,Arkavathi,77.542222,13.166111,cascade-streams-dem
+hosadoddi-lake,,,,,,,0,4.0,Suvarnamukhi,77.476111,12.762222,cascade-streams-dem
+hosadoddi-lake-1,talakuppe-lake,dem,,talakuppe-lake,,,0,0.67,Vrishabhavathi,77.415833,12.818889,cascade-streams-dem
+hosahalli-govt-lake,bikkanhalli-lake,dem,,bikkanhalli-lake,,,0,0.77,Dakshina Pinakini,77.766111,12.845,cascade-streams-dem
+hosahalli-kere,sondilvadi-kere,dem,,sondilvadi-kere,,channatimmayyanapalya-lake;honnenahalli-lake;kengalkempohalli-kere,1,8.44,Kumudvathi,77.270833,13.201944,cascade-streams-dem
+hosahalli-kunte-6,thimmasandra-govt-lake,dem,,thimmasandra-govt-lake,,,0,0.0,Dakshina Pinakini,77.754167,12.856389,cascade-streams-dem
+hosahalli-lake,mahadevanakodag-lake,dem,,mahadevanakodag-lake,,kodatti-kere;sathanur-kere,2,21.51,Dakshina Pinakini,77.665,13.141389,cascade-streams-dem
+hosahalli-lake-2,hesaraghatta-kere-east,dem,,hesaraghatta-kere-east,,biranapalya-kere,1,3.17,Arkavathi,77.460833,13.185833,cascade-streams-dem
+hosahalli-lake-3,,,,,,,0,1.95,"unnamed, leaves to W",77.2025,13.168889,cascade-streams-dem
+hosakere,mylasandra-urumundinakere,dem,,mylasandra-urumundinakere,,,0,0.53,Koramangala-Challaghatta,77.622778,12.846389,cascade-streams-dem
+hosakere-2,varadanakunte,dem,,varadanakunte,,,0,1.48,Dakshina Pinakini,77.632222,12.832222,cascade-streams-dem
+hosakere-3,jigani-kere,dem,,jigani-kere,,begihalli-govt-kere;kempanayanakere;uramundinakere-3,3,11.22,Dakshina Pinakini,77.613611,12.802778,cascade-streams-dem
+hosakere-lake,muppatu-kavalu-sakari,dem,,muppatu-kavalu-sakari,,,0,0.17,Vrishabhavathi,77.429444,12.934444,cascade-streams-dem
+hosakerehalli-kere,,,,,,yediyur-kere,1,11.58,Vrishabhavathi,77.534444,12.929444,cascade-streams-dem
+hosakote-doddaamanikere,,,,,,bidarpura-lake;bommanahalli-lake;budigere-amani-kere;channarayapatna-lake;chavdappanhalli-lake;chikkaamani-kere;chimachanahalli-lake;dasarahalli-kere-2;gangavara-lake;gonur-lake;gopsandra-lake;hancharahalli-lake;hiregenahalli-kere;hittarahalli-lake;holegeripura-lake;huskuru-kere;kodigehalli-lake-2;lagamenahalli-lake;sadappanhalli-lake;sonnahallipura-lake;venkatapura-lake;yarappanahalli-kere-2,8,1316.54,Dakshina Pinakini,77.768611,13.060833,cascade-streams-dem
+hosapalya-2r,tadsighatta-kere,dem,,tadsighatta-kere,,,0,0.42,Kumudvathi,77.339444,13.247222,cascade-streams-dem
+hosapalya-4r,tadsighatta-kere,dem,,tadsighatta-kere,,,0,3.3,Kumudvathi,77.345278,13.247778,cascade-streams-dem
+hosapalya-lake,,,,,,,0,0.58,Arkavathi,77.356667,12.949167,cascade-streams-dem
+hosapalya-lake-1,,,,,,,0,0.1,Arkavathi,77.383333,12.983333,cascade-streams-dem
+hosavenkatapura-kere,tarabahalli-lake,dem,,tarabahalli-lake,,,0,4.65,Palar,77.914167,13.23,cascade-streams-dem
+hosuru-kere,chikkobanahalli-kere,dem,,chikkobanahalli-kere,,,0,0.93,Arkavathi,77.636389,13.2975,cascade-streams-dem
+hoysalanagara-lake,bellandur-lake,dem,,bellandur-lake,,,0,3.55,Koramangala-Challaghatta,77.635,12.983889,cascade-streams-dem
+huchchanapalya-kere,kodipalya-kere,dem,,kodipalya-kere,,rampalya-kere;srinivasapura-kere-2,1,6.45,Arkavathi,77.424167,13.106111,cascade-streams-dem
+huchegowdanpalya-kere,marohalli-kere,dem,,marohalli-kere,,,0,1.5,Kumudvathi,77.329167,13.160833,cascade-streams-dem
+hulavanhalli-lake-1,naduvinapur-lake,dem,,naduvinapur-lake,,,0,0.88,Palar,77.924722,13.163889,cascade-streams-dem
+hulavanhalli-lake-2,naduvinapur-lake,dem,,naduvinapur-lake,,,0,0.68,Palar,77.926667,13.163889,cascade-streams-dem
+hulimangala-govt-kodi-kere,varadanakunte,dem,,varadanakunte,,,0,0.45,Dakshina Pinakini,77.644722,12.823056,cascade-streams-dem
+hulimangala-kunte6,varadanakunte,dem,,varadanakunte,,,0,0.01,Dakshina Pinakini,77.638611,12.824722,cascade-streams-dem
+hulimavu-kere,madiwala-lake,dem,,madiwala-lake,,chandrashekarapura-kere;gottigere-kere;kalena-agrahara-govt-lake;kammanahalli-lake;subarayanakere,2,11.43,Koramangala-Challaghatta,77.603889,12.874444,cascade-streams-dem
+hulkur-kere,govindapura-lo-kere,dem,,govindapura-lo-kere,,,0,0.65,Kumudvathi,77.291944,13.135833,cascade-streams-dem
+hullahalli-kere,hongekere,dem,,hongekere,,,0,0.95,Dakshina Pinakini,77.610278,12.835833,cascade-streams-dem
+hullur-kere,chikkaamani-kere,dem,,chikkaamani-kere,,attur-kere;cholapanahalli-kere;nallurhalli-lake,5,122.32,Dakshina Pinakini,77.828333,13.095556,cascade-streams-dem
+hulvenahalli-lake,kurubarapalya-kere,dem,,kurubarapalya-kere,,,0,0.11,Arkavathi,77.366944,12.918611,cascade-streams-dem
+hulvenahalli-lake-1,,,,,,,0,0.2,Arkavathi,77.356111,12.921944,cascade-streams-dem
+hunasuru-lake,singahalli-lake,dem,,singahalli-lake,,bandikodigenahalli-amani-kere,4,67.92,Dakshina Pinakini,77.724444,13.172222,cascade-streams-dem
+hunisemaradapalya-kere,,,,,,bheemanakuppe-kere;kallapanakatte-kere;malagondanahalli-kere;maragondanahalli-govt-lake;maragondanahalli-lak;muppatu-kavalu-sakari,3,29.41,Vrishabhavathi,77.436667,12.910556,cascade-streams-dem
+hunisemaradapalya-la,,,,,,kommaghatta-gokatte,1,1.59,Vrishabhavathi,77.445833,12.916944,cascade-streams-dem
+hunnaganahalli-lake,,,,,,,0,1.2,Arkavathi,77.416111,12.981944,cascade-streams-dem
+hunnegere-low-kere,gollarapalya-kere,dem,,gollarapalya-kere,,hunnegere-up-kere,2,2.74,Arkavathi,77.400278,13.029167,cascade-streams-dem
+hunnegere-up-kere,hunnegere-low-kere,dem,,hunnegere-low-kere,,lakkenahalli-kere-3,1,1.43,Arkavathi,77.401111,13.036944,cascade-streams-dem
+hunnigere-lake,,,,,,hallimarandapalya-lake,1,1.42,Arkavathi,77.361389,12.923333,cascade-streams-dem
+huralihalli-kere,,,,,,virapanjipura-lower5,4,14.71,Kumudvathi,77.343333,13.121667,cascade-streams-dem
+huskur-govt-lake,singena-agrahara-govt-sanna-kere,dem,,singena-agrahara-govt-sanna-kere,,avalahalli-kere-3;chikkanaga-mangala-kunte-1;gattihalli-govt-lake;harohall-govt-lake,4,23.87,Dakshina Pinakini,77.714722,12.859722,cascade-streams-dem
+huskuru-kere,hosakote-doddaamanikere,dem,,hosakote-doddaamanikere,,nimbekayipura-kere,1,2.34,Dakshina Pinakini,77.761389,13.056944,cascade-streams-dem
+huvinaikanahalli-lake,mahadevanakodag-lake,dem,,mahadevanakodag-lake,,,0,1.74,Dakshina Pinakini,77.693889,13.148056,cascade-streams-dem
+ibbalur-govt-lake,varthur-lake,dem,,varthur-lake,,ambalipura-kelagina-kere;melinakere,1,1.57,Koramangala-Challaghatta,77.665833,12.923056,cascade-streams-dem
+ichanguru-lake,manchanha-left,dem,,manchanha-left,,vaddarapalya-lake-3,1,4.13,Dakshina Pinakini,77.748056,12.766667,cascade-streams-dem
+indlabele-kere,,,,,,adigondanahalli-kere;arenur-kere;bendiganahalli-lake;jigla-kere;muttanallur-kere;thimmasandra-govt-lake,9,216.15,Dakshina Pinakini,77.781389,12.798889,cascade-streams-dem
+indlavadi-lake,nosenuru-gollahalli2-lake,dem,,nosenuru-gollahalli2-lake,,chikkanahalli-lake,2,2.68,Arkavathi,77.639167,12.730833,cascade-streams-dem
+indlavadipura-lake,chikkanahalli-lake,dem,,chikkanahalli-lake,,,0,0.23,Arkavathi,77.649444,12.716944,cascade-streams-dem
+ishvanahalli-5r,kalalghatta-kere,dem,,kalalghatta-kere,,,0,1.04,Kumudvathi,77.338889,13.2,cascade-streams-dem
+islur-kere,teniyur-kere,dem,,teniyur-kere,,govindapura-kere,1,10.93,Dakshina Pinakini,77.866389,13.219444,cascade-streams-dem
+itgalpura-lake,hosa-kere,dem,,hosa-kere,,rajanakunte-7-new,1,0.53,Arkavathi,77.549167,13.163889,cascade-streams-dem
+ittagalapura-kere,dibburu-kere,dem,,dibburu-kere,,,0,0.77,Arkavathi,77.539444,13.168889,cascade-streams-dem
+ittangur-kere,mahalchouadenahalli-kere-n,dem,,mahalchouadenahalli-kere-n,,chikadasarahalli-kere-n;chikadasarahalli-kere-s,1,2.77,Dakshina Pinakini,77.79,12.885,cascade-streams-dem
+ivarakangapura-kere,,,,,,kalenahalli-kere;mavalipura-kere-1;shivakote-katte;shivakote-kunte-2,7,33.47,Arkavathi,77.501111,13.137222,cascade-streams-dem
+j-p-park-kere,hebbal-lake,streams,hebbal-lake,hebbal-lake,True,,0,4.95,Hebbal,77.553743,13.036878,cascade-streams-dem
+jadigenahalli-kere,vadagehalli-kere,dem,,vadagehalli-kere,,gonakanahalli-kere,2,18.29,Dakshina Pinakini,77.858056,13.052778,cascade-streams-dem
+jajura-lake1,,,,,,,0,0.24,Shimsha,77.233611,13.285278,cascade-streams-dem
+jajura-lake2,shantegaudanapalya-lake,dem,,shantegaudanapalya-lake,,,0,0.36,Kumudvathi,77.238056,13.2825,cascade-streams-dem
+jakkanahalli-6r,bhairanahalli-5r,dem,,bhairanahalli-5r,,guddegaudanachannoha;prabhakarnagar-2r,2,4.09,Kumudvathi,77.348611,13.183611,cascade-streams-dem
+jakkanahalli-small,minnapura-kere,dem,,minnapura-kere,,,0,1.17,Kumudvathi,77.333333,13.180278,cascade-streams-dem
+jakkasandra-kere,mallarabanavadi-kere-2,dem,,mallarabanavadi-kere-2,,,0,0.72,Arkavathi,77.378611,13.085278,cascade-streams-dem
+jakkur-lake,rachenahalli-lake,streams,rachenahalli-lake,rachenahalli-lake,True,agrahara-lake;allasandra-lake;kogilu-kere;shivanahalli-lake;yelahanka-lake,5,81.53,Hebbal,77.613461,13.080764,cascade-streams-dem
+jalamaranahalli-lake,somasagara-lake,dem,,somasagara-lake,,virasagara-lake,1,3.65,"unnamed, leaves to W",77.191944,13.218056,cascade-streams-dem
+jalige-kere,aradeshanahalli-kere,dem,,aradeshanahalli-kere,,bettenahalli-lake;kamenahalli-lake,2,9.23,Arkavathi,77.583611,13.223889,cascade-streams-dem
+jaligere-lake,sonnenahalli-lake-2,dem,,sonnenahalli-lake-2,,,0,1.44,Kumadvati,77.440278,13.374167,cascade-streams-dem
+janaradhan-kere,vasanthapura-katte,dem,,vasanthapura-katte,,,0,0.55,Vrishabhavathi,77.555278,12.891667,cascade-streams-dem
+jarakabande,mavallipura-kere-se,dem,,mavallipura-kere-se,,,0,0.61,Arkavathi,77.539167,13.124167,cascade-streams-dem
+jarakabandi-kaval-kelge-kere,ramagonddanahalli-kere,dem,,ramagonddanahalli-kere,,,0,0.56,Hebbal,77.551111,13.1175,cascade-streams-dem
+jarganahalli-lake,doraikere,dem,,doraikere,,,0,1.82,Vrishabhavathi,77.572222,12.901667,cascade-streams-dem
+javarayanapalya-lake,,,,,,,0,1.38,Jayamangali,77.358889,13.447222,cascade-streams-dem
+jeltipalya-lake,,,,,,,0,0.31,Suvarnamukhi,77.481667,12.752222,cascade-streams-dem
+jigani-kere,hennagara-kere,dem,,hennagara-kere,,bhujangadasana-amanikere-govt-lake;bukkasagara-lake;hosakere-3;koppa-lake;nanjapura-lake;varadanakunte,4,40.69,Dakshina Pinakini,77.635556,12.795,cascade-streams-dem
+jigani-lake-2,vaddarapalya-lake-2,dem,,vaddarapalya-lake-2,,kallabalu-lake,1,2.1,Dakshina Pinakini,77.633611,12.768611,cascade-streams-dem
+jigla-kere,indlabele-kere,dem,,indlabele-kere,,guddehatti-lake,2,5.23,Dakshina Pinakini,77.760278,12.802222,cascade-streams-dem
+jimkenahalli-kere,rampura-kere,dem,,rampura-kere,,,0,1.0,Hebbal,77.686667,13.027778,cascade-streams-dem
+jinnagar-lake,kodihalli-kere-2,dem,,kodihalli-kere-2,,,0,2.07,Dakshina Pinakini,77.813889,13.032778,cascade-streams-dem
+jogi-kere,o-b-chudanahalli-lake,dem,,o-b-chudanahalli-lake,,,0,0.26,Suvarnamukhi,77.537778,12.862778,cascade-streams-dem
+jogipalya-low-kere,adikelallanapalya-kere,dem,,adikelallanapalya-kere,,,0,0.56,Kumudvathi,77.317222,13.103333,cascade-streams-dem
+jogiplya-kere,,,,,,,0,0.6,Kumudvathi,77.324167,13.1075,cascade-streams-dem
+junnasandra-kere,sowl-kere,dem,,sowl-kere,,,0,1.08,Koramangala-Challaghatta,77.681944,12.901111,cascade-streams-dem
+juzuvadi-kere,,,,,,arehalii-kere;dasanapura-lake;krishnasagara-lake,9,99.63,Dakshina Pinakini,77.783889,12.7725,cascade-streams-dem
+jyarakabande-kavalu-kunte-2,kammagondanahalli-lake,dem,,kammagondanahalli-lake,,,0,0.66,Arkavathi,77.536111,13.058611,cascade-streams-dem
+jyotipura-lake,hancharahalli-lake,dem,,hancharahalli-lake,,,0,1.95,Dakshina Pinakini,77.739167,13.1,cascade-streams-dem
+kaanurpalya-lake,mallohalli-kere,dem,,mallohalli-kere,,,0,2.09,Arkavathi,77.464722,13.2375,cascade-streams-dem
+kachamaranahalli-govt-lake,gramadakere,dem,,gramadakere,,heggondanalli-govt-lake,2,2.49,Koramangala-Challaghatta,77.741389,12.908333,cascade-streams-dem
+kachamaranahalli-kunte4,varthur-lake,dem,,varthur-lake,,,0,0.02,Koramangala-Challaghatta,77.729722,12.911111,cascade-streams-dem
+kachanahalli-kere,beguru-kere,dem,,beguru-kere,,narasimhapalya-kere,1,3.24,Kumudvathi,77.371667,13.153611,cascade-streams-dem
+kachanayakanahalli-lake,kittiganahalli-lake,dem,,kittiganahalli-lake,,yarandahalli-lake,1,4.23,Dakshina Pinakini,77.677778,12.801111,cascade-streams-dem
+kacharkanahalli-lake,nadvatti-lake,dem,,nadvatti-lake,,kanekallu-lake,1,2.78,Dakshina Pinakini,77.8175,12.995278,cascade-streams-dem
+kachiganal-kere,rajaghatta-kere,dem,,rajaghatta-kere,,,0,1.1,Arkavathi,77.581111,13.338889,cascade-streams-dem
+kachiganal-n-kere,rajaghatta-kere,dem,,rajaghatta-kere,,bidikere;kuruvegere-kere,3,32.3,Arkavathi,77.593889,13.343056,cascade-streams-dem
+kachohalli-katte,kannalli-kere,dem,,kannalli-kere,,,0,0.55,Vrishabhavathi,77.4625,12.985,cascade-streams-dem
+kachohalli-kere,byyandanahalli-kere,dem,,byyandanahalli-kere,,andhrahalli-lake;handrahalli-kere;herohalli-lake,2,11.51,Arkavathi,77.463889,13.000278,cascade-streams-dem
+kada-agrahara-kunte,rampura-kere,dem,,rampura-kere,,,0,0.84,Hebbal,77.694444,13.081667,cascade-streams-dem
+kadanur-kere,mallohalli-kere,dem,,mallohalli-kere,,kalludevanahalli-lake,1,7.19,Arkavathi,77.463333,13.239722,cascade-streams-dem
+kade-agrahara-lake,sompura-kere-w,dem,,sompura-kere-w,,,0,1.68,Dakshina Pinakini,77.762778,12.861111,cascade-streams-dem
+kadegere-kere,oora-mundina-kere,dem,,oora-mundina-kere,,,0,1.6,Arkavathi,77.531111,13.111667,cascade-streams-dem
+kadusiddanapalya-lak,dodmaranhalli-lake,dem,,dodmaranhalli-lake,,,0,0.4,Vrishabhavathi,77.380278,12.931667,cascade-streams-dem
+kaggadasapura-lake,doddanekundi-kere,streams,doddanekundi-kere,doddanekundi-kere,True,b-channasandra-lake;byrasandra-2,2,10.5,Koramangala-Challaghatta,77.674845,12.979383,cascade-streams-dem
+kaggalhalli-lake,,,,,,bettahallikaval-lake,1,4.2,Suvarnamukhi,77.4875,12.73,cascade-streams-dem
+kaggalipura-govt-lake,singena-agrahara-govt-sanna-kere,dem,,singena-agrahara-govt-sanna-kere,,,0,0.99,Dakshina Pinakini,77.724167,12.856389,cascade-streams-dem
+kaggalipura-lake,,,,,,,0,2.72,Suvarnamukhi,77.506111,12.797222,cascade-streams-dem
+kagganur-n,tindlu-kere-e,dem,,tindlu-kere-e,,chichuruaganapalli-lake,1,3.04,Dakshina Pinakini,77.806111,12.853056,cascade-streams-dem
+kagur-lake,,,,,,kamanhalli-lake,1,3.79,Dakshina Pinakini,77.810278,12.914722,cascade-streams-dem
+kaikondanahalli-kere,sowl-kere,streams,sowl-kere,sowl-kere,True,kasavanahalli-kere,4,10.62,Koramangala-Challaghatta,77.676234,12.91411,cascade-streams-dem
+kajarakanahalli-lake,kalkere-kere,streams,kalkere-kere,kalkere-kere,True,,0,3.7,Hebbal,77.625404,13.020213,cascade-streams-dem
+kakolu-kere,hesaraghatta-lake,dem,,hesaraghatta-lake,,bhairapur-lake;challahalli-lake;dodda-tumkur-kere;kodaturu-kere,9,387.94,Arkavathi,77.505278,13.191389,cascade-streams-dem
+kalalghatta-kere,kodihalli-kere,dem,,kodihalli-kere,,dodbele-kere;ishvanahalli-5r;konana-kere,4,32.3,Kumudvathi,77.323889,13.199167,cascade-streams-dem
+kalanayakanapalya-la,,,,,,,0,5.55,Vrishabhavathi,77.385278,12.924722,cascade-streams-dem
+kalatammanahalli-lake,kumbarahalli-kere,dem,,kumbarahalli-kere,,kasagattapura-kere-3,1,1.78,Arkavathi,77.501111,13.104722,cascade-streams-dem
+kalena-agrahara-govt-lake,hulimavu-kere,dem,,hulimavu-kere,,,0,0.45,Koramangala-Challaghatta,77.590278,12.865,cascade-streams-dem
+kalenahalli-kere,ivarakangapura-kere,dem,,ivarakangapura-kere,,mathkuru-kere,6,11.99,Arkavathi,77.506111,13.146111,cascade-streams-dem
+kalenahalli-lake,,,,,,siddayyanpalya-lake,3,57.54,Jayamangali,77.340556,13.345278,cascade-streams-dem
+kalkere-kere,rampura-kere,dem,,rampura-kere,,chellakere-kere;horamavu-agara;kajarakanahalli-lake;kyalasanahalli-lake;nagareshvara-nagenahalli-kere;nagawara-lake;rachenahalli-lake,7,186.33,Hebbal,77.670556,13.044167,cascade-streams-dem
+kalkere-sarkari-kunte,bilwaradahalli-kere,dem,,bilwaradahalli-kere,,,0,0.31,Suvarnamukhi,77.5875,12.832778,cascade-streams-dem
+kalkunte-agrahara-kere-e,tattanur-lake,dem,,tattanur-lake,,,0,0.99,Dakshina Pinakini,77.854444,12.936111,cascade-streams-dem
+kalkunte-agrahara-kere-upper,kalkunte-agrahara-lake,dem,,kalkunte-agrahara-lake,,narayankere-lake,1,1.36,Dakshina Pinakini,77.848611,12.943333,cascade-streams-dem
+kalkunte-agrahara-lake,tattanur-lake,dem,,tattanur-lake,,kalkunte-agrahara-kere-upper,2,2.85,Dakshina Pinakini,77.843889,12.935833,cascade-streams-dem
+kallabalu-lake,jigani-lake-2,dem,,jigani-lake-2,,,0,0.65,Dakshina Pinakini,77.622222,12.773056,cascade-streams-dem
+kallakere-lake-land,lakshmipura-lake,dem,,lakshmipura-lake,,,0,0.43,Dakshina Pinakini,77.591389,12.83,cascade-streams-dem
+kallanayakanahalli-lake,,,,,,,0,0.25,Shimsha,77.229722,13.236111,cascade-streams-dem
+kallapanakatte-kere,hunisemaradapalya-kere,dem,,hunisemaradapalya-kere,,,0,0.35,Vrishabhavathi,77.428056,12.910833,cascade-streams-dem
+kallodu-kere,hesaraghatta-kere-east,dem,,hesaraghatta-kere-east,,,0,1.53,Arkavathi,77.428333,13.183333,cascade-streams-dem
+kallu-kunte-lake,kallukunte-lake-2,dem,,kallukunte-lake-2,,,0,0.38,Kumadvati,77.425556,13.438889,cascade-streams-dem
+kalludevanahalli-lake,kadanur-kere,dem,,kadanur-kere,,,0,1.86,Arkavathi,77.475556,13.250556,cascade-streams-dem
+kallukere-kunte,bilwaradahalli-kere,dem,,bilwaradahalli-kere,,,0,0.07,Suvarnamukhi,77.585833,12.829722,cascade-streams-dem
+kallukunte-lake-2,,,,,,kallu-kunte-lake,1,1.95,Kumadvati,77.427778,13.445556,cascade-streams-dem
+kallupallya-kere,chunchnakuppe-kere-e,dem,,chunchnakuppe-kere-e,,,0,0.07,Vrishabhavathi,77.371389,12.915,cascade-streams-dem
+kamakshipura-lake,shiresandra-kere,dem,,shiresandra-kere,,,0,0.13,Arkavathi,77.483889,13.203611,cascade-streams-dem
+kamanhalli-lake,kagur-lake,dem,,kagur-lake,,,0,1.4,Dakshina Pinakini,77.800278,12.909444,cascade-streams-dem
+kambalipura-lake,arehalii-kere,dem,,arehalii-kere,,haleuru-lake;madivala-lake;tattanahalli-lake,7,63.65,Dakshina Pinakini,77.741111,12.754167,cascade-streams-dem
+kambasandra-kere,,,,,,,0,0.54,Arkavathi,77.441111,13.035833,cascade-streams-dem
+kambhipura-govt-karabu-kere-1,,,,,,,0,0.22,Vrishabhavathi,77.4575,12.890278,cascade-streams-dem
+kambhipura-govt-karabu-kere-2,asirvanam-ashram-2,dem,,asirvanam-ashram-2,,,0,0.01,Vrishabhavathi,77.467778,12.886111,cascade-streams-dem
+kamblipura-lake,kempapura-lake,dem,,kempapura-lake,,mutsandra-lake-2,1,6.78,Dakshina Pinakini,77.808056,13.135833,cascade-streams-dem
+kamenahalli-lake,jalige-kere,dem,,jalige-kere,,,0,0.76,Arkavathi,77.596389,13.223056,cascade-streams-dem
+kammagondanahalli-lake,chikkabanavara-kere,dem,,chikkabanavara-kere,,jyarakabande-kavalu-kunte-2,1,5.08,Arkavathi,77.521944,13.067222,cascade-streams-dem
+kammanahalli-lake,hulimavu-kere,streams,hulimavu-kere,hulimavu-kere,True,chikka-kammanahalli,1,2.94,Koramangala-Challaghatta,77.602628,12.857447,cascade-streams-dem
+kanakal-tanday-kere,,,,,,kanakal-tanday-kere-upper,1,0.39,Vrishabhavathi,77.389722,12.876389,cascade-streams-dem
+kanakal-tanday-kere-upper,kanakal-tanday-kere,dem,,kanakal-tanday-kere,,,0,0.01,Vrishabhavathi,77.3925,12.875833,cascade-streams-dem
+kanakenahalli-lake,ganadalu-lake,dem,,ganadalu-lake,,tambenahalli-lake,1,10.92,Jayamangali,77.389722,13.380556,cascade-streams-dem
+kanaminiki-govt-kere,,,,,,tagachikuppe-kere,1,1.02,Vrishabhavathi,77.436667,12.867778,cascade-streams-dem
+kanavalli-lake,hire-kere,dem,,hire-kere,,manne-kere,4,34.77,Kumudvathi,77.295278,13.247778,cascade-streams-dem
+kanavapalli-lake,,,,,,menasiganahalli-lake;vanakanahalli-lake,1,7.58,Dakshina Pinakini,77.715,12.666667,cascade-streams-dem
+kanekallu-lake,kacharkanahalli-lake,dem,,kacharkanahalli-lake,,,0,1.22,Dakshina Pinakini,77.824167,12.990556,cascade-streams-dem
+kangondanahalli-kere,anantapura-kere,dem,,anantapura-kere,,,0,1.78,Kumudvathi,77.383611,13.126111,cascade-streams-dem
+kaniminike-kunte6,,,,,,,0,0.12,Vrishabhavathi,77.429444,12.857778,cascade-streams-dem
+kaniminike-kunte7,,,,,,,0,0.04,Vrishabhavathi,77.428611,12.861111,cascade-streams-dem
+kannaikana-agrahara-kere,rayaradoddi-lake,dem,,rayaradoddi-lake,,,0,0.6,Suvarnamukhi,77.552778,12.839167,cascade-streams-dem
+kannalli-kere,manganahalli-lake,dem,,manganahalli-lake,,ajjegowdana-katte;govt-lake;kachohalli-katte;kodigehalli-kere,2,9.21,Vrishabhavathi,77.46,12.964444,cascade-streams-dem
+kannamangala-kere,puttenahalli-kere,dem,,puttenahalli-kere,,uddichikkanahalli-kere;yadlahalli-kere,1,10.37,Arkavathi,77.414444,13.2075,cascade-streams-dem
+kannamangala-kere-2,dodda-sanne-kere,dem,,dodda-sanne-kere,,sadahalli-kere,3,21.23,Dakshina Pinakini,77.663611,13.22,cascade-streams-dem
+kannamangala-kere-3,,,,,,,0,1.3,Dakshina Pinakini,77.775278,13.029167,cascade-streams-dem
+kannurhalli-lake,peltanahalli-lake,dem,,peltanahalli-lake,,,0,3.59,Dakshina Pinakini,77.801389,13.055833,cascade-streams-dem
+kannuru-kere,chikkagubbi-kere,dem,,chikkagubbi-kere,,bellihalli-kere,1,6.76,Hebbal,77.653333,13.099722,cascade-streams-dem
+karabu-kere,kodatti-kere,dem,,kodatti-kere,,,0,1.18,Dakshina Pinakini,77.617222,13.14,cascade-streams-dem
+karabu-kere-konappana-agrahara-lake,doddakodlu,dem,,doddakodlu,,,0,0.24,Koramangala-Challaghatta,77.668889,12.879167,cascade-streams-dem
+karadipalya-lake,sonnenahalli-lake,dem,,sonnenahalli-lake,,,0,3.58,Arkavathi,77.393889,13.306111,cascade-streams-dem
+karakalaghatta-colony-2-lake,karakalaghatta-colony1-lake,dem,,karakalaghatta-colony1-lake,,,0,1.55,Arkavathi,77.659444,12.706389,cascade-streams-dem
+karakalaghatta-colony1-lake,,,,,,karakalaghatta-colony-2-lake;karakalaghatta-lake,1,4.29,Arkavathi,77.659167,12.704444,cascade-streams-dem
+karakalaghatta-lake,karakalaghatta-colony1-lake,dem,,karakalaghatta-colony1-lake,,,0,0.59,Arkavathi,77.647778,12.702222,cascade-streams-dem
+karanalu-kere,tippenhalli-kere,dem,,tippenhalli-kere,,,0,1.19,Arkavathi,77.576111,13.366389,cascade-streams-dem
+karehalli-kere,hire-kere,dem,,hire-kere,,,0,1.74,Kumudvathi,77.317222,13.223611,cascade-streams-dem
+karenahalli-lake,,,,,,kattalepalya-lake-1;mallipalya-lake,1,4.66,Vrishabhavathi,77.463333,12.787222,cascade-streams-dem
+karepura-lake,honnadevipura-kere,dem,,honnadevipura-kere,,,0,1.02,Arkavathi,77.401944,13.254167,cascade-streams-dem
+karimsonnenahalli-kere,challahalli-lake,dem,,challahalli-lake,,,0,3.24,Arkavathi,77.498889,13.226667,cascade-streams-dem
+karpuru-lake,avadenahlli-lake,dem,,avadenahlli-lake,,bhadripura-lake;haldenahalli-lake;muttagatti-north-lake,4,12.75,Dakshina Pinakini,77.716111,12.730278,cascade-streams-dem
+karukunte-lake,karunkunte-lake-2,dem,,karunkunte-lake-2,,,0,1.27,Kumadvati,77.449444,13.418889,cascade-streams-dem
+karunkunte-lake-2,,,,,,karukunte-lake,1,3.25,Kumadvati,77.453333,13.422222,cascade-streams-dem
+kasagattapura-kere-1,mallikere,dem,,mallikere,,,0,0.68,Arkavathi,77.501389,13.118889,cascade-streams-dem
+kasagattapura-kere-3,kalatammanahalli-lake,dem,,kalatammanahalli-lake,,,0,1.14,Arkavathi,77.505833,13.108889,cascade-streams-dem
+kasaghatta-lake,dodda-hejjaji-lake,dem,,dodda-hejjaji-lake,,kattihosahalli-lake,2,7.55,Arkavathi,77.391389,13.271389,cascade-streams-dem
+kasaranghatta-kere,kerekattiganuru-kere,dem,,kerekattiganuru-kere,,melangavimath-lake,3,8.38,Kumudvathi,77.259167,13.168333,cascade-streams-dem
+kasavanahalli-kere,kaikondanahalli-kere,streams,kaikondanahalli-kere,kaikondanahalli-kere,True,haraluru-kere,3,8.94,Koramangala-Challaghatta,77.668457,12.906333,cascade-streams-dem
+katamnalluru-kere,,,,,,konadaspur-lake,1,1.53,Dakshina Pinakini,77.762778,13.047778,cascade-streams-dem
+katigenahalli-n,kattigenahalli-lower,dem,,kattigenahalli-lower,,,0,0.83,Dakshina Pinakini,77.881111,13.029722,cascade-streams-dem
+kattalepalya-lake,,,,,,,0,0.62,Vrishabhavathi,77.455833,12.803611,cascade-streams-dem
+kattalepalya-lake-1,karenahalli-lake,dem,,karenahalli-lake,,,0,0.8,Vrishabhavathi,77.463333,12.798889,cascade-streams-dem
+kattigenahalli-lake,kogilu-kere,streams,kogilu-kere,kogilu-kere,True,,0,1.75,Hebbal,77.627071,13.114372,cascade-streams-dem
+kattigenahalli-lower,haji-hosahalli-n,dem,,haji-hosahalli-n,,katigenahalli-n,1,2.97,Dakshina Pinakini,77.876944,13.026111,cascade-streams-dem
+kattihosahalli-lake,kasaghatta-lake,dem,,kasaghatta-lake,,tubukunte-lake,1,1.46,Arkavathi,77.380833,13.281944,cascade-streams-dem
+kebbapalya-ne,ganigarahalli-kere,dem,,ganigarahalli-kere,,,0,0.44,Arkavathi,77.518611,13.095,cascade-streams-dem
+kebliganahalli-kere,nallurhalli-lake,dem,,nallurhalli-lake,,,0,0.02,Dakshina Pinakini,77.8675,13.141111,cascade-streams-dem
+kelaginakere,begur-lake,streams,begur-lake,begur-lake,True,melinakere-2,1,1.21,Koramangala-Challaghatta,77.64207,12.868558,cascade-streams-dem
+kembathahali-kere,alahalli-kere,dem,,alahalli-kere,,,0,0.32,Suvarnamukhi,77.576389,12.858611,cascade-streams-dem
+kembliganahalli-kere,mugbal-kere,dem,,mugbal-kere,,doddenahalli-kere,2,10.59,Dakshina Pinakini,77.886944,13.131111,cascade-streams-dem
+kempadevanahalli-kere,marappanahalli-lake,dem,,marappanahalli-lake,,,0,0.33,Vrishabhavathi,77.351944,12.863611,cascade-streams-dem
+kempaguddanahalli-lake,,,,,,,0,0.55,Arkavathi,77.340278,12.950278,cascade-streams-dem
+kempalinganahalli-kere,gururvanahalli-kere,dem,,gururvanahalli-kere,,,0,1.14,Arkavathi,77.3725,13.050556,cascade-streams-dem
+kempambudhi-lake,,,,,,,0,3.62,Vrishabhavathi,77.558056,12.951111,cascade-streams-dem
+kempanayanakere,hosakere-3,dem,,hosakere-3,,,0,1.24,Dakshina Pinakini,77.5825,12.806111,cascade-streams-dem
+kempapura-lake,sonnahallipura-lake,dem,,sonnahallipura-lake,,kamblipura-lake,2,11.88,Dakshina Pinakini,77.797778,13.136389,cascade-streams-dem
+kempaura-agrahara-lo-kere,kempaura-agrahara-up-kere,dem,,kempaura-agrahara-up-kere,,,0,0.39,Kumudvathi,77.293056,13.1525,cascade-streams-dem
+kempaura-agrahara-up-kere,govindapura-lo-kere,dem,,govindapura-lo-kere,,honepalya-kere;kempaura-agrahara-lo-kere;sulukunte-kere,2,8.75,Kumudvathi,77.296944,13.154722,cascade-streams-dem
+kempegowda-nagar-lake,,,,,,,0,1.5,Dakshina Pinakini,77.749444,12.691389,cascade-streams-dem
+kempegowdanagar-lake-1,yelachagupperamapura-kere,dem,,yelachagupperamapura-kere,,,0,0.64,Vrishabhavathi,77.425556,12.965556,cascade-streams-dem
+kempohalli-lake,nijagal-lake,dem,,nijagal-lake,,,0,0.4,Shimsha,77.245,13.252778,cascade-streams-dem
+kempu-vaderahalli-lake,kun-madiwala-lake,dem,,kun-madiwala-lake,,bidara-amanikere;honna-kalashapura-lake;sidi-hoskote-lake-east;sonnayakanapura-lake;suragajakkaratahalli-lake,3,23.81,Dakshina Pinakini,77.696944,12.740556,cascade-streams-dem
+kenchanapura-govt-lake,manganahalli-lake,dem,,manganahalli-lake,,,0,1.2,Vrishabhavathi,77.45,12.956389,cascade-streams-dem
+kenchanapura-kere,tadsighatta-kere,dem,,tadsighatta-kere,,balligere-lake,1,5.84,Kumudvathi,77.356389,13.237222,cascade-streams-dem
+kenchanapura-kunte1,manganahalli-lake,dem,,manganahalli-lake,,,0,0.01,Vrishabhavathi,77.453333,12.958333,cascade-streams-dem
+kenchinahalli-kere,,,,,,halagevaderahalli-kere-2,3,3.74,Vrishabhavathi,77.508056,12.925833,cascade-streams-dem
+kengal-lake,devaganahalli-lake,dem,,devaganahalli-lake,,,0,2.39,"unnamed, leaves to W",77.225833,13.211944,cascade-streams-dem
+kengalkempohalli-kere,hosahalli-kere,dem,,hosahalli-kere,,,0,0.39,Kumudvathi,77.261389,13.200278,cascade-streams-dem
+kenganahalli-kere,timmaboyipalya-kere,dem,,timmaboyipalya-kere,,,0,1.54,Arkavathi,77.403889,13.054167,cascade-streams-dem
+kengeri-1,,,,,,kengeri-2,1,1.17,Vrishabhavathi,77.491944,12.908889,cascade-streams-dem
+kengeri-2,kengeri-1,dem,,kengeri-1,,,0,0.67,Vrishabhavathi,77.494722,12.906389,cascade-streams-dem
+kerekattiganuru-kere,gundenahalli-kere,dem,,gundenahalli-kere,,averhalli-kere;guruvanahalli-kere;kasaranghatta-kere;machanahalli-kere,4,17.84,Kumudvathi,77.269722,13.177222,cascade-streams-dem
+keremare-katte,muppatu-kavalu-sakari,dem,,muppatu-kavalu-sakari,,yelachaguppe-kunte2,1,0.34,Vrishabhavathi,77.435278,12.95,cascade-streams-dem
+ketohalli-kere,ramohalli-kere,dem,,ramohalli-kere,,ketohalli-kere-s,1,1.0,Vrishabhavathi,77.404722,12.904167,cascade-streams-dem
+ketohalli-kere-n,doddastadamaradapala-kere,dem,,doddastadamaradapala-kere,,,0,0.43,Vrishabhavathi,77.400833,12.909167,cascade-streams-dem
+ketohalli-kere-s,ketohalli-kere,dem,,ketohalli-kere,,,0,0.26,Vrishabhavathi,77.399167,12.899722,cascade-streams-dem
+khajisonnenahalli-kunte4,bidareagrahara-kere,dem,,bidareagrahara-kere,,,0,0.06,Hebbal,77.753056,13.036944,cascade-streams-dem
+khajisonnenahalli-kunte8,,,,,,,0,0.0,Dakshina Pinakini,77.759444,13.037222,cascade-streams-dem
+kilaranahalli-lake,sukaligarahath-lake,dem,,sukaligarahath-lake,,harohali-lake,1,3.64,Jayamangali,77.370556,13.441944,cascade-streams-dem
+kiribirana-hosahalli-kere,vadagehalli-kere,dem,,vadagehalli-kere,,,0,1.3,Dakshina Pinakini,77.865278,13.035833,cascade-streams-dem
+kittanahalli-kere,,,,,,,0,1.69,Arkavathi,77.419722,13.011667,cascade-streams-dem
+kittanahallipalya-kere,,,,,,,0,0.54,Arkavathi,77.398333,13.010833,cascade-streams-dem
+kittanahallipalya-lo-kere,,,,,,,0,0.16,Arkavathi,77.408333,13.001944,cascade-streams-dem
+kitthaganuru-kere,yellamallappashetti-kere,dem,,yellamallappashetti-kere,,,0,1.92,Hebbal,77.710833,13.035278,cascade-streams-dem
+kittiganahalli-lake,muttanallur-kere,dem,,muttanallur-kere,,bommasandra-lake;hennagara-kere;hilaligi-lake;hinnakki-lake;kachanayakanahalli-lake;ramakrishnapura-lake;ramakrishnapura-lake-2,7,118.82,Dakshina Pinakini,77.706944,12.806944,cascade-streams-dem
+kodagi-singasandra-kere,chikkabegur-kere,dem,,chikkabegur-kere,,,0,0.68,Koramangala-Challaghatta,77.641667,12.879167,cascade-streams-dem
+kodagikere,dommasandra-kere-s,dem,,dommasandra-kere-s,,dommasandra-kunte-7,1,2.97,Dakshina Pinakini,77.750833,12.875278,cascade-streams-dem
+kodatti-kere,hosahalli-lake,dem,,hosahalli-lake,,karabu-kere,1,4.63,Dakshina Pinakini,77.628056,13.139167,cascade-streams-dem
+kodaturu-kere,kakolu-kere,dem,,kakolu-kere,,adde-lake;aradeshanahalli-kere-2;marasandra-lake,8,87.07,Arkavathi,77.533611,13.209167,cascade-streams-dem
+kodgibommanahalli-kere,kuppemala-kere,dem,,kuppemala-kere,,,0,0.92,Kumudvathi,77.273611,13.136944,cascade-streams-dem
+kodigehalli-kere,kannalli-kere,dem,,kannalli-kere,,,0,1.57,Vrishabhavathi,77.4675,12.975833,cascade-streams-dem
+kodigehalli-kere-2,udanahalli-kere,dem,,udanahalli-kere,,kodigehalli-kere-2-2,1,2.62,Arkavathi,77.645,13.336111,cascade-streams-dem
+kodigehalli-kere-2-2,kodigehalli-kere-2,dem,,kodigehalli-kere-2,,,0,1.24,Arkavathi,77.655,13.333056,cascade-streams-dem
+kodigehalli-kunte3,hebbal-lake,streams,hebbal-lake,hebbal-lake,True,,0,1.07,Hebbal,77.577075,13.057432,cascade-streams-dem
+kodigehalli-lake,,,,,,hoodi-kere-2;rajapalya-hoodikere,2,8.24,Hebbal,77.730556,13.001667,cascade-streams-dem
+kodigehalli-lake-2,hosakote-doddaamanikere,dem,,hosakote-doddaamanikere,,,0,0.02,Dakshina Pinakini,77.746944,13.085833,cascade-streams-dem
+kodihalli-kere,chikkannayyan-kere,dem,,chikkannayyan-kere,,hire-kere;kalalghatta-kere;subramanyanagar-lake,6,96.68,Kumudvathi,77.312222,13.195278,cascade-streams-dem
+kodihalli-kere-2,bhaktarahalli-kere,dem,,bhaktarahalli-kere,,jinnagar-lake;makanahalli-kere,6,66.94,Dakshina Pinakini,77.813056,13.013889,cascade-streams-dem
+kodipalya-kere,,,,,,huchchanapalya-kere,2,11.28,Arkavathi,77.438056,13.094167,cascade-streams-dem
+kodipura-lake,mayasandra-east-lake,dem,,mayasandra-east-lake,,,0,1.12,Dakshina Pinakini,77.758611,12.741111,cascade-streams-dem
+kogilu-kere,jakkur-lake,streams,jakkur-lake,jakkur-lake,True,kattigenahalli-lake;palanahalli,1,7.68,Hebbal,77.617072,13.107984,cascade-streams-dem
+kolapurapalya-kere,sonnenahalli-kere,dem,,sonnenahalli-kere,,,0,2.8,Arkavathi,77.492778,13.210556,cascade-streams-dem
+kolatur-kere,chikkaamani-kere,dem,,chikkaamani-kere,,arluru-kere-s;solur-kere,2,14.72,Dakshina Pinakini,77.8325,13.080278,cascade-streams-dem
+kolipura-kere,aradeshanahalli-kere,dem,,aradeshanahalli-kere,,,0,0.36,Arkavathi,77.573056,13.263611,cascade-streams-dem
+kollipaya-2r,doddabele-small-2r,dem,,doddabele-small-2r,,,0,0.47,Kumudvathi,77.3575,13.223333,cascade-streams-dem
+kolur-kere,lakkayanapalya-kere,dem,,lakkayanapalya-kere,,,0,0.61,Vrishabhavathi,77.406944,12.890278,cascade-streams-dem
+kolur-kere-2,madagondanahalli-kere,dem,,madagondanahalli-kere,,antarahalli-kere;tapasihalli-kere,1,13.61,Arkavathi,77.512222,13.341667,cascade-streams-dem
+koluvarayanahalli-lake,mathkuru-kere,dem,,mathkuru-kere,,dibburu-kere,4,7.53,Arkavathi,77.521944,13.16,cascade-streams-dem
+komaranappali-south-lake,,,,,,,0,0.97,Dakshina Pinakini,77.744167,12.688056,cascade-streams-dem
+kommaghatta-gokatte,hunisemaradapalya-la,dem,,hunisemaradapalya-la,,,0,0.7,Vrishabhavathi,77.446944,12.924722,cascade-streams-dem
+kommaghatta-govt-lake,,,,,,badakukere;chikkakere;haranakatte,1,5.37,Vrishabhavathi,77.465833,12.928611,cascade-streams-dem
+kommaghatta-krishnasagara-kunte1,,,,,,,0,0.16,Vrishabhavathi,77.453333,12.910556,cascade-streams-dem
+konadaspur-lake,katamnalluru-kere,dem,,katamnalluru-kere,,,0,0.28,Dakshina Pinakini,77.756389,13.0475,cascade-streams-dem
+konaghatta-kere,pindkur-timmanahalli-kere,dem,,pindkur-timmanahalli-kere,,kurubalahalli-kere;rabbanahalli-kere-3,4,29.26,Arkavathi,77.590556,13.313889,cascade-streams-dem
+konana-kere,kalalghatta-kere,dem,,kalalghatta-kere,,doddabele-small-2r;vadakunte-4r,2,6.2,Kumudvathi,77.345833,13.212778,cascade-streams-dem
+konanakunte-kere,sarakki-lake,dem,,sarakki-lake,,,0,0.22,Koramangala-Challaghatta,77.569444,12.891111,cascade-streams-dem
+konappana-agrahara-lake,doddanagamanagala-lake,dem,,doddanagamanagala-lake,,,0,0.9,Dakshina Pinakini,77.670556,12.858056,cascade-streams-dem
+konasandra-lake,hennagara-kere,dem,,hennagara-kere,,vaddarapalya-lake-2,3,4.48,Dakshina Pinakini,77.644167,12.760556,cascade-streams-dem
+konasandra-lake-2,mysorammanadoddi-lake,dem,,mysorammanadoddi-lake,,,0,0.3,Arkavathi,77.629722,12.756667,cascade-streams-dem
+konashetty-kere,agara-kere,dem,,agara-kere,,,0,0.56,Vrishabhavathi,77.512778,12.871111,cascade-streams-dem
+kondrahalli-lake,n-hosahalli-lake,dem,,n-hosahalli-lake,,dummy-2,1,3.27,Palar,77.921389,13.186111,cascade-streams-dem
+koppa-lake,jigani-kere,dem,,jigani-kere,,,0,0.44,Dakshina Pinakini,77.62,12.791944,cascade-streams-dem
+koralahalli-kere,naduvinapur-lake,dem,,naduvinapur-lake,,,0,2.44,Palar,77.91,13.17,cascade-streams-dem
+koramangala-kere-2,bellandur-lake,streams,bellandur-lake,bellandur-lake,True,lalbagh-kere,1,16.49,Koramangala-Challaghatta,77.617349,12.948552,cascade-streams-dem
+koratagere-kere,,,,,,yantiganahalli-kere,1,3.67,Kumudvathi,77.34,13.054722,cascade-streams-dem
+kotanahalli-kere,,,,,,,0,0.14,Kumudvathi,77.338056,13.01,cascade-streams-dem
+kothanaru-kere,chunchanaghatta-kere,dem,,chunchanaghatta-kere,,,0,0.88,Koramangala-Challaghatta,77.579167,12.875278,cascade-streams-dem
+kotiganahalli-kere,sollepura-kere,dem,,sollepura-kere,,,0,0.59,Dakshina Pinakini,77.768611,12.833333,cascade-streams-dem
+kowdenahalli-kere,krishnarajapuram-kere,streams,krishnarajapuram-kere,krishnarajapuram-kere,True,vijinapura-kere2,1,3.6,Hebbal,77.685678,13.013547,cascade-streams-dem
+krishnanadoddi-lake,mysorammanadoddi-lake,dem,,mysorammanadoddi-lake,,,0,0.26,Arkavathi,77.611389,12.75,cascade-streams-dem
+krishnapura-kere-ne,krishnapura-kere-nw,dem,,krishnapura-kere-nw,,,0,0.07,Vrishabhavathi,77.392778,12.896944,cascade-streams-dem
+krishnapura-kere-nw,,,,,,krishnapura-kere-ne,1,1.33,Vrishabhavathi,77.384444,12.895833,cascade-streams-dem
+krishnaraja-puram-kere,shegehalli-kere,streams,shegehalli-kere,shegehalli-kere,True,,0,1.4,Hebbal,77.694566,13.006881,cascade-streams-dem
+krishnarajapuram-kere,shegehalli-kere,streams,shegehalli-kere,shegehalli-kere,True,kowdenahalli-kere,2,6.39,Hebbal,77.70401,13.016324,cascade-streams-dem
+krishnasagara-lake,juzuvadi-kere,dem,,juzuvadi-kere,,,0,0.4,Dakshina Pinakini,77.76,12.781389,cascade-streams-dem
+krishnasagara-lake-2,attibele-kere,dem,,attibele-kere,,,0,0.5,Dakshina Pinakini,77.749444,12.7825,cascade-streams-dem
+krishnasagara-lake-3,muppatu-kavalu-sakari,dem,,muppatu-kavalu-sakari,,,0,0.67,Vrishabhavathi,77.431944,12.938333,cascade-streams-dem
+kudlu-chikere,haraluru-kere,dem,,haraluru-kere,,,0,0.72,Koramangala-Challaghatta,77.655833,12.892222,cascade-streams-dem
+kukkalahalli-kere,kukkalahalli-lake,dem,,kukkalahalli-lake,,kukkalahalli-kere-1,1,1.33,Arkavathi,77.443611,13.161944,cascade-streams-dem
+kukkalahalli-kere-1,kukkalahalli-kere,dem,,kukkalahalli-kere,,,0,0.42,Arkavathi,77.436944,13.1625,cascade-streams-dem
+kukkalahalli-lake,hesaraghatta-lake,dem,,hesaraghatta-lake,,kukkalahalli-kere,2,6.17,Arkavathi,77.463333,13.1575,cascade-streams-dem
+kukkalahalli-lake-2,,,,,,ujjani-lake,1,13.97,Kumadvati,77.438611,13.435278,cascade-streams-dem
+kukkanahalli-kere,hesaraghatta-kere-east,dem,,hesaraghatta-kere-east,,shastripalya-kere,1,2.7,Arkavathi,77.436389,13.176389,cascade-streams-dem
+kukkonallipalya-lake,hesaraghatta-kere-east,dem,,hesaraghatta-kere-east,,,0,0.45,Arkavathi,77.464167,13.204444,cascade-streams-dem
+kulaghatta,devara-kere,dem,,devara-kere,,,0,6.08,"unnamed, leaves to W",77.220556,13.191944,cascade-streams-dem
+kulavanahalli-kere,mahimpura-kere,dem,,mahimpura-kere,,,0,1.45,Kumudvathi,77.293056,13.174444,cascade-streams-dem
+kumbalagodu-gollahalli-kunte2,,,,,,,0,0.01,Vrishabhavathi,77.444444,12.85,cascade-streams-dem
+kumbalagodu-kere,lingapura-lake-2,dem,,lingapura-lake-2,,,0,1.36,Vrishabhavathi,77.459444,12.842222,cascade-streams-dem
+kumbalagodu-kunte6,,,,,,,0,0.35,Vrishabhavathi,77.427778,12.875833,cascade-streams-dem
+kumbarahalli-kere,,,,,,kalatammanahalli-lake,2,3.8,Arkavathi,77.4925,13.098889,cascade-streams-dem
+kumbarakere,salindradoddi-lake,dem,,salindradoddi-lake,,,0,0.22,Suvarnamukhi,77.574444,12.804444,cascade-streams-dem
+kun-madiwala-lake,haleuru-lake,dem,,haleuru-lake,,kempu-vaderahalli-lake;yellammanapalya-lake,4,26.26,Dakshina Pinakini,77.7025,12.748333,cascade-streams-dem
+kundalahalli-kere,siddapura-kere,streams,siddapura-kere,siddapura-kere,True,,0,1.17,Koramangala-Challaghatta,77.722064,12.96855,cascade-streams-dem
+kuppareddy-kere,,,,,,tataguni-lake,1,0.7,Suvarnamukhi,77.5175,12.841389,cascade-streams-dem
+kuppemala-kere,govindapura-lo-kere,dem,,govindapura-lo-kere,,hempapura-kere;kodgibommanahalli-kere;muganahalli-kere,2,42.14,Kumudvathi,77.296944,13.109444,cascade-streams-dem
+kurubalahalli-kere,konaghatta-kere,dem,,konaghatta-kere,,rabbanahalli-kere-2;udanahalli-kere,3,15.56,Arkavathi,77.622222,13.33,cascade-streams-dem
+kurubarahalli-kere,talagavara-kere,dem,,talagavara-kere,,,0,1.08,Arkavathi,77.524722,13.308889,cascade-streams-dem
+kurubarahalli-lake,,,,,,,0,0.42,Arkavathi,77.410556,12.98,cascade-streams-dem
+kurubarahalli-lake-1,varattur-lake,dem,,varattur-lake,,,0,0.16,Arkavathi,77.406389,12.973056,cascade-streams-dem
+kurubarapalya-kere,,,,,,hulvenahalli-lake,1,1.66,Arkavathi,77.359722,12.908333,cascade-streams-dem
+kurubarhalli-lake,chikkaamani-kere,dem,,chikkaamani-kere,,,0,1.51,Dakshina Pinakini,77.796111,13.103333,cascade-streams-dem
+kuruvegere-kere,kachiganal-n-kere,dem,,kachiganal-n-kere,,,0,3.37,Arkavathi,77.597778,13.356944,cascade-streams-dem
+kuvempu-nagara-lake,muttagatti-north-lake,dem,,muttagatti-north-lake,,hompalaghatta-east-lake,2,2.16,Dakshina Pinakini,77.718333,12.699167,cascade-streams-dem
+kuvempunagar-lake,abbigere-kere,streams,abbigere-kere,abbigere-kere,True,,0,0.01,Arkavathi,77.537633,13.06882,cascade-streams-dem
+kyalasanahalli-govt-lake,bandenalasandra-lake,dem,,bandenalasandra-lake,,uramundinakere-2,1,1.93,Dakshina Pinakini,77.655278,12.802778,cascade-streams-dem
+kyalasanahalli-lake,kalkere-kere,dem,,kalkere-kere,,,0,0.02,Hebbal,77.668056,13.059722,cascade-streams-dem
+lagamenahalli-lake,hosakote-doddaamanikere,dem,,hosakote-doddaamanikere,,avalahalli-lake,1,1.99,Dakshina Pinakini,77.756111,13.074167,cascade-streams-dem
+laggeri-lake,,,,,,,0,0.93,Vrishabhavathi,77.515278,13.009444,cascade-streams-dem
+lakkanapalya-lake,devara-kere,dem,,devara-kere,,,0,0.55,"unnamed, leaves to W",77.209722,13.185833,cascade-streams-dem
+lakkanapalya-lake-2,devara-kere,dem,,devara-kere,,,0,0.58,"unnamed, leaves to W",77.218056,13.182778,cascade-streams-dem
+lakkayanapalya-kere,chikkaluru-rampura-kere,dem,,chikkaluru-rampura-kere,,kolur-kere;lakkayanapalya-kere-2;lakkayanapalya-kere-3,1,3.03,Vrishabhavathi,77.410278,12.887222,cascade-streams-dem
+lakkayanapalya-kere-2,lakkayanapalya-kere,dem,,lakkayanapalya-kere,,,0,0.15,Vrishabhavathi,77.398611,12.883889,cascade-streams-dem
+lakkayanapalya-kere-3,lakkayanapalya-kere,dem,,lakkayanapalya-kere,,,0,0.03,Vrishabhavathi,77.403611,12.886944,cascade-streams-dem
+lakkenahalli-kere,machohalli-chikkere,dem,,machohalli-chikkere,,gangondanahalli-kere;gangondanahalli-kunte3,3,10.5,Arkavathi,77.461944,13.015,cascade-streams-dem
+lakkenahalli-kere-2,chikkannayyan-kere,dem,,chikkannayyan-kere,,,0,1.18,Kumudvathi,77.297222,13.186389,cascade-streams-dem
+lakkenahalli-kere-3,hunnegere-up-kere,dem,,hunnegere-up-kere,,,0,0.79,Arkavathi,77.4,13.041667,cascade-streams-dem
+lakkenahalli-kunte-1,gangondanahalli-lake,dem,,gangondanahalli-lake,,,0,0.03,Arkavathi,77.458611,13.024722,cascade-streams-dem
+lakkuru-lake,nidvanda-kere,dem,,nidvanda-kere,,dobbasapete-lake,1,2.61,Kumudvathi,77.248056,13.234722,cascade-streams-dem
+lakshmipura-kere,chikkabanavara-kere,dem,,chikkabanavara-kere,,,0,0.79,Arkavathi,77.529722,13.085,cascade-streams-dem
+lakshmipura-kere-2,,,,,,,0,2.31,Arkavathi,77.467222,13.034167,cascade-streams-dem
+lakshmipura-lake,uramundinakere-3,dem,,uramundinakere-3,,kallakere-lake-land,1,1.34,Dakshina Pinakini,77.593889,12.823333,cascade-streams-dem
+lakshmipura-lake-2,singapura-lake,streams,singapura-lake,singapura-lake,True,,0,1.23,Arkavathi,77.537633,13.084375,cascade-streams-dem
+lakshmisagara-kere,muddenahalli-lake,dem,,muddenahalli-lake,,,0,0.86,Hebbal,77.583889,13.156667,cascade-streams-dem
+lalagondanahalli-kere,binnamangala-kere-u,dem,,binnamangala-kere-u,,,0,1.34,Dakshina Pinakini,77.728056,13.273611,cascade-streams-dem
+lalbagh-kere,koramangala-kere-2,dem,,koramangala-kere-2,,,0,1.23,Koramangala-Challaghatta,77.585833,12.947778,cascade-streams-dem
+lingadheeranahalli-karabu-katte,handrahalli-kere,dem,,handrahalli-kere,,,0,0.44,Arkavathi,77.483333,13.003333,cascade-streams-dem
+lingadhiragollonahalli-kere,bachchahalli-kere,dem,,bachchahalli-kere,,,0,0.64,Arkavathi,77.610556,13.2525,cascade-streams-dem
+linganahalli-kere,mathkuru-kere,dem,,mathkuru-kere,,,0,0.62,Arkavathi,77.519167,13.150278,cascade-streams-dem
+lingapura-lake,yelachchahalli-kere,dem,,yelachchahalli-kere,,,0,0.61,Dakshina Pinakini,77.923611,13.146667,cascade-streams-dem
+lingapura-lake-2,,,,,,agara-kere;bairasandra-kere;chinnakurchi-kere-1;devagere-kere;kumbalagodu-kere,3,36.37,Vrishabhavathi,77.452778,12.821667,cascade-streams-dem
+lingapura-lake-3,,,,,,gonipura-2;gonipura-lake,2,3.21,Vrishabhavathi,77.446667,12.824167,cascade-streams-dem
+lingarajapura-lake,solekere,dem,,solekere,,,0,0.25,Arkavathi,77.544167,13.128056,cascade-streams-dem
+lingdir-malasandra-lake,devangondi-lake,dem,,devangondi-lake,,,0,2.05,Dakshina Pinakini,77.848611,12.976667,cascade-streams-dem
+lower-medhalli-kere,bidarguppe-kere,dem,,bidarguppe-kere,,,0,2.37,Dakshina Pinakini,77.795556,12.815278,cascade-streams-dem
+machanahalli-kere,kerekattiganuru-kere,dem,,kerekattiganuru-kere,,,0,2.99,Kumudvathi,77.252778,13.185278,cascade-streams-dem
+machohalli-chikkere,,,,,,lakkenahalli-kere,4,11.8,Arkavathi,77.453056,13.012222,cascade-streams-dem
+madagondanahalli-kere,talagavara-kere,dem,,talagavara-kere,,kolur-kere-2,2,20.08,Arkavathi,77.509444,13.322778,cascade-streams-dem
+madapatna-lake,,,,,,,0,1.77,Arkavathi,77.356944,12.927778,cascade-streams-dem
+madappanahalli-kunte-1,madappanahalli-lake-2-2,dem,,madappanahalli-lake-2-2,,,0,0.02,Arkavathi,77.545278,13.155833,cascade-streams-dem
+madappanahalli-lake-2-2,dibburu-kere,dem,,dibburu-kere,,madappanahalli-kunte-1,1,1.49,Arkavathi,77.543056,13.158889,cascade-streams-dem
+madavara-kere,,,,,,doddabidarakallu-lake,2,15.03,Arkavathi,77.477778,13.0525,cascade-streams-dem
+madenahalli-lake,nidvanda-kere,dem,,nidvanda-kere,,,0,0.49,Kumudvathi,77.251111,13.248333,cascade-streams-dem
+madhure-kere,hesaraghatta-kere-east,dem,,hesaraghatta-kere-east,,gandaragolipura-kere;gulya-down;mallohalli-kere;puttenahalli-kere,6,142.73,Arkavathi,77.443611,13.209167,cascade-streams-dem
+madivala-lake,kambalipura-lake,dem,,kambalipura-lake,,adesonatti-lake,1,3.5,Dakshina Pinakini,77.725,12.763889,cascade-streams-dem
+madivalam-lake,,,,,,chinna-agraharam-lake,1,3.33,Dakshina Pinakini,77.757222,12.711944,cascade-streams-dem
+madiwala-lake,agara-lake,streams,agara-lake,agara-lake,True,arekere-lake;hulimavu-kere;nyanappanahalli-kere;puttenahalli-lake-2;sarakki-lake,3,38.62,Koramangala-Challaghatta,77.618738,12.913277,cascade-streams-dem
+mahadeva-kodigehalli-lake,budigere-amani-kere,dem,,budigere-amani-kere,,dasanayakanahalli-kunte;mahadevanakodag-lake;maralajunte-lake,4,58.32,Dakshina Pinakini,77.718889,13.143611,cascade-streams-dem
+mahadevanakodag-lake,mahadeva-kodigehalli-lake,dem,,mahadeva-kodigehalli-lake,,chagalatti-kunte-2;dasanayakanahalli-kere;govt-katte;hosahalli-lake;huvinaikanahalli-lake;marenahalli-kere,3,44.71,Dakshina Pinakini,77.693056,13.14,cascade-streams-dem
+mahadevapura-kere,doddanekundi-kere,streams,doddanekundi-kere,doddanekundi-kere,True,achanakere,1,1.38,Koramangala-Challaghatta,77.693455,12.983827,cascade-streams-dem
+mahalchouadenahalli-kere-n,dodda-thimmasandra-kere-s,dem,,dodda-thimmasandra-kere-s,,ittangur-kere,2,5.19,Dakshina Pinakini,77.800278,12.88,cascade-streams-dem
+mahalchoudadenahalli-kere-e,dodda-thimmasandra-kere-s,dem,,dodda-thimmasandra-kere-s,,tindlu-kere-e,3,6.22,Dakshina Pinakini,77.8125,12.871944,cascade-streams-dem
+mahanthalingapura-lake,giddenahalli-lake,dem,,giddenahalli-lake,,,0,0.5,Arkavathi,77.615556,12.764722,cascade-streams-dem
+mahimanapalya-lake,giddanahalli-lake,dem,,giddanahalli-lake,,,0,1.68,Arkavathi,77.432778,12.989444,cascade-streams-dem
+mahimpura-kere,chikkannayyan-kere,dem,,chikkannayyan-kere,,kulavanahalli-kere,1,1.85,Kumudvathi,77.295278,13.171389,cascade-streams-dem
+mailapura-kere,timmaboyipalya-kere,dem,,timmaboyipalya-kere,,uttarsipalya-kere,1,3.22,Arkavathi,77.407778,13.070556,cascade-streams-dem
+mailasandra-kere,,,,,,,0,0.14,Vrishabhavathi,77.485556,12.914444,cascade-streams-dem
+maitanahalli-kere,hadyalu-kere,dem,,hadyalu-kere,,,0,1.08,Arkavathi,77.4,13.1375,cascade-streams-dem
+makanahalli-kere,kodihalli-kere-2,dem,,kodihalli-kere-2,,makanahalli-kere-s;parmanahalli-kere;vagata-kere,5,57.32,Dakshina Pinakini,77.829167,13.0175,cascade-streams-dem
+makanahalli-kere-s,makanahalli-kere,dem,,makanahalli-kere,,giddatapura-lake;tarabhalli-lake,1,4.78,Dakshina Pinakini,77.835833,13.008056,cascade-streams-dem
+malagondanahalli-kere,hunisemaradapalya-kere,dem,,hunisemaradapalya-kere,,,0,0.31,Vrishabhavathi,77.418611,12.916389,cascade-streams-dem
+malgalu-lake,,,,,,,0,0.04,Vrishabhavathi,77.527778,12.978889,cascade-streams-dem
+maligenahalli-kere,devanahalli-kere,dem,,devanahalli-kere,,,0,1.9,Dakshina Pinakini,77.701667,13.290278,cascade-streams-dem
+mallammana-katte,,,,,,,0,0.2,Vrishabhavathi,77.453333,12.931667,cascade-streams-dem
+mallanayakanahalli-lake,sonnenahalli-lake,dem,,sonnenahalli-lake,,bhimaravutanahalli-lake;sakkare-gollahalli-lake,3,9.45,Arkavathi,77.4075,13.311667,cascade-streams-dem
+mallarabanavadi-kere,gururvanahalli-kere,dem,,gururvanahalli-kere,,,0,0.95,Arkavathi,77.369167,13.0725,cascade-streams-dem
+mallarabanavadi-kere-2,bhairagaudanahalli-kere,dem,,bhairagaudanahalli-kere,,jakkasandra-kere,1,3.96,Arkavathi,77.380833,13.0725,cascade-streams-dem
+mallasandra-gudde-lake,chikkabanavara-kere,dem,,chikkabanavara-kere,,,0,0.09,Arkavathi,77.516667,13.057778,cascade-streams-dem
+mallasandra-lake,,,,,,nadvatti-kere-s,1,2.54,Dakshina Pinakini,77.780833,13.000278,cascade-streams-dem
+mallasandra-lake-2,chikkabanavara-kere,dem,,chikkabanavara-kere,,,0,0.18,Arkavathi,77.519167,13.056389,cascade-streams-dem
+mallathahalli-lake,muppatu-kavalu-hosa-kere,dem,,muppatu-kavalu-hosa-kere,,herohalli-thotadakere;srigandhakavalu-karabu-katte,1,6.08,Vrishabhavathi,77.494444,12.962222,cascade-streams-dem
+mallenahalli-lake,bandikodigenahalli-amani-kere,dem,,bandikodigenahalli-amani-kere,,,0,2.86,Dakshina Pinakini,77.665556,13.188611,cascade-streams-dem
+mallikere,,,,,,kasagattapura-kere-1,1,2.35,Arkavathi,77.491389,13.118611,cascade-streams-dem
+mallipalya-lake,karenahalli-lake,dem,,karenahalli-lake,,,0,0.51,Vrishabhavathi,77.475556,12.795833,cascade-streams-dem
+mallohalli-kere,madhure-kere,dem,,madhure-kere,,chikka-hejjaji-lake;dodda-hejjaji-lake;honnadevipura-lake;kaanurpalya-lake;kadanur-kere;sonnenahalli-lake,5,90.39,Arkavathi,77.441111,13.233889,cascade-streams-dem
+mallonalli-lake,channadevi-agrahara,dem,,channadevi-agrahara,,,0,0.97,Arkavathi,77.466667,13.219444,cascade-streams-dem
+malluru-kunte,chikkabellanduru-kere,dem,,chikkabellanduru-kere,,,0,0.01,Koramangala-Challaghatta,77.725833,12.905833,cascade-streams-dem
+managondanahalli-kere,chikkobanahalli-kere,dem,,chikkobanahalli-kere,,ramanathapura-kere-1,2,4.67,Arkavathi,77.626944,13.304167,cascade-streams-dem
+manchanha-left,arehalii-kere,dem,,arehalii-kere,,ichanguru-lake,2,4.46,Dakshina Pinakini,77.751667,12.762778,cascade-streams-dem
+manchenahalli-kere,,,,,,,0,0.37,Arkavathi,77.368056,13.036667,cascade-streams-dem
+mande-katte-newly-created,manganahalli-lake,dem,,manganahalli-lake,,,0,0.04,Vrishabhavathi,77.450278,12.965833,cascade-streams-dem
+manganahalli-lake,,,,,,kannalli-kere;kenchanapura-govt-lake;kenchanapura-kunte1;mande-katte-newly-created,3,14.7,Vrishabhavathi,77.458333,12.946667,cascade-streams-dem
+manne-kere,kanavalli-lake,dem,,kanavalli-lake,,nidvanda-kere;rayarapalya-lake;tattekere,3,34.37,Kumudvathi,77.294722,13.248333,cascade-streams-dem
+mantakurchi-kere,sandekuppe-kere,dem,,sandekuppe-kere,,,0,1.67,Arkavathi,77.387778,13.045278,cascade-streams-dem
+mantakurchi-low-kere,sandekuppe-kere,dem,,sandekuppe-kere,,,0,1.25,Arkavathi,77.381667,13.038611,cascade-streams-dem
+maragondanahalli-govt-lake,hunisemaradapalya-kere,dem,,hunisemaradapalya-kere,,gulagunganahalli-lak;hosa-katte-newly-created;tavarekere-lake-1;yellachikuppe-lake,2,7.18,Vrishabhavathi,77.421944,12.934444,cascade-streams-dem
+maragondanahalli-kere,gollahalli-govt-lake,dem,,gollahalli-govt-lake,,,0,1.23,Dakshina Pinakini,77.652222,12.832222,cascade-streams-dem
+maragondanahalli-lak,hunisemaradapalya-kere,dem,,hunisemaradapalya-kere,,basavanapalya-lake,1,1.73,Vrishabhavathi,77.411667,12.928056,cascade-streams-dem
+maragondanahalli-quarry,bettenahalli-lake,dem,,bettenahalli-lake,,,0,0.27,Arkavathi,77.591667,13.203611,cascade-streams-dem
+maralajunte-lake,mahadeva-kodigehalli-lake,dem,,mahadeva-kodigehalli-lake,,,0,2.3,Dakshina Pinakini,77.711111,13.131667,cascade-streams-dem
+marappanahalli-lake,,,,,,kempadevanahalli-kere,1,0.5,Vrishabhavathi,77.354444,12.863611,cascade-streams-dem
+marasandhalli-lake-1,sattigenahalli-lake-2,dem,,sattigenahalli-lake-2,,,0,0.09,Palar,77.940278,13.158333,cascade-streams-dem
+marasandhalli-lake-2,gundarahalli-lake-2,dem,,gundarahalli-lake-2,,,0,1.94,Palar,77.946389,13.160556,cascade-streams-dem
+marasandra-lake,kodaturu-kere,dem,,kodaturu-kere,,,0,2.06,Arkavathi,77.543889,13.226389,cascade-streams-dem
+marasur-lake,haleuru-lake,dem,,haleuru-lake,,,0,1.18,Dakshina Pinakini,77.708889,12.76,cascade-streams-dem
+marenahalli-chokkanahalli-kunte-new,dasanayakanahalli-kere,dem,,dasanayakanahalli-kere,,,0,0.0,Dakshina Pinakini,77.691389,13.112222,cascade-streams-dem
+marenahalli-kere,mahadevanakodag-lake,dem,,mahadevanakodag-lake,,,0,2.36,Dakshina Pinakini,77.68,13.112778,cascade-streams-dem
+margondanahalli-kere,honepalya-kere,dem,,honepalya-kere,,,0,0.63,Kumudvathi,77.266667,13.156944,cascade-streams-dem
+marimakanaha-lake,sukaligarahath-lake,dem,,sukaligarahath-lake,,harohali-lake-2,1,3.06,Jayamangali,77.379167,13.443333,cascade-streams-dem
+marohalli-kere,,,,,,huchegowdanpalya-kere,1,3.39,Kumudvathi,77.336389,13.149167,cascade-streams-dem
+mastenahalli-lake,hennagara-kere,dem,,hennagara-kere,,,0,1.12,Dakshina Pinakini,77.663611,12.791111,cascade-streams-dem
+matadakere,bhujangadasana-amanikere-govt-lake,dem,,bhujangadasana-amanikere-govt-lake,,chittekarepalya-lake,1,0.64,Dakshina Pinakini,77.620278,12.829167,cascade-streams-dem
+mathkuru-kere,kalenahalli-kere,dem,,kalenahalli-kere,,koluvarayanahalli-lake;linganahalli-kere,5,10.67,Arkavathi,77.511389,13.153611,cascade-streams-dem
+mavalipura-kere-1,ivarakangapura-kere,dem,,ivarakangapura-kere,,mavalipura-kere-2;mavalipura-kere-4;muthakarahalli-kunte-2;muthukadhahalli-muthakarahalli-kunte-1;mylappanahalli-kere-1,3,14.75,Arkavathi,77.519167,13.133056,cascade-streams-dem
+mavalipura-kere-2,mavalipura-kere-1,dem,,mavalipura-kere-1,,mavallipura-kere-se;mylappanahalli-kere-2;solekere,2,5.46,Arkavathi,77.527222,13.130556,cascade-streams-dem
+mavalipura-kere-4,mavalipura-kere-1,dem,,mavalipura-kere-1,,oora-mundina-kere,2,3.82,Arkavathi,77.523333,13.125,cascade-streams-dem
+mavallipura-kere-se,mavalipura-kere-2,dem,,mavalipura-kere-2,,jarakabande,1,0.71,Arkavathi,77.5375,13.125556,cascade-streams-dem
+mavinakunte-lake-2,tanniranhalli-lake,dem,,tanniranhalli-lake,,,0,1.92,Jayamangali,77.351389,13.301667,cascade-streams-dem
+mayasandra,arehalii-kere,dem,,arehalii-kere,,halehalli-south-lake,1,8.77,Dakshina Pinakini,77.745,12.749444,cascade-streams-dem
+mayasandra-east-lake,arehalii-kere,dem,,arehalii-kere,,kodipura-lake,1,2.36,Dakshina Pinakini,77.753333,12.75,cascade-streams-dem
+mayasandra-kere,mishiganahalli-kere,dem,,mishiganahalli-kere,,,0,1.52,Dakshina Pinakini,77.664167,13.308056,cascade-streams-dem
+medhalli-kere,arenur-kere,dem,,arenur-kere,,tyavakanahalli-kere,1,3.06,Dakshina Pinakini,77.780556,12.82,cascade-streams-dem
+medhalli-lake,devangondi-lake,dem,,devangondi-lake,,,0,0.93,Dakshina Pinakini,77.847778,12.970556,cascade-streams-dem
+medi-agrahara-kere,tubinkere,dem,,tubinkere,,,0,0.57,Arkavathi,77.526667,13.099722,cascade-streams-dem
+medi-agrahara-s,thupinkere,dem,,thupinkere,,vaderahalli-kere,2,3.23,Arkavathi,77.533889,13.100556,cascade-streams-dem
+medihalli-lake,bidara-amanikere,dem,,bidara-amanikere,,,0,1.09,Dakshina Pinakini,77.673333,12.718333,cascade-streams-dem
+medimalasandra-kere,medimalsandra-lake,dem,,medimalsandra-lake,,,0,1.32,Dakshina Pinakini,77.829167,12.943056,cascade-streams-dem
+medimalsandra-lake,medimalsandra-lake-2,dem,,medimalsandra-lake-2,,medimalasandra-kere,1,2.45,Dakshina Pinakini,77.820833,12.949444,cascade-streams-dem
+medimalsandra-lake-2,yadgondahalli-lake,dem,,yadgondahalli-lake,,doddadunnasandra-lake;medimalsandra-lake;oblapura-lake,3,23.26,Dakshina Pinakini,77.818889,12.951944,cascade-streams-dem
+melangavimath-lake,kasaranghatta-kere,dem,,kasaranghatta-kere,,byadarahalli-lake,2,4.53,Kumudvathi,77.241667,13.161667,cascade-streams-dem
+melinakere,ibbalur-govt-lake,dem,,ibbalur-govt-lake,,,0,0.63,Koramangala-Challaghatta,77.662778,12.914444,cascade-streams-dem
+melinakere-2,kelaginakere,dem,,kelaginakere,,,0,0.34,Koramangala-Challaghatta,77.648889,12.869444,cascade-streams-dem
+melinatota-kere,bettakote-amani-kere,dem,,bettakote-amani-kere,,devanahalli-kere,2,21.31,Dakshina Pinakini,77.703889,13.259167,cascade-streams-dem
+menasi-lake,aralamallige-kere,dem,,aralamallige-kere,,,0,4.53,Arkavathi,77.487222,13.285556,cascade-streams-dem
+menasiganahalli-lake,kanavapalli-lake,dem,,kanavapalli-lake,,,0,1.44,Dakshina Pinakini,77.702222,12.660556,cascade-streams-dem
+mestripalya-lake,bellandur-lake,dem,,bellandur-lake,,,0,0.48,Koramangala-Challaghatta,77.626389,12.933056,cascade-streams-dem
+mettubande-lake,tattaguppe-lake,dem,,tattaguppe-lake,,,0,0.29,Suvarnamukhi,77.576389,12.785833,cascade-streams-dem
+minnapura-kere,bhairanahalli-5r,dem,,bhairanahalli-5r,,jakkanahalli-small,1,2.64,Kumudvathi,77.334722,13.173889,cascade-streams-dem
+mishiganahalli-kere,sonehalli-kere,dem,,sonehalli-kere,,mayasandra-kere,1,4.97,Dakshina Pinakini,77.671389,13.313333,cascade-streams-dem
+moge-kere,,,,,,,0,0.91,Vrishabhavathi,77.540833,12.907222,cascade-streams-dem
+muddenahalli-lake,harohalli-kere,dem,,harohalli-kere,,addiganahalli-lake;honnenahalli-kere;lakshmisagara-kere;timmasadra-kere,2,15.03,Hebbal,77.573056,13.154444,cascade-streams-dem
+muddenahallipalya-lake,tattekere,dem,,tattekere,,,0,1.29,Kumudvathi,77.263056,13.275278,cascade-streams-dem
+muddinapalya-lake,chunchnakuppe-kere-e,dem,,chunchnakuppe-kere-e,,dodmaranhalli-lake;halammanapalya-lake-1,2,2.58,Vrishabhavathi,77.378611,12.916944,cascade-streams-dem
+mugalur-kere-nw,,,,,,vaddarapalya-lake,1,3.38,Dakshina Pinakini,77.816944,12.896389,cascade-streams-dem
+muganahalli-kere,kuppemala-kere,dem,,kuppemala-kere,,aluru-lake1;munganahalli-up-kere,1,3.65,Kumudvathi,77.252222,13.144444,cascade-streams-dem
+mugbal-kere,nallurhalli-lake,dem,,nallurhalli-lake,,chindanahalli-kere;kembliganahalli-kere;yelachchahalli-kere,3,63.62,Dakshina Pinakini,77.883611,13.123333,cascade-streams-dem
+mullur-lake,chikkabellanduru-kere,dem,,chikkabellanduru-kere,,,0,1.54,Koramangala-Challaghatta,77.729167,12.898889,cascade-streams-dem
+mulluru-kere,chikkabellanduru-kere,dem,,chikkabellanduru-kere,,,0,2.17,Koramangala-Challaghatta,77.713889,12.904444,cascade-streams-dem
+mummenahalli-lake,,,,,,,0,0.13,Arkavathi,77.328056,12.993056,cascade-streams-dem
+munganahalli-up-kere,muganahalli-kere,dem,,muganahalli-kere,,,0,0.4,Kumudvathi,77.252778,13.151944,cascade-streams-dem
+muppatu-kavalu-hosa-kere,,,,,,mallathahalli-lake;ullalu-lake-2,2,17.2,Vrishabhavathi,77.479167,12.923611,cascade-streams-dem
+muppatu-kavalu-sakari,hunisemaradapalya-kere,dem,,hunisemaradapalya-kere,,hosakere-lake;keremare-katte;krishnasagara-lake-3;yelachagupperamapura-kere,2,10.71,Vrishabhavathi,77.434722,12.934722,cascade-streams-dem
+mutagadahalli-lake,dyavasandra-lake-2,dem,,dyavasandra-lake-2,,,0,0.82,Jayamangali,77.363611,13.2825,cascade-streams-dem
+muthakarahalli-kunte-2,mavalipura-kere-1,dem,,mavalipura-kere-1,,,0,0.02,Arkavathi,77.531667,13.145,cascade-streams-dem
+muthukadhahalli-muthakarahalli-kunte-1,mavalipura-kere-1,dem,,mavalipura-kere-1,,,0,0.49,Arkavathi,77.531667,13.145833,cascade-streams-dem
+mutsandra-lake,,,,,,govt-mutsandra-kere;gulakayipura-govt-lake,6,12.65,Dakshina Pinakini,77.7875,12.945,cascade-streams-dem
+mutsandra-lake-2,kamblipura-lake,dem,,kamblipura-lake,,,0,3.03,Dakshina Pinakini,77.816944,13.138889,cascade-streams-dem
+muttagatti-north-lake,karpuru-lake,dem,,karpuru-lake,,kuvempu-nagara-lake;muttagatti-south-lake,3,5.94,Dakshina Pinakini,77.72,12.712778,cascade-streams-dem
+muttagatti-south-lake,muttagatti-north-lake,dem,,muttagatti-north-lake,,,0,0.29,Dakshina Pinakini,77.727778,12.705556,cascade-streams-dem
+muttanallur-kere,indlabele-kere,dem,,indlabele-kere,,hale-chandapura-lake-2;kittiganahalli-lake;singena-agrahara-govt-sanna-kere;singena-agrahara-kunte-5,8,173.73,Dakshina Pinakini,77.736111,12.826944,cascade-streams-dem
+muttayyanapalya-lake,tanniranhalli-lake,dem,,tanniranhalli-lake,,,0,0.57,Jayamangali,77.344722,13.295556,cascade-streams-dem
+mutturu-kere,doddaballapur-kere,dem,,doddaballapur-kere,,,0,2.23,Arkavathi,77.551944,13.283611,cascade-streams-dem
+mylappanahalli-kere-1,mavalipura-kere-1,dem,,mavalipura-kere-1,,aralakunte,1,1.55,Arkavathi,77.536389,13.146389,cascade-streams-dem
+mylappanahalli-kere-2,mavalipura-kere-2,dem,,mavalipura-kere-2,,,0,1.95,Arkavathi,77.536389,13.133611,cascade-streams-dem
+mylasandra-buddagana-katte,mylasandra-dodda-agrahara-kere,dem,,mylasandra-dodda-agrahara-kere,,,0,0.06,Koramangala-Challaghatta,77.625556,12.855833,cascade-streams-dem
+mylasandra-dodda-agrahara-kere,begur-lake,dem,,begur-lake,,chikka-kammanahalli-e;mylasandra-buddagana-katte;mylasandra-urumundinakere;subbedarana-kere-2,2,4.19,Koramangala-Challaghatta,77.624722,12.858611,cascade-streams-dem
+mylasandra-hosakere,chikka-kammanahalli-e,dem,,chikka-kammanahalli-e,,,0,0.41,Koramangala-Challaghatta,77.614444,12.849722,cascade-streams-dem
+mylasandra-urumundinakere,mylasandra-dodda-agrahara-kere,dem,,mylasandra-dodda-agrahara-kere,,hosakere,1,0.86,Koramangala-Challaghatta,77.622222,12.850278,cascade-streams-dem
+mysorammanadoddi-lake,,,,,,giddenahalli-lake;konasandra-lake-2;krishnanadoddi-lake;nosenuru-gollahalli-lake,5,23.2,Arkavathi,77.605833,12.7275,cascade-streams-dem
+n-hosahalli-lake,doddaganahalli-lake,dem,,doddaganahalli-lake,,kondrahalli-lake;naduvinapur-lake,2,15.81,Palar,77.938333,13.183611,cascade-streams-dem
+nadagudi-kere,banahalli-kere-w,dem,,banahalli-kere-w,,,0,0.87,Palar,77.900833,13.21,cascade-streams-dem
+naduvinapur-lake,n-hosahalli-lake,dem,,n-hosahalli-lake,,hulavanhalli-lake-1;hulavanhalli-lake-2;koralahalli-kere,1,8.38,Palar,77.925,13.178056,cascade-streams-dem
+nadvatti-kere-s,mallasandra-lake,dem,,mallasandra-lake,,,0,0.44,Dakshina Pinakini,77.795278,12.998611,cascade-streams-dem
+nadvatti-lake,bhaktarahalli-kere,dem,,bhaktarahalli-kere,,kacharkanahalli-lake,2,6.37,Dakshina Pinakini,77.806111,13.006667,cascade-streams-dem
+nagadenahalli-kere,bachchahalli-kere,dem,,bachchahalli-kere,,chikkobanahalli-kere,4,15.45,Arkavathi,77.601944,13.279444,cascade-streams-dem
+nagana-kere,channenahalli-lake,dem,,channenahalli-lake,,,0,0.58,Arkavathi,77.427222,12.98,cascade-streams-dem
+naganahalli-lake,,,,,,,0,0.17,Arkavathi,77.371944,12.978611,cascade-streams-dem
+naganayakanahalli-lake,ramakrishnapura-lake-2,dem,,ramakrishnapura-lake-2,,,0,1.24,Dakshina Pinakini,77.6925,12.770556,cascade-streams-dem
+naganhalli-lake,gangavara-lake,dem,,gangavara-lake,,,0,5.19,Dakshina Pinakini,77.7575,13.172222,cascade-streams-dem
+nagarabhavi-un-named-lake-on-map,,,,,,,0,0.75,Vrishabhavathi,77.509167,12.964444,cascade-streams-dem
+nagareshvara-nagenahalli-kere,kalkere-kere,streams,kalkere-kere,kalkere-kere,True,,0,1.85,Hebbal,77.643736,13.074653,cascade-streams-dem
+nagawara-lake,kalkere-kere,streams,kalkere-kere,kalkere-kere,True,hebbal-lake,4,42.82,Hebbal,77.614016,13.043267,cascade-streams-dem
+nagenahalli-kere,hasarahalli-kere,dem,,hasarahalli-kere,,,0,0.88,Kumudvathi,77.383611,13.199167,cascade-streams-dem
+nagondanahalli-kunte,,,,,,,0,0.04,Koramangala-Challaghatta,77.763333,12.974444,cascade-streams-dem
+nallurahallikere,whitefield-kere,streams,whitefield-kere,whitefield-kere,True,pattaduru-agrahara-kere-2,1,2.87,Koramangala-Challaghatta,77.737063,12.973272,cascade-streams-dem
+nallurhalli-lake,hullur-kere,dem,,hullur-kere,,kebliganahalli-kere;mugbal-kere,4,72.58,Dakshina Pinakini,77.865556,13.113889,cascade-streams-dem
+nandagokulanagar-kere,,,,,,,0,0.35,Kumudvathi,77.320833,13.06,cascade-streams-dem
+nandagudi-kere-s,vaddahalli-lake,dem,,vaddahalli-lake,,,0,0.82,Palar,77.898333,13.196944,cascade-streams-dem
+nanjapura-lake,jigani-kere,dem,,jigani-kere,,,0,1.24,Dakshina Pinakini,77.642778,12.809167,cascade-streams-dem
+naraganahalli-lake,arasanahalli-lake,dem,,arasanahalli-lake,,dodda-chimanahalli,1,3.43,Dakshina Pinakini,77.631944,13.239167,cascade-streams-dem
+narasapanakere,somapura-kere,dem,,somapura-kere,,,0,0.09,Vrishabhavathi,77.493611,12.876389,cascade-streams-dem
+narasappanahalli-kere,gangondanahalli-kere,dem,,gangondanahalli-kere,,nelagadiranahalli-hosakere;nelagadiranahalli-lake,1,4.56,Arkavathi,77.493333,13.020833,cascade-streams-dem
+narasimhapalya-kere,kachanahalli-kere,dem,,kachanahalli-kere,,,0,0.28,Kumudvathi,77.389167,13.148611,cascade-streams-dem
+narasipura-lake,nijagal-lake,dem,,nijagal-lake,,,0,0.37,Shimsha,77.243889,13.26,cascade-streams-dem
+narasipura-lake-1,dodda-bommasandra-lake,streams,dodda-bommasandra-lake,dodda-bommasandra-lake,True,narasipura-lake-2,1,2.14,Hebbal,77.560687,13.073542,cascade-streams-dem
+narasipura-lake-2,narasipura-lake-1,streams,narasipura-lake-1,narasipura-lake-1,True,,0,1.21,Hebbal,77.555687,13.075487,cascade-streams-dem
+narayanapura-lake,bidara-amanikere,dem,,bidara-amanikere,,,0,0.95,Dakshina Pinakini,77.695278,12.705,cascade-streams-dem
+narayankere-lake,kalkunte-agrahara-kere-upper,dem,,kalkunte-agrahara-kere-upper,,,0,0.86,Dakshina Pinakini,77.853889,12.945833,cascade-streams-dem
+nayanahalli-lake,hinnakki-lake,dem,,hinnakki-lake,,,0,1.3,Dakshina Pinakini,77.674722,12.754444,cascade-streams-dem
+nayandanahalli-kere,,,,,,,0,2.81,Vrishabhavathi,77.520278,12.940278,cascade-streams-dem
+nelagadiranahalli-hosakere,narasappanahalli-kere,streams,narasappanahalli-kere,narasappanahalli-kere,True,,0,1.16,Arkavathi,77.501803,13.024102,cascade-streams-dem
+nelagadiranahalli-lake,narasappanahalli-kere,dem,,narasappanahalli-kere,,,0,0.36,Arkavathi,77.503889,13.026111,cascade-streams-dem
+nelaguli-lake,,,,,,choudahalli-lake,2,8.58,Suvarnamukhi,77.494722,12.770278,cascade-streams-dem
+nelamangala-big-kere,gramada-kere,dem,,gramada-kere,,nelamangala-kere;vajarahalli-kere,1,12.32,Arkavathi,77.415,13.089444,cascade-streams-dem
+nelamangala-kere,nelamangala-big-kere,dem,,nelamangala-big-kere,,,0,0.69,Arkavathi,77.414722,13.0975,cascade-streams-dem
+nelavagilu-lake,arehalli-lake,dem,,arehalli-lake,,siddanhalli-lake-1;vaddahalli-lake,4,20.06,Palar,77.940278,13.217222,cascade-streams-dem
+neriga-lake,gonigatpura-lake-3,dem,,gonigatpura-lake-3,,,0,3.36,Dakshina Pinakini,77.781111,12.910833,cascade-streams-dem
+nidigatte-kere,attur-kere,dem,,attur-kere,,dodda-nallala-kere,1,11.7,Dakshina Pinakini,77.871944,13.099167,cascade-streams-dem
+nidvanda-kere,manne-kere,dem,,manne-kere,,lakkuru-lake;madenahalli-lake;timmanayayakanahalli-lake-1,2,9.97,Kumudvathi,77.265,13.243333,cascade-streams-dem
+nijagal-lake,,,,,,kempohalli-lake;narasipura-lake,1,5.05,Shimsha,77.224167,13.253333,cascade-streams-dem
+nijagal-lake-2,,,,,,,0,0.44,Shimsha,77.198333,13.249444,cascade-streams-dem
+nijagal-lake1,,,,,,,0,7.56,Shimsha,77.205833,13.247222,cascade-streams-dem
+nimbekayipura-kere,huskuru-kere,dem,,huskuru-kere,,,0,1.64,Dakshina Pinakini,77.754167,13.055556,cascade-streams-dem
+nosenuru-gollahalli-lake,mysorammanadoddi-lake,dem,,mysorammanadoddi-lake,,nosenuru-gollahalli2-lake,4,9.31,Arkavathi,77.634722,12.7475,cascade-streams-dem
+nosenuru-gollahalli-lake-2,nosenuru-gollahalli2-lake,dem,,nosenuru-gollahalli2-lake,,aduru-lake,2,3.49,Arkavathi,77.643611,12.736667,cascade-streams-dem
+nosenuru-gollahalli2-lake,nosenuru-gollahalli-lake,dem,,nosenuru-gollahalli-lake,,indlavadi-lake;nosenuru-gollahalli-lake-2,3,7.21,Arkavathi,77.639167,12.738611,cascade-streams-dem
+nosenuru-lake,dyavasandra-lake,dem,,dyavasandra-lake,,suragajakkanahalli-west-lake,1,2.69,Dakshina Pinakini,77.655556,12.745,cascade-streams-dem
+nullvenkateshpuram-1-lake,bidara-amanikere,dem,,bidara-amanikere,,,0,0.78,Dakshina Pinakini,77.681389,12.707222,cascade-streams-dem
+nyanappanahalli-kere,madiwala-lake,dem,,madiwala-lake,,elenahalli-lake,1,1.02,Koramangala-Challaghatta,77.614444,12.872222,cascade-streams-dem
+o-b-chudanahalli-lake,,,,,,alahalli-kere;amrutnagar-lake;doddakallasandra-lake;jogi-kere;thalagattapura-lake;thippasandra-kere;vajarahalli-govt-katte,2,25.05,Suvarnamukhi,77.532778,12.834722,cascade-streams-dem
+obalapura-kere,hire-kere,dem,,hire-kere,,obalapura-kere-2,2,6.85,Kumudvathi,77.311111,13.246944,cascade-streams-dem
+obalapura-kere-2,obalapura-kere,dem,,obalapura-kere,,obalapura-kere-3,1,4.84,Kumudvathi,77.318611,13.248889,cascade-streams-dem
+obalapura-kere-3,obalapura-kere-2,dem,,obalapura-kere-2,,,0,4.52,Kumudvathi,77.321667,13.250278,cascade-streams-dem
+obanayakanahalli-2r,bavikere-kere,dem,,bavikere-kere,,,0,0.52,Kumudvathi,77.371944,13.097778,cascade-streams-dem
+oblapura-lake,medimalsandra-lake-2,dem,,medimalsandra-lake-2,,devagondi-kere;devangondi-lake;handenhalli-lake,2,14.59,Dakshina Pinakini,77.830278,12.959722,cascade-streams-dem
+ontekere,,,,,,balekere,1,0.75,Suvarnamukhi,77.530278,12.764167,cascade-streams-dem
+oora-mundina-kere,mavalipura-kere-4,dem,,mavalipura-kere-4,,kadegere-kere,1,2.33,Arkavathi,77.526111,13.116111,cascade-streams-dem
+pachapalya-kere-e,pachepalya-kere,dem,,pachepalya-kere,,chikkanahalli-kere-n,1,0.55,Vrishabhavathi,77.352778,12.887222,cascade-streams-dem
+pachcharanahalli-lake,,,,,,,0,3.48,Kumadvati,77.400556,13.438889,cascade-streams-dem
+pachepalya-kere,shantinagar-kere,dem,,shantinagar-kere,,pachapalya-kere-e;suluvara-kere,2,2.26,Vrishabhavathi,77.356667,12.886944,cascade-streams-dem
+palana-kere,talagavara-kere,dem,,talagavara-kere,,gangasandra-kere;ramayyanapalya-kere,3,27.82,Arkavathi,77.533889,13.323889,cascade-streams-dem
+palanahalli,kogilu-kere,streams,kogilu-kere,kogilu-kere,True,,0,2.64,Hebbal,77.61846,13.11215,cascade-streams-dem
+panattur-govt-kere,varthur-lake,streams,varthur-lake,varthur-lake,True,,0,0.81,Koramangala-Challaghatta,77.707898,12.931886,cascade-streams-dem
+panditapur-lake,aradeshanahalli-kere,dem,,aradeshanahalli-kere,,tindlu-lake,2,4.72,Arkavathi,77.575833,13.245,cascade-streams-dem
+pappayanna-kunte,hosa-kere,dem,,hosa-kere,,,0,0.32,Arkavathi,77.549444,13.169167,cascade-streams-dem
+parapana-agahara-lake,doddakodlu,streams,doddakodlu,doddakodlu,True,,0,1.35,Koramangala-Challaghatta,77.66068,12.880779,cascade-streams-dem
+parmanahalli-kere,makanahalli-kere,dem,,makanahalli-kere,,haji-hosahalli-kere;haji-hosahalli-kere-s,4,18.39,Dakshina Pinakini,77.843333,13.016667,cascade-streams-dem
+patnagere-gollahalli-lake,,,,,,,0,0.29,Arkavathi,77.683333,12.691111,cascade-streams-dem
+pattaduru-agrahara-kere-1,whitefield-kere,dem,,whitefield-kere,,,0,0.79,Koramangala-Challaghatta,77.745278,12.975556,cascade-streams-dem
+pattaduru-agrahara-kere-2,nallurahallikere,dem,,nallurahallikere,,,0,1.07,Koramangala-Challaghatta,77.7375,12.979444,cascade-streams-dem
+peddanapalya-lake,,,,,,,0,0.23,Arkavathi,77.377222,12.961944,cascade-streams-dem
+peltanahalli-lake,,,,,,kannurhalli-lake;varadapura-lake,1,8.36,Dakshina Pinakini,77.793056,13.053889,cascade-streams-dem
+pindkur,doddaballapur-kere,dem,,doddaballapur-kere,,,0,1.25,Arkavathi,77.555,13.31,cascade-streams-dem
+pindkur-timmanahalli-kere,doddaballapur-kere,dem,,doddaballapur-kere,,konaghatta-kere;rajaghatta-kere;timmasandra-kere-2,5,79.64,Arkavathi,77.563333,13.308611,cascade-streams-dem
+prabhakarnagar-2r,jakkanahalli-6r,dem,,jakkanahalli-6r,,,0,0.12,Kumudvathi,77.344444,13.192778,cascade-streams-dem
+purushanahalli-kere,gulya-down,dem,,gulya-down,,ambalagere-n;ambalagere-w,1,8.99,Arkavathi,77.401111,13.241389,cascade-streams-dem
+puttayyanahalli-kere,,,,,,,0,1.68,Kumudvathi,77.320556,13.088889,cascade-streams-dem
+puttenahalli-kere,madhure-kere,dem,,madhure-kere,,dodda-vadagere-kere;kannamangala-kere,3,20.71,Arkavathi,77.423333,13.211667,cascade-streams-dem
+puttenahalli-lake,yelahanka-lake,streams,yelahanka-lake,yelahanka-lake,True,atturu-kere,3,12.9,Hebbal,77.579852,13.111873,cascade-streams-dem
+puttenahalli-lake-2,madiwala-lake,dem,,madiwala-lake,,,0,0.94,Koramangala-Challaghatta,77.586667,12.891667,cascade-streams-dem
+rabbanahalli-kere,rabbanahalli-kere-2,dem,,rabbanahalli-kere-2,,rabbanahalli-kere-4,1,1.91,Arkavathi,77.639167,13.326667,cascade-streams-dem
+rabbanahalli-kere-2,kurubalahalli-kere,dem,,kurubalahalli-kere,,rabbanahalli-kere,2,2.57,Arkavathi,77.633611,13.3275,cascade-streams-dem
+rabbanahalli-kere-3,konaghatta-kere,dem,,konaghatta-kere,,,0,0.26,Arkavathi,77.630833,13.319722,cascade-streams-dem
+rabbanahalli-kere-4,rabbanahalli-kere,dem,,rabbanahalli-kere,,,0,0.97,Arkavathi,77.644167,13.323056,cascade-streams-dem
+rachamanahalli-lake,rachamanahalli-north-lake,dem,,rachamanahalli-north-lake,,gandhinagar-lake,1,1.91,Dakshina Pinakini,77.730556,12.719167,cascade-streams-dem
+rachamanahalli-north-lake,avadenahlli-lake,dem,,avadenahlli-lake,,rachamanahalli-lake,2,2.87,Dakshina Pinakini,77.726667,12.726111,cascade-streams-dem
+rachenahalli-lake,kalkere-kere,streams,kalkere-kere,kalkere-kere,True,amruthahalli-lake;jakkur-lake;venkateshapura-lake,6,93.66,Hebbal,77.617349,13.058821,cascade-streams-dem
+raghunathpura-kere,siddenayakanahalli-kere-l,dem,,siddenayakanahalli-kere-l,,,0,0.52,Arkavathi,77.579167,13.291111,cascade-streams-dem
+ragihalli,,,,,,,0,0.35,Suvarnamukhi,77.569167,12.735833,cascade-streams-dem
+ragihalli-lake,guttepalya-lake,dem,,guttepalya-lake,,bannerghatta-lake,6,4.13,Suvarnamukhi,77.548333,12.786389,cascade-streams-dem
+rajaghatta-kere,pindkur-timmanahalli-kere,dem,,pindkur-timmanahalli-kere,,gandarajapura-kere;kachiganal-kere;kachiganal-n-kere,4,38.52,Arkavathi,77.586944,13.325278,cascade-streams-dem
+rajanakunte-7-new,itgalpura-lake,dem,,itgalpura-lake,,,0,0.18,Arkavathi,77.556389,13.162778,cascade-streams-dem
+rajapalya-hoodikere,kodigehalli-lake,streams,kodigehalli-lake,kodigehalli-lake,True,basavanagar-lake;doddanekundi-kunte,1,3.08,Hebbal,77.723175,12.988549,cascade-streams-dem
+ramadevanahalli-lake,ramdevanahalli-kere,dem,,ramdevanahalli-kere,,,0,0.11,Arkavathi,77.421944,13.185556,cascade-streams-dem
+ramagonddanahalli-kere,atturu-kere,dem,,atturu-kere,,jarakabandi-kaval-kelge-kere,1,2.9,Hebbal,77.555556,13.116944,cascade-streams-dem
+ramakrishnapura-lake,kittiganahalli-lake,dem,,kittiganahalli-lake,,,0,2.14,Dakshina Pinakini,77.703333,12.781389,cascade-streams-dem
+ramakrishnapura-lake-2,kittiganahalli-lake,dem,,kittiganahalli-lake,,naganayakanahalli-lake,1,2.79,Dakshina Pinakini,77.696111,12.778889,cascade-streams-dem
+ramanathapura-kere-1,managondanahalli-kere,dem,,managondanahalli-kere,,ramanathapura-kere-2,1,3.05,Arkavathi,77.635833,13.312222,cascade-streams-dem
+ramanathapura-kere-2,ramanathapura-kere-1,dem,,ramanathapura-kere-1,,,0,0.82,Arkavathi,77.646389,13.311667,cascade-streams-dem
+ramasagara-lake,bukkasagara-lake,dem,,bukkasagara-lake,,,0,0.15,Dakshina Pinakini,77.615278,12.781944,cascade-streams-dem
+ramasandra-lake-1,tavarekere-kere,dem,,tavarekere-kere,,,0,5.73,Dakshina Pinakini,77.948611,13.116667,cascade-streams-dem
+ramaswamypalya-lake,,,,,,,0,3.71,Dakshina Pinakini,77.803333,12.955833,cascade-streams-dem
+ramayyanapalya-kere,palana-kere,dem,,palana-kere,,togarighatta-kere,1,3.19,Arkavathi,77.555556,13.336944,cascade-streams-dem
+ramdevanahalli-kere,hesaraghatta-kere-east,dem,,hesaraghatta-kere-east,,ramadevanahalli-lake,1,1.12,Arkavathi,77.426111,13.186944,cascade-streams-dem
+ramegowdanakere,bilwaradahalli-kere,dem,,bilwaradahalli-kere,,,0,0.31,Suvarnamukhi,77.584444,12.819722,cascade-streams-dem
+ramohalli-kere,chikkaluru-kere,dem,,chikkaluru-kere,,doddastadamaradapala-kere;ketohalli-kere,3,6.46,Vrishabhavathi,77.4175,12.903889,cascade-streams-dem
+rampalya-kere,huchchanapalya-kere,dem,,huchchanapalya-kere,,,0,0.41,Arkavathi,77.421667,13.116389,cascade-streams-dem
+rampura-kere,yellamallappashetti-kere,dem,,yellamallappashetti-kere,,channasandra-kunte2;doddagubbi-kere;jimkenahalli-kere;kada-agrahara-kunte;kalkere-kere,8,225.08,Hebbal,77.691944,13.044167,cascade-streams-dem
+rampura-kere-2,chaluvekere,dem,,chaluvekere,,,0,0.54,Vrishabhavathi,77.440556,12.877778,cascade-streams-dem
+rampura-lake,siddayyanpalya-lake,dem,,siddayyanpalya-lake,,,0,1.23,Jayamangali,77.305556,13.270278,cascade-streams-dem
+rampura-lake-2,sonnenahalli-lake,dem,,sonnenahalli-lake,,bhaktarahalli-lake,2,3.19,Arkavathi,77.416667,13.306667,cascade-streams-dem
+rayaradoddi-lake,,,,,,bettrayandoddi-lake;bhutanahlli-lake;kannaikana-agrahara-kere,4,24.84,Suvarnamukhi,77.526944,12.806944,cascade-streams-dem
+rayarapalya-lake,manne-kere,dem,,manne-kere,,rayarapalya-lake-1,1,1.12,Kumudvathi,77.285278,13.237778,cascade-streams-dem
+rayarapalya-lake-1,rayarapalya-lake,dem,,rayarapalya-lake,,,0,0.71,Kumudvathi,77.283333,13.233611,cascade-streams-dem
+rayasandra-lake-2,avalahalli-kere-3,dem,,avalahalli-kere-3,,,0,0.5,Dakshina Pinakini,77.708056,12.8775,cascade-streams-dem
+s-golahalli-kere,,,,,,,0,0.94,Vrishabhavathi,77.371667,12.890833,cascade-streams-dem
+sadahalli-kere,kannamangala-kere-2,dem,,kannamangala-kere-2,,hegganahalli-lake,2,12.37,Dakshina Pinakini,77.639722,13.217222,cascade-streams-dem
+sadappanhalli-lake,hosakote-doddaamanikere,dem,,hosakote-doddaamanikere,,,0,3.93,Dakshina Pinakini,77.791667,13.16,cascade-streams-dem
+sadenahalli-lake,suradhenupur-lake-2,dem,,suradhenupur-lake-2,,sadenahalli-lake-2,2,3.64,Arkavathi,77.574444,13.197778,cascade-streams-dem
+sadenahalli-lake-2,sadenahalli-lake,dem,,sadenahalli-lake,,sadenahalli-lake-3,1,0.86,Arkavathi,77.578889,13.198611,cascade-streams-dem
+sadenahalli-lake-3,sadenahalli-lake-2,dem,,sadenahalli-lake-2,,,0,0.61,Arkavathi,77.582778,13.198611,cascade-streams-dem
+sakalavara-govt-kharabu-lake,bhujangadasana-amanikere-govt-lake,dem,,bhujangadasana-amanikere-govt-lake,,hommedevanahalli-kere;timmayyanadoddi-lake,1,2.27,Dakshina Pinakini,77.607778,12.825556,cascade-streams-dem
+sakkare-gollahalli-lake,mallanayakanahalli-lake,dem,,mallanayakanahalli-lake,,chikkakalenahalli-lake,2,5.19,Arkavathi,77.403056,13.325556,cascade-streams-dem
+salindradoddi-lake,hakkibikki-lake-3,dem,,hakkibikki-lake-3,,kumbarakere,1,1.15,Suvarnamukhi,77.57,12.798889,cascade-streams-dem
+sametanahali-lake,,,,,,bodanahosahalli-kere-n;bodanahosahalli-lake,1,4.79,Dakshina Pinakini,77.794167,12.9775,cascade-streams-dem
+sandekuppe-kere,,,,,,gollarapalya-kere;mantakurchi-kere;mantakurchi-low-kere,4,13.68,Arkavathi,77.385278,13.016389,cascade-streams-dem
+saneguruvanahalli-lake-1,,,,,,,0,0.66,Vrishabhavathi,77.529722,12.983611,cascade-streams-dem
+saneguruvanahalli-lake-2,,,,,,,0,1.16,Vrishabhavathi,77.544167,12.989722,cascade-streams-dem
+sankey-tank,,,,,,,0,0.95,Vrishabhavathi,77.576389,13.0075,cascade-streams-dem
+sarakki-lake,madiwala-lake,dem,,madiwala-lake,,chunchanaghatta-kere;konanakunte-kere,2,5.27,Koramangala-Challaghatta,77.581667,12.899167,cascade-streams-dem
+sarjapur-lake,dodda-thimmasandra-kere-s,dem,,dodda-thimmasandra-kere-s,,billapura-govt-kere;buragkunte-lake,1,6.81,Dakshina Pinakini,77.791389,12.855,cascade-streams-dem
+sarka-kunte,damarasanakunte,dem,,damarasanakunte,,,0,0.24,Dakshina Pinakini,77.617778,12.839167,cascade-streams-dem
+sasalu-lake,sriramanahalli-lake-2,dem,,sriramanahalli-lake-2,,bhov-palya-lake,2,3.96,Jayamangali,77.384167,13.411111,cascade-streams-dem
+sathanur-kere,hosahalli-lake,dem,,hosahalli-lake,,byappanahalli-lake;srinivasapura-lake,1,2.86,Dakshina Pinakini,77.651111,13.131944,cascade-streams-dem
+sattigenahalli-lake-1,bail-narsapur-lake-3,dem,,bail-narsapur-lake-3,,sattigenahalli-lake-2,2,3.7,Palar,77.941111,13.17,cascade-streams-dem
+sattigenahalli-lake-2,sattigenahalli-lake-1,dem,,sattigenahalli-lake-1,,hettakki-lake;marasandhalli-lake-1,1,3.21,Palar,77.94,13.163889,cascade-streams-dem
+seegehalli-kere,govt-lake,dem,,govt-lake,,,0,0.73,Vrishabhavathi,77.450278,12.976111,cascade-streams-dem
+shantegaudanapalya-lake,tattekere,dem,,tattekere,,ayyannanapalya-lake;jajura-lake2,1,5.58,Kumudvathi,77.255,13.267222,cascade-streams-dem
+shantinagar-kere,,,,,,pachepalya-kere,3,3.27,Vrishabhavathi,77.357222,12.880278,cascade-streams-dem
+shantinagar-kere-2,,,,,,,0,0.25,Vrishabhavathi,77.348333,12.878333,cascade-streams-dem
+shanuboganahalli-lake,bettrayandoddi-lake,dem,,bettrayandoddi-lake,,bilwaradahalli-kere;subbedarana-kere,2,8.9,Suvarnamukhi,77.562222,12.833889,cascade-streams-dem
+shastripalya-kere,kukkanahalli-kere,dem,,kukkanahalli-kere,,,0,0.86,Arkavathi,77.428611,13.172222,cascade-streams-dem
+shegehalli-kere,yellamallappashetti-kere,dem,,yellamallappashetti-kere,,basavanapura-kere;gunduru-lake;krishnaraja-puram-kere;krishnarajapuram-kere,3,12.92,Hebbal,77.714444,13.0175,cascade-streams-dem
+shiresandra-kere,hesaraghatta-kere-east,dem,,hesaraghatta-kere-east,,kamakshipura-lake,1,3.73,Arkavathi,77.477778,13.191944,cascade-streams-dem
+shivakote-katte,ivarakangapura-kere,dem,,ivarakangapura-kere,,,0,0.02,Arkavathi,77.518889,13.145556,cascade-streams-dem
+shivakote-kunte-2,ivarakangapura-kere,dem,,ivarakangapura-kere,,,0,0.04,Arkavathi,77.515,13.142222,cascade-streams-dem
+shivanahalli-lake,jakkur-lake,dem,,jakkur-lake,,,0,0.48,Hebbal,77.595833,13.093333,cascade-streams-dem
+shivanapura-kere,bhimapura-kere,dem,,bhimapura-kere,,,0,5.1,Dakshina Pinakini,77.910278,13.156667,cascade-streams-dem
+shravanur-lake,shravanur-lake-2,dem,,shravanur-lake-2,,,0,0.06,Arkavathi,77.456111,13.318889,cascade-streams-dem
+shravanur-lake-2,aralamallige-kere,dem,,aralamallige-kere,,chikkanahalli-lake-2-2;chikkanahalli-lake-3;shravanur-lake,1,7.02,Arkavathi,77.465,13.320278,cascade-streams-dem
+shyanapanahalli-kere,viswanathapura-kere,dem,,viswanathapura-kere,,shyanapanahalli-kere-2;shyanapanahalli-kere-u,1,4.17,Dakshina Pinakini,77.648056,13.283333,cascade-streams-dem
+shyanapanahalli-kere-2,shyanapanahalli-kere,dem,,shyanapanahalli-kere,,,0,2.19,Dakshina Pinakini,77.648889,13.290833,cascade-streams-dem
+shyanapanahalli-kere-u,shyanapanahalli-kere,dem,,shyanapanahalli-kere,,,0,0.26,Dakshina Pinakini,77.6425,13.288889,cascade-streams-dem
+siddanhalli-lake-1,nelavagilu-lake,dem,,nelavagilu-lake,,banahallli-kere,3,8.9,Palar,77.923889,13.215,cascade-streams-dem
+siddapura-kere,varthur-lake,streams,varthur-lake,varthur-lake,True,kundalahalli-kere,1,3.78,Koramangala-Challaghatta,77.725952,12.956607,cascade-streams-dem
+siddayyanpalya-lake,kalenahalli-lake,dem,,kalenahalli-lake,,bommalingayyanapalya-lake;chikkanahalli-lake-2;dyavasandra-lake-2;gopenahalli-lake;rampura-lake;sigepalya-lake-2;somasagara-lake-2,2,45.96,Jayamangali,77.322222,13.311944,cascade-streams-dem
+siddenayakanahalli-kere-l,siddenayakanahalli-kere-u,dem,,siddenayakanahalli-kere-u,,raghunathpura-kere,1,1.73,Arkavathi,77.571667,13.296667,cascade-streams-dem
+siddenayakanahalli-kere-u,doddaballapur-kere,dem,,doddaballapur-kere,,siddenayakanahalli-kere-l,2,2.84,Arkavathi,77.567778,13.298889,cascade-streams-dem
+siddenhalli-lake,sulibelekere,dem,,sulibelekere,,tammrayasandra-kere,2,24.54,Dakshina Pinakini,77.816667,13.189722,cascade-streams-dem
+siddi-hosakote-west,sidi-hoskote-lake-east,dem,,sidi-hoskote-lake-east,,,0,0.29,Dakshina Pinakini,77.674167,12.735,cascade-streams-dem
+sidi-hoskote-lake-east,kempu-vaderahalli-lake,dem,,kempu-vaderahalli-lake,,siddi-hosakote-west,1,1.46,Dakshina Pinakini,77.681944,12.735,cascade-streams-dem
+sigepalya-lake,byadarahalli-lake,dem,,byadarahalli-lake,,,0,0.28,Kumudvathi,77.226389,13.154722,cascade-streams-dem
+sigepalya-lake-2,siddayyanpalya-lake,dem,,siddayyanpalya-lake,,,0,0.67,Jayamangali,77.322222,13.279444,cascade-streams-dem
+sikayanahalli-kere,dinne-soluru-kere,dem,,dinne-soluru-kere,,chinna-kempanahalli-kere,1,3.49,Dakshina Pinakini,77.635,13.271667,cascade-streams-dem
+singahalli-lake,budigere-amani-kere,dem,,budigere-amani-kere,,hunasuru-lake,5,71.55,Dakshina Pinakini,77.731944,13.160278,cascade-streams-dem
+singanayakayahalli-kere,harohalli-kere,dem,,harohalli-kere,,,0,0.25,Hebbal,77.565556,13.149167,cascade-streams-dem
+singapura-lake,abbigere-kere,streams,abbigere-kere,abbigere-kere,True,lakshmipura-lake-2,1,2.11,Arkavathi,77.533467,13.082153,cascade-streams-dem
+singasadanapalli-kere-e,singasadanapalli-kere-s,dem,,singasadanapalli-kere-s,,,0,1.0,Dakshina Pinakini,77.853333,12.867222,cascade-streams-dem
+singasadanapalli-kere-s,,,,,,singasadanapalli-kere-e,1,1.61,Dakshina Pinakini,77.848056,12.863889,cascade-streams-dem
+singasandra,chikkabegur-kere,streams,chikkabegur-kere,chikkabegur-kere,True,,0,0.94,Koramangala-Challaghatta,77.644014,12.882445,cascade-streams-dem
+singasandra-lake,telagarahalli-lake,dem,,telagarahalli-lake,,,0,0.11,Dakshina Pinakini,77.694722,12.685278,cascade-streams-dem
+singena-agrahara-govt-sanna-kere,muttanallur-kere,dem,,muttanallur-kere,,gottamaranahalli-lake;huskur-govt-lake;kaggalipura-govt-lake,5,35.78,Dakshina Pinakini,77.718611,12.841111,cascade-streams-dem
+singena-agrahara-kunte-5,muttanallur-kere,dem,,muttanallur-kere,,,0,0.01,Dakshina Pinakini,77.711944,12.835556,cascade-streams-dem
+singrayanapalya-lake,,,,,,gundappanayakanahalli-lake,1,6.98,Kumadvati,77.396111,13.472778,cascade-streams-dem
+sirigonahalli-lake,,,,,,,0,14.36,Jayamangali,77.369167,13.351389,cascade-streams-dem
+sitanayakanahalli-lake,gundur-kere-n,dem,,gundur-kere-n,,alagondahalli-lake;yelachammanahalli-kere,1,8.6,Dakshina Pinakini,77.929167,13.0575,cascade-streams-dem
+sokkarasanapalli-kere-e,,,,,,,0,1.15,Dakshina Pinakini,77.825556,12.8625,cascade-streams-dem
+soldevanahalli-kere,soldevanahalli-lower,dem,,soldevanahalli-lower,,,0,0.25,Arkavathi,77.353056,13.021944,cascade-streams-dem
+soldevanahalli-kere-2,,,,,,,0,0.56,Kumudvathi,77.341667,13.018889,cascade-streams-dem
+soldevanahalli-lower,,,,,,soldevanahalli-kere,1,0.76,Arkavathi,77.358056,13.018889,cascade-streams-dem
+soldevanahalli-scrub,,,,,,,0,0.54,Kumudvathi,77.346667,13.009444,cascade-streams-dem
+solekere,mavalipura-kere-2,dem,,mavalipura-kere-2,,lingarajapura-lake,1,0.59,Arkavathi,77.541944,13.128333,cascade-streams-dem
+solikunte-kere,gramadakere-2,dem,,gramadakere-2,,,0,0.9,Koramangala-Challaghatta,77.730278,12.881389,cascade-streams-dem
+sollepura-kere,adigondanahalli-kere,dem,,adigondanahalli-kere,,kotiganahalli-kere,1,1.5,Dakshina Pinakini,77.765278,12.828611,cascade-streams-dem
+solluru-kere,amanimulli-kere,dem,,amanimulli-kere,,dinne-soluru-kere;viswanathapura-kere,3,19.57,Dakshina Pinakini,77.651944,13.258889,cascade-streams-dem
+solur-kere,kolatur-kere,dem,,kolatur-kere,,tavatahalli-kere,1,6.32,Dakshina Pinakini,77.846111,13.077222,cascade-streams-dem
+somanahalli-lake,,,,,,,0,2.57,Suvarnamukhi,77.501111,12.768333,cascade-streams-dem
+somanathapura-lake,,,,,,,0,0.39,Arkavathi,77.351944,12.943333,cascade-streams-dem
+somapura-kere,chenvinayanahalli-kere,dem,,chenvinayanahalli-kere,,narasapanakere;sompura-govt-lake;sompura-kunte-1,1,3.96,Vrishabhavathi,77.490278,12.880278,cascade-streams-dem
+somasagara-lake,,,,,,jalamaranahalli-lake,2,5.84,"unnamed, leaves to W",77.181389,13.214444,cascade-streams-dem
+somasagara-lake-2,siddayyanpalya-lake,dem,,siddayyanpalya-lake,,,0,2.85,Jayamangali,77.313056,13.268611,cascade-streams-dem
+somasundrapalya-lake,agara-lake,dem,,agara-lake,,,0,0.59,Koramangala-Challaghatta,77.648333,12.899444,cascade-streams-dem
+sompura-govt-lake,somapura-kere,dem,,somapura-kere,,,0,1.38,Vrishabhavathi,77.497222,12.874444,cascade-streams-dem
+sompura-kere-w,valagerekalahalli-kere,dem,,valagerekalahalli-kere,,kade-agrahara-lake,1,3.54,Dakshina Pinakini,77.77,12.871389,cascade-streams-dem
+sompura-kunte-1,somapura-kere,dem,,somapura-kere,,,0,0.2,Vrishabhavathi,77.501944,12.883056,cascade-streams-dem
+sondilvadi-kere,chikkannayyan-kere,dem,,chikkannayyan-kere,,gundenahalli-kere;hosahalli-kere;totanahalli-lake;tyamagondal-kere,6,39.9,Kumudvathi,77.296667,13.205,cascade-streams-dem
+sonehalli-kere,sonnenahalli-kere-2,dem,,sonnenahalli-kere-2,,mishiganahalli-kere,2,8.66,Dakshina Pinakini,77.680278,13.3125,cascade-streams-dem
+sonnahallipura-lake,hosakote-doddaamanikere,dem,,hosakote-doddaamanikere,,kempapura-lake,3,16.33,Dakshina Pinakini,77.777778,13.141667,cascade-streams-dem
+sonnanaikanahalli-lake,yelachchahalli-kere,dem,,yelachchahalli-kere,,bhairanahali-lake-1,1,10.35,Dakshina Pinakini,77.926944,13.115833,cascade-streams-dem
+sonnayakanapura-lake,kempu-vaderahalli-lake,dem,,kempu-vaderahalli-lake,,,0,0.99,Dakshina Pinakini,77.677778,12.725833,cascade-streams-dem
+sonnenahalli-kere,hesaraghatta-lake,dem,,hesaraghatta-lake,,kolapurapalya-kere,1,4.4,Arkavathi,77.496389,13.199722,cascade-streams-dem
+sonnenahalli-kere-2,dasarahalli-kere-2,dem,,dasarahalli-kere-2,,sonehalli-kere,3,12.32,Dakshina Pinakini,77.692778,13.318333,cascade-streams-dem
+sonnenahalli-lake,mallohalli-kere,dem,,mallohalli-kere,,karadipalya-lake;mallanayakanahalli-lake;rampura-lake-2;tadipalya-lake,4,26.11,Arkavathi,77.415,13.293056,cascade-streams-dem
+sonnenahalli-lake-2,,,,,,dinnehalli-tanda-lake;jaligere-lake,1,40.92,Kumadvati,77.49,13.430278,cascade-streams-dem
+southegaudanahalli-lake,tellohalli-lake,dem,,tellohalli-lake,,,0,3.35,Dakshina Pinakini,77.748333,13.232778,cascade-streams-dem
+sowl-kere,varthur-lake,streams,varthur-lake,varthur-lake,True,doddakanneli-gramadakere;halanayakanahalli-kere;junnasandra-kere;kaikondanahalli-kere,5,23.71,Koramangala-Challaghatta,77.680678,12.920776,cascade-streams-dem
+srigandhakavalu-karabu-katte,mallathahalli-lake,dem,,mallathahalli-lake,,,0,0.48,Vrishabhavathi,77.501111,12.983611,cascade-streams-dem
+srinivasapura-kere,,,,,,hanumanttanapalya-kere,3,7.2,Kumudvathi,77.344167,13.085278,cascade-streams-dem
+srinivasapura-kere-2,huchchanapalya-kere,dem,,huchchanapalya-kere,,,0,2.02,Arkavathi,77.409444,13.120833,cascade-streams-dem
+srinivasapura-lake,sathanur-kere,dem,,sathanur-kere,,,0,0.02,Dakshina Pinakini,77.646944,13.126944,cascade-streams-dem
+sriramanahalli-lake,adde-lake,dem,,adde-lake,,,0,0.58,Arkavathi,77.558056,13.198889,cascade-streams-dem
+sriramanahalli-lake-2,,,,,,ganadalu-lake;sasalu-lake,3,45.7,Jayamangali,77.36,13.402222,cascade-streams-dem
+subarayanakere,hulimavu-kere,dem,,hulimavu-kere,,,0,0.5,Koramangala-Challaghatta,77.585556,12.863889,cascade-streams-dem
+subbedarana-kere,shanuboganahalli-lake,dem,,shanuboganahalli-lake,,,0,1.47,Suvarnamukhi,77.566111,12.846944,cascade-streams-dem
+subbedarana-kere-2,mylasandra-dodda-agrahara-kere,dem,,mylasandra-dodda-agrahara-kere,,yelenahalli-kunte-2,1,0.61,Koramangala-Challaghatta,77.618056,12.859722,cascade-streams-dem
+subramanyanagar-lake,kodihalli-kere,dem,,kodihalli-kere,,,0,0.72,Kumudvathi,77.321667,13.21,cascade-streams-dem
+subramhanyapura-kere,,,,,,vasantpur-lake,2,1.74,Vrishabhavathi,77.541389,12.896944,cascade-streams-dem
+suggata-kere,suggatta-lake-2,dem,,suggatta-lake-2,,,0,0.43,Hebbal,77.606111,13.144444,cascade-streams-dem
+suggatta-lake,gantiganahalli-kere,dem,,gantiganahalli-kere,,,0,0.84,Hebbal,77.598333,13.152778,cascade-streams-dem
+suggatta-lake-2,gantiganahalli-kere,dem,,gantiganahalli-kere,,suggata-kere,1,0.99,Hebbal,77.603889,13.141944,cascade-streams-dem
+sukaligarahath-lake,,,,,,kilaranahalli-lake;marimakanaha-lake,2,10.17,Jayamangali,77.358889,13.456944,cascade-streams-dem
+sulakunte-kunte7,chikkabellanduru-kere,dem,,chikkabellanduru-kere,,,0,0.01,Koramangala-Challaghatta,77.725833,12.899444,cascade-streams-dem
+sulibelekere,holegeripura-lake,dem,,holegeripura-lake,,dodda-koliga-kere;dummy;siddenhalli-lake,3,41.72,Dakshina Pinakini,77.806667,13.180556,cascade-streams-dem
+sulikere-lake,,,,,,,0,0.59,Vrishabhavathi,77.446389,12.946389,cascade-streams-dem
+sulukunte-kere,kempaura-agrahara-up-kere,dem,,kempaura-agrahara-up-kere,,,0,1.2,Kumudvathi,77.290833,13.161111,cascade-streams-dem
+suluvara-kere,pachepalya-kere,dem,,pachepalya-kere,,,0,0.39,Vrishabhavathi,77.36,12.9,cascade-streams-dem
+suradhenupur-lake,aradeshanahalli-kere-2,dem,,aradeshanahalli-kere-2,,suradhenupur-lake-2,4,9.03,Arkavathi,77.561667,13.213611,cascade-streams-dem
+suradhenupur-lake-2,suradhenupur-lake,dem,,suradhenupur-lake,,sadenahalli-lake,3,5.68,Arkavathi,77.566111,13.202222,cascade-streams-dem
+suragajakkanahalli-west-lake,nosenuru-lake,dem,,nosenuru-lake,,,0,0.86,Dakshina Pinakini,77.663889,12.737778,cascade-streams-dem
+suragajakkaratahalli-lake,kempu-vaderahalli-lake,dem,,kempu-vaderahalli-lake,,,0,0.71,Dakshina Pinakini,77.684722,12.743611,cascade-streams-dem
+swarna-kunte-gudde-lake,chandrashekarapura-kere,dem,,chandrashekarapura-kere,,,0,0.25,Koramangala-Challaghatta,77.606944,12.863889,cascade-streams-dem
+tadipalya-lake,sonnenahalli-lake,dem,,sonnenahalli-lake,,,0,0.43,Arkavathi,77.433889,13.310833,cascade-streams-dem
+tadsighatta-kere,dodbele-kere,dem,,dodbele-kere,,hosapalya-2r;hosapalya-4r;kenchanapura-kere,2,13.59,Kumudvathi,77.341667,13.234167,cascade-streams-dem
+tagachikuppe-kere,kanaminiki-govt-kere,dem,,kanaminiki-govt-kere,,,0,0.51,Vrishabhavathi,77.431667,12.868889,cascade-streams-dem
+taggali-hosahalli-kere,gonakanahalli-kere,dem,,gonakanahalli-kere,,,0,1.14,Dakshina Pinakini,77.882222,13.046389,cascade-streams-dem
+talagavara-kere,aralamallige-kere,dem,,aralamallige-kere,,kurubarahalli-kere;madagondanahalli-kere;palana-kere,4,58.8,Arkavathi,77.510278,13.311389,cascade-streams-dem
+talakuppe-lake,,,,,,hosadoddi-lake-1,1,1.57,Vrishabhavathi,77.421667,12.813333,cascade-streams-dem
+tambenahalli-lake,kanakenahalli-lake,dem,,kanakenahalli-lake,,,0,1.78,Jayamangali,77.413333,13.349167,cascade-streams-dem
+tammaganhalli-lake,bhov-palya-lake,dem,,bhov-palya-lake,,,0,1.53,Jayamangali,77.396667,13.410556,cascade-streams-dem
+tammrayasandra-kere,siddenhalli-lake,dem,,siddenhalli-lake,,chengirayanapura-kere;hosa-dimbahalli-kere,1,12.05,Dakshina Pinakini,77.854444,13.1925,cascade-streams-dem
+tankasalahosahalli-kere,tippenhalli-kere,dem,,tippenhalli-kere,,,0,1.18,Arkavathi,77.570556,13.356667,cascade-streams-dem
+tanniranhalli-lake,,,,,,chikka-mankalal-lake;mavinakunte-lake-2;muttayyanapalya-lake,1,10.37,Jayamangali,77.340278,13.325556,cascade-streams-dem
+tapasihalli-kere,kolur-kere-2,dem,,kolur-kere-2,,,0,2.45,Arkavathi,77.5175,13.351111,cascade-streams-dem
+tapasipura-kere,chaugondanahalli-kere,dem,,chaugondanahalli-kere,,,0,1.54,Arkavathi,77.638889,13.358889,cascade-streams-dem
+tapasipura-kere-2,chaugondanahalli-kere,dem,,chaugondanahalli-kere,,,0,3.18,Arkavathi,77.653889,13.365,cascade-streams-dem
+tarabahalli-lake,chikkondahalli-lake-2,dem,,chikkondahalli-lake-2,,hosavenkatapura-kere,1,7.57,Palar,77.928889,13.2325,cascade-streams-dem
+tarabanahalli-lake,dodda-jala-amani-kere,dem,,dodda-jala-amani-kere,,gadenahalli-lake,1,1.9,Dakshina Pinakini,77.628889,13.199167,cascade-streams-dem
+tarabhalli-lake,makanahalli-kere-s,dem,,makanahalli-kere-s,,,0,1.1,Dakshina Pinakini,77.842778,12.999444,cascade-streams-dem
+tarahunase-lake,timmasadra-kere,dem,,timmasadra-kere,,,0,1.91,Hebbal,77.593333,13.183333,cascade-streams-dem
+taralu-lake,gadipalya-lake,dem,,gadipalya-lake,,guttepalya-lake;guttepalya-lake-2;tattaguppe-lake;vaudevapura-lake,8,35.13,Suvarnamukhi,77.522222,12.786389,cascade-streams-dem
+tataguni-lake,kuppareddy-kere,dem,,kuppareddy-kere,,,0,0.36,Suvarnamukhi,77.523333,12.843611,cascade-streams-dem
+tattaguppe-lake,taralu-lake,dem,,taralu-lake,,govt-vadenakere;mettubande-lake,1,23.18,Suvarnamukhi,77.534167,12.778333,cascade-streams-dem
+tattanahalli-lake,kambalipura-lake,dem,,kambalipura-lake,,,0,1.26,Dakshina Pinakini,77.734722,12.744722,cascade-streams-dem
+tattanur-lake,banhalli-lake,dem,,banhalli-lake,,ettakodi-lake;kalkunte-agrahara-kere-e;kalkunte-agrahara-lake,3,10.15,Dakshina Pinakini,77.833056,12.922222,cascade-streams-dem
+tattekere,manne-kere,dem,,manne-kere,,muddenahallipalya-lake;shantegaudanapalya-lake,2,12.2,Kumudvathi,77.269722,13.251667,cascade-streams-dem
+tavarekere-kere,yelachchahalli-kere,dem,,yelachchahalli-kere,,ramasandra-lake-1,1,13.46,Dakshina Pinakini,77.933611,13.127778,cascade-streams-dem
+tavarekere-lake,agara-lake,streams,agara-lake,agara-lake,True,byrasandra-kere,1,3.07,Koramangala-Challaghatta,77.603184,12.927442,cascade-streams-dem
+tavarekere-lake-1,maragondanahalli-govt-lake,dem,,maragondanahalli-govt-lake,,,0,0.26,Vrishabhavathi,77.411667,12.956944,cascade-streams-dem
+tavarekere-lake-2,gangenahalli-lake,dem,,gangenahalli-lake,,,0,1.58,Arkavathi,77.396667,12.963889,cascade-streams-dem
+tavatahalli-kere,solur-kere,dem,,solur-kere,,,0,2.7,Dakshina Pinakini,77.859167,13.078889,cascade-streams-dem
+telagarahalli-lake,bidara-amanikere,dem,,bidara-amanikere,,hompalaghatta-lake;singasandra-lake;telegarahalli-lake-2,1,5.35,Dakshina Pinakini,77.691389,12.696389,cascade-streams-dem
+telegarahalli-lake-2,telagarahalli-lake,dem,,telagarahalli-lake,,,0,0.12,Dakshina Pinakini,77.693333,12.688333,cascade-streams-dem
+tellohalli-lake,chimachanahalli-lake,dem,,chimachanahalli-lake,,southegaudanahalli-lake,1,14.15,Dakshina Pinakini,77.756111,13.228611,cascade-streams-dem
+teniyur-kere,gopsandra-lake,dem,,gopsandra-lake,,islur-kere,2,26.07,Dakshina Pinakini,77.833333,13.221667,cascade-streams-dem
+thalagattapura-lake,o-b-chudanahalli-lake,dem,,o-b-chudanahalli-lake,,,0,2.24,Suvarnamukhi,77.531667,12.865556,cascade-streams-dem
+thimappanakere,chikkaluru-kere,dem,,chikkaluru-kere,,,0,0.52,Vrishabhavathi,77.420278,12.905,cascade-streams-dem
+thimmagowdana-kere,,,,,,,0,0.69,Arkavathi,77.453889,13.089722,cascade-streams-dem
+thimmasandra-govt-lake,indlabele-kere,dem,,indlabele-kere,,hosahalli-kunte-6,1,1.05,Dakshina Pinakini,77.748611,12.848889,cascade-streams-dem
+thippasandra-kere,o-b-chudanahalli-lake,dem,,o-b-chudanahalli-lake,,,0,0.24,Suvarnamukhi,77.554722,12.870278,cascade-streams-dem
+thirumenahalli-lake,agrahara-lake,dem,,agrahara-lake,,,0,0.87,Hebbal,77.629444,13.090833,cascade-streams-dem
+thupinkere,tubinkere,dem,,tubinkere,,medi-agrahara-s,3,4.37,Arkavathi,77.525278,13.1025,cascade-streams-dem
+tigalara-chowddenahalli-govt-karabukere,chikkabanahalli-kere,dem,,chikkabanahalli-kere,,,0,1.58,Dakshina Pinakini,77.755,12.889167,cascade-streams-dem
+timmaboyipalya-kere,,,,,,kenganahalli-kere;mailapura-kere,2,9.64,Arkavathi,77.418889,13.054167,cascade-streams-dem
+timmanayayakanahalli-lake-1,nidvanda-kere,dem,,nidvanda-kere,,,0,0.55,Kumudvathi,77.265833,13.228056,cascade-streams-dem
+timmasadra-kere,muddenahalli-lake,dem,,muddenahalli-lake,,tarahunase-lake,1,5.73,Hebbal,77.584444,13.169444,cascade-streams-dem
+timmasandra-kere,govindapura-lo-kere,dem,,govindapura-lo-kere,,,0,0.65,Kumudvathi,77.2925,13.126944,cascade-streams-dem
+timmasandra-kere-2,pindkur-timmanahalli-kere,dem,,pindkur-timmanahalli-kere,,alijenahalli-kere;gaddam-bachchahalli-kere,1,2.83,Arkavathi,77.567778,13.323333,cascade-streams-dem
+timmayyanadoddi-lake,sakalavara-govt-kharabu-lake,dem,,sakalavara-govt-kharabu-lake,,,0,0.04,Dakshina Pinakini,77.602222,12.831111,cascade-streams-dem
+tindlu-kere-e,mahalchoudadenahalli-kere-e,dem,,mahalchoudadenahalli-kere-e,,kagganur-n,2,5.04,Dakshina Pinakini,77.811667,12.863889,cascade-streams-dem
+tindlu-lake,panditapur-lake,dem,,panditapur-lake,,devarahalli-lake;tindlu-lake-2,1,1.98,Arkavathi,77.595,13.236389,cascade-streams-dem
+tindlu-lake-2,tindlu-lake,dem,,tindlu-lake,,,0,0.39,Arkavathi,77.6,13.234722,cascade-streams-dem
+tippagondanahalli-lower-kere,govindapura-lo-kere,dem,,govindapura-lo-kere,,,0,0.5,Kumudvathi,77.308056,13.158889,cascade-streams-dem
+tippagondanahalli-up-kere,tippagondanhalli-low-kere,dem,,tippagondanhalli-low-kere,,,0,0.4,Kumudvathi,77.317778,13.160833,cascade-streams-dem
+tippagondanhalli-low-kere,byadarahalli-kere,dem,,byadarahalli-kere,,tippagondanahalli-up-kere,1,0.66,Kumudvathi,77.318056,13.157222,cascade-streams-dem
+tippapura-kere,virapura-kere,dem,,virapura-kere,,,0,1.18,Arkavathi,77.538889,13.270278,cascade-streams-dem
+tippasandra-lake,chikkanekundi-lake-land,dem,,chikkanekundi-lake-land,,govt-kere-1,3,3.93,Dakshina Pinakini,77.764722,12.920556,cascade-streams-dem
+tippenhalli-kere,gangasandra-kere,dem,,gangasandra-kere,,karanalu-kere;tankasalahosahalli-kere;tubagere-kere,1,7.25,Arkavathi,77.563333,13.360833,cascade-streams-dem
+tirumagondanahalli-lake,hale-chandapura-lake,dem,,hale-chandapura-lake,,,0,1.1,Dakshina Pinakini,77.7175,12.7925,cascade-streams-dem
+tirumagondanapalya-kere,hadyalu-kere,dem,,hadyalu-kere,,bhairashettihalli-kere,1,4.45,Arkavathi,77.4075,13.146389,cascade-streams-dem
+tirumalapura-kere,,,,,,,0,1.18,Kumudvathi,77.325556,13.1375,cascade-streams-dem
+tiruvaranga-lake,,,,,,,0,1.74,Dakshina Pinakini,77.827222,12.9075,cascade-streams-dem
+togarighatta-kere,ramayyanapalya-kere,dem,,ramayyanapalya-kere,,,0,0.78,Arkavathi,77.567222,13.340556,cascade-streams-dem
+toli-katte,,,,,,,0,3.94,Arkavathi,77.471111,13.078889,cascade-streams-dem
+tonachinakuppre-kere,,,,,,degonahalli-kere,1,1.81,Kumudvathi,77.349167,13.142778,cascade-streams-dem
+totagere-kere,honnasandra-kere,dem,,honnasandra-kere,,,0,0.96,Arkavathi,77.447778,13.137222,cascade-streams-dem
+totanahalli-lake,sondilvadi-kere,dem,,sondilvadi-kere,,,0,0.01,Kumudvathi,77.281389,13.199444,cascade-streams-dem
+tubagere-kere,tippenhalli-kere,dem,,tippenhalli-kere,,,0,1.21,Arkavathi,77.573889,13.3725,cascade-streams-dem
+tubinkere,ganigarahalli-kere,dem,,ganigarahalli-kere,,medi-agrahara-kere;thupinkere,4,6.11,Arkavathi,77.518889,13.1025,cascade-streams-dem
+tubukunte-lake,kattihosahalli-lake,dem,,kattihosahalli-lake,,,0,0.51,Arkavathi,77.376389,13.286667,cascade-streams-dem
+tyamagondal-kere,sondilvadi-kere,dem,,sondilvadi-kere,,birgondanahalli-kere,1,3.55,Kumudvathi,77.2875,13.210833,cascade-streams-dem
+tyavakanahalli-kere,medhalli-kere,dem,,medhalli-kere,,,0,1.07,Dakshina Pinakini,77.781944,12.825556,cascade-streams-dem
+udanahalli-kere,kurubalahalli-kere,dem,,kurubalahalli-kere,,kodigehalli-kere-2,2,9.06,Arkavathi,77.636667,13.340278,cascade-streams-dem
+uddichikkanahalli-kere,kannamangala-kere,dem,,kannamangala-kere,,,0,1.39,Arkavathi,77.400278,13.186111,cascade-streams-dem
+ujjani-lake,kukkalahalli-lake-2,dem,,kukkalahalli-lake-2,,,0,4.15,Kumadvati,77.422778,13.415278,cascade-streams-dem
+ullalu-lake-2,muppatu-kavalu-hosa-kere,dem,,muppatu-kavalu-hosa-kere,,,0,3.07,Vrishabhavathi,77.482222,12.959722,cascade-streams-dem
+ulsoor-lake,bellandur-lake,streams,bellandur-lake,bellandur-lake,True,byappanahalli-kere,1,13.89,Koramangala-Challaghatta,77.622905,12.981605,cascade-streams-dem
+unnamed-lake,,,,,,,0,1.29,Kumadvati,77.440833,13.45,cascade-streams-dem
+uramundinakere,bangalapet-lake,dem,,bangalapet-lake,,governament-attikere;govindaehettipalya-lake,3,10.24,Dakshina Pinakini,77.675556,12.830833,cascade-streams-dem
+uramundinakere-2,kyalasanahalli-govt-lake,dem,,kyalasanahalli-govt-lake,,,0,0.81,Dakshina Pinakini,77.653889,12.809444,cascade-streams-dem
+uramundinakere-3,hosakere-3,dem,,hosakere-3,,addigenakere;lakshmipura-lake,2,4.1,Dakshina Pinakini,77.600556,12.807778,cascade-streams-dem
+uttarsipalya-kere,mailapura-kere,dem,,mailapura-kere,,,0,1.06,Arkavathi,77.401111,13.08,cascade-streams-dem
+vabasandra-lake,venkatapura-lake,dem,,venkatapura-lake,,,0,0.48,Dakshina Pinakini,77.789444,13.119722,cascade-streams-dem
+vadagehalli-kere,vagata-kere,dem,,vagata-kere,,govindapur-kere;jadigenahalli-kere;kiribirana-hosahalli-kere,3,26.18,Dakshina Pinakini,77.848333,13.036389,cascade-streams-dem
+vadakunte-4r,konana-kere,dem,,konana-kere,,,0,1.6,Kumudvathi,77.365833,13.216944,cascade-streams-dem
+vadakunte-low-4r,bhairanayakanahalli,dem,,bhairanayakanahalli,,,0,0.9,Kumudvathi,77.369167,13.206944,cascade-streams-dem
+vaddahalli-lake,nelavagilu-lake,dem,,nelavagilu-lake,,nandagudi-kere-s,1,5.77,Palar,77.9225,13.204444,cascade-streams-dem
+vaddarapalya-kere,virapanjipura-5r,dem,,virapanjipura-5r,,,0,1.13,Kumudvathi,77.382778,13.137778,cascade-streams-dem
+vaddarapalya-lake,mugalur-kere-nw,dem,,mugalur-kere-nw,,,0,1.13,Dakshina Pinakini,77.803889,12.895556,cascade-streams-dem
+vaddarapalya-lake-2,konasandra-lake,dem,,konasandra-lake,,jigani-lake-2,2,3.08,Dakshina Pinakini,77.638611,12.762222,cascade-streams-dem
+vaddarapalya-lake-3,ichanguru-lake,dem,,ichanguru-lake,,,0,2.1,Dakshina Pinakini,77.739722,12.776667,cascade-streams-dem
+vaderahalli-kere,medi-agrahara-s,dem,,medi-agrahara-s,,dodda-bettahalli,1,1.65,Arkavathi,77.540556,13.095,cascade-streams-dem
+vaderahalli-lake,,,,,,,0,0.13,Suvarnamukhi,77.476667,12.739444,cascade-streams-dem
+vaderahalli-lake-2,,,,,,,0,0.24,Jayamangali,77.338056,13.369444,cascade-streams-dem
+vagata-kere,makanahalli-kere,dem,,makanahalli-kere,,vadagehalli-kere,4,31.44,Dakshina Pinakini,77.838889,13.021944,cascade-streams-dem
+vajarahalli-govt-katte,o-b-chudanahalli-lake,dem,,o-b-chudanahalli-lake,,,0,0.33,Suvarnamukhi,77.544444,12.868333,cascade-streams-dem
+vajarahalli-kere,nelamangala-big-kere,dem,,nelamangala-big-kere,,,0,5.22,Arkavathi,77.396389,13.102222,cascade-streams-dem
+valagerehalli-kere,,,,,,,0,1.86,Vrishabhavathi,77.493889,12.930278,cascade-streams-dem
+valagerekalahalli-kere,dodda-thimmasandra-kere-s,dem,,dodda-thimmasandra-kere-s,,chikkabanahalli-kere;dommasandra-kere-s;sompura-kere-w;valagerekalahalli-kere-nw,3,19.62,Dakshina Pinakini,77.786111,12.874167,cascade-streams-dem
+valagerekalahalli-kere-nw,valagerekalahalli-kere,dem,,valagerekalahalli-kere,,,0,0.8,Dakshina Pinakini,77.774167,12.885,cascade-streams-dem
+vanakanahalli-lake,kanavapalli-lake,dem,,kanavapalli-lake,,,0,1.62,Dakshina Pinakini,77.694722,12.67,cascade-streams-dem
+vanigarahalli-lake,aralamallige-kere,dem,,aralamallige-kere,,bommanahalli-lake-2,1,5.17,Arkavathi,77.446111,13.349444,cascade-streams-dem
+vannasandra-e,vannasandra-s-2,dem,,vannasandra-s-2,,,0,0.14,Kumudvathi,77.346111,13.031111,cascade-streams-dem
+vannasandra-s,,,,,,vannasandra-s-2,2,0.92,Kumudvathi,77.341389,13.035,cascade-streams-dem
+vannasandra-s-2,vannasandra-s,dem,,vannasandra-s,,vannasandra-e,1,0.29,Kumudvathi,77.344722,13.033056,cascade-streams-dem
+vannasandra-w,,,,,,,0,0.15,Kumudvathi,77.340278,13.028611,cascade-streams-dem
+varadanakere,varadanakunte,dem,,varadanakunte,,,0,0.25,Dakshina Pinakini,77.643333,12.828611,cascade-streams-dem
+varadanakunte,jigani-kere,dem,,jigani-kere,,bingipura-lake;honnashetti-kere;hosakere-2;hulimangala-govt-kodi-kere;hulimangala-kunte6;varadanakere,1,7.86,Dakshina Pinakini,77.631389,12.816111,cascade-streams-dem
+varadapura-lake,peltanahalli-lake,dem,,peltanahalli-lake,,,0,2.02,Dakshina Pinakini,77.806111,13.063056,cascade-streams-dem
+varattur-lake,,,,,,kurubarahalli-lake-1,1,1.31,Arkavathi,77.399167,12.985278,cascade-streams-dem
+varthur-lake,,,,,,acchanakere;bellandur-lake;bhoganahalli-kere;devarabisanahalli-kere;doddanekundi-kere;govt-dinnekere;gramadakere;gunjuruplaya-kere;ibbalur-govt-lake;kachamaranahalli-kunte4;panattur-govt-kere;siddapura-kere;sowl-kere;varthuru-kunte7;vibhutipura-lake;whitefield-kere,6,268.82,Koramangala-Challaghatta,77.746111,12.947778,cascade-streams-dem
+varthuru-kunte7,varthur-lake,dem,,varthur-lake,,,0,0.0,Koramangala-Challaghatta,77.757778,12.929167,cascade-streams-dem
+vasanthapura-katte,devarakere,dem,,devarakere,,janaradhan-kere,1,0.85,Vrishabhavathi,77.554444,12.895278,cascade-streams-dem
+vasantpur-lake,subramhanyapura-kere,streams,subramhanyapura-kere,subramhanyapura-kere,True,gublai-lske,1,0.83,Vrishabhavathi,77.545133,12.891056,cascade-streams-dem
+vaudevapura-lake,taralu-lake,dem,,taralu-lake,,,0,0.55,Suvarnamukhi,77.524722,12.792778,cascade-streams-dem
+veerasagara-kere,atturu-kere,dem,,atturu-kere,,chikkabettahalli,1,2.39,Hebbal,77.556667,13.103333,cascade-streams-dem
+venateshpuram-2-lake,,,,,,,0,0.74,Arkavathi,77.674167,12.701944,cascade-streams-dem
+venkatappana-kere,,,,,,,0,0.59,Arkavathi,77.469167,13.071944,cascade-streams-dem
+venkatapura-lake,hosakote-doddaamanikere,dem,,hosakote-doddaamanikere,,vabasandra-lake,1,3.58,Dakshina Pinakini,77.775833,13.12,cascade-streams-dem
+venkateshapura-lake,rachenahalli-lake,dem,,rachenahalli-lake,,,0,0.69,Hebbal,77.621944,13.077778,cascade-streams-dem
+vibhutipura-lake,varthur-lake,streams,varthur-lake,varthur-lake,True,,0,2.36,Koramangala-Challaghatta,77.679567,12.968272,cascade-streams-dem
+vidyanagar-lake,hilaligi-lake,dem,,hilaligi-lake,,bangalapet-lake,5,15.88,Dakshina Pinakini,77.696667,12.824722,cascade-streams-dem
+vijinapura-kere2,kowdenahalli-kere,streams,kowdenahalli-kere,kowdenahalli-kere,True,,0,1.25,Hebbal,77.6779,13.010769,cascade-streams-dem
+vinayakanagar-lake,hire-kere,dem,,hire-kere,,vinayakanagar-lake-1,1,1.88,Kumudvathi,77.298056,13.2275,cascade-streams-dem
+vinayakanagar-lake-1,vinayakanagar-lake,dem,,vinayakanagar-lake,,,0,0.51,Kumudvathi,77.289722,13.227778,cascade-streams-dem
+virapanjipura-5r,virapanjipura-lower5,dem,,virapanjipura-lower5,,anantapura-kere;degonahalli-lower-kere;vaddarapalya-kere,2,8.3,Kumudvathi,77.365556,13.1325,cascade-streams-dem
+virapanjipura-lower5,huralihalli-kere,dem,,huralihalli-kere,,bommanahalli-up3r;virapanjipura-5r,3,11.91,Kumudvathi,77.353889,13.128889,cascade-streams-dem
+virapura-kere,dodda-tumkur-kere,dem,,dodda-tumkur-kere,,bashettihalli-kere;doddaballapur-kere;tippapura-kere;virapura-s-kere,7,111.52,Arkavathi,77.5375,13.259722,cascade-streams-dem
+virapura-s-kere,virapura-kere,dem,,virapura-kere,,,0,0.96,Arkavathi,77.548611,13.257778,cascade-streams-dem
+viraraghavaahalli-kere,yalachegere-kere,dem,,yalachegere-kere,,,0,1.04,Kumudvathi,77.370556,13.1125,cascade-streams-dem
+virasagara-lake,jalamaranahalli-lake,dem,,jalamaranahalli-lake,,,0,0.75,"unnamed, leaves to W",77.2075,13.218611,cascade-streams-dem
+virasagara-lake-2,,,,,,,0,3.69,"unnamed, leaves to W",77.207778,13.166111,cascade-streams-dem
+virasandra-lake,govindaehettipalya-lake,dem,,govindaehettipalya-lake,,,0,0.38,Dakshina Pinakini,77.671667,12.841667,cascade-streams-dem
+viswanathapura-kere,solluru-kere,dem,,solluru-kere,,shyanapanahalli-kere,2,8.5,Dakshina Pinakini,77.651667,13.275278,cascade-streams-dem
+visweswaraihnagar-lake,hompalaghatta-east-lake,dem,,hompalaghatta-east-lake,,,0,0.25,Dakshina Pinakini,77.714167,12.686944,cascade-streams-dem
+visweswaraiihnagar-east-lake,,,,,,,0,0.35,Dakshina Pinakini,77.726389,12.683333,cascade-streams-dem
+vitasandra-govt-lake,begur-lake,dem,,begur-lake,,,0,1.16,Koramangala-Challaghatta,77.633056,12.854722,cascade-streams-dem
+whitefield-kere,varthur-lake,streams,varthur-lake,,,nallurahallikere;pattaduru-agrahara-kere-1,2,6.6,Koramangala-Challaghatta,77.744562,12.963828,cascade-streams-dem
+yadamadu-lake,,,,,,,0,0.11,Suvarnamukhi,77.492778,12.736111,cascade-streams-dem
+yadgondahalli-lake,byalhalli-lake,dem,,byalhalli-lake,,medimalsandra-lake-2,4,25.01,Dakshina Pinakini,77.810278,12.943611,cascade-streams-dem
+yadlahalli-kere,kannamangala-kere,dem,,kannamangala-kere,,,0,2.93,Arkavathi,77.410556,13.191944,cascade-streams-dem
+yalachegere-kere,,,,,,viraraghavaahalli-kere,1,4.89,Kumudvathi,77.355556,13.106944,cascade-streams-dem
+yantiganahalli-kere,koratagere-kere,dem,,koratagere-kere,,,0,1.82,Kumudvathi,77.346667,13.057222,cascade-streams-dem
+yarandahalli-lake,kachanayakanahalli-lake,dem,,kachanayakanahalli-lake,,,0,2.38,Dakshina Pinakini,77.668889,12.805556,cascade-streams-dem
+yarappanahalli-kere,doddagubbi-kere,dem,,doddagubbi-kere,,,0,2.45,Hebbal,77.683611,13.086944,cascade-streams-dem
+yarappanahalli-kere-2,hosakote-doddaamanikere,dem,,hosakote-doddaamanikere,,,0,0.04,Dakshina Pinakini,77.7375,13.083889,cascade-streams-dem
+yartiganahalli-lake,bandikodigenahalli-amani-kere,dem,,bandikodigenahalli-amani-kere,,,0,2.11,Dakshina Pinakini,77.679444,13.193889,cascade-streams-dem
+yedahala-lake,channarayapatna-lake,dem,,channarayapatna-lake,,binnamangala-kere-l;guduvanahalli-lake,3,45.74,Dakshina Pinakini,77.798889,13.249167,cascade-streams-dem
+yediyur-kere,hosakerehalli-kere,dem,,hosakerehalli-kere,,,0,0.66,Vrishabhavathi,77.575,12.933889,cascade-streams-dem
+yekkalagatta-kere-mahadevepura-kere,doddanekundi-kere,dem,,doddanekundi-kere,,,0,0.71,Koramangala-Challaghatta,77.697222,12.986389,cascade-streams-dem
+yelachaguppe-karabu-katte,yelachagupperamapura-kere,dem,,yelachagupperamapura-kere,,,0,0.69,Vrishabhavathi,77.422778,12.964167,cascade-streams-dem
+yelachaguppe-kunte2,keremare-katte,dem,,keremare-katte,,,0,0.32,Vrishabhavathi,77.435556,12.950278,cascade-streams-dem
+yelachagupperamapura-kere,muppatu-kavalu-sakari,dem,,muppatu-kavalu-sakari,,kempegowdanagar-lake-1;yelachaguppe-karabu-katte,1,1.84,Vrishabhavathi,77.425833,12.960278,cascade-streams-dem
+yelachammanahalli-kere,sitanayakanahalli-lake,dem,,sitanayakanahalli-lake,,,0,1.64,Dakshina Pinakini,77.913889,13.065,cascade-streams-dem
+yelachchahalli-kere,mugbal-kere,dem,,mugbal-kere,,bhimapura-kere;lingapura-lake;sonnanaikanahalli-lake;tavarekere-kere,2,41.27,Dakshina Pinakini,77.907778,13.132222,cascade-streams-dem
+yelahanka-lake,jakkur-lake,streams,jakkur-lake,jakkur-lake,True,gantiganahalli-kere;harohalli-kere;puttenahalli-lake,4,51.68,Hebbal,77.597351,13.107428,cascade-streams-dem
+yelenahalli-kunte-2,subbedarana-kere-2,dem,,subbedarana-kere-2,,,0,0.05,Koramangala-Challaghatta,77.613611,12.858611,cascade-streams-dem
+yellachikuppe-lake,maragondanahalli-govt-lake,dem,,maragondanahalli-govt-lake,,chennadasipalya-lake,1,0.99,Vrishabhavathi,77.416944,12.9575,cascade-streams-dem
+yellamallappashetti-kere,,,,,,bayappanahalli-lake;bhattarahalli-kere;bidarahalli-kere;chimasandra-kere;kitthaganuru-kere;rampura-kere;shegehalli-kere,9,283.06,Hebbal,77.734722,13.020278,cascade-streams-dem
+yellammanapalya-lake,kun-madiwala-lake,dem,,kun-madiwala-lake,,,0,0.97,Dakshina Pinakini,77.689722,12.751389,cascade-streams-dem
+yellukunte-govt-lake,agara-lake,dem,,agara-lake,,,0,0.22,Koramangala-Challaghatta,77.638611,12.9025,cascade-streams-dem

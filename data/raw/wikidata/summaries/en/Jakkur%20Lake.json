@@ -1,0 +1,49 @@
+{
+ "type": "standard",
+ "title": "Jakkur Lake",
+ "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Jakkur Lake</span></span>",
+ "namespace": {
+  "id": 0,
+  "text": ""
+ },
+ "wikibase_item": "Q77264259",
+ "titles": {
+  "canonical": "Jakkur_Lake",
+  "normalized": "Jakkur Lake",
+  "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Jakkur Lake</span></span>"
+ },
+ "pageid": 62488840,
+ "thumbnail": {
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Jakkur_lake_and_heronary_.jpg/330px-Jakkur_lake_and_heronary_.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "width": 330,
+  "height": 186
+ },
+ "originalimage": {
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Jakkur_lake_and_heronary_.jpg/3840px-Jakkur_lake_and_heronary_.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "width": 4128,
+  "height": 2322
+ },
+ "lang": "en",
+ "dir": "ltr",
+ "revision": "1366033538",
+ "tid": "a6ba342c-8874-11f1-8f0c-5234e3393629",
+ "timestamp": "2026-07-25T22:03:22Z",
+ "description": "Among the biggest lakes in Bangalore",
+ "description_source": "local",
+ "content_urls": {
+  "desktop": {
+   "page": "https://en.wikipedia.org/wiki/Jakkur_Lake",
+   "revisions": "https://en.wikipedia.org/wiki/Jakkur_Lake?action=history",
+   "edit": "https://en.wikipedia.org/wiki/Jakkur_Lake?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Jakkur_Lake"
+  },
+  "mobile": {
+   "page": "https://en.wikipedia.org/wiki/Jakkur_Lake",
+   "revisions": "https://en.wikipedia.org/wiki/Special:History/Jakkur_Lake",
+   "edit": "https://en.wikipedia.org/wiki/Jakkur_Lake?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Jakkur_Lake"
+  }
+ },
+ "extract": "Jakkur Lake is among the biggest lakes in Bangalore, and is located on the northern side of the city. It derives its name from the name of the locality, Jakkur. It is spread around 35 ha and has several islands.",
+ "extract_html": "<p><b>Jakkur Lake</b> is among the biggest lakes in Bangalore, and is located on the northern side of the city. It derives its name from the name of the locality, Jakkur. It is spread around 35 ha and has several islands.</p>"
+}

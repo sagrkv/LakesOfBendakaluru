@@ -1,0 +1,10 @@
+numpy
+shapely
+pyproj
+rasterio
+pdfplumber
+requests
+numba
+opencv-python-headless
+scipy
+truststore

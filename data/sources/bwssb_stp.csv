@@ -1,0 +1,108 @@
+source,stpId,name,lat,lon,type,capacityKld,capacityMld,capacityMldFromName,functioning,locationNear,process,drainageZone,inflowMld,year
+bwssb-stp-locations,9,Hebbal 60MLD,12.940545,77.654822,Sewage Treatment Plant,60000,60.0,60.0,True,,,,,
+bwssb-stp-locations,10,Horamavu Agara 20 MLD,13.0471,77.662156,Sewage Treatment Plant,20000,20.0,20.0,True,,,,,
+bwssb-stp-locations,12,Jakkur 15 MLD,13.093947,77.605731,Tertiary Treatment Plant,15000,15.0,15.0,True,,,,,
+bwssb-stp-locations,26,Rajacanal (new) 40 MLD,13.045512,77.64674,Sewage Treatment Plant,40000,40.0,40.0,True,,,,,
+bwssb-stp-locations,27,Rajacanal (old) 40 MLD,13.045828,77.646176,Sewage Treatment Plant,40000,40.0,40.0,True,,,,,
+bwssb-stp-locations,32,Yelahanka TTP 10 MLD,13.101111,77.586166,Sewage Treatment Plant,10000,10.0,10.0,True,,,,,
+bwssb-stp-locations,1,Agaram 35.0 MLD,12.91631,77.64047,Sewage Treatment Plant,35000,35.0,35.0,True,,,,,
+bwssb-stp-locations,2,Bellandur Amani kere 90.MLD,12.940004,77.716626,Sewage Treatment Plant,90000,90.0,90.0,True,,,,,
+bwssb-stp-locations,3,Chickbegur 5 MLD,12.885397,77.63589,Sewage Treatment Plant,5000,5.0,5.0,True,,,,,
+bwssb-stp-locations,5,Cubbon Park 4.0 MLD,12.979186,77.593603,Tertiary Treatment Plant,4000,4.0,4.0,True,,,,,
+bwssb-stp-locations,8,Halasuru 2.0 MLD,12.975652,77.640011,Sewage Treatment Plant,2000,2.0,2.0,True,,,,,
+bwssb-stp-locations,11,Hulimavu 10 MLD,12.87193,77.604156,Sewage Treatment Plant,10000,10.0,10.0,True,,,,,
+bwssb-stp-locations,13,K&C Valley 218 MLD,12.942407,77.654276,Sewage Treatment Plant,218000,218.0,218.0,True,,,,,
+bwssb-stp-locations,14,K&C Valley 30MLD,12.942407,77.654276,Sewage Treatment Plant,30000,30.0,30.0,True,,,,,
+bwssb-stp-locations,15,K&C Valley 60 MLD,12.940599,77.654757,Sewage Treatment Plant,60000,60.0,60.0,True,,,,,
+bwssb-stp-locations,16,K.R.Puram 20 MLD,13.017071,77.693303,Sewage Treatment Plant,20000,20.0,20.0,True,,,,,
+bwssb-stp-locations,17,Kadabeesanahalli 50 MLD,12.9466,77.698116,Sewage Treatment Plant,50000,50.0,50.0,True,,,,,
+bwssb-stp-locations,18,Kadugodi 6 MLD,12.996592,77.777005,Sewage Treatment Plant,5000,5.0,6.0,True,,,,,
+bwssb-stp-locations,21,Lalbagh 1.5 MLD,12.94517,77.5838,Tertiary Treatment Plant,1500,1.5,1.5,True,,,,,
+bwssb-stp-locations,28,Sarakki 5 MLD,12.899414,77.579867,Sewage Treatment Plant,5000,5.0,5.0,True,,,,,
+bwssb-stp-locations,33,Yelemallappa Chetti 15 MLD,13.023344,77.729414,Sewage Treatment Plant,15000,15.0,15.0,True,,,,,
+bwssb-stp-locations,4,Chikkabanavara 5 MLD,13.083059,77.512259,Sewage Treatment Plant,5000,5.0,5.0,True,,,,,
+bwssb-stp-locations,6,Doddabele 20 MLD,12.898309,77.47753,Sewage Treatment Plant,20000,20.0,20.0,True,,,,,
+bwssb-stp-locations,7,Doddabele 40 MLD,12.898131,77.477566,Sewage Treatment Plant,40000,40.0,40.0,True,,,,,
+bwssb-stp-locations,19,Kempambudhi 1.0 MLD,12.952544,77.557659,Sewage Treatment Plant,1000,1.0,1.0,True,,,,,
+bwssb-stp-locations,20,Kengeri 60 MLD,12.916022,77.48988,Sewage Treatment Plant,60000,60.0,60.0,True,,,,,
+bwssb-stp-locations,22,Mailasandra Ph-I 75 MLD,12.921265,77.50262,Sewage Treatment Plant,75000,75.0,75.0,True,,,,,
+bwssb-stp-locations,23,Mallathahalli 5.0 MLD,12.967846,77.495002,Sewage Treatment Plant,5000,5.0,5.0,True,,,,,
+bwssb-stp-locations,24,Nagasandra ( new) 20 MLD,13.043003,77.492871,Sewage Treatment Plant,20000,20.0,20.0,True,,,,,
+bwssb-stp-locations,25,Nagasandra(old) 20MLD,13.042753,77.492613,Sewage Treatment Plant,20000,20.0,20.0,True,,,,,
+bwssb-stp-locations,29,V.Valley 150 MLD,12.940942,77.654785,Sewage Treatment Plant,60000,60.0,150.0,False,,,,,
+bwssb-stp-locations,30,V.Valley 180 MLD Secondary,12.934804,77.519659,Sewage Treatment Plant,150000,150.0,180.0,False,,,,,
+bwssb-stp-locations,31,V.Valley 60 MLD Tertiary,12.934804,77.519659,Sewage Treatment Plant,180000,180.0,60.0,True,,,,,
+bwssb-stp-locations,39,5th Phase Yelahanka 1 MLD ISPS,13.101111,77.586166,Intermediate Sewage Pumping Station,,,1.0,True,,,,,
+bwssb-stp-locations,34,Agaram 65 MLD ISPS,12.92562,77.63996,Intermediate Sewage Pumping Station,,,65.0,True,,,,,
+bwssb-stp-locations,35,Karibhavanahalli 5 MLD ISPS,13.044947,77.646376,Intermediate Sewage Pumping Station,,,5.0,True,,,,,
+bwssb-stp-locations,38,Koramangala 210 MLD ISPS,12.946972,77.623667,Intermediate Sewage Pumping Station,,,210.0,True,,,,,
+bwssb-stp-locations,36,Rajacanal 20 MLD ISPS,13.044947,77.646376,Intermediate Sewage Pumping Station,,,20.0,True,,,,,
+bwssb-stp-locations,37,Sadaramangala 5 MLD ISPS,12.998234,77.725326,Intermediate Sewage Pumping Station,,,5.0,True,,,,,
+bwssb-stp-es-2024-25,1,K&C valley,,,,218000,218.0,,,BelurNagasandra (near Challaghatta),Activated Sludge Process (ASP),Challaghatta valley,107.22,2024-25
+bwssb-stp-es-2024-25,2,K&C valley,,,,30000,30.0,,,BelurNagasandra (near Challaghatta),Activated Sludge Process (ASP),Challaghatta valley,32.07,2024-25
+bwssb-stp-es-2024-25,3,K&C Valley,,,,60000,60.0,,,BelurNagasandra (near Challaghatta),ASP with power generation,Challaghatta valley,61.64,2024-25
+bwssb-stp-es-2024-25,4,K&C Valley,,,,150000,150.0,,,B.Nagasandra,Secondary -Activated Sludge Process (ASP),Challaghatta valley,151.03,2024-25
+bwssb-stp-es-2024-25,5,Lalbagh,,,,1500,1.5,,,Lalbaghkere,Activated aeration + plate settlers + UV disinfection,Challaghatta valley,1.481,2024-25
+bwssb-stp-es-2024-25,6,Cubbon Park,,,,4000,4.0,,,Cubbon Park(upgraded),Membrane Bio Reactor,Challaghatta valley,3.913,2024-25
+bwssb-stp-es-2024-25,7,K.R.Puram,,,,20000,20.0,,,Tambuchettipalya Road,Sequential Batch Reactor,Challaghatta valley,20.79,2024-25
+bwssb-stp-es-2024-25,8,K.R.PuramPh-I,,,,20000,20.0,,,Tambuchetti playa road,UASB + Extended Aeration,Challaghatta valley,18.545,2024-25
+bwssb-stp-es-2024-25,9,Yelemallappa Chettikere,,,,15000,15.0,,,YelemallappaChettikere,Sequential Batch Reactor,Challaghatta valley,15.61,2024-25
+bwssb-stp-es-2024-25,10,Bellandur Amani kere,,,,90000,90.0,,,Varturkere,Activated Sludge Process (ASP),Koramangala valley,92.85,2024-25
+bwssb-stp-es-2024-25,11,Kadabeesanahalli Ph-I,,,,50000,50.0,,,Marathalli Outer Ring Road,Extended Aeration,Koramangala valley,48.84,2024-25
+bwssb-stp-es-2024-25,12,Kadugodi,,,,6000,6.0,,,Kadugodi,Sequential Batch Reactor,Koramangala valley,5.84,2024-25
+bwssb-stp-es-2024-25,13,Halasuru,,,,2000,2.0,,,Halasuru Lake,Sequential Batch Reactor,Koramangala valley,2.04,2024-25
+bwssb-stp-es-2024-25,14,Sarakki,,,,5000,5.0,,,Sarakkikere,Sequential Batch Reactor,Koramangala valley,5.03,2024-25
+bwssb-stp-es-2024-25,15,Agaram,,,,35000,35.0,,,Agara Ring Road,Sequential Batch Reactor,Koramangala valley,30.01,2024-25
+bwssb-stp-es-2024-25,16,Hulimavu,,,,10000,10.0,,,Hulimavukere,Sequential Batch Reactor,Koramangala valley,10.16,2024-25
+bwssb-stp-es-2024-25,17,Chikkabegur,,,,5000,5.0,,,Near Chikkabegurukere,Sequential Batch Reactor,Koramangala valley,3.04,2024-25
+bwssb-stp-es-2024-25,18,Madivala,,,,4000,4.0,,,Madivala lake,Sequential Batch Reactor,Koramangala valley,3.18,2024-25
+bwssb-stp-es-2024-25,19,Rajacanal - Ph-I,,,,40000,40.0,,,Geddalahalli near Hebbal,Extended Aeration,Hebbal,34.54,2024-25
+bwssb-stp-es-2024-25,20,Hebbal,,,,100000,100.0,,,Nagavarakere,Sequential Batch Reactor,Hebbal,78.88,2024-25
+bwssb-stp-es-2024-25,21,Jakkur,,,,15000,15.0,,,Jakkurkere,Upflow Aerobic Sludge Blanket (UASB) + Extended Aeration,Hebbal,16.42,2024-25
+bwssb-stp-es-2024-25,22,YelahankaPh-I,,,,10000,10.0,,,Allalasandrakere,Activated sludge Process (ASP) + filtration + Chlorination,Hebbal,7.04,2024-25
+bwssb-stp-es-2024-25,23,Hennur,,,,1000,1.0,,,Hennur lake,Soil Bio Technology,Hebbal,0.98,2024-25
+bwssb-stp-es-2024-25,24,Rajacanal,,,,40000,40.0,,,Geddalahalli near Hebbal,Sequential Batch Reactor,Hebbal,41.31,2024-25
+bwssb-stp-es-2024-25,25,Horamavu Agara,,,,20000,20.0,,,In between Kalkere and HoramavuAgarakere,Sequential Batch Reactor,Hebbal,20.81,2024-25
+bwssb-stp-es-2024-25,26,Nagasandra Ph-I,,,,20000,20.0,,,Near Madavarakere (near Tumkur Road),Extended Aeration,Hebbal,11.75,2024-25
+bwssb-stp-es-2024-25,27,Nagasandra,,,,20000,20.0,,,Near Madavarakere (near Tumkur Road),Sequential Batch Reactor,Hebbal,17.99,2024-25
+bwssb-stp-es-2024-25,28,Chikkabanavara,,,,5000,5.0,,,Chikkabanavarakere,Sequential Batch Reactor,Hebbal,4.18,2024-25
+bwssb-stp-es-2024-25,29,Puttenahalli,,,,7000,7.0,,,Puttenahalli lake,Sequential Batch Reactor,Vrishabhavathy,4.85,2024-25
+bwssb-stp-es-2024-25,30,Mailasandra Ph-I,,,,75000,75.0,,,Mailasandra,Extended Aeration,Vrishabhavathy,74.09,2024-25
+bwssb-stp-es-2024-25,31,Doddabele,,,,20000,20.0,,,Doddabele,Sequential Batch Reactor,Vrishabhavathy,18.58,2024-25
+bwssb-stp-es-2024-25,32,Kengeri,,,,60000,60.0,,,Near Kengeri bus stand,Secondary-Activated Sludge Process,Vrishabhavathy,58.5,2024-25
+bwssb-stp-es-2024-25,33,Doddabele,,,,40000,40.0,,,Doddabele,Sequential Batch Reactor,Vrishabhavathy,31.8,2024-25
+bwssb-stp-es-2024-25,34,V.Valley,,,,150000,150.0,,,Mysore Road,Activated Sludge Process (ASP),Vrishabhavathy,120.75,2024-25
+bwssb-stp-es-2025-26,1,K&C valley,,,,218000,218.0,,,BelurNagasandra (near Challaghatta),Activated Sludge Process (ASP),Challaghatta valley,153.66,2025-26
+bwssb-stp-es-2025-26,2,K&C valley,,,,30000,30.0,,,BelurNagasandra (near Challaghatta),Activated Sludge Process (ASP),Challaghatta valley,31.41,2025-26
+bwssb-stp-es-2025-26,3,K&C Valley,,,,60000,60.0,,,BelurNagasandra (near Challaghatta),ASP with power generation,Challaghatta valley,59.98,2025-26
+bwssb-stp-es-2025-26,4,K&C Valley,,,,150000,150.0,,,B.Nagasandra,Secondary -Activated Sludge Process (ASP),Challaghatta valley,148.2,2025-26
+bwssb-stp-es-2025-26,5,Lalbagh,,,,1500,1.5,,,Lalbaghkere,Activated aeration + plate settlers + UV disinfection,Challaghatta valley,1.23,2025-26
+bwssb-stp-es-2025-26,6,Cubbon Park,,,,4000,4.0,,,Cubbon Park(upgraded),Membrane Bio Reactor,Challaghatta valley,2.5,2025-26
+bwssb-stp-es-2025-26,7,K.R.Puram,,,,20000,20.0,,,Tambuchettipalya Road,Sequential Batch Reactor,Challaghatta valley,19.81,2025-26
+bwssb-stp-es-2025-26,8,K.R.PuramPh-I,,,,20000,20.0,,,Tambuchetti playa road,UASB + Extended Aeration,Challaghatta valley,14.7,2025-26
+bwssb-stp-es-2025-26,9,Yelemallappa Chettikere,,,,15000,15.0,,,YelemallappaChettikere,Sequential Batch Reactor,Challaghatta valley,13.63,2025-26
+bwssb-stp-es-2025-26,10,Bellandur Amani kere,,,,90000,90.0,,,Varturkere,Activated Sludge Process (ASP),Koramangala valley,88.2,2025-26
+bwssb-stp-es-2025-26,11,Kadabeesanahalli Ph-I,,,,50000,50.0,,,Marathalli Outer Ring Road,Extended Aeration,Koramangala valley,31.5,2025-26
+bwssb-stp-es-2025-26,12,Kadugodi,,,,6000,6.0,,,Kadugodi,Sequential Batch Reactor,Koramangala valley,5.22,2025-26
+bwssb-stp-es-2025-26,13,Halasuru,,,,2000,2.0,,,Halasuru Lake,Sequential Batch Reactor,Koramangala valley,1.93,2025-26
+bwssb-stp-es-2025-26,14,Sarakki,,,,5000,5.0,,,Sarakkikere,Sequential Batch Reactor,Koramangala valley,4.77,2025-26
+bwssb-stp-es-2025-26,15,Agaram,,,,35000,35.0,,,Agara Ring Road,Sequential Batch Reactor,Koramangala valley,34.51,2025-26
+bwssb-stp-es-2025-26,16,Hulimavu,,,,10000,10.0,,,Hulimavukere,Sequential Batch Reactor,Koramangala valley,8.0,2025-26
+bwssb-stp-es-2025-26,17,Chikkabegur,,,,5000,5.0,,,Near Chikkabegurukere,Sequential Batch Reactor,Koramangala valley,4.24,2025-26
+bwssb-stp-es-2025-26,18,Madivala,,,,4000,4.0,,,Madivala lake,Sequential Batch Reactor,Koramangala valley,2.08,2025-26
+bwssb-stp-es-2025-26,19,Rajacanal - Ph-I,,,,40000,40.0,,,Geddalahalli near Hebbal,Extended Aeration,Hebbal,40.51,2025-26
+bwssb-stp-es-2025-26,20,Hebbal,,,,100000,100.0,,,Nagavarakere,Sequential Batch Reactor,Hebbal,86.54,2025-26
+bwssb-stp-es-2025-26,21,Jakkur,,,,15000,15.0,,,Jakkurkere,Upflow Aerobic Sludge Blanket (UASB) + Extended Aeration,Hebbal,14.98,2025-26
+bwssb-stp-es-2025-26,22,YelahankaPh-I,,,,10000,10.0,,,Allalasandrakere,Activated sludge Process (ASP) + filtration + Chlorination,Hebbal,9.97,2025-26
+bwssb-stp-es-2025-26,23,Hennur,,,,1000,1.0,,,Hennur lake,Soil Bio Technology,Hebbal,0.54,2025-26
+bwssb-stp-es-2025-26,24,Rajacanal,,,,40000,40.0,,,Geddalahalli near Hebbal,Sequential Batch Reactor,Hebbal,32.68,2025-26
+bwssb-stp-es-2025-26,25,Horamavu Agara,,,,20000,20.0,,,In between Kalkere and HoramavuAgarakere,Sequential Batch Reactor,Hebbal,16.57,2025-26
+bwssb-stp-es-2025-26,26,Nagasandra Ph-I,,,,20000,20.0,,,Near Madavarakere (near Tumkur Road),Extended Aeration,Hebbal,14.57,2025-26
+bwssb-stp-es-2025-26,27,Nagasandra,,,,20000,20.0,,,Near Madavarakere (near Tumkur Road),Sequential Batch Reactor,Hebbal,16.5,2025-26
+bwssb-stp-es-2025-26,28,Chikkabanavara,,,,5000,5.0,,,Chikkabanavarakere,Sequential Batch Reactor,Hebbal,4.88,2025-26
+bwssb-stp-es-2025-26,29,Puttenahalli,,,,7000,7.0,,,Puttenahalli lake,Sequential Batch Reactor,Vrishabhavathy,5.08,2025-26
+bwssb-stp-es-2025-26,30,Mailasandra Ph-I,,,,75000,75.0,,,Mailasandra,Extended Aeration,Vrishabhavathy,80.03,2025-26
+bwssb-stp-es-2025-26,31,Doddabele,,,,20000,20.0,,,Doddabele,Sequential Batch Reactor,Vrishabhavathy,28.66,2025-26
+bwssb-stp-es-2025-26,32,Kengeri,,,,60000,60.0,,,Near Kengeri bus stand,Secondary-Activated Sludge Process,Vrishabhavathy,58.3,2025-26
+bwssb-stp-es-2025-26,33,Doddabele,,,,40000,40.0,,,Doddabele,Sequential Batch Reactor,Vrishabhavathy,39.95,2025-26
+bwssb-stp-es-2025-26,34,V.Valley,,,,150000,150.0,,,Mysore Road,Activated Sludge Process (ASP),Vrishabhavathy,137.38,2025-26

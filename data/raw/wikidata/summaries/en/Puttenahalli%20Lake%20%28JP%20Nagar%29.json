@@ -1,0 +1,53 @@
+{
+ "type": "standard",
+ "title": "Puttenahalli Lake (JP Nagar)",
+ "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Puttenahalli Lake (JP Nagar)</span></span>",
+ "namespace": {
+  "id": 0,
+  "text": ""
+ },
+ "wikibase_item": "Q17084588",
+ "titles": {
+  "canonical": "Puttenahalli_Lake_(JP_Nagar)",
+  "normalized": "Puttenahalli Lake (JP Nagar)",
+  "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Puttenahalli Lake (JP Nagar)</span></span>"
+ },
+ "pageid": 42254878,
+ "thumbnail": {
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Puttenahalli_Lake%2C_JP_Nagar%2C_Bangalore.jpg/330px-Puttenahalli_Lake%2C_JP_Nagar%2C_Bangalore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "width": 330,
+  "height": 186
+ },
+ "originalimage": {
+  "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Puttenahalli_Lake%2C_JP_Nagar%2C_Bangalore.jpg/3840px-Puttenahalli_Lake%2C_JP_Nagar%2C_Bangalore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "width": 4193,
+  "height": 2359
+ },
+ "lang": "en",
+ "dir": "ltr",
+ "revision": "1362896894",
+ "tid": "b89b6c37-7985-11f1-a9b6-650e30f790fd",
+ "timestamp": "2026-07-06T21:57:46Z",
+ "description": "Lake in India",
+ "description_source": "local",
+ "coordinates": {
+  "lat": 12.89065833,
+  "lon": 77.58667222
+ },
+ "content_urls": {
+  "desktop": {
+   "page": "https://en.wikipedia.org/wiki/Puttenahalli_Lake_(JP_Nagar)",
+   "revisions": "https://en.wikipedia.org/wiki/Puttenahalli_Lake_(JP_Nagar)?action=history",
+   "edit": "https://en.wikipedia.org/wiki/Puttenahalli_Lake_(JP_Nagar)?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Puttenahalli_Lake_(JP_Nagar)"
+  },
+  "mobile": {
+   "page": "https://en.wikipedia.org/wiki/Puttenahalli_Lake_(JP_Nagar)",
+   "revisions": "https://en.wikipedia.org/wiki/Special:History/Puttenahalli_Lake_(JP_Nagar)",
+   "edit": "https://en.wikipedia.org/wiki/Puttenahalli_Lake_(JP_Nagar)?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Puttenahalli_Lake_(JP_Nagar)"
+  }
+ },
+ "extract": "Puttenahalli lake is a small, restored freshwater lake located in JP Nagar 7th Phase, South Bangalore. The area of the lake is about 13 acres. The primary water sources are rain and surface water diverted to the lake through channels. The lake is currently maintained by Puttenahalli Neighbourhood Lake Improvement Trust (PNLIT) . The lake was on the brink of extinction, but due to the efforts of PNLIT, is now a haven for bird-watchers and on its way to being completely restored.",
+ "extract_html": "<p><b>Puttenahalli lake</b> is a small, restored freshwater lake located in JP Nagar 7th Phase, South Bangalore. The area of the lake is about 13 acres. The primary water sources are rain and surface water diverted to the lake through channels. The lake is currently maintained by <span class=\"external text\">Puttenahalli Neighbourhood Lake Improvement Trust (PNLIT) </span>. The lake was on the brink of extinction, but due to the efforts of PNLIT, is now a haven for bird-watchers and on its way to being completely restored.</p>"
+}

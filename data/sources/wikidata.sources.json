@@ -1,0 +1,32 @@
+[
+ {
+  "key": "wikidata-2026-09",
+  "title": "Wikidata items for lakes, reservoirs, ponds and wetlands around Bengaluru",
+  "publisher": "Wikidata contributors",
+  "url": "https://www.wikidata.org/",
+  "license": "CC0 1.0",
+  "credit": "Wikidata",
+  "asOf": "2026-09-11",
+  "retrieved": "2026-09-11"
+ },
+ {
+  "key": "wikipedia-en",
+  "title": "English Wikipedia article lead summaries",
+  "publisher": "Wikipedia contributors",
+  "url": "https://en.wikipedia.org/",
+  "license": "CC BY-SA 4.0",
+  "credit": "Text from English Wikipedia, CC BY-SA 4.0",
+  "asOf": "2026-09-11",
+  "retrieved": "2026-09-11"
+ },
+ {
+  "key": "wikipedia-kn",
+  "title": "Kannada Wikipedia article lead summaries",
+  "publisher": "Wikipedia contributors",
+  "url": "https://kn.wikipedia.org/",
+  "license": "CC BY-SA 4.0",
+  "credit": "Text from Kannada Wikipedia, CC BY-SA 4.0",
+  "asOf": "2026-09-11",
+  "retrieved": "2026-09-11"
+ }
+]

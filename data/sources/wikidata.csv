@@ -1,0 +1,92 @@
+qid,labelEn,labelKn,aliasesEn,aliasesKn,description,lat,lon,instanceOf,instanceOfQids,enwiki,knwiki,image,commonsCategory,osmRelation,osmWay,areaM2,inception,geonamesId,heritageStatus,possibleDuplicateOf,source
+Q4883488,Bellandur Lake,ಬೆಳ್ಳಂದೊರು ಕೆರೆ,,,lake in the southeast Bengaluru,12.935094,77.668147,lake,Q23397,Bellandur Lake,ಬೆಳ್ಳಂದೊರು ಕೆರೆ,Dying Lake Bellandur.jpg,Bellandur Lake,,,3600000,,,,Q34877508,wikidata-2026-09
+Q5695346,Hebbal lake,ಹೆಬ್ಬಾಳ ಕೆರೆ,,,lake in India,13.046667,77.586667,lake,Q23397,"Hebbal Lake, Bengaluru",ಹೆಬ್ಬಾಳ ಕೆರೆ,HebbalLake.jpg,"Hebbal Lake, Bangalore",,,,,,,,wikidata-2026-09
+Q5745519,Hesaraghatta Lake,ಹೆಸರಘಟ್ಟ ಕೆರೆ,,,lake in India,13.15,77.49,lake,Q23397,Hesaraghatta Lake,ಹೆಸರಘಟ್ಟ ಕೆರೆ,BangaloreLake.jpg,Hesaraghatta Lake,,,,,,,Q34889795,wikidata-2026-09
+Q6365696,Kanva Reservoir,ಕಣ್ವ ಜಲಾಶಯ,,,lake in India,12.729267,77.198181,reservoir,Q131681,Kanva Reservoir,ಕಣ್ವ ಜಲಾಶಯ,,Kanva dam,,,,,7839923,,,wikidata-2026-09
+Q7262461,Puttenahalli Lake Birds Conservation Reserve,ಪುಟ್ಟೇನಹಳ್ಳಿ ಸರೋವರ,,,"Lake in Yelahanka, India",13.111111,77.576111,conservation reserve;lake,Q5162999;Q23397,Puttenahalli Lake (Yelahanka),ಪುಟ್ಟೇನಹಳ್ಳಿ ಸರೋವರ,,,,,,,,,,wikidata-2026-09
+Q7331115,Sankey tank,,Sankey Tanky,,"Man-made lake/tank in Bangalore, India",13.01,77.57,lake;lagoon,Q23397;Q187223,Sankey tank,,Sankey Tank.jpg,Sankey tank,6030715,,,,6692917,,,wikidata-2026-09
+Q7423007,Sarakki lake,,,,lake in India,12.8983,77.5778,lake,Q23397,Sarakki lake,,,,,,,,,,,wikidata-2026-09
+Q7784715,Thippagondanahalli Reservoir,,,,reservoir in India,12.973333,77.3425,reservoir,Q131681,Thippagondanahalli Reservoir,,Tippagondanahalli-dam.jpg,Thippagondanahalli Reservoir,,,,,,,,wikidata-2026-09
+Q7924608,Vibhutipura Lake,ವಿಭೂತಿಪುರ ಕೆರೆ,,,lake in India,12.967644,77.675567,lake,Q23397,Vibhutipura Lake,ವಿಭೂತಿಪುರ ಕೆರೆ,,Vibhutipura Lake,,,,,,,,wikidata-2026-09
+Q17084588,Puttenahalli Lake,ಪುಟ್ಟೇನಹಳ್ಳಿ ಕೆರೆ,,,lake in India,12.890658,77.586672,lake,Q23397,Puttenahalli Lake (JP Nagar),,"Puttenahalli Lake, JP Nagar, Bangalore.jpg",Puttenahalli Lake (JP Nagar),3507925,,,,,,,wikidata-2026-09
+Q28154185,Arekere Lake,,,,body of water,12.882988,77.598108,lake,Q23397,Arekere Lake,,,,,,,,,,,wikidata-2026-09
+Q28824239,Agara Lake,,,,lake,12.921,77.641,lake,Q23397,Agara Lake,,,Agara Lake,,,,,,,,wikidata-2026-09
+Q30587793,Ulsoor Lake,ಹಲಸೂರು ಸರೋವರ,Ulsoor Lake';Halasuru Lake;Ulsoor;Halasuru lake,,"Ulsoor Lake' or Halasuru Lake, one of the biggest lakes in Bangalore, is located on the eastern side of the city",12.981472,77.619214,lake,Q23397,Ulsoor Lake,ಹಲಸೂರು ಸರೋವರ,Ulsoor Lake from a distance.JPG,Ulsoor Lake,,,,,6692872,,,wikidata-2026-09
+Q30621418,Madiwala Lake,,,,lake in Bengaluru,12.907778,77.616667,lake,Q23397,Madiwala Lake,,"Sunrise at Madiwala lake, Bengaluru.jpg",Madiwala Lake,,,,,,,,wikidata-2026-09
+Q34876865,Bairapur Kere,ಬೈರಾಪುರ ಕೆರೆ,,,lake in India,13.194722,77.521944,reservoir,Q131681,,,,,,,,,10854697,,,wikidata-2026-09
+Q34877508,Belandūr Tank,,,,reservoir in India,12.935,77.668889,reservoir,Q131681,,,,,,,,,1276560,,Q4883488,wikidata-2026-09
+Q34877685,Bettakote Kere,ಬೆಟ್ಟಕೋಟೆ ಕೆರೆ,,,lake in India,13.210278,77.7275,reservoir,Q131681,,,,,,,,,10854381,,,wikidata-2026-09
+Q34878412,Bondakodigenhalli Kere,ಬೊಂಡಕೊಡಿಗೇನಹಳ್ಳಿ ಕೆರೆ,,,reservoir in India,13.1775,77.6875,reservoir,Q131681,,,,,,,,,10854460,,,wikidata-2026-09
+Q34878838,Budigere Kere,ಬೂದಿಗೆರೆ ಕೆರೆ,,,reservoir in India,13.144167,77.748889,reservoir,Q131681,,,,,,,,,10854473,,,wikidata-2026-09
+Q34878961,Bagalur Kere,ಬಾಗಲೂರು ಕೆರೆ,,,reservoir in India,13.139444,77.661111,reservoir,Q131681,,,,,,,,,10854509,,,wikidata-2026-09
+Q34880304,Chik Sanne Kere,ಚಿಕ್ ಸಣ್ಣೆ ಕೆರೆ,,,reservoir in India,13.238889,77.684167,reservoir,Q131681,,,,,,,,,10854362,,,wikidata-2026-09
+Q34880315,Chikane Kere,ಚಿಕನೆ ಕೆರೆ,,,reservoir in India,13.167778,77.304167,reservoir,Q131681,,,,,,,,,10853191,,,wikidata-2026-09
+Q34883684,Dod Jala Kere,ದೊಡ್ಡ ಜಾಲ ಕೆರೆ,,,reservoir in India,13.173056,77.647222,reservoir,Q131681,,,,,,,,,10854702,,,wikidata-2026-09
+Q34883697,Dod Sanne Kere,ದೊಡ್ ಸಣ್ಣೆ ಕೆರೆ,,,reservoir in India,13.220556,77.686667,reservoir,Q131681,,,,,,,,,10854366,,,wikidata-2026-09
+Q34883711,Dod-Araligere Kere,ದೊಡ್-ಅರಳಿಗೆರೆ ಕೆರೆ,,,reservoir in India,13.191944,77.848056,reservoir,Q131681,,,,,,,,,10855018,,,wikidata-2026-09
+Q34883764,Doddatumkur Kere,ದೊಡ್ಡತುಮಕೂರು ಕೆರೆ,,,reservoir in India,13.231944,77.527778,reservoir,Q131681,,,,,,,,,10854696,,,wikidata-2026-09
+Q34889007,Hare Kere,ಹರೇ ಕೆರೆ,,,reservoir in India,13.242778,77.465278,reservoir,Q131681,,,,,,,,,10853127,,,wikidata-2026-09
+Q34889529,Hebbal Kere,ಹೆಬ್ಬಾಳ ಕೆರೆ,,,reservoir in India,13.045,77.588889,reservoir,Q131681,,,,,,,,,10854610,,,wikidata-2026-09
+Q34889795,Hesaghatta Tank,,,,reservoir in India,13.148889,77.488333,reservoir,Q131681,,,,,,,,,1270121,,Q5745519,wikidata-2026-09
+Q34890176,Hiri Kere,ಹಿರಿ ಕೆರೆ,,,reservoir in India,13.220556,77.305833,reservoir,Q131681,,,,,,,,,10853097,,,wikidata-2026-09
+Q34890713,Hoskote Tank,ಹೊಸಕೋಟೆ ಟ್ಯಾಂಕ್,Hosakate lake;Hoskote lake;Hosakate tank,,reservoir in India,13.074444,77.766944,reservoir,Q131681,,,Hoskote Tank.jpg,,,,,,10855246,,,wikidata-2026-09
+Q34890955,Hullur Kere,ಹುಲ್ಲೂರ ಕೆರೆ,,,reservoir in India,13.103333,77.833889,reservoir,Q131681,,,,,,,,,10855329,,,wikidata-2026-09
+Q34892171,Jadgenhalli Kere,ಜಡಗೇನಹಳ್ಳಿ ಕೆರೆ,,,reservoir in India,13.052778,77.860278,reservoir,Q131681,,,,,,,,,10855156,,,wikidata-2026-09
+Q34892258,Jakkur Kere,ಜಕ್ಕೂರು ಕೆರೆ,,,reservoir in India,13.083889,77.611944,reservoir,Q131681,,,,,,,,,10854576,,Q77264259,wikidata-2026-09
+Q34893555,Kakolu Kere,ಕಾಕೋಲು ಕೆರೆ,,,lake in India,13.196944,77.514167,reservoir,Q131681,,,,,,,,,10854417,,,wikidata-2026-09
+Q34893590,Kalalgatta Kere,ಕಲಲಗಟ್ಟ ಕೆರೆ,,,lake in India,13.200556,77.326111,reservoir,Q131681,,,,,,,,,10853159,,,wikidata-2026-09
+Q34893654,Kalkeri Kere,ಕಲ್ಕೆರೆ ಕೆರೆ,,,lake in India,13.045278,77.664444,reservoir,Q131681,,,,,,,,,10854709,,,wikidata-2026-09
+Q34895627,Kodihalli Kere,ಕೋಡಿಹಳ್ಳಿ ಕೆರೆ,,,lake in India,13.013889,77.814444,reservoir,Q131681,,,,,,,,,10855114,,,wikidata-2026-09
+Q34895766,Koltur Kere,ಕೊಳ್ತೂರು ಕೆರೆ,,,reservoir in India,13.209722,77.535556,reservoir,Q131681,,,,,,,,,10854412,,,wikidata-2026-09
+Q34905600,Manni Kere,ಮನ್ನಿ ಕೆರೆ,,,reservoir in India,13.247778,77.291389,reservoir,Q131681,,,,,,,,,10853096,,,wikidata-2026-09
+Q34906358,Matti Kere,ಮತ್ತಿಕೆರೆ,,,reservoir in India,13.035,77.550556,reservoir,Q131681,,,,,,,,,10854695,,,wikidata-2026-09
+Q34909175,Mugbal Kere,ಮುಗ್ಬಾಲ್ ಕೆರೆ,,,reservoir in India,13.124167,77.891111,reservoir,Q131681,,,,,,,,,10855311,,,wikidata-2026-09
+Q34909636,Madhari Kere,ಮಾಧಾರಿ ಕೆರೆ,,,reservoir in India,13.2125,77.445,reservoir,Q131681,,,,,,,,,10853141,,,wikidata-2026-09
+Q34910146,Nallurhalli Kere,ನಲ್ಲೂರಹಳ್ಳಿ ಕೆರೆ,,,reservoir in India,13.116111,77.869722,reservoir,Q131681,,,,,,,,,10855327,,,wikidata-2026-09
+Q34911102,Nidvanda Kere,ನಿಡವಂದ ಕೆರೆ,,,lake in India,13.241111,77.261667,reservoir,Q131681,,,,,,,,,10853430,,,wikidata-2026-09
+Q34920410,Rajarhalli Kere,ರಾಜರಹಳ್ಳಿ ಕೆರೆ,,,lake in India,13.062222,77.615556,reservoir,Q131681,,,,,,,,,10854624,,,wikidata-2026-09
+Q34923243,Shingnaikanhalli Kere,ಶಿಂಗ್ ನಾಯಕನಹಳ್ಳಿ ಕೆರೆ,,,lake in India,13.1625,77.571667,reservoir,Q131681,,,,,,,,,10854708,,,wikidata-2026-09
+Q34927084,Sondlivadi Kere,ಸೊಂಡ್ಲಿವಾಡಿ ಕೆರೆ,,,lake in India,13.205,77.295278,reservoir,Q131681,,,,,,,,,10853171,,,wikidata-2026-09
+Q34927773,Sri Chamrājendra Reservoir,,,,,12.966667,77.35,reservoir,Q131681,,,,,,,,,1255656,,,wikidata-2026-09
+Q34927784,Srinlvasasagar Kere,ಶ್ರೀನಿವಾಸಸಾಗರ ಕೆರೆ,,,lake in India,13.448611,77.629722,reservoir,Q131681,,,,,,,,,10854036,,,wikidata-2026-09
+Q34929400,Sulibele Kere,ಸೂಲಿಬೆಲೆ ಕೆರೆ,,,lake in India,13.181389,77.807778,reservoir,Q131681,,,,,,,,,10855128,,,wikidata-2026-09
+Q34930199,Teniyur Kere,ತೇನಿಯೂರು ಕೆರೆ,,,lake in India,13.218333,77.834167,reservoir,Q131681,,,,,,,,,10855024,,,wikidata-2026-09
+Q34931809,Tavarekere Kere,ತಾವರೆಕೆರೆ ಕೆರೆ,,,,13.128889,77.936944,reservoir,Q131681,,,,,,,,,10855315,,,wikidata-2026-09
+Q34931893,Uganvadi Kere,ಉಗನವಾಡಿ ಕೆರೆ,,,,13.240278,77.663889,reservoir,Q131681,,,,,,,,,10854355,,,wikidata-2026-09
+Q34933119,Vartūr Kere,,,,,12.948333,77.739722,reservoir,Q131681,,,,,,,,,1253380,,,wikidata-2026-09
+Q34936365,Yalachhalli Kere,ಯಲಚಹಳ್ಳಿ ಕೆರೆ,,,,13.132222,77.909444,reservoir,Q131681,,,,,,,,,10855284,,,wikidata-2026-09
+Q34936494,Yedur Kere,ಯಡೂರು ಕೆರೆ,,,,13.138056,77.689722,reservoir,Q131681,,,,,,,,,10854483,,,wikidata-2026-09
+Q34936517,Yelahanka Kere,ಯಲಹಂಕ ಕೆರೆ,,,lake in India,13.111389,77.595833,reservoir,Q131681,,,,,,,,,10854547,,Q104841470,wikidata-2026-09
+Q34936550,Yellamallappchetti Lake,ಯೆಲ್ಲಮಲ್ಲಪ್ಪಚೆಟ್ಟಿ ಕೆರೆ,Yelemallappachetti Lake,,lake in India,13.023056,77.728889,reservoir,Q131681,,,Yellamallappchetti Kere.jpg,,,,,,10854647,,,wikidata-2026-09
+Q49703266,,,,,,13.049444,77.941111,intermittent reservoir,Q55470036,,,,,,,,,10855202,,,wikidata-2026-09
+Q49703273,,,,,,13.231111,77.568611,intermittent reservoir,Q55470036,,,,,,,,,10854338,,,wikidata-2026-09
+Q49703279,,,,,,13.113611,77.2575,intermittent reservoir,Q55470036,,,,,,,,,10853445,,,wikidata-2026-09
+Q49703323,,,,,,13.172222,77.630833,intermittent reservoir,Q55470036,,,,,,,,,10854448,,,wikidata-2026-09
+Q49703335,,,,,,13.194444,77.206389,intermittent reservoir,Q55470036,,,,,,,,,10851966,,,wikidata-2026-09
+Q49703388,,,,,,13.034167,77.627778,intermittent reservoir,Q55470036,,,,,,,,,10854629,,,wikidata-2026-09
+Q49703394,,,,,,13.216944,77.634722,intermittent reservoir,Q55470036,,,,,,,,,10854360,,,wikidata-2026-09
+Q49703397,,,,,,13.219167,77.866389,intermittent reservoir,Q55470036,,,,,,,,,10855036,,,wikidata-2026-09
+Q49703409,,,,,,13.221111,77.583889,intermittent reservoir,Q55470036,,,,,,,,,10854342,,,wikidata-2026-09
+Q49703417,,,,,,13.219167,77.663056,intermittent reservoir,Q55470036,,,,,,,,,10854358,,,wikidata-2026-09
+Q49703440,,,,,,13.369444,77.196111,intermittent reservoir,Q55470036,,,,,,,,,10851621,,,wikidata-2026-09
+Q49703448,,,,,,13.213611,77.347222,intermittent reservoir,Q55470036,,,,,,,,,10853110,,,wikidata-2026-09
+Q49703460,,,,,,13.035278,77.937778,intermittent reservoir,Q55470036,,,,,,,,,10855199,,,wikidata-2026-09
+Q49703486,,,,,,13.014167,77.83,intermittent reservoir,Q55470036,,,,,,,,,10855122,,,wikidata-2026-09
+Q49703490,,,,,,13.438056,77.336667,intermittent reservoir,Q55470036,,,,,,,,,10852770,,,wikidata-2026-09
+Q49703502,,,,,,13.097778,77.874167,intermittent reservoir,Q55470036,,,,,,,,,10855326,,,wikidata-2026-09
+Q49703505,,,,,,13.045,77.611389,intermittent reservoir,Q55470036,,,,,,,,,10854618,,,wikidata-2026-09
+Q49703540,,,,,,13.325,77.538611,intermittent reservoir,Q55470036,,,,,,,,,10854156,,,wikidata-2026-09
+Q49703576,,,,,,13.009444,77.573889,intermittent reservoir,Q55470036,,,,,,,,,10854681,,,wikidata-2026-09
+Q49703609,,,,,,13.168611,77.587778,intermittent reservoir,Q55470036,,,,,,,,,10854437,,,wikidata-2026-09
+Q77264259,Jakkur Lake,ಜಕ್ಕೂರು ಕೆರೆ,,,among the biggest lakes in Bangalore,13.084881,77.609428,lake,Q23397,Jakkur Lake,,"Jakkur lake, Bangalore (2025) 04.jpg",Jakkur Lake,,,,,,,Q34892258,wikidata-2026-09
+Q104841470,Yelahanka Lake,,,,body of water,13.111389,77.595278,lake,Q23397,Yelahanka Lake,,,,,,,,,,Q34936517,wikidata-2026-09
+Q106416239,Begur Lake,,,,lake in India,12.874717,77.627994,lake,Q23397,Begur Lake,,,,,,,,,,,wikidata-2026-09
+Q106416269,Varthur Lake,,,,lake in India,12.9525,77.7425,lake,Q23397,Varthur Lake,,Varthur Lake 4-19-2014 1-39-09 PM.JPG,,,,,,,,,wikidata-2026-09
+Q106416301,Uttarahalli Lake,ಉತ್ತರಹಳ್ಳಿ ಕೆರೆ,,,"lake in Bangalore, India",12.907708,77.541067,lake,Q23397,,,"Uttarahalli lake, Bangalore (2025) 15.jpg",Uttarahalli Lake,,,,,,,,wikidata-2026-09
+Q107639021,Kaggadasapura Lake,,,,lake in India,12.980317,77.668386,lake,Q23397,Kaggadasapura Lake,,,,,,,,,,,wikidata-2026-09
+Q107639034,Kempambudhi Lake,ಕೆಂಪಾಂಬುಧಿ ಕೆರೆ,,,lake in Bangalore,12.951389,77.560833,lake,Q23397,Kempambudhi Lake,,"Kempambudhi lake, Bangalore (2024) 20.jpg",Kempambudhi lake,,,,,,,,wikidata-2026-09
+Q107639060,Doddakallasandra Lake,,,,lake in Karnataka,12.882033,77.561522,lake,Q23397,Doddakallasandra Lake,,,,,,,,,,,wikidata-2026-09
+Q107645662,Rachenahalli Lake,ರಾಚೇನಹಳ್ಳಿ ಕೆರೆ,,,"lake in Bangalore, Karnataka",13.063333,77.611944,lake,Q23397,Rachenahalli Lake,,Rachenahalli lake (2024) 70.jpg,Rachenahalli lake,,,,,,,,wikidata-2026-09
+Q127104022,Nayandahalli lake,,,,"lake in Nayandahalli, Rajarajeshwari Nagar, Bangalore",12.939978,77.521465,lake,Q23397,,,Nayandahalli lake (2024) 04.jpg,Nayandahalli lake,,,60703,,11858794,,,wikidata-2026-09
+Q129102020,Kelagiankare lake,ಕೆಳಗಿಯನ್ಕೆರೆ ಸರೋವರ,,,"lake in Bagmane Tech Park, C. V. Raman Nagar, Bengaluru, Karnataka",12.977278,77.663644,lake,Q23397,,,"Bagmane Tech Park, Bangalore (2024) 125.jpg",Kelagiankare lake,,,,2023-03-26,,,,wikidata-2026-09
+Q141285008,Dharmambudhi Lake,,,,"former historic reservoir in Bengaluru, India",12.9779,77.5721,,,Dharmambudhi Lake,,,,,,,,,,,wikidata-2026-09

@@ -1,0 +1,12 @@
+[
+ {
+  "key": "commons",
+  "title": "Wikimedia Commons photos, by location and by Wikidata Commons category",
+  "publisher": "Wikimedia Commons contributors",
+  "url": "https://commons.wikimedia.org/",
+  "license": "per file (see the license and licenseUrl columns)",
+  "credit": "Per file: author / license / Wikimedia Commons (see the credit column)",
+  "asOf": "2026-09-11",
+  "retrieved": "2026-09-11"
+ }
+]

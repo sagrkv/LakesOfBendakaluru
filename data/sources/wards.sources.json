@@ -1,0 +1,32 @@
+[
+ {
+  "key": "wards-bbmp-2010-198",
+  "title": "BBMP Ward Map - 2015 (198 wards, 2010 delimitation)",
+  "publisher": "BBMP, via OpenCity",
+  "url": "https://data.opencity.in/dataset/bbmp-ward-information",
+  "license": "not stated",
+  "credit": "Ward boundaries: BBMP, via OpenCity",
+  "asOf": "2010",
+  "retrieved": "2026-09-11"
+ },
+ {
+  "key": "wards-bbmp-2023-225",
+  "title": "BBMP Final Wards Map - 2023 (225 wards)",
+  "publisher": "Government of Karnataka, Urban Development Department, via OpenCity",
+  "url": "https://data.opencity.in/dataset/bbmp-wards-delimitation-2023",
+  "license": "Public Domain",
+  "credit": "Ward boundaries: Government of Karnataka, via OpenCity",
+  "asOf": "2023",
+  "retrieved": "2026-09-11"
+ },
+ {
+  "key": "wards-gba-2025-369",
+  "title": "GBA Wards Map with Reservation - March 2026 (369 wards, five city corporations)",
+  "publisher": "Greater Bengaluru Authority / Government of Karnataka, via OpenCity",
+  "url": "https://data.opencity.in/dataset/gba-ward-wise-reservations-2026",
+  "license": "Public Domain",
+  "credit": "Ward boundaries: Greater Bengaluru Authority, via OpenCity",
+  "asOf": "2026-03",
+  "retrieved": "2026-09-11"
+ }
+]

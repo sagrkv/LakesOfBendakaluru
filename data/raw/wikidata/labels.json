@@ -1,0 +1,60 @@
+{
+ "Q23397": {
+  "type": "item",
+  "id": "Q23397",
+  "labels": {
+   "en": {
+    "language": "en",
+    "value": "lake"
+   },
+   "kn": {
+    "language": "kn",
+    "value": "ಸರೋವರ"
+   }
+  }
+ },
+ "Q131681": {
+  "type": "item",
+  "id": "Q131681",
+  "labels": {
+   "en": {
+    "language": "en",
+    "value": "reservoir"
+   },
+   "kn": {
+    "language": "kn",
+    "value": "ಜಲಾಶಯ"
+   }
+  }
+ },
+ "Q187223": {
+  "type": "item",
+  "id": "Q187223",
+  "labels": {
+   "en": {
+    "language": "en",
+    "value": "lagoon"
+   }
+  }
+ },
+ "Q5162999": {
+  "type": "item",
+  "id": "Q5162999",
+  "labels": {
+   "en": {
+    "language": "en",
+    "value": "conservation reserve"
+   }
+  }
+ },
+ "Q55470036": {
+  "type": "item",
+  "id": "Q55470036",
+  "labels": {
+   "en": {
+    "language": "en",
+    "value": "intermittent reservoir"
+   }
+  }
+ }
+}

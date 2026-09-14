@@ -1,0 +1,154 @@
+stationId,stationCode,stationName,lakeName,subLocation,lat,lon,coordSource,firstMonth,lastMonth,monthsReported,source
+1388,1388,Ulsoor Lake Training Centre Of Fish Breeding,Ulsoor Lake,Training Centre Of Fish Breeding,12.983269,77.62,kspcb-2026-07,2023-07,2026-07,31,kspcb-2026-07
+2778,2778,River Arkavathi At Tippagondanahalli Reservoir,River Arkavathi At Tippagondanahalli Reservoir,,,,,2023-08,2025-09,22,kspcb-2025-09
+3589,3589,Madiwala Tank,Madiwala Tank,,12.908501,77.615365,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+3590,3590,Lalbagh Tank,Lalbagh Tank,,12.946154,77.581861,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+3591,3591,Kempambudhi Tank,Kempambudhi Tank,,12.951514,77.560386,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+3592,3592,Yediyur Tank,Yediyur Tank,,12.933697,77.577689,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+3593,3593,Ulsoor Lake Temple,Ulsoor Lake,Temple,12.984907,77.61867,kspcb-2026-07,2023-07,2026-07,31,kspcb-2026-07
+3594,3594,Sankey Tank,Sankey Tank,,13.008775,77.574124,kspcb-2026-07,2023-08,2026-07,35,kspcb-2026-07
+3595,3595,Byrasandra Tank,Byrasandra Tank,,12.930292,77.59508,kspcb-2026-07,2023-07,2026-07,35,kspcb-2026-07
+3596,3596,Nayandanahalli Tank,Nayandanahalli Tank,,12.939988,77.521078,kspcb-2026-07,2023-07,2026-07,35,kspcb-2026-07
+3597,3597,Hesaraghatta Lake,Hesaraghatta Lake,,13.143235,77.486649,kspcb-2026-07,2023-07,2026-07,35,kspcb-2026-07
+3598,3598,Herohalli Tank,Herohalli Tank,,12.989261,77.492374,kspcb-2026-07,2023-08,2026-07,34,kspcb-2026-07
+3599,3599,Anchepalya Lake,Anchepalya Lake,,13.052523,77.481882,kspcb-2026-07,2023-07,2026-07,35,kspcb-2026-07
+3600,3600,Shivapura Tank,Shivapura Tank,,13.026112,77.504431,kspcb-2026-07,2023-07,2026-07,33,kspcb-2026-07
+3601,3601,Karihobanahalli Lake,Karihobanahalli Lake,,13.02092,77.495848,kspcb-2026-06,2023-07,2026-06,29,kspcb-2026-06
+3602,3602,Bellandur Lake,Bellandur Lake,,12.935903,77.670072,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+3603,3603,Vengaiyyanakere ( Kr Puram Lake ),Vengaiyyanakere,,13.014692,77.699247,kspcb-2026-07,2023-07,2026-07,32,kspcb-2026-07
+3604,3604,Doddanekkundi Lake,Doddanekkundi Lake,,12.971789,77.686788,kspcb-2026-07,2023-10,2026-07,32,kspcb-2026-07
+3605,3605,Yelemallappa Shetty Lake,Yelemallappa Shetty Lake,,13.024035,77.732746,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+3606,3606,Dasarahalli Tank,Dasarahalli Tank,,13.040072,77.512103,kspcb-2026-07,2023-07,2026-07,35,kspcb-2026-07
+3607,3607,Kalkere Tank,Kalkere Tank,,13.046684,77.660034,kspcb-2026-07,2023-07,2026-07,34,kspcb-2026-07
+3608,3608,Varthur Lake,Varthur Lake,,12.945136,77.746339,kspcb-2026-07,2023-07,2026-07,34,kspcb-2026-07
+3609,3609,Ibbalur Lake,Ibbalur Lake,,12.922487,77.667833,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+3610,3610,Tubarahalli Tank,Tubarahalli Tank,,12.958628,77.724734,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+3611,3611,Kaikondanahalli Lake,Kaikondanahalli Lake,,12.912366,77.673722,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+3612,3612,Agaram Lake,Agaram Lake,,12.921688,77.643863,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+3613,3613,Gottigere Lake,Gottigere Lake,,12.851789,77.59079,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+3614,3614,Puttenahalli Lake,Puttenahalli Lake,,12.889557,77.587179,kspcb-2026-07,2023-08,2026-07,35,kspcb-2026-07
+3615,3615,Arakere Lake,Arakere Lake,,12.88373,77.598226,kspcb-2026-03,2023-07,2026-03,32,kspcb-2026-03
+3616,3616,Kalena Agrahara Lake,Kalena Agrahara Lake,,12.865578,77.590275,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+3617,3617,Hulimavu Lake,Hulimavu Lake,,12.870088,77.603031,kspcb-2026-07,2023-12,2026-07,13,kspcb-2026-07
+3618,3618,Singasandra Lake,Singasandra Lake,,12.881982,77.644816,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+3619,3619,Begur Tank,Begur Tank,,12.877734,77.629061,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+3620,3620,Parappana Agrahara Lake,Parappana Agrahara Lake,,12.879105,77.662235,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+3621,3621,Haralur Lake,Haralur Lake,,12.89517,77.662593,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+3622,3622,Somasundrapalya Lake,Somasundrapalya Lake,,12.899249,77.647505,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+3623,3623,Anekal Doddakere Tank,Anekal Doddakere Tank,,12.713112,77.685162,kspcb-2026-07,2023-10,2026-07,33,kspcb-2026-07
+3624,3624,Puttenahalli Lake,Puttenahalli Lake,,13.111748,77.576109,kspcb-2026-07,2023-08,2026-07,33,kspcb-2026-07
+3625,3625,Hebbal Lake,Hebbal Lake,,13.048774,77.587205,kspcb-2026-02,2023-07,2026-02,30,kspcb-2026-02
+3626,3626,Nagavara Lake,Nagavara Lake,,13.045455,77.609574,kspcb-2026-01,2023-07,2026-01,28,kspcb-2026-01
+3627,3627,Jakkur Lake,Jakkur Lake,,13.089447,77.610713,kspcb-2026-07,2023-07,2026-07,34,kspcb-2026-07
+3628,3628,Amruthahalli Lake,Amruthahalli Lake,,13.061563,77.597823,kspcb-2026-07,2023-12,2026-07,29,kspcb-2026-07
+3629,3629,Allalasandra Lake,Allalasandra Lake,,13.090595,77.585206,kspcb-2026-07,2023-07,2026-07,35,kspcb-2026-07
+3630,3630,Yelahanka Tank,Yelahanka Tank,,13.110944,77.596232,kspcb-2026-07,2023-07,2026-07,35,kspcb-2026-07
+3632,3632,Veerapura Tank,Veerapura Tank,,,,,2023-07,2025-03,11,kspcb-2025-03
+3633,3633,Subramanyapura Tank,Subramanyapura Tank,,12.896412,77.542849,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+3634,3634,Devarakere Tank,Devarakere Tank,,12.897833,77.55502,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+3635,3635,Malathahalli Lake,Malathahalli Lake,,12.965149,77.495334,kspcb-2026-07,2023-07,2026-07,35,kspcb-2026-07
+3636,3636,Hoskere Lake,Hoskere Lake,,12.937598,77.435837,kspcb-2026-07,2023-07,2026-07,34,kspcb-2026-07
+3638,3638,Yelachenahalli Lake,Yelachenahalli Lake,,12.900395,77.565308,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+3639,3639,Kengeri Tank,Kengeri Tank,,12.916694,77.486671,kspcb-2026-07,2024-04,2026-07,28,kspcb-2026-07
+3640,3640,Uttarahalli Doraikere,Uttarahalli Doraikere,,12.90751,77.541164,kspcb-2026-07,2023-07,2026-07,35,kspcb-2026-07
+3641,3641,Dhorekere Tank,Dhorekere Tank,,12.901895,77.550029,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+3642,3642,Jigani Tank,Jigani Tank,,12.793052,77.635403,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+3643,3643,Benniganahalli Lake,Benniganahalli Lake,,12.996955,77.667953,kspcb-2026-07,2023-08,2026-07,35,kspcb-2026-07
+3644,3644,MULBAGALU LAKE,Mulbagalu Lake,,,,,2023-08,2023-08,1,kspcb-2023-08
+3645,3645,DEVARAYASAMUDRA LAKE,Devarayasamudra Lake,,,,,2023-08,2023-08,1,kspcb-2023-08
+3648,3648,Mydala Tank,Mydala Tank,,,,,2023-08,2025-03,4,kspcb-2025-03
+3655,3655,Mathikere Tank,Mathikere Tank,,13.034957,77.550552,kspcb-2026-07,2023-12,2026-07,23,kspcb-2026-07
+3678,3678,Nanjapura Tank,Nanjapura Tank,,,,,2024-08,2024-08,1,kspcb-2024-08
+4094,4094,Gangondanahalli Lake,Gangondanahalli Lake,,13.016906,77.475409,kspcb-2026-06,2023-08,2026-06,31,kspcb-2026-06
+4095,4095,Chikkabanavara Lake,Chikkabanavara Lake,,13.082452,77.506749,kspcb-2026-07,2023-07,2026-07,31,kspcb-2026-07
+4096,4096,Andhrahalli Lake,Andhrahalli Lake,,13.011089,77.48633,kspcb-2026-07,2023-08,2026-07,29,kspcb-2026-07
+4097,4097,Kachohalli Lake,Kachohalli Lake,,13.00012,77.465986,kspcb-2026-07,2023-08,2026-07,34,kspcb-2026-07
+4107,4107,"River Dakshina Pinakini Near Mugalur Bridge Mugalur, Bengaluru",River Dakshina Pinakini Near Mugalur Bridge Mugalur,,,,,2023-08,2024-12,16,kspcb-2024-12
+4503,4503,Madhure Tank,Madhure Tank,,,,,2023-07,2025-03,11,kspcb-2025-03
+4504,4504,Sarakki Lake,Sarakki Lake,,12.899542,77.579895,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+4505,4505,Nelamangala Lake,Nelamangala Lake,,13.081006,77.399543,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+4506,4506,Abbigere Lake,Abbigere Lake,,13.079588,77.528603,kspcb-2026-07,2023-10,2026-07,32,kspcb-2026-07
+4507,4507,Chelekere Lake,Chelekere Lake,,13.026463,77.6453,kspcb-2026-07,2023-07,2026-07,34,kspcb-2026-07
+4508,4508,Singapura Lake,Singapura Lake,,13.084724,77.538512,kspcb-2026-07,2023-07,2026-07,34,kspcb-2026-07
+4509,4509,Narasipura Lake,Narasipura Lake,,13.072139,77.558333,kspcb-2026-07,2023-07,2026-07,34,kspcb-2026-07
+4510,4510,Rachenahalli Lake,Rachenahalli Lake,,13.06242,77.614212,kspcb-2026-07,2023-07,2026-07,34,kspcb-2026-07
+4511,4511,Kogilu Kere,Kogilu Kere,,13.108177,77.618517,kspcb-2026-07,2023-07,2026-07,34,kspcb-2026-07
+4512,4512,Viswaneedam Lake,Viswaneedam Lake,,12.874936,77.336064,kspcb-2026-07,2023-08,2026-07,32,kspcb-2026-07
+4513,4513,Arashinakunte Kere,Arashinakunte Kere,,12.661463,77.193771,kspcb-2026-07,2023-07,2026-07,35,kspcb-2026-07
+4514,4514,Sadaramangala Lake,Sadaramangala Lake,,12.999495,77.728367,kspcb-2026-07,2023-08,2026-07,35,kspcb-2026-07
+4515,4515,Bhattarahalli Lake,Bhattarahalli Lake,,13.024513,77.708911,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+4516,4516,Kundalahalli Lake,Kundalahalli Lake,,12.969471,77.720501,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+4517,4517,Kowdhenahalli Tank,Kowdhenahalli Tank,,13.012553,77.684723,kspcb-2026-07,2024-06,2026-07,26,kspcb-2026-07
+4518,4518,Garudacharpalya Tank,Garudacharpalya Tank,,12.990298,77.696344,kspcb-2026-07,2023-08,2026-07,35,kspcb-2026-07
+4519,4519,Rampura Lake,Rampura Lake,,13.045,77.690556,kspcb-2026-07,2023-07,2026-07,35,kspcb-2026-07
+4520,4520,Chinnappanahalli Lake,Chinnappanahalli Lake,,12.96589,77.706923,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+4521,4521,Devarabeesanahalli Lake,Devarabeesanahalli Lake,,12.923262,77.686892,kspcb-2026-07,2023-07,2026-07,31,kspcb-2026-07
+4522,4522,Vibhuthipura Lake,Vibhuthipura Lake,,12.967863,77.675603,kspcb-2026-07,2023-07,2026-07,33,kspcb-2026-07
+4523,4523,Nallurahalli Lake,Nallurahalli Lake,,12.974353,77.735542,kspcb-2026-07,2023-08,2026-07,34,kspcb-2026-07
+4524,4524,Pattandur Agrahara Lake,Pattandur Agrahara Lake,,12.980196,77.738402,kspcb-2026-07,2023-08,2026-07,35,kspcb-2026-07
+4525,4525,Seetharampalya Lake,Seetharampalya Lake,,12.982262,77.713189,kspcb-2026-07,2023-08,2026-07,35,kspcb-2026-07
+4526,4526,Devasandra Lake,Devasandra Lake,,13.002584,77.704595,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+4527,4527,Sheelavanta-Whitefield Lake,Sheelavanta-Whitefield Lake,,12.964,77.741667,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+4528,4528,Doddakannehalli Lake,Doddakannehalli Lake,,12.912238,77.693333,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+4529,4529,Kasavanahalli Lake,Kasavanahalli Lake,,12.903816,77.667176,kspcb-2026-07,2023-07,2026-07,29,kspcb-2026-07
+4530,4530,Kammasandra Lake,Kammasandra Lake,,,,,2023-08,2025-08,16,kspcb-2025-08
+4531,4531,Rayasandra Lake,Rayasandra Lake,,12.870364,77.677283,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+4532,4532,Chandapura Lake,Chandapura Lake,,12.805571,77.704791,kspcb-2026-07,2023-07,2026-07,35,kspcb-2026-07
+4533,4533,Ullalu Lake,Ullalu Lake,,12.960692,77.48058,kspcb-2026-07,2023-07,2026-07,30,kspcb-2026-07
+4534,4534,Sompura Lake,Sompura Lake,,12.874737,77.498511,kspcb-2026-07,2023-07,2026-07,34,kspcb-2026-07
+4535,4535,Gubbalal Lake,Gubbalal Lake,,12.880667,77.539722,kspcb-2026-07,2023-07,2026-07,26,kspcb-2026-07
+4536,4536,Hosakerehalli Lake,Hosakerehalli Lake,,12.925621,77.534005,kspcb-2026-07,2023-07,2026-07,35,kspcb-2026-07
+4537,4537,Chinnakurchi Kere,Chinnakurchi Kere,,12.819102,77.465121,kspcb-2026-07,2023-07,2026-07,35,kspcb-2026-07
+4538,4538,Machohalli Lake,Machohalli Lake,,13.012473,77.454819,kspcb-2026-07,2023-08,2026-07,34,kspcb-2026-07
+4539,4539,Doddabidarakallu Lake,Doddabidarakallu Lake,,13.043337,77.495637,kspcb-2026-07,2023-07,2026-07,24,kspcb-2026-07
+4540,4540,Kammagondanahalli Lake,Kammagondanahalli Lake,,13.068814,77.525008,kspcb-2026-07,2023-07,2026-07,31,kspcb-2026-07
+4541,4541,Alur Lake,Alur Lake,,13.097908,77.458539,kspcb-2026-04,2023-07,2026-04,30,kspcb-2026-04
+4542,4542,Basavanapura Lake,Basavanapura Lake,,12.844669,77.588939,kspcb-2026-07,2023-07,2026-07,34,kspcb-2026-07
+4543,4543,Kodi Singasandra Lake,Kodi Singasandra Lake,,12.877959,77.641832,kspcb-2026-07,2023-07,2026-07,33,kspcb-2026-07
+4544,4544,Kothanuru Lake,Kothanuru Lake,,12.873691,77.579472,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+4545,4545,Jungu Kere (Devarabeesanahalli Lake),Jungu Kere,,,,,2024-02,2025-03,4,kspcb-2025-03
+4546,4546,Jakksandra Lake (Kasavanahalli Lake ),Jakksandra Lake,,,,,2024-02,2025-03,5,kspcb-2025-03
+4547,4547,Mangamanapalya Lake(Swarana Kunte),Mangamanapalya Lake,,12.902831,77.638852,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+5558,5558,"Kannahalli Lake Kannahalli, Bengaluru",Kannahalli Lake,Kannahalli,12.96873,77.46087,kspcb-2026-07,2023-08,2026-07,34,kspcb-2026-07
+5559,5559,"Shettihalli Lake, Mallasandra Gudde Lake Bengaluru",Shettihalli Lake,Mallasandra Gudde Lake,,,,2023-08,2025-10,24,kspcb-2025-10
+5560,5560,"Hoodi (Rajapalya Lake) Itpl Main Road, Near Hoodi,Bengaluru",Hoodi (Rajapalya Lake),"Itpl Main Road, Near Hoodi",12.9867,77.7227,kspcb-2026-07,2023-08,2026-07,35,kspcb-2026-07
+5561,5561,"Munekolalu Lake ,Marathahalli, East Taluka ,Bengaluru",Munekolalu Lake,"Marathahalli, East Taluka",12.9609,77.7083,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+5562,5562,"Mahadevpura Lake, K. R. Puram , Bangalore East Taluka",Mahadevpura Lake,K. R. Puram,12.9874,77.6917,kspcb-2026-07,2023-08,2026-07,34,kspcb-2026-07
+5563,5563,"Segehalli Lake Baavanapura Road Battarahalli , Bangalore East",Segehalli Lake,Baavanapura Road Battarahalli,13.0167,77.7129,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+5564,5564,"Kannamangala Lake Hoskote Main Road , Bengalore",Kannamangala Lake,Hoskote Main Road,13.0279,77.7742,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+5565,5565,Kannur Lake Near By Hennur Road Bengalore,Kannur Lake,Near By Hennur Road,13.1012,77.6532,kspcb-2026-07,2023-07,2026-07,34,kspcb-2026-07
+5566,5566,"Basavanapura Lake Ayyappa Nagr Main Road , K. R. Puram , Bengaluru",Basavanapura Lake,"Ayyappa Nagr Main Road, K. R. Puram",13.0097,77.71278,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+5567,5567,"Doddakallasandra Lake,Bengaluru",Doddakallasandra Lake,,12.881283,77.56179,kspcb-2026-07,2023-08,2026-07,25,kspcb-2026-07
+5568,5568,"Ulsoor Lake Near Kalyani,Bengaluru",Ulsoor Lake,Near Kalyani,12.585892,77.371154,kspcb-2026-07,2023-07,2026-07,31,kspcb-2026-07
+5569,5569,"Byrasandra Upper Lake,Bengaluru",Byrasandra Upper Lake,,12.554835,77.354549,kspcb-2026-07,2023-07,2026-07,35,kspcb-2026-07
+5570,5570,"Soulkere, Kaikondrahalli Vill,Bengaluru",Soulkere,Kaikondrahalli Vill,12.917471,77.67881,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+5571,5571,"Kudlu Doddakere, Kudlu Vill,Bengaluru",Kudlu Doddakere,Kudlu Vill,12.886024,77.66597,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+5572,5572,"Kudlu Chikkakere, Bgp Layout Kudlu Vill ,Bengaluru",Kudlu Chikkakere,Bgp Layout Kudlu Vill,12.893066,77.655959,kspcb-2026-07,2023-08,2026-07,34,kspcb-2026-07
+5573,5573,"Doddathogur Lake , Doddathoguru Vill,Bengaluru",Doddathogur Lake,Doddathoguru Vill,12.850254,77.645186,kspcb-2026-07,2025-02,2026-07,18,kspcb-2026-07
+5574,5574,"Anjanapura Lake ( Avala Halli Lake) Anjanapura,Bengaluru",Anjanapura Lake,Anjanapura,12.866965,77.565735,kspcb-2026-07,2023-07,2026-07,36,kspcb-2026-07
+5575,5575,"Hanchanal Lake ,Hanchanal Vill,Bengaluru",Hanchanal Lake,Hanchanal Vill,,,,2023-08,2023-08,1,kspcb-2023-08
+5589,5589,"Mallapura Kere, Mallapura Vill, Nh-13, Hospet Road Chitradurga,Bengaluru",Mallapura Kere,"Mallapura Vill, Nh-13, Hospet Road Chitradurga",,,,2023-08,2023-08,1,kspcb-2023-08
+5820,5820,"Chunchaghatta Lake, Chunchaghatta Phase 7, J P Nagar, Bengaluru",Chunchaghatta Lake,"Chunchaghatta Phase 7, J P Nagar",12.886957,77.57537,kspcb-2026-07,2025-09,2026-07,11,kspcb-2026-07
+5821,5821,"Kembhatahali Lake-66, Kothannur, 1St Phase , Bengaluru",Kembhatahali Lake-66,"Kothannur, 1St Phase",12.857679,77.576915,kspcb-2026-07,2025-09,2026-07,10,kspcb-2026-07
+5822,5822,"Doddakammanahalli Lake, Doddakammanahalli Phase2, Tejaswini",Doddakammanahalli Lake,"Doddakammanahalli Phase2, Tejaswini",12.85471,77.603625,kspcb-2026-07,2025-04,2026-07,16,kspcb-2026-07
+5823,5823,"Basspura Lake, Aishwarya Crystal Layout, Begur, Bengaluru",Basspura Lake,"Aishwarya Crystal Layout, Begur",12.869068,77.644611,kspcb-2026-07,2025-04,2026-07,16,kspcb-2026-07
+5825,5825,"Lower Amblipura Lake, Pwd Quarters,1St Sector, Hsr Layout Bengaluru",Lower Amblipura Lake,"Pwd Quarters, 1St Sector, Hsr Layout",12.916873,77.665277,kspcb-2026-07,2025-04,2026-07,16,kspcb-2026-07
+5826,5826,"Bhoganhalli Lake, Bhoganhalli,, Bengaluru",Bhoganhalli Lake,Bhoganhalli,12.92429,77.699344,kspcb-2026-07,2025-04,2026-07,16,kspcb-2026-07
+5828,5828,"Parappana Agrahara Chikka Kere, Near Central Jail, Sai Sree Layout Parappana Agrahara,",Parappana Agrahara Chikka Kere,"Near Central Jail, Sai Sree Layout Parappana Agrahara",12.878062,77.668637,kspcb-2026-07,2025-04,2026-07,16,kspcb-2026-07
+5829,5829,"Vittasandra Lake, Vittasandra,",Vittasandra Lake,Vittasandra,12.854362,77.633857,kspcb-2026-07,2025-04,2026-07,16,kspcb-2026-07
+5830,5830,"Akshyanagara Lake, Akshyanagara West, Bengaluru",Akshyanagara Lake,Akshyanagara West,12.871633,77.614944,kspcb-2026-07,2025-04,2026-07,16,kspcb-2026-07
+5831,5831,"Yallenahalli Lake, Begur-Koppa Rd, Akshayanagara, Bengaluru",Yallenahalli Lake,"Begur-Koppa Rd, Akshayanagara",12.866293,77.614589,kspcb-2026-07,2025-04,2026-07,16,kspcb-2026-07
+5833,5833,Doddagubbi Lake,Doddagubbi Lake,,13.074598,77.672604,kspcb-2026-07,2025-04,2026-07,16,kspcb-2026-07
+5834,5834,Chikkagubi Lake,Chikkagubi Lake,,13.087485,77.665332,kspcb-2026-07,2025-04,2026-07,16,kspcb-2026-07
+5835,5835,Vijanapura Lake,Vijanapura Lake,,13.009167,77.676764,kspcb-2026-07,2025-04,2026-07,16,kspcb-2026-07
+5836,5836,Cheemasandra,Cheemasandra,,13.044,77.740272,kspcb-2026-07,2025-05,2026-07,15,kspcb-2026-07
+5837,5837,Leghumenahalli Lake,Leghumenahalli Lake,,13.0731,77.75573,kspcb-2026-07,2025-04,2026-07,16,kspcb-2026-07
+5838,5838,Varanasi Lake,Varanasi Lake,,13.027121,77.686976,kspcb-2026-07,2025-04,2026-07,16,kspcb-2026-07
+5839,5839,Gangashetty Lake,Gangashetty Lake,,13.00502,77.693716,kspcb-2026-07,2025-04,2026-07,15,kspcb-2026-07
+5840,5840,Panathur Lake,Panathur Lake,,12.93252,77.706813,kspcb-2026-07,2025-04,2026-07,16,kspcb-2026-07
+5841,5841,Garudacharpalya Lake-2,Garudacharpalya Lake-2,,12.986692,77.697785,kspcb-2026-07,2025-04,2026-07,16,kspcb-2026-07
+5842,5842,Mahadevapura Lake-2,Mahadevapura Lake-2,,12.975948,77.689396,kspcb-2026-07,2025-04,2026-07,16,kspcb-2026-07
+5843,5843,B- Narayannapura Lake-2,B- Narayannapura Lake-2,,12.996322,77.682721,kspcb-2026-07,2025-04,2026-07,16,kspcb-2026-07
+5844,5844,Halnayakanahalli Lake,Halnayakanahalli Lake,,12.899842,77.691732,kspcb-2026-07,2025-05,2026-07,15,kspcb-2026-07
+puttenahalli-lake-1,,PUTTENAHALLI LAKE,Puttenahalli Lake,,,,,2023-07,2023-07,1,kspcb-2023-07
+puttenahalli-lake-2,,PUTTENAHALLI LAKE,Puttenahalli Lake,,,,,2023-07,2023-07,1,kspcb-2023-07

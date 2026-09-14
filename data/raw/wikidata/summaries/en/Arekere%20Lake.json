@@ -1,0 +1,43 @@
+{
+ "type": "standard",
+ "title": "Arekere Lake",
+ "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Arekere Lake</span></span>",
+ "namespace": {
+  "id": 0,
+  "text": ""
+ },
+ "wikibase_item": "Q28154185",
+ "titles": {
+  "canonical": "Arekere_Lake",
+  "normalized": "Arekere Lake",
+  "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Arekere Lake</span></span>"
+ },
+ "pageid": 51702592,
+ "lang": "en",
+ "dir": "ltr",
+ "revision": "1365861093",
+ "tid": "11516b19-87a8-11f1-a128-c4614b730844",
+ "timestamp": "2026-07-24T21:38:54Z",
+ "description": "Lake in Bangalore, India",
+ "description_source": "local",
+ "coordinates": {
+  "lat": 12.882988,
+  "lon": 77.598108
+ },
+ "content_urls": {
+  "desktop": {
+   "page": "https://en.wikipedia.org/wiki/Arekere_Lake",
+   "revisions": "https://en.wikipedia.org/wiki/Arekere_Lake?action=history",
+   "edit": "https://en.wikipedia.org/wiki/Arekere_Lake?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Arekere_Lake"
+  },
+  "mobile": {
+   "page": "https://en.wikipedia.org/wiki/Arekere_Lake",
+   "revisions": "https://en.wikipedia.org/wiki/Special:History/Arekere_Lake",
+   "edit": "https://en.wikipedia.org/wiki/Arekere_Lake?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Arekere_Lake"
+  }
+ },
+ "extract": "Arekere Lake is situated in the Arekere - Hulimavu area of the city of Bangalore. Originally spread over an area of approximately 37 acres (0.15 km2), the lake is bounded on the west by Bannerghatta Road, on the north by BDA Eighty Feet Road, on the east by Shantinikethan Layout and on the south by Hulimavu Main Road. According to the BBMP website, the perimeter of the lake is about 3 kilometres (1.9 mi). It was possibly a manmade water reservoir created approximately 100 years ago.",
+ "extract_html": "<p><b>Arekere Lake</b> is situated in the Arekere - Hulimavu area of the city of Bangalore. Originally spread over an area of approximately 37 acres (0.15 km<sup>2</sup>), the lake is bounded on the west by Bannerghatta Road, on the north by BDA Eighty Feet Road, on the east by Shantinikethan Layout and on the south by Hulimavu Main Road. According to the BBMP website, the perimeter of the lake is about 3 kilometres (1.9 mi). It was possibly a manmade water reservoir created approximately 100 years ago.</p>"
+}

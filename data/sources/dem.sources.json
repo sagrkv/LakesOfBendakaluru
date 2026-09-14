@@ -1,0 +1,12 @@
+[
+ {
+  "key": "copernicus-dem-glo30",
+  "title": "Copernicus DEM GLO-30 (30 m digital surface model)",
+  "publisher": "European Space Agency, Copernicus programme",
+  "url": "https://registry.opendata.aws/copernicus-dem/",
+  "license": "Copernicus DEM licence (free use with attribution)",
+  "credit": "Copernicus DEM (c) DLR e.V. 2010-2014 and (c) Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA",
+  "asOf": "2011-2015",
+  "retrieved": "2026-09-11"
+ }
+]

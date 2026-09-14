@@ -1,0 +1,49 @@
+{
+ "type": "standard",
+ "title": "Sankey tank",
+ "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Sankey tank</span></span>",
+ "namespace": {
+  "id": 0,
+  "text": ""
+ },
+ "wikibase_item": "Q7331115",
+ "titles": {
+  "canonical": "Sankey_tank",
+  "normalized": "Sankey tank",
+  "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Sankey tank</span></span>"
+ },
+ "pageid": 1113657,
+ "thumbnail": {
+  "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Sankey_Tank.jpg/330px-Sankey_Tank.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "width": 330,
+  "height": 220
+ },
+ "originalimage": {
+  "source": "https://upload.wikimedia.org/wikipedia/commons/0/02/Sankey_Tank.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "width": 3456,
+  "height": 2304
+ },
+ "lang": "en",
+ "dir": "ltr",
+ "revision": "1366623809",
+ "tid": "6a990531-8afc-11f1-88e5-1d6c05506598",
+ "timestamp": "2026-07-29T03:20:15Z",
+ "description": "Reservoir in Bangalore, India",
+ "description_source": "local",
+ "content_urls": {
+  "desktop": {
+   "page": "https://en.wikipedia.org/wiki/Sankey_tank",
+   "revisions": "https://en.wikipedia.org/wiki/Sankey_tank?action=history",
+   "edit": "https://en.wikipedia.org/wiki/Sankey_tank?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Sankey_tank"
+  },
+  "mobile": {
+   "page": "https://en.wikipedia.org/wiki/Sankey_tank",
+   "revisions": "https://en.wikipedia.org/wiki/Special:History/Sankey_tank",
+   "edit": "https://en.wikipedia.org/wiki/Sankey_tank?action=edit",
+   "talk": "https://en.wikipedia.org/wiki/Talk:Sankey_tank"
+  }
+ },
+ "extract": "Sankey tank is an artificial lake or tank situated in the western part of Bangalore in the middle of the neighbourhoods of Malleshwaram, Vyalikaval and Sadashivanagar. The lake covers an area of about 15 ha. At its widest, the tank has a width of 800 m (2,624.7 ft).",
+ "extract_html": "<p><b>Sankey tank</b> is an artificial lake or tank situated in the western part of Bangalore in the middle of the neighbourhoods of Malleshwaram, Vyalikaval and Sadashivanagar. The lake covers an area of about 15 ha. At its widest, the tank has a width of 800 m (2,624.7 ft).</p>"
+}

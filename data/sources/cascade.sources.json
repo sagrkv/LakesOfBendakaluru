@@ -1,0 +1,12 @@
+[
+ {
+  "key": "cascade-streams-dem",
+  "title": "Lake cascade derived from the ATREE-CSEI stream network and Copernicus DEM flow routing",
+  "publisher": "Computed for this project from ATREE-CSEI streams, Copernicus DEM and OpenStreetMap rivers",
+  "url": "https://data.opencity.in/dataset/map-lakes-streams-bengaluru-urban-within-bbmp-area",
+  "license": "CC BY (ATREE-CSEI streams); Copernicus DEM licence; ODbL (OpenStreetMap river names)",
+  "credit": "Streams: ATREE-CSEI. Copernicus DEM (c) DLR e.V. 2010-2014 and (c) Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA. River names (c) OpenStreetMap contributors",
+  "asOf": "2026-09",
+  "retrieved": "2026-09-11"
+ }
+]
