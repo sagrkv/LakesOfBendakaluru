@@ -1,10 +1,10 @@
 import { formatCount, formatMonth, WATER_CLASS } from "@/lib/format";
 import type { LakeSummary, LngLat, WaterClass } from "@/lib/lake";
 import { distanceKm } from "./geo";
-import { acresText, distanceText, lowerFirst, pctText } from "./words";
+import { acresText, distanceText, pctText } from "./words";
 
 /** In the order they are offered. Most polluted sits second so a phone reaches it in one tap. */
-export const COLLECTION_KEYS = ["biggest", "polluted", "near", "built", "forgotten", "organising", "unlooked"] as const;
+export const COLLECTION_KEYS = ["biggest", "polluted", "near", "built", "organising", "unlooked"] as const;
 
 export type CollectionKey = (typeof COLLECTION_KEYS)[number];
 
@@ -37,11 +37,6 @@ export const COLLECTIONS: Record<CollectionKey, Collection> = {
     title: "Most built over",
     note: () => "Share of each lake’s outline covered by buildings, measured from 2021 satellite land cover.",
     empty: "No built-over measurements are on record yet.",
-  },
-  forgotten: {
-    title: "Forgotten",
-    note: (n) => `${formatCount(n)} lakes that have disappeared, largest first.`,
-    empty: "No disappeared lakes are on record yet.",
   },
   organising: {
     title: "Residents organising",
@@ -107,16 +102,6 @@ export function rank(key: CollectionKey, lakes: LakeSummary[], here: LngLat | nu
         .sort((a, b) => (b.builtPct ?? 0) - (a.builtPct ?? 0))
         .slice(0, 50)
         .map((lake) => ({ lake, value: `${pctText(lake.builtPct ?? 0)} built over`, detail: acresText(lake) }));
-
-    case "forgotten":
-      return lakes
-        .filter((lake) => lake.status !== "exists")
-        .sort(largestFirst)
-        .map((lake) => ({
-          lake,
-          value: acresText(lake),
-          detail: lake.nowOccupiedBy ? `Now ${lowerFirst(lake.nowOccupiedBy)}` : undefined,
-        }));
 
     case "organising":
       return lakes.filter((lake) => lake.campaign).sort(largestFirst).map(bySize);

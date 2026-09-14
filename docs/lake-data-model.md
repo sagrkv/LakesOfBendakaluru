@@ -29,7 +29,7 @@ The inventory lists 1,521 water bodies, 838 of which have disappeared.
 
 A disappeared lake has no current outline, only a location, survey numbers, a recorded extent and what occupies the site now.
 It is drawn as a point.
-These lakes make up the "Forgotten Lakes of Bendakaluru" page.
+These lakes make up the "Once upon a kere" page.
 
 An inventory lake that still exists but is not in the ATREE map takes its outline from the KGIS tank or pond map, or OpenStreetMap, when its point falls inside one.
 
@@ -53,7 +53,8 @@ Site outputs:
 |---|---|
 | `lakes.json` | one summary row per lake: name, status, point, acres, size rank, valley, custodian, ward, latest water class, built and encroached share, campaign, first photo, year built, position `xy` in the `hero.json` frame |
 | `lakes.geojson` | outlines of every lake that has one |
-| `forgotten.geojson` | every lake that disappeared or was converted to another use, as a point, with what occupies the site now |
+| `past.json` | one lean row per lake that disappeared or was converted, for the "Once upon a kere" page: id, name, acres, valley, `xy`, `goneBy`, `lastSeenWithWater`, `onMap` years, `knownOnlyFromOldMap`, `convertedBy`, `nowOccupiedBy` |
+| `past-sheet.svg` | the city as a sheet of ink paper with a hole where each past lake was, six times its real width, and a faint dot for each lake still there |
 | `lake/<id>.json` | the full record for one lake page, including its monthly water quality series |
 | `sources.json` | every source key used, with title, publisher, link, license, credit and dates |
 | `hero.json` | simplified outlines of existing lakes for the home page drawing, in a frame that covers every lake point and outline |

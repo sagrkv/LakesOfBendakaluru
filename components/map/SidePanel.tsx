@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 import type { LakeSummary } from "@/lib/lake";
 import CollectionPicker from "./CollectionPicker";
+import GoneLink from "./GoneLink";
 import type { CollectionKey } from "./collections";
 import Legend from "./Legend";
 import SearchBox from "./SearchBox";
@@ -9,6 +10,7 @@ import type { SearchIndex } from "./search";
 
 type Props = {
   stats: string | null;
+  gone: number | null;
   index: SearchIndex | null;
   failed: boolean;
   counts: Partial<Record<CollectionKey, number>> | null;
@@ -19,14 +21,16 @@ type Props = {
 };
 
 /** The laptop layout: a fixed 400 px panel left of the map. */
-export default function SidePanel({ stats, index, failed, counts, onChoose, onPick, list }: Props) {
+export default function SidePanel({ stats, gone, index, failed, counts, onChoose, onPick, list }: Props) {
   return (
     <aside className="flex h-full w-[400px] shrink-0 flex-col border-r border-rule bg-table">
       <div className="px-6 pt-6 pb-6">
         <Link href="/" className="font-serif text-[28px] leading-none italic">
           Lakes of Bendakaluru
         </Link>
-        <p className={`label mt-2 text-missing ${stats ? "" : "invisible"}`}>{stats ?? "Counting the lakes"}</p>
+        <p className={`label mt-2 text-missing ${stats ? "" : "invisible"}`}>
+          {stats ?? "Counting the lakes"} <GoneLink gone={gone} />
+        </p>
         <div className="mt-4">
           <SearchBox index={index} failed={failed} onPick={onPick} />
         </div>

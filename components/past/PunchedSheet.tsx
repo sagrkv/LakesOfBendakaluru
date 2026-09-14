@@ -1,4 +1,4 @@
-import type { Hole } from "./lost";
+export type Hole = { id: string; x: number; y: number; r: number };
 
 /**
  * A sheet of ink paper with holes punched through it. Through each hole you see the table,

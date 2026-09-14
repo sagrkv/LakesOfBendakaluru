@@ -1,7 +1,7 @@
 import Link from "next/link";
 import SiteFooter from "@/components/SiteFooter";
 import PageTop from "@/components/PageTop";
-import PunchedSheet from "@/components/forgotten/PunchedSheet";
+import PunchedSheet from "@/components/past/PunchedSheet";
 
 export default function NotFound() {
   return (

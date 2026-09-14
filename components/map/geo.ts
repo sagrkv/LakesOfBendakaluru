@@ -37,7 +37,7 @@ export function unionBox(boxes: (BBox | null)[]): BBox | null {
 
 type PointCollection = GeoJSON.FeatureCollection<GeoJSON.Point, { id: string; name: string; valley: string }>;
 
-/** Lakes drawn as points on the map: disappeared lakes, and lakes with no outline. */
+/** Lakes drawn as points on the map: the ones with no outline. */
 export function pointsOf(lakes: LakeSummary[], keep: (lake: LakeSummary) => boolean): PointCollection {
   const features: PointCollection["features"] = [];
   for (const lake of lakes) {

@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
   outputFileTracingIncludes: {
     "/": ["./public/data/*.json", "./public/data/lake/*.json"],
   },
+  redirects() {
+    return [{ source: "/forgotten", destination: "/once-upon-a-kere", permanent: true }];
+  },
 };
 
 export default nextConfig;

@@ -2,8 +2,9 @@ import type { ExpressionSpecification, FilterSpecification, StyleSpecification }
 import { valleyColorExpression } from "@/lib/valleys";
 
 /*
- * The city drawn only in its water. Lakes are flat valley paper with a thin ink edge
- * and disappeared lakes are hollow ink rings, straight on the cream table: no streets.
+ * Lakes are flat valley paper with a thin ink edge, laid on the same satellite view as the
+ * lake pages: turned grey and pushed toward the cream table. The Greater Bengaluru limit is
+ * a dashed ink line. Disappeared lakes are not drawn; they have their own page.
  * Colours are the direction's table, ink and shadow (docs/brand/direction.md).
  */
 
@@ -14,7 +15,7 @@ const SHADOW = "#5A3B12";
 export const CITY: [number, number] = [77.594, 12.972];
 
 /** Layers a tap or hover can land on, top first. */
-export const TAP_LAYERS = ["ring", "spot", "lake-fill", "ring-rest", "spot-rest", "lake-rest"];
+export const TAP_LAYERS = ["spot", "lake-fill", "spot-rest", "lake-rest"];
 
 const EMPTY: GeoJSON.FeatureCollection = { type: "FeatureCollection", features: [] };
 
@@ -46,17 +47,41 @@ export function mapStyle(): StyleSpecification {
   return {
     version: 8,
     sources: {
+      satellite: {
+        type: "raster",
+        tiles: ["https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"],
+        tileSize: 256,
+        maxzoom: 19,
+        attribution: "Satellite view: Esri, Maxar, Earthstar Geographics",
+      },
+      city: {
+        type: "geojson",
+        data: "/data/city.geojson",
+        attribution: '<a href="/sources">City limit: 2025 Greater Bengaluru ward map</a>',
+      },
       lakes: {
         type: "geojson",
         data: "/data/lakes.geojson",
         attribution: '<a href="/sources">Lake outlines ATREE-CSEI, CC BY</a>',
       },
       spots: { type: "geojson", data: EMPTY },
-      rings: { type: "geojson", data: EMPTY },
       me: { type: "geojson", data: EMPTY },
     },
     layers: [
       { id: "table", type: "background", paint: { "background-color": CREAM } },
+      // Grey, and 35% of the cream table showing through, as on the lake pages.
+      {
+        id: "satellite",
+        type: "raster",
+        source: "satellite",
+        paint: { "raster-saturation": -1, "raster-opacity": 0.65, "raster-fade-duration": 0 },
+      },
+      {
+        id: "city-limit",
+        type: "line",
+        source: "city",
+        paint: { "line-color": INK, "line-opacity": 0.8, "line-width": byZoom(9, 1.25, 14, 2.5), "line-dasharray": [4, 2] },
+      },
 
       { id: "lake-rest", type: "fill", source: "lakes", filter: nothing, paint: { "fill-color": paper, "fill-opacity": 0.22 } },
       {
@@ -97,35 +122,10 @@ export function mapStyle(): StyleSpecification {
           "circle-stroke-width": 0.75,
         },
       },
-      {
-        id: "ring-rest",
-        type: "circle",
-        source: "rings",
-        filter: nothing,
-        paint: {
-          "circle-opacity": 0,
-          "circle-radius": byZoom(9, 2.5, 12, 4, 15, 7),
-          "circle-stroke-color": INK,
-          "circle-stroke-width": 1,
-          "circle-stroke-opacity": 0.2,
-        },
-      },
-      {
-        id: "ring",
-        type: "circle",
-        source: "rings",
-        paint: {
-          "circle-opacity": 0,
-          "circle-radius": byZoom(9, 2.5, 12, 4, 15, 7),
-          "circle-stroke-color": INK,
-          "circle-stroke-width": byZoom(9, 1, 14, 1.5),
-          "circle-stroke-opacity": byZoom(9, 0.55, 13, 0.9),
-        },
-      },
 
       { id: "lake-hover", type: "line", source: "lakes", filter: nothing, paint: { "line-color": INK, "line-width": 2 } },
       { id: "lake-selected", type: "line", source: "lakes", filter: nothing, paint: { "line-color": INK, "line-width": 3 } },
-      ...(["spots", "rings"] as const).map((source) => ({
+      ...(["spots"] as const).map((source) => ({
         id: `${source}-selected`,
         type: "circle" as const,
         source,

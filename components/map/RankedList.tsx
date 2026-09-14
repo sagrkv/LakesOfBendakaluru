@@ -114,7 +114,7 @@ export default function RankedList(props: Props) {
                 <span className="min-w-0">
                   <span className="block font-serif text-[26px] leading-none break-words">{lake.name}</span>
                   <span className="label mt-1 flex items-center gap-2 text-missing">
-                    <Swatch valley={lake.valley} gone={lake.status !== "exists"} />
+                    <Swatch valley={lake.valley} />
                     <span className="min-w-0">{detail ?? valleyName(lake.valley) ?? "No valley on record"}</span>
                   </span>
                 </span>

@@ -17,10 +17,6 @@ type Props = {
 function describe(lake: LakeSummary, byWard: boolean): string {
   const ward = lake.ward ? `${lake.ward} ward` : undefined;
   if (byWard) return `In ${ward}`;
-  if (lake.status !== "exists") {
-    const gone = lake.status === "converted" ? "Converted" : "Disappeared";
-    return ward ? `${gone}, ${ward}` : gone;
-  }
   return ward ?? lake.nameKannada ?? "";
 }
 

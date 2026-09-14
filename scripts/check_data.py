@@ -97,16 +97,18 @@ def main():
             if not entry.get(field):
                 fail(f"sources.json {key}: missing {field}")
 
-    forgotten = json.loads((OUT / "forgotten.geojson").read_text())["features"]
-    if any(f["properties"]["status"] != "disappeared" for f in forgotten):
-        fail("forgotten.geojson holds a lake that is not disappeared")
+    past = json.loads((OUT / "past.json").read_text())
+    past_ids = {row["id"] for row in past}
+    gone = {row["id"] for row in summaries if row.get("status") != "exists"}
+    if past_ids != gone:
+        fail(f"past.json and the past lakes in lakes.json differ by {len(past_ids ^ gone)}")
 
     if failures:
         print(f"check_data: {len(failures)} problems")
         for message in failures[:50]:
             print("  " + message)
         sys.exit(1)
-    print(f"check_data: ok ({len(ids)} lakes, {len(sources)} sources, {len(forgotten)} forgotten)")
+    print(f"check_data: ok ({len(ids)} lakes, {len(sources)} sources, {len(past)} past)")
 
 
 if __name__ == "__main__":

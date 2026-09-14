@@ -10,7 +10,8 @@ Steps:
 Outputs (public/data/):
   lakes.json         one summary row per lake, for lists, search and stats
   lakes.geojson      outlines of every lake that has one, with a few map properties
-  forgotten.geojson  every lake that disappeared or was converted, as a point, for the Forgotten Lakes page
+  past.json          every lake that disappeared or was converted, lean rows for the Past Lakes page
+  past-sheet.svg     the city as ink paper with a hole where each past lake was
   lake/<id>.json     the full record for one lake page
   sources.json       every source key: title, publisher, link, license, credit, dates
   hero.json          simplified outlines of existing lakes for the home page drawing
@@ -22,11 +23,15 @@ import shutil
 import sys
 from pathlib import Path
 
+from shapely.geometry import mapping, shape
+from shapely.ops import unary_union
+
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import joins  # noqa: E402
 import registry  # noqa: E402
 from assemble.context import Context  # noqa: E402
 from assemble.hero import Frame, build_hero, frame_points  # noqa: E402
+from assemble.past import past_rows, past_sheet  # noqa: E402
 from assemble.place import identity, location, responsibility, size  # noqa: E402
 from assemble.sheet import build_sheet  # noqa: E402
 from assemble.story import encroachment, history, links, nature, photos  # noqa: E402
@@ -136,23 +141,18 @@ def build():
     write_json(OUT / "lakes.json", summaries)
 
     by_id = {s["id"]: s for s in summaries}
-    outlines, forgotten = [], []
+    outlines = []
     for lake_id, f in ctx.lakes.items():
         s = by_id[lake_id]
         props = {k: s.get(k) for k in ("id", "name", "status", "acres", "valley", "custodian")}
         if f["properties"]["hasOutline"]:
             outlines.append({"type": "Feature", "id": lake_id, "properties": props, "geometry": f["geometry"]})
-        if s.get("status") != "exists":
-            forgotten.append(
-                {
-                    "type": "Feature",
-                    "id": lake_id,
-                    "properties": props | {"nowOccupiedBy": s.get("nowOccupiedBy")},
-                    "geometry": {"type": "Point", "coordinates": f["properties"]["labelPoint"]},
-                }
-            )
     write_json(OUT / "lakes.geojson", {"type": "FeatureCollection", "features": outlines})
-    write_json(OUT / "forgotten.geojson", {"type": "FeatureCollection", "features": forgotten})
+    write_json(OUT / "city.geojson", city_boundary(ctx.wards))
+
+    past = past_rows(records, summaries)
+    write_json(OUT / "past.json", past)
+    (OUT / "past-sheet.svg").write_text(past_sheet(past, summaries, frame), encoding="utf-8")
 
     used = set()
     for rec in records:
@@ -176,6 +176,15 @@ def is_opener(rec):
     if rec.get("status") != "exists" or not room or rec["name"].startswith("Unnamed"):
         return False
     return room["w"] >= OPENER_MIN_ROOM_M and room["w"] >= OPENER_MIN_ROOM_SHARE * max(sheet["w"], sheet["h"])
+
+
+def city_boundary(wards):
+    """The Greater Bengaluru limit: all 369 wards of the 2025 map merged, simplified to about 20 m."""
+    city = unary_union([shape(w["geometry"]).buffer(0) for w in wards]).simplify(0.0002)
+    return {
+        "type": "FeatureCollection",
+        "features": [{"type": "Feature", "properties": {"name": "Greater Bengaluru", "source": "wards-gba-2025-369"}, "geometry": mapping(city)}],
+    }
 
 
 def collect_sources(node, used):

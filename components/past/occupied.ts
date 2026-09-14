@@ -1,5 +1,5 @@
 /**
- * What stands on a lost lake's site now, grouped into plain categories.
+ * What stands on a past lake's site now, grouped into plain categories.
  * The 2018 inventory writes it as free text ("Vacant land & houses"); the first thing named decides the group.
  * No imports, so it runs in the browser and in a plain node check.
  */
@@ -16,19 +16,19 @@ export type OccupiedId =
   | "other"
   | "none";
 
-/** `phrase` finishes "Showing the 225 lakes ...". */
+/** `phrase` finishes "Showing the 225 lakes ...", and reads for one lake too. */
 export type Occupied = { id: OccupiedId; label: string; phrase: string };
 
 export const OCCUPIED: Occupied[] = [
-  { id: "empty", label: "Empty land and dumps", phrase: "that are now empty land or dumps" },
-  { id: "farms", label: "Farms and plantations", phrase: "that are now farms or plantations" },
-  { id: "homes", label: "Houses and layouts", phrase: "that are now houses or layouts" },
-  { id: "buildings", label: "Buildings, sheds and business parks", phrase: "that are now buildings, sheds or business parks" },
-  { id: "roads", label: "Roads, rail and bus depots", phrase: "that are now roads, rail or bus depots" },
-  { id: "campuses", label: "Defence and government campuses", phrase: "that are now defence or government campuses" },
-  { id: "institutions", label: "Schools, temples, hospitals and graveyards", phrase: "that are now schools, temples, hospitals or graveyards" },
-  { id: "parks", label: "Parks, grounds and trees", phrase: "that are now parks, grounds or trees" },
-  { id: "other", label: "Something else", phrase: "that are now something else" },
+  { id: "empty", label: "Empty land and dumps", phrase: "now empty land or dumps" },
+  { id: "farms", label: "Farms and plantations", phrase: "now farms or plantations" },
+  { id: "homes", label: "Houses and layouts", phrase: "now houses or layouts" },
+  { id: "buildings", label: "Buildings, sheds and business parks", phrase: "now buildings, sheds or business parks" },
+  { id: "roads", label: "Roads, rail and bus depots", phrase: "now roads, rail or bus depots" },
+  { id: "campuses", label: "Defence and government campuses", phrase: "now defence or government campuses" },
+  { id: "institutions", label: "Schools, temples, hospitals and graveyards", phrase: "now schools, temples, hospitals or graveyards" },
+  { id: "parks", label: "Parks, grounds and trees", phrase: "now parks, grounds or trees" },
+  { id: "other", label: "Something else", phrase: "now something else" },
   { id: "none", label: "Not on record", phrase: "with nothing on record about the site" },
 ];
 

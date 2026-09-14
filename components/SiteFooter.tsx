@@ -12,8 +12,8 @@ export default function SiteFooter() {
           <Link href="/map" className="ink-link">
             See all lakes
           </Link>
-          <Link href="/forgotten" className="ink-link">
-            Forgotten lakes
+          <Link href="/once-upon-a-kere" className="ink-link">
+            Once upon a kere
           </Link>
           <Link href="/sources" className="ink-link">
             Sources and credits

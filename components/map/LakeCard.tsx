@@ -27,7 +27,6 @@ function Fact({ label, value, unit, note, missing }: FactProps) {
 
 /** The lake you tapped: a paper slip on a laptop, the top of the dock on a phone. */
 export default function LakeCard({ lake, onClose, floating }: { lake: LakeSummary; onClose: () => void; floating: boolean }) {
-  const gone = lake.status !== "exists";
   const place = placeName(lake);
   const valley = valleyName(lake.valley);
   const acres = lake.acres === undefined ? undefined : formatAcres(lake.acres);
@@ -36,8 +35,8 @@ export default function LakeCard({ lake, onClose, floating }: { lake: LakeSummar
     <section aria-label={lake.name} className={floating ? "slip p-6" : "px-4 pt-2 pb-4"}>
       <div className="flex items-center justify-between gap-3">
         <p className="label flex min-w-0 items-center gap-2">
-          <Swatch valley={lake.valley} gone={gone} />
-          {gone ? "Disappeared" : (valley ?? <span className="missing">No valley on record</span>)}
+          <Swatch valley={lake.valley} />
+          {valley ?? <span className="missing">No valley on record</span>}
         </p>
         <button
           type="button"
@@ -59,33 +58,21 @@ export default function LakeCard({ lake, onClose, floating }: { lake: LakeSummar
       ) : null}
       {place ? <p className="label mt-2 text-missing">{place}</p> : null}
 
-      {gone ? (
-        <dl className="mt-4 grid grid-cols-[auto_minmax(0,1fr)] gap-6 border-t border-rule pt-3">
-          <Fact label="Size" value={acres} unit="acres" missing="Not on record" />
-          <div className="min-w-0">
-            <dt className="label">On the site now</dt>
-            <dd className="mt-1 text-[17px] leading-tight">
-              {lake.nowOccupiedBy ?? <span className="missing">Not on record</span>}
-            </dd>
-          </div>
-        </dl>
-      ) : (
-        <dl className="mt-4 grid grid-cols-3 gap-3 border-t border-rule pt-3">
-          <Fact label="Size" value={acres} unit="acres" missing="Not on record" />
-          <Fact
-            label="Water class"
-            value={lake.waterClass}
-            note={lake.waterClass ? WATER_CLASS[lake.waterClass].short : undefined}
-            missing="Not tested yet"
-          />
-          <Fact
-            label="Built over"
-            value={lake.builtPct === undefined ? undefined : pctText(lake.builtPct)}
-            note="2021 satellite"
-            missing="Not measured"
-          />
-        </dl>
-      )}
+      <dl className="mt-4 grid grid-cols-3 gap-3 border-t border-rule pt-3">
+        <Fact label="Size" value={acres} unit="acres" missing="Not on record" />
+        <Fact
+          label="Water class"
+          value={lake.waterClass}
+          note={lake.waterClass ? WATER_CLASS[lake.waterClass].short : undefined}
+          missing="Not tested yet"
+        />
+        <Fact
+          label="Built over"
+          value={lake.builtPct === undefined ? undefined : pctText(lake.builtPct)}
+          note="2021 satellite"
+          missing="Not measured"
+        />
+      </dl>
 
       {lake.campaign ? (
         <p className="label mt-4 inline-block -rotate-2 border-2 border-ink px-2 py-1">Residents are organising here</p>

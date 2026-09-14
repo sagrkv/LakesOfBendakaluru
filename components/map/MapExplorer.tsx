@@ -43,11 +43,8 @@ export default function MapExplorer() {
     const entries = COLLECTION_KEYS.filter((key) => key !== "near").map((key) => [key, rank(key, lakes, null)?.length ?? 0]);
     return Object.fromEntries(entries) as Partial<Record<CollectionKey, number>>;
   }, [lakes]);
-  const stats = useMemo(() => {
-    if (!lakes) return null;
-    const standing = lakes.filter((lake) => lake.status === "exists").length;
-    return `${formatCount(standing)} lakes on the map, and ${formatCount(lakes.length - standing)} that disappeared.`;
-  }, [lakes]);
+  const stats = lakes ? `${formatCount(lakes.length)} lakes on the map.` : null;
+  const gone = data.status === "ready" ? data.gone : null;
   const rows = useMemo(() => (lakes && collection ? rank(collection, lakes, here) : null), [lakes, collection, here]);
   const members = useMemo(() => rows?.map((row) => row.lake.id) ?? null, [rows]);
   const selected = (selectedId && byId.get(selectedId)) || null;
@@ -170,6 +167,7 @@ export default function MapExplorer() {
       {wide ? (
         <SidePanel
           stats={stats}
+          gone={gone}
           index={index}
           failed={data.status === "error"}
           counts={counts}
@@ -222,6 +220,7 @@ export default function MapExplorer() {
       {wide ? null : (
         <PhoneDock
           stats={stats}
+          gone={gone}
           ready={Boolean(lakes)}
           onChoose={choose}
           card={selected ? <LakeCard lake={selected} onClose={close} floating={false} /> : null}
