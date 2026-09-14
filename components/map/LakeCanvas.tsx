@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { AttributionControl, Map as MapLibreMap, NavigationControl, type GeoJSONSource } from "maplibre-gl";
+import { AttributionControl, Map as MapLibreMap, NavigationControl, setWorkerUrl, type GeoJSONSource } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import type { BBox, LakeSummary, LngLat } from "@/lib/lake";
 import { pointsOf } from "./geo";
@@ -67,6 +67,8 @@ export default function LakeCanvas(props: Props) {
 
     let map: MapLibreMap;
     try {
+      // The bundler cannot resolve MapLibre's own worker path, so it loads the copy in public/maplibre (npm run maplibre-worker).
+      setWorkerUrl("/maplibre/maplibre-gl-worker.mjs");
       map = new MapLibreMap({
         container: el,
         style: mapStyle(),
@@ -208,7 +210,8 @@ export default function LakeCanvas(props: Props) {
 
   return (
     <div className="absolute inset-0 max-lg:[&_.maplibregl-ctrl-group]:hidden">
-      <div ref={container} className="absolute inset-0" role="region" aria-label="Map of the lakes" />
+      {/* MapLibre sets position: relative on its container, so it fills the parent by size, not by inset. */}
+      <div ref={container} className="h-full w-full" role="region" aria-label="Map of the lakes" />
       <div
         ref={tag}
         hidden

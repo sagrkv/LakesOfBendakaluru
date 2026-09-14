@@ -40,6 +40,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# MapLibre's worker, copied from node_modules before dev and build
+/public/maplibre/
+
 # python
 /.venv/
 __pycache__/

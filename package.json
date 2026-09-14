@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predev": "npm run maplibre-worker",
     "dev": "next dev",
+    "prebuild": "npm run maplibre-worker",
     "build": "next build",
+    "maplibre-worker": "node -e \"const fs=require('fs');fs.mkdirSync('public/maplibre',{recursive:true});for(const f of ['maplibre-gl-worker.mjs','maplibre-gl-shared.mjs'])fs.copyFileSync('node_modules/maplibre-gl/dist/'+f,'public/maplibre/'+f)\"",
     "start": "next start",
     "lint": "eslint"
   },
