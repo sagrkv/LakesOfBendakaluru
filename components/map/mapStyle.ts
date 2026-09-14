@@ -3,8 +3,9 @@ import { valleyColorExpression } from "@/lib/valleys";
 
 /*
  * Lakes are flat valley paper with a thin ink edge, laid on the same satellite view as the
- * lake pages: turned grey and pushed toward the cream table. The Greater Bengaluru limit is
- * a dashed ink line. Disappeared lakes are not drawn; they have their own page.
+ * lake pages: turned grey and pushed toward the cream table. The edge of Bengaluru Urban and
+ * Bengaluru North districts is a solid ink line, the Greater Bengaluru city limit a dashed one.
+ * Disappeared lakes are not drawn; they have their own page.
  * Colours are the direction's table, ink and shadow (docs/brand/direction.md).
  */
 
@@ -54,6 +55,11 @@ export function mapStyle(): StyleSpecification {
         maxzoom: 19,
         attribution: "Satellite view: Esri, Maxar, Earthstar Geographics",
       },
+      districts: {
+        type: "geojson",
+        data: "/data/districts.geojson",
+        attribution: '<a href="/sources">District boundary © OpenStreetMap contributors</a>',
+      },
       city: {
         type: "geojson",
         data: "/data/city.geojson",
@@ -75,6 +81,13 @@ export function mapStyle(): StyleSpecification {
         type: "raster",
         source: "satellite",
         paint: { "raster-saturation": -1, "raster-opacity": 0.65, "raster-fade-duration": 0 },
+      },
+      // Bengaluru Urban and Bengaluru North together: the edge of every lake on the list.
+      {
+        id: "district-limit",
+        type: "line",
+        source: "districts",
+        paint: { "line-color": INK, "line-opacity": 0.9, "line-width": byZoom(8, 1.5, 14, 3) },
       },
       {
         id: "city-limit",

@@ -53,6 +53,8 @@ Site outputs:
 |---|---|
 | `lakes.json` | one summary row per lake: name, status, point, acres, size rank, valley, custodian, ward, latest water class, built and encroached share, campaign, first photo, year built, position `xy` in the `hero.json` frame |
 | `lakes.geojson` | outlines of every lake that has one |
+| `districts.geojson` | the outer edge of Bengaluru Urban and Bengaluru North (formerly Bengaluru Rural) districts, from OpenStreetMap |
+| `city.geojson` | the Greater Bengaluru city limit: the 369 wards of the 2025 ward map merged |
 | `past.json` | one lean row per lake that disappeared or was converted, for the "Once upon a kere" page: id, name, acres, valley, `xy`, `goneBy`, `lastSeenWithWater`, `onMap` years, `knownOnlyFromOldMap`, `convertedBy`, `nowOccupiedBy` |
 | `past-sheet.svg` | the city as a sheet of ink paper with a hole where each past lake was, six times its real width, and a faint dot for each lake still there |
 | `lake/<id>.json` | the full record for one lake page, including its monthly water quality series |

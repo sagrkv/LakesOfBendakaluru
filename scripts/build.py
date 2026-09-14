@@ -36,7 +36,7 @@ from assemble.place import identity, location, responsibility, size  # noqa: E40
 from assemble.sheet import build_sheet  # noqa: E402
 from assemble.story import encroachment, history, links, nature, photos  # noqa: E402
 from assemble.water import quality, water  # noqa: E402
-from common import OUT  # noqa: E402
+from common import OUT, SOURCES  # noqa: E402
 
 OPENER_MIN_ROOM_M = 40  # narrower than this and the name would be set on a sliver of water
 OPENER_MIN_ROOM_SHARE = 0.15  # room width as a share of the lake's long side; below it the name sits on a sliver
@@ -149,6 +149,8 @@ def build():
             outlines.append({"type": "Feature", "id": lake_id, "properties": props, "geometry": f["geometry"]})
     write_json(OUT / "lakes.geojson", {"type": "FeatureCollection", "features": outlines})
     write_json(OUT / "city.geojson", city_boundary(ctx.wards))
+    districts, district_sources = district_boundary()
+    write_json(OUT / "districts.geojson", districts)
 
     past = past_rows(records, summaries)
     write_json(OUT / "past.json", past)
@@ -157,8 +159,8 @@ def build():
     used = set()
     for rec in records:
         collect_sources(rec, used)
-    # The satellite view on lake pages is credited without being a fact in any record.
-    used |= {"esri-world-imagery"}
+    # The satellite view and the district boundary on the map are credited without being facts in any record.
+    used |= {"esri-world-imagery", *district_sources}
     write_json(OUT / "sources.json", {k: v for k, v in sorted(ctx.sources.items()) if k in used})
 
     existing = [(s["id"], s["name"], s.get("acres"), ctx.lakes[s["id"]]["geometry"]) for s in summaries if s.get("hasOutline") and s.get("status") == "exists"]
@@ -185,6 +187,24 @@ def city_boundary(wards):
         "type": "FeatureCollection",
         "features": [{"type": "Feature", "properties": {"name": "Greater Bengaluru", "source": "wards-gba-2025-369"}, "geometry": mapping(city)}],
     }
+
+
+def district_boundary():
+    """The outer edge of Bengaluru Urban and Bengaluru North (formerly Rural), simplified to about 30 m."""
+    districts = json.loads((SOURCES / "districts.geojson").read_text(encoding="utf-8"))["features"]
+    edge = unary_union([shape(d["geometry"]).buffer(0) for d in districts]).simplify(0.0003)
+    keys = {d["properties"]["source"] for d in districts}
+    collection = {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {"name": "Bengaluru Urban and Bengaluru North districts", "source": sorted(keys)[0]},
+                "geometry": mapping(edge),
+            }
+        ],
+    }
+    return collection, keys
 
 
 def collect_sources(node, used):
