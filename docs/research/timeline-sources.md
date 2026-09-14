@@ -19,8 +19,8 @@ Every link was opened by the researcher unless marked otherwise.
 | 1960-1972 | CORONA declassified satellite photos, USGS EarthExplorer | Water, dry bed or buildings on one date, ponds under an acre | Frames over Bangalore exist (a 1965 frame used in a 2019 study) | Free if scanned, else $30 a frame | High, manual warping |
 | 1971-1984 | HEXAGON declassified satellite photos, USGS | Same, at 0.6-1.2 m | Frames over Bangalore unconfirmed | $30 a scene to scan | High |
 | 1972-1981 | Landsat MSS, 60 m, Earth Engine | Water or not, lakes over about 8 acres | 46 scenes, 11 under 20% cloud | Public domain | Low to medium |
-| 1970s-1980 | Later Survey of India one-inch editions ([Zenodo](https://zenodo.org/records/8388121)) | Surveyed outline and name | Sheets 57G and 57H, exact coverage unchecked | CC BY 4.0 | Medium |
-| 1984-2024 | EC JRC Global Surface Water v1.5 ([download](https://global-surface-water.appspot.com/download)) | Yearly water, lakes over about 2 acres | Everywhere | Free | Low; we have 1984-2021 |
+| 1973-1980 | Later Survey of India one-inch editions ([Zenodo](https://zenodo.org/records/8388121)) | Surveyed outline and name | Every Bangalore District sheet: 57G/4 (1973), 57G/7 (1975), 57G/8 (1974), 57G/12 (1978), 57G/16 (1974), 57H/5 (1973), 57H/6 (1973), 57H/7 (1979), 57H/9 (1980), 57H/10 (1973); edges on Kolar sheets 57G/11 (1975, 1977) and 57H/13 (1973) | CC BY 4.0 | Medium, same pipeline as 1927 |
+| 1984-2024 | EC JRC Global Surface Water v1.5 ([download](https://global-surface-water.appspot.com/download), files under `storage.googleapis.com/water-world/download2024/VER1-5/`) | Yearly water, lakes over about 2 acres | Everywhere | Free | Low; we have 1984-2021 |
 | 1986 | Lakshman Rau Expert Committee report ([PDF](https://prod-qt-images.s3.amazonaws.com/indiawaterportal/import/sites/default/files/iwp2/report_of_the_expert_committee_for_preservation_restoration_or_otherwise_of_the_existing_tanks_in_bangalore_metropolitan_area_laxman_rau_1986.pdf)) | Per tank: name, hectares, condition, land use, recommendation | 127 city tanks and 262 green belt tanks | Scan, no licence stated | OCR rotated tables, match names |
 | 2007 | A. T. Ramaswamy committee on land encroachment ([OpenCity](https://data.opencity.in/dataset/encorachment-of-government-lands-in-bangalore-city-urban-district-2007)) | Case stories for a few tanks | City | Public domain | Event notes only |
 | 2011 | Justice N. K. Patil committee, lakes PIL ([report](https://data.opencity.in/dataset/46dffdd5-1b51-4a72-bdc0-41a0ec85c31c/resource/225ab3a3-e767-4b63-a406-7048712d6b46/download/0634635f-5928-4030-aaea-d125e488aec2.pdf)) | 386 lakes studied; per-lake annexes not found | 1,300 sq km | Main text only | Blocked on annexes |
@@ -46,10 +46,11 @@ The 2002 Lake Development Authority list, the 1990 Bangalore District Gazetteer,
 ## Suggested order
 
 1. Extend satellite water to 2024 with JRC v1.5: low effort, every lake.
-2. Trace the 1914-1917 and 1970s-1980 Survey of India sheets with the existing historic map pipeline.
+2. Trace the 1973-1980 Survey of India sheets, which cover both districts, then the 1914-1917 sheets, which cover 7 of the 10, with the existing historic map pipeline.
 3. OCR the 1986 Lakshman Rau report: 389 tanks with a dated condition.
 4. Add yearly 10 m land cover from 2017 to 2025 for water or built over, to today.
 5. Convert and parse the Koliwad committee report for dated per-lake encroachment.
 6. Check the 1800 and 1878 maps for tank detail before tracing them.
 
-CORONA and HEXAGON photos are the only per-lake record for 1955-1984 at pond scale, but each frame needs manual warping, so they come last.
+The 1973-1980 sheets give a map-drawn snapshot of every tank in the middle of the 1955-1984 gap.
+CORONA and HEXAGON photos are the only record of whether those ponds held water in those years, but each frame needs manual warping, so they come last.
