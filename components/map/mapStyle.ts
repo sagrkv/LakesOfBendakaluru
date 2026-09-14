@@ -2,10 +2,8 @@ import type { ExpressionSpecification, FilterSpecification, StyleSpecification }
 import { valleyColorExpression } from "@/lib/valleys";
 
 /*
- * The city drawn in its water. Lakes are flat valley paper with a thin ink edge,
- * disappeared lakes are hollow ink rings, and underneath sits a street layer
- * turned grey and faded into the cream table, so "near me" and a forgotten ring
- * still have streets to be read against.
+ * The city drawn only in its water. Lakes are flat valley paper with a thin ink edge
+ * and disappeared lakes are hollow ink rings, straight on the cream table: no streets.
  * Colours are the direction's table, ink and shadow (docs/brand/direction.md).
  */
 
@@ -48,14 +46,6 @@ export function mapStyle(): StyleSpecification {
   return {
     version: 8,
     sources: {
-      streets: {
-        type: "raster",
-        tiles: ["a", "b", "c", "d"].map((s) => `https://${s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}@2x.png`),
-        tileSize: 256,
-        maxzoom: 20,
-        attribution:
-          '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, © <a href="https://carto.com/attributions">CARTO</a>',
-      },
       lakes: {
         type: "geojson",
         data: "/data/lakes.geojson",
@@ -67,12 +57,6 @@ export function mapStyle(): StyleSpecification {
     },
     layers: [
       { id: "table", type: "background", paint: { "background-color": CREAM } },
-      {
-        id: "streets",
-        type: "raster",
-        source: "streets",
-        paint: { "raster-saturation": -1, "raster-contrast": -0.1, "raster-opacity": 0.42, "raster-fade-duration": 0 },
-      },
 
       { id: "lake-rest", type: "fill", source: "lakes", filter: nothing, paint: { "fill-color": paper, "fill-opacity": 0.22 } },
       {

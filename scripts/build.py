@@ -157,8 +157,8 @@ def build():
     used = set()
     for rec in records:
         collect_sources(rec, used)
-    # The satellite view on lake pages and the streets under the map are credited without being facts in any record.
-    used |= {"esri-world-imagery", "carto-light-nolabels"}
+    # The satellite view on lake pages is credited without being a fact in any record.
+    used |= {"esri-world-imagery"}
     write_json(OUT / "sources.json", {k: v for k, v in sorted(ctx.sources.items()) if k in used})
 
     existing = [(s["id"], s["name"], s.get("acres"), ctx.lakes[s["id"]]["geometry"]) for s in summaries if s.get("hasOutline") and s.get("status") == "exists"]

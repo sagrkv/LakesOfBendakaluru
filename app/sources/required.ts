@@ -22,7 +22,6 @@ const REQUIRED: { name: string; match: RegExp }[] = [
   { name: "GBIF", match: /^gbif-/ },
   { name: "Wikidata", match: /^wikidata-/ },
   { name: "Esri World Imagery", match: /^esri-world-imagery$/ },
-  { name: "CARTO", match: /^carto-/ },
 ];
 
 const unique = (values: (string | undefined)[]) => [...new Set(values.filter((v): v is string => Boolean(v)))];
