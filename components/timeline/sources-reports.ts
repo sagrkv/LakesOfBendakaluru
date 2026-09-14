@@ -1,6 +1,7 @@
 import type { TimelineSource } from "./types";
 
-/** Reports, lists and the records we know of but cannot read. */
+const OPENCITY = "https://data.opencity.in/dataset";
+
 export const REPORTS: TimelineSource[] = [
   {
     id: "rau-committee-1986",
@@ -12,8 +13,7 @@ export const REPORTS: TimelineSource[] = [
     tells: "Each tank's name, size in hectares, condition, land use and what the committee recommended.",
     coverage: "127 city tanks and 262 green belt tanks",
     licence: "No licence stated",
-    status: "on-site",
-    links: [{ label: "Open the report (PDF)", key: "rau-1986" }],
+    links: [{ label: "The report on India Water Portal (PDF)", key: "rau-1986" }],
   },
   {
     id: "district-gazetteer-1990",
@@ -24,8 +24,6 @@ export const REPORTS: TimelineSource[] = [
     tells: "What it records about each lake is not known.",
     coverage: "Bangalore District",
     licence: "Not known",
-    status: "not-public",
-    access: "Not found online",
     links: [],
   },
   {
@@ -38,8 +36,6 @@ export const REPORTS: TimelineSource[] = [
     tells: "The authority's list of lakes; what it records about each one is not known.",
     coverage: "Not known",
     licence: "Not known",
-    status: "not-public",
-    access: "Not found online",
     links: [],
   },
   {
@@ -52,13 +48,7 @@ export const REPORTS: TimelineSource[] = [
     tells: "How a few tanks were encroached, case by case.",
     coverage: "The city",
     licence: "Public domain",
-    status: "found",
-    links: [
-      {
-        label: "Open on OpenCity",
-        href: "https://data.opencity.in/dataset/encorachment-of-government-lands-in-bangalore-city-urban-district-2007",
-      },
-    ],
+    links: [{ label: "The report on OpenCity", href: `${OPENCITY}/encorachment-of-government-lands-in-bangalore-city-urban-district-2007` }],
   },
   {
     id: "patil-committee-2011",
@@ -70,12 +60,10 @@ export const REPORTS: TimelineSource[] = [
     tells: "Findings on 386 lakes; the annexes with each lake's details are not found.",
     coverage: "1,300 sq km",
     licence: "Not stated",
-    status: "found",
-    access: "Main text only",
     links: [
       {
-        label: "Open the report (PDF)",
-        href: "https://data.opencity.in/dataset/46dffdd5-1b51-4a72-bdc0-41a0ec85c31c/resource/225ab3a3-e767-4b63-a406-7048712d6b46/download/0634635f-5928-4030-aaea-d125e488aec2.pdf",
+        label: "The report on OpenCity (PDF)",
+        href: `${OPENCITY}/46dffdd5-1b51-4a72-bdc0-41a0ec85c31c/resource/225ab3a3-e767-4b63-a406-7048712d6b46/download/0634635f-5928-4030-aaea-d125e488aec2.pdf`,
       },
     ],
   },
@@ -89,8 +77,7 @@ export const REPORTS: TimelineSource[] = [
     tells: "What was in a lake's water when it was tested in 2011.",
     coverage: "The lakes tested",
     licence: "Not stated",
-    status: "on-site",
-    links: [{ label: "Open on OpenCity", key: "dmg-2011" }],
+    links: [{ label: "OpenCity", key: "dmg-2011" }],
   },
   {
     id: "koliwad-committee",
@@ -101,11 +88,9 @@ export const REPORTS: TimelineSource[] = [
     holder: "OpenCity",
     kind: "report",
     tells: "Each lake's survey number, how much was encroached, by whom and for what.",
-    coverage: "Bengaluru and surrounding lakes",
+    coverage: "Bengaluru and surrounding lakes, 273 pages",
     licence: "Not stated",
-    status: "found",
-    access: "273 pages in a legacy Kannada font encoding",
-    links: [{ label: "Open on OpenCity", href: "https://data.opencity.in/dataset/bangalore-rural-urban-tanks-report" }],
+    links: [{ label: "The report on OpenCity", href: `${OPENCITY}/bangalore-rural-urban-tanks-report` }],
   },
   {
     id: "lakes-water-quality-2015",
@@ -116,8 +101,7 @@ export const REPORTS: TimelineSource[] = [
     tells: "What was in a lake's water when it was tested in 2015.",
     coverage: "The lakes tested",
     licence: "Not stated",
-    status: "on-site",
-    links: [{ label: "Open on OpenCity", key: "lakes-2015" }],
+    links: [{ label: "OpenCity", key: "lakes-2015" }],
   },
   {
     id: "jakkur-2016",
@@ -128,8 +112,7 @@ export const REPORTS: TimelineSource[] = [
     tells: "What was in Jakkur Lake's water through 2016.",
     coverage: "Jakkur Lake",
     licence: "Not stated",
-    status: "on-site",
-    links: [{ label: "Open on OpenCity", key: "jakkur-2015" }],
+    links: [{ label: "OpenCity", key: "jakkur-2015" }],
   },
   {
     id: "empri-inventory-2018",
@@ -141,8 +124,7 @@ export const REPORTS: TimelineSource[] = [
     tells: "Whether each lake was still there, and its extent, condition and encroachment.",
     coverage: "1,521 water bodies",
     licence: "Public domain",
-    status: "on-site",
-    links: [{ label: "Open on OpenCity", key: "empri-2018" }],
+    links: [{ label: "OpenCity", key: "empri-2018" }],
   },
   {
     id: "neeri-2019",
@@ -155,9 +137,7 @@ export const REPORTS: TimelineSource[] = [
     tells: "Each lake's encroachment, boundary, inlets and water quality.",
     coverage: "210 city lakes",
     licence: "Public domain",
-    status: "found",
-    access: "Scanned, needs text recognition",
-    links: [{ label: "Open on OpenCity", href: "https://data.opencity.in/dataset/neeri-report-on-lakes-in-bengaluru-2020" }],
+    links: [{ label: "The report on OpenCity", href: `${OPENCITY}/neeri-report-on-lakes-in-bengaluru-2020` }],
   },
   {
     id: "nwmp-2021",
@@ -169,8 +149,7 @@ export const REPORTS: TimelineSource[] = [
     tells: "What was in a lake's water when it was tested in 2021.",
     coverage: "The lakes tested",
     licence: "Public domain",
-    status: "on-site",
-    links: [{ label: "Open on OpenCity", key: "nwmp-2021" }],
+    links: [{ label: "OpenCity", key: "nwmp-2021" }],
   },
   {
     id: "lake-groups-2022",
@@ -182,8 +161,7 @@ export const REPORTS: TimelineSource[] = [
     tells: "Which residents' groups work on a lake.",
     coverage: "Bengaluru",
     licence: "Not stated",
-    status: "on-site",
-    links: [{ label: "Open the directory (PDF)", key: "citizenmatters-lake-groups-2022" }],
+    links: [{ label: "The directory (PDF)", key: "citizenmatters-lake-groups-2022" }],
   },
   {
     id: "kspcb-monthly",
@@ -196,10 +174,9 @@ export const REPORTS: TimelineSource[] = [
     tells: "A lake's water quality class, month by month.",
     coverage: "Lakes with a monitoring station",
     licence: "Not stated",
-    status: "on-site",
     links: [
-      { label: "Open the July 2026 report", key: "kspcb-2026-07" },
-      { label: "Open the July 2023 report", key: "kspcb-2023-07" },
+      { label: "The July 2026 report", key: "kspcb-2026-07" },
+      { label: "The July 2023 report", key: "kspcb-2023-07" },
     ],
   },
   {
@@ -212,8 +189,7 @@ export const REPORTS: TimelineSource[] = [
     tells: "Which agency looks after each lake.",
     coverage: "The city",
     licence: "Not stated",
-    status: "on-site",
-    links: [{ label: "Open the list", key: "ktcda-lakes-2024" }],
+    links: [{ label: "The list", key: "ktcda-lakes-2024" }],
   },
   {
     id: "encroachment-surveys-2024",
@@ -226,8 +202,6 @@ export const REPORTS: TimelineSource[] = [
     tells: "How much of each lake is encroached.",
     coverage: "210 lakes",
     licence: "Not known",
-    status: "not-public",
-    access: "Known only from affidavits and news",
     links: [],
   },
   {
@@ -238,11 +212,9 @@ export const REPORTS: TimelineSource[] = [
     holder: "National Water Data Portal",
     kind: "report",
     tells: "Each tank's name, village, water spread and capacity, but not its location or year.",
-    coverage: "146 tanks in both districts",
+    coverage: "146 tanks in both districts, in a list of 3,404 across the state",
     licence: "Not stated",
-    status: "found",
-    access: "Open CSV",
-    links: [{ label: "Open the list", href: "https://nwdp.nwic.gov.in/dataset/karnataka-minor-irrigation-tank" }],
+    links: [{ label: "The list on the National Water Data Portal", href: "https://nwdp.nwic.gov.in/dataset/karnataka-minor-irrigation-tank" }],
   },
   {
     id: "bbmp-custody",
@@ -253,8 +225,7 @@ export const REPORTS: TimelineSource[] = [
     tells: "Who looks after each lake, and its extent on land records.",
     coverage: "Lakes in BBMP custody",
     licence: "Not stated",
-    status: "on-site",
-    links: [{ label: "Open on OpenCity", key: "bbmp-custody" }],
+    links: [{ label: "OpenCity", key: "bbmp-custody" }],
   },
   {
     id: "bbmp-lake-monitoring",
@@ -265,8 +236,7 @@ export const REPORTS: TimelineSource[] = [
     tells: "Where each city lake is, with a page for each one.",
     coverage: "City lakes",
     licence: "Not stated",
-    status: "on-site",
-    links: [{ label: "Open the monitoring site", key: "bbmp-lms" }],
+    links: [{ label: "The monitoring site", key: "bbmp-lms" }],
   },
   {
     id: "wetlands-authority-inventory",
@@ -277,8 +247,6 @@ export const REPORTS: TimelineSource[] = [
     tells: "An entry for each of 16,700 water bodies.",
     coverage: "16,700 water bodies",
     licence: "Not known",
-    status: "not-public",
-    access: "Behind a login",
     links: [],
   },
   {
@@ -289,8 +257,6 @@ export const REPORTS: TimelineSource[] = [
     tells: "What it records about each lake is not known.",
     coverage: "Not known",
     licence: "Not known",
-    status: "not-public",
-    access: "Not found online",
     links: [],
   },
 ];

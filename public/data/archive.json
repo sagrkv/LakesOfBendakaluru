@@ -1,0 +1,200 @@
+{
+  "ross-1800": [
+    {
+      "label": "The 1800 survey map",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/ross-1800/ross-1800.png",
+      "format": "PNG",
+      "bytes": 16089802
+    }
+  ],
+  "city-plan-1843": [
+    {
+      "label": "The 1843 cantonment plan",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/city-plan-1843/city-plan-1843.jpg",
+      "format": "JPEG",
+      "bytes": 8343324
+    }
+  ],
+  "city-plan-1854": [
+    {
+      "label": "The 1854 city plan",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/city-plan-1854/city-plan-1854.jpg",
+      "format": "JPEG",
+      "bytes": 9030931
+    }
+  ],
+  "soi-taluk-1878": [
+    {
+      "label": "The 1878 taluk map",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/soi-taluk-1878/bangalore-taluk-1878.png",
+      "format": "PNG",
+      "bytes": 4240159
+    }
+  ],
+  "city-plan-1900": [
+    {
+      "label": "The city plan of about 1900",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/city-plan-1900/city-plan-1900.jpg",
+      "format": "JPEG",
+      "bytes": 15257223
+    }
+  ],
+  "revenue-maps-1915": [
+    {
+      "label": "The Singapura village map",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/revenue-maps-1915/singapura-1915.jpg",
+      "format": "JPEG",
+      "bytes": 24394657
+    }
+  ],
+  "census-handbook-1961": [
+    {
+      "label": "The 1961 handbook",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/census-handbook-1961/census-handbook-1961.pdf",
+      "format": "PDF",
+      "bytes": 6659021
+    }
+  ],
+  "census-handbook-1971": [
+    {
+      "label": "The 1971 handbook",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/census-handbook-1971/census-handbook-1971.pdf",
+      "format": "PDF",
+      "bytes": 9057448
+    }
+  ],
+  "census-handbook-1991": [
+    {
+      "label": "The 1991 handbook",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/census-handbook-1991/census-handbook-1991.pdf",
+      "format": "PDF",
+      "bytes": 10656213
+    }
+  ],
+  "ramaswamy-committee-2007": [
+    {
+      "label": "The report, part 1",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/ramaswamy-committee-2007/ramaswamy-2007-part-1.pdf",
+      "format": "PDF",
+      "bytes": 11585218
+    },
+    {
+      "label": "The report, part 2",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/ramaswamy-committee-2007/ramaswamy-2007-part-2.pdf",
+      "format": "PDF",
+      "bytes": 667890
+    }
+  ],
+  "patil-committee-2011": [
+    {
+      "label": "The report",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/patil-committee-2011/patil-committee-2011.pdf",
+      "format": "PDF",
+      "bytes": 2443301
+    }
+  ],
+  "koliwad-committee": [
+    {
+      "label": "The full report",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/koliwad-committee/koliwad-committee.pdf",
+      "format": "PDF",
+      "bytes": 6673000
+    },
+    {
+      "label": "The abstract of encroached tanks",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/koliwad-committee/koliwad-committee-abstract.pdf",
+      "format": "PDF",
+      "bytes": 38182
+    }
+  ],
+  "neeri-2019": [
+    {
+      "label": "The report",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/neeri-2019/neeri-2020.pdf",
+      "format": "PDF",
+      "bytes": 26254647
+    }
+  ],
+  "minor-irrigation-tanks-2026": [
+    {
+      "label": "The statewide tank list",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/minor-irrigation-tanks-2026/karnataka-minor-irrigation-tanks.csv",
+      "format": "CSV",
+      "bytes": 501336
+    }
+  ],
+  "landsat-mss": [
+    {
+      "label": "11 November 1972, image",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/landsat-mss/landsat-mss-1972-11-11.png",
+      "format": "PNG",
+      "bytes": 4906265
+    },
+    {
+      "label": "11 November 1972, data",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/landsat-mss/landsat-mss-1972-11-11.tif",
+      "format": "GeoTIFF",
+      "bytes": 5676091
+    },
+    {
+      "label": "27 February 1973, image",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/landsat-mss/landsat-mss-1973-02-27.png",
+      "format": "PNG",
+      "bytes": 5235258
+    },
+    {
+      "label": "27 February 1973, data",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/landsat-mss/landsat-mss-1973-02-27.tif",
+      "format": "GeoTIFF",
+      "bytes": 5403918
+    },
+    {
+      "label": "26 February 1975, image",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/landsat-mss/landsat-mss-1975-02-26.png",
+      "format": "PNG",
+      "bytes": 4727114
+    },
+    {
+      "label": "26 February 1975, data",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/landsat-mss/landsat-mss-1975-02-26.tif",
+      "format": "GeoTIFF",
+      "bytes": 5190271
+    },
+    {
+      "label": "5 December 1976, image",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/landsat-mss/landsat-mss-1976-12-05.png",
+      "format": "PNG",
+      "bytes": 4715192
+    },
+    {
+      "label": "5 December 1976, data",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/landsat-mss/landsat-mss-1976-12-05.tif",
+      "format": "GeoTIFF",
+      "bytes": 5189966
+    },
+    {
+      "label": "5 March 1977, image",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/landsat-mss/landsat-mss-1977-03-05.png",
+      "format": "PNG",
+      "bytes": 4976506
+    },
+    {
+      "label": "5 March 1977, data",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/landsat-mss/landsat-mss-1977-03-05.tif",
+      "format": "GeoTIFF",
+      "bytes": 5485268
+    },
+    {
+      "label": "3 April 1980, image",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/landsat-mss/landsat-mss-1980-04-03.png",
+      "format": "PNG",
+      "bytes": 3772430
+    },
+    {
+      "label": "3 April 1980, data",
+      "href": "https://x4bfr6rvcnojs5ek.public.blob.vercel-storage.com/archive/landsat-mss/landsat-mss-1980-04-03.tif",
+      "format": "GeoTIFF",
+      "bytes": 4523082
+    }
+  ]
+}

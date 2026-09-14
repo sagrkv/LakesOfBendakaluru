@@ -13,9 +13,7 @@ export const SATELLITES: TimelineSource[] = [
     tells: "Water, a dry bed or buildings on one date, down to ponds under an acre.",
     coverage: "Frames over Bangalore exist; a 1965 frame was used in a 2019 study",
     licence: "Not stated",
-    status: "found",
-    access: "Free if already scanned, otherwise $30 a frame",
-    links: [],
+    links: [{ label: "USGS EarthExplorer", href: "https://earthexplorer.usgs.gov/" }],
   },
   {
     id: "hexagon",
@@ -28,9 +26,7 @@ export const SATELLITES: TimelineSource[] = [
     tells: "Water, a dry bed or buildings on one date, at 0.6 to 1.2 m.",
     coverage: "Frames over Bangalore unconfirmed",
     licence: "Not stated",
-    status: "found",
-    access: "$30 a scene to scan",
-    links: [],
+    links: [{ label: "USGS EarthExplorer", href: "https://earthexplorer.usgs.gov/" }],
   },
   {
     id: "landsat-mss",
@@ -38,13 +34,14 @@ export const SATELLITES: TimelineSource[] = [
     to: 1981,
     when: "1972 to 1981",
     title: "Landsat MSS, 60 m",
-    holder: "Google Earth Engine",
+    holder: "USGS, via Microsoft Planetary Computer",
     kind: "satellite",
     tells: "Whether a lake held water, for lakes over about 8 acres.",
-    coverage: "46 scenes, 11 under 20% cloud",
+    coverage: "Both districts, from Landsat 1, 2 and 3",
     licence: "Public domain",
-    status: "found",
-    links: [],
+    links: [
+      { label: "Landsat Collection 2 Level-1 on Planetary Computer", href: "https://planetarycomputer.microsoft.com/dataset/landsat-c2-l1" },
+    ],
   },
   {
     id: "jrc-surface-water",
@@ -55,13 +52,11 @@ export const SATELLITES: TimelineSource[] = [
     holder: "European Commission Joint Research Centre and Google",
     kind: "satellite",
     tells: "Whether a lake held water each year, for lakes over about 2 acres.",
-    coverage:
-      "Everywhere. The 1984 to 2024 summary is on the site too; the yearly files for 2022 to 2024 cannot be downloaded yet",
+    coverage: "Everywhere; a summary layer runs to 2024",
     licence: "CC BY 4.0",
-    status: "on-site",
     links: [
-      { label: "Open the yearly files, 1984 to 2021", key: "jrc-gsw-1-4-yearly" },
-      { label: "Open the download page", key: "jrc-gsw-1-5" },
+      { label: "The yearly files, 1984 to 2021", key: "jrc-gsw-1-4-yearly" },
+      { label: "The download page", key: "jrc-gsw-1-5" },
     ],
   },
   {
@@ -75,9 +70,7 @@ export const SATELLITES: TimelineSource[] = [
     tells: "How far a lake's water spread, month by month or more often.",
     coverage: "Water bodies over 2 ha, and over 1 ha since 2022",
     licence: "Not stated",
-    status: "found",
-    access: "Public, one lake at a time, no bulk download",
-    links: [{ label: "Open the portal", href: "https://bhuvan-wbis.nrsc.gov.in/" }],
+    links: [{ label: "The Bhuvan portal", href: "https://bhuvan-wbis.nrsc.gov.in/" }],
   },
   {
     id: "dynamic-world",
@@ -90,10 +83,9 @@ export const SATELLITES: TimelineSource[] = [
     tells: "The chance of water in each image, for ponds over about a quarter acre.",
     coverage: "Everywhere",
     licence: "CC BY 4.0",
-    status: "found",
     links: [
       {
-        label: "Open in the Earth Engine catalog",
+        label: "The Earth Engine catalog",
         href: "https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1",
       },
     ],
@@ -109,8 +101,7 @@ export const SATELLITES: TimelineSource[] = [
     tells: "How much of a lake's area was water, plants, built on or bare, each year.",
     coverage: "Everywhere; it carries yearly water past 2021",
     licence: "CC BY 4.0",
-    status: "on-site",
-    links: [{ label: "Open the land cover", key: "io-lulc-2025" }],
+    links: [{ label: "The land cover", key: "io-lulc-2025" }],
   },
   {
     id: "esa-worldcover-2021",
@@ -122,8 +113,7 @@ export const SATELLITES: TimelineSource[] = [
     tells: "How much land around each lake was built on, trees or water.",
     coverage: "Everywhere",
     licence: "CC BY 4.0",
-    status: "on-site",
-    links: [{ label: "Open WorldCover", key: "esa-worldcover-2021" }],
+    links: [{ label: "WorldCover", key: "esa-worldcover-2021" }],
   },
   {
     id: "sentinel-2",
@@ -136,7 +126,6 @@ export const SATELLITES: TimelineSource[] = [
     tells: "How much of a lake is open water, floating weed or dry now.",
     coverage: "Everywhere",
     licence: "Copernicus Sentinel data terms, free and open",
-    status: "on-site",
-    links: [{ label: "Open the image archive", key: "sentinel2-2026-dry" }],
+    links: [{ label: "The image archive", key: "sentinel2-2026-dry" }],
   },
 ];

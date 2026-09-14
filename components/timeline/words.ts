@@ -1,23 +1,13 @@
-import type { Kind, Status } from "./types";
+import type { Kind } from "./types";
 
-/** Lanes top to bottom on a laptop, left to right on a phone. */
-export const KINDS: { kind: Kind; name: string; one: string }[] = [
-  { kind: "map", name: "Maps", one: "Map" },
-  { kind: "census", name: "Censuses", one: "Census" },
-  { kind: "satellite", name: "Satellite and aerial photos", one: "Satellite or aerial photo" },
-  { kind: "report", name: "Reports and lists", one: "Report or list" },
+/** Each kind of record, with the paper its slip and its mark on the line are cut from. */
+export const KINDS: { kind: Kind; name: string; one: string; paper: string }[] = [
+  { kind: "map", name: "Maps", one: "Map", paper: "#FF8A1F" },
+  { kind: "census", name: "Censuses", one: "Census", paper: "#F59AC0" },
+  { kind: "satellite", name: "Satellite and aerial photos", one: "Satellite or aerial photo", paper: "#1F48D6" },
+  { kind: "report", name: "Reports and lists", one: "Report or list", paper: "#2FA35B" },
 ];
 
-export const STATUSES: { status: Status; name: string }[] = [
-  { status: "on-site", name: "On the site" },
-  { status: "found", name: "Found, not added yet" },
-  { status: "not-public", name: "Not public" },
-];
-
-export function kindName(kind: Kind): string {
-  return KINDS.find((k) => k.kind === kind)?.one ?? kind;
-}
-
-export function statusName(status: Status): string {
-  return STATUSES.find((s) => s.status === status)?.name ?? status;
+export function kindOf(kind: Kind) {
+  return KINDS.find((k) => k.kind === kind) ?? KINDS[0];
 }

@@ -11,9 +11,7 @@ function handbook(year: number, href: string): TimelineSource {
     tells: "How much land each village watered from tanks, not each lake.",
     coverage: "Both districts",
     licence: "No licence stated",
-    status: "found",
-    access: "Free scans that need text recognition",
-    links: [{ label: `Open the ${year} handbook (PDF)`, href }],
+    links: [{ label: `The ${year} handbook on the Census of India site (PDF)`, href }],
   };
 }
 
@@ -30,11 +28,10 @@ export const CENSUSES: TimelineSource[] = [
     kind: "census",
     tells: "How many hectares each village watered from tanks, and whether its tank worked all year.",
     coverage: "Both districts",
-    licence: "Not stated",
-    status: "found",
+    licence: "CC BY-NC-SA 4.0",
     links: [
       {
-        label: "Open the tables",
+        label: "The tables on Development Data Lab",
         href: "https://docs.devdatalab.org/SHRUG-Metadata/Population%20Census/Tables/vd11-metadata/",
       },
     ],
@@ -50,7 +47,6 @@ export const CENSUSES: TimelineSource[] = [
     tells: "Whether each water body was in use or encroached.",
     coverage: "Both districts",
     licence: "Public domain",
-    status: "on-site",
     links: [{ label: "Open on OpenCity", key: "wbc-2017-18" }],
   },
   {
@@ -64,8 +60,6 @@ export const CENSUSES: TimelineSource[] = [
     tells: "Whether each water body is in use or encroached.",
     coverage: "Karnataka reported 38,960 water bodies",
     licence: "Not stated",
-    status: "not-public",
-    access: "Fieldwork done August 2026; only state totals are public",
-    links: [{ label: "Open the census portal", href: "https://wrcensus.mowr.gov.in/micensus/" }],
+    links: [{ label: "The census portal", href: "https://wrcensus.mowr.gov.in/micensus/" }],
   },
 ];

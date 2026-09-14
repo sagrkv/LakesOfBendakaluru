@@ -1,8 +1,6 @@
 import type { TimelineSource } from "./types";
 
-const OLD_MAPS = "https://commons.wikimedia.org/wiki/Category:Old_maps_of_Bengaluru";
-
-function cityPlan(year: number, when: string): TimelineSource {
+function cityPlan(year: number, when: string, file: string): TimelineSource {
   return {
     id: `city-plan-${year}`,
     from: year,
@@ -13,8 +11,7 @@ function cityPlan(year: number, when: string): TimelineSource {
     tells: "The large central tanks, by name.",
     coverage: "The city only",
     licence: "Public domain",
-    status: "found",
-    links: [{ label: "Open the old maps of Bengaluru", href: OLD_MAPS }],
+    links: [{ label: "The plan on Wikimedia Commons", href: `https://commons.wikimedia.org/wiki/File:${file}` }],
   };
 }
 
@@ -30,8 +27,6 @@ export const MAPS: TimelineSource[] = [
     tells: "Where the tanks were, with the villages and the land they watered.",
     coverage: "The whole area",
     licence: "Not known",
-    status: "not-public",
-    access: "No public scans found",
     links: [],
   },
   {
@@ -44,17 +39,15 @@ export const MAPS: TimelineSource[] = [
     tells: "It may show tanks; nobody has checked the image for them yet.",
     coverage: "Most of both districts",
     licence: "CC BY-SA 4.0",
-    status: "found",
-    access: "Georeferenced in Wikimaps Warper",
     links: [
       {
-        label: "Open the map",
+        label: "The map on Wikimedia Commons",
         href: "https://commons.wikimedia.org/wiki/File:Survey_of_the_boundaries_of_Purgunna_of_Bangalore_(1800).png",
       },
     ],
   },
-  cityPlan(1843, "1843"),
-  cityPlan(1854, "1854"),
+  cityPlan(1843, "1843", "Plan_of_Bangalore_Cantonment_1843.jpg"),
+  cityPlan(1854, "1854", "Bangalore_1854_Pharaoh.jpg"),
   {
     id: "soi-taluk-1878",
     from: 1878,
@@ -65,11 +58,9 @@ export const MAPS: TimelineSource[] = [
     tells: "Tank outlines; the names are likely unreadable at this scan size.",
     coverage: "The old Bangalore taluk",
     licence: "Public domain",
-    status: "found",
-    access: "Georeferenced",
-    links: [{ label: "Open the map", href: "https://commons.wikimedia.org/wiki/File:Bangalore_map_1878.png" }],
+    links: [{ label: "The map on Wikimedia Commons", href: "https://commons.wikimedia.org/wiki/File:Bangalore_map_1878.png" }],
   },
-  cityPlan(1900, "About 1900"),
+  cityPlan(1900, "About 1900", "Bangalore_1900.jpg"),
   {
     id: "soi-1914",
     from: 1914,
@@ -79,15 +70,13 @@ export const MAPS: TimelineSource[] = [
     holder: "Survey of India, via Zenodo",
     kind: "map",
     tells: "Whether a lake was drawn on the map, from tank outlines and embankments, most of them unnamed.",
-    coverage:
-      "7 of the 10 Bangalore District sheets, not the two city sheets. On the site: 57G/8, 57G/16 and 57H/5 (1914) and 57H/10 (1915). Not yet: 57G/4, 57H/6 and 57H/7",
+    coverage: "7 of the 10 Bangalore District sheets, not the two city sheets: 57G/4, 57G/8, 57G/16, 57H/5, 57H/6, 57H/7 and 57H/10",
     licence: "CC BY 4.0",
-    status: "on-site",
     links: [
-      { label: "Open sheet 57 G/8 (1914)", key: "soi-57g8-1914" },
-      { label: "Open sheet 57 G/16 (1914)", key: "soi-57g16-1914" },
-      { label: "Open sheet 57 H/5 (1914)", key: "soi-57h5-1914" },
-      { label: "Open sheet 57 H/10 (1915)", key: "soi-57h10-1915" },
+      { label: "Sheet 57 G/8 (1914)", key: "soi-57g8-1914" },
+      { label: "Sheet 57 G/16 (1914)", key: "soi-57g16-1914" },
+      { label: "Sheet 57 H/5 (1914)", key: "soi-57h5-1914" },
+      { label: "Sheet 57 H/10 (1915)", key: "soi-57h10-1915" },
     ],
   },
   {
@@ -98,13 +87,11 @@ export const MAPS: TimelineSource[] = [
     holder: "Karnataka Land Records, via Wikimedia Commons",
     kind: "map",
     tells: "Every tank in a village, by survey number.",
-    coverage: "One village found so far",
+    coverage: "One village found so far, Singapura",
     licence: "Public domain",
-    status: "found",
-    access: "Bulk access unconfirmed",
     links: [
       {
-        label: "Open the one sample",
+        label: "The Singapura map on Wikimedia Commons",
         href: "https://commons.wikimedia.org/wiki/File:Singapura_revenue_village_map_from_1915CE.jpg",
       },
     ],
@@ -119,8 +106,7 @@ export const MAPS: TimelineSource[] = [
     tells: "Whether a lake was drawn on the map in 1927.",
     coverage: "Both districts, with the 1945 and 1955 sheets",
     licence: "Public domain",
-    status: "on-site",
-    links: [{ label: "Open sheet 57 G/12", key: "soi-57g12-1927" }],
+    links: [{ label: "Sheet 57 G/12", key: "soi-57g12-1927" }],
   },
   {
     id: "soi-1945",
@@ -132,8 +118,7 @@ export const MAPS: TimelineSource[] = [
     tells: "Whether a lake was drawn on the map in 1945.",
     coverage: "Both districts, with the 1927 and 1955 sheets",
     licence: "Public domain",
-    status: "on-site",
-    links: [{ label: "Open sheet 57 H/9", key: "soi-57h9-1945" }],
+    links: [{ label: "Sheet 57 H/9", key: "soi-57h9-1945" }],
   },
   {
     id: "ams-1955",
@@ -145,12 +130,11 @@ export const MAPS: TimelineSource[] = [
     tells: "Whether a lake was drawn on the map in 1955, compiled from Survey of India maps of 1945-46.",
     coverage: "Both districts, with the 1927 and 1945 sheets",
     licence: "Public domain",
-    status: "on-site",
     links: [
-      { label: "Open sheet ND 43-12 Tumkur", key: "ams-nd43-12-1955" },
-      { label: "Open sheet ND 43-16 Mysore", key: "ams-nd43-16-1955" },
-      { label: "Open sheet ND 44-13 Bangalore", key: "ams-nd44-13-1955" },
-      { label: "Open sheet ND 44-9 Kolar", key: "ams-nd44-9-1955" },
+      { label: "Sheet ND 43-12 Tumkur", key: "ams-nd43-12-1955" },
+      { label: "Sheet ND 43-16 Mysore", key: "ams-nd43-16-1955" },
+      { label: "Sheet ND 44-13 Bangalore", key: "ams-nd44-13-1955" },
+      { label: "Sheet ND 44-9 Kolar", key: "ams-nd44-9-1955" },
     ],
   },
   {
@@ -163,21 +147,20 @@ export const MAPS: TimelineSource[] = [
     kind: "map",
     tells: "Whether a lake was drawn on the map, from each tank's surveyed outline and name.",
     coverage:
-      "Every Bangalore District sheet: 57G/4 (1973), 57G/7 (1975), 57G/8 (1974), 57G/12 (1978), 57G/16 (1974), 57H/5 (1973), 57H/6 (1973), 57H/7 (1979), 57H/9 (1980) and 57H/10 (1973), with edges on Kolar sheets 57G/11 (1975, 1977) and 57H/13 (1973). On the site: all but 57H/7 and the 1977 edition of 57G/11",
+      "Every Bangalore District sheet: 57G/4 (1973), 57G/7 (1975), 57G/8 (1974), 57G/12 (1978), 57G/16 (1974), 57H/5 (1973), 57H/6 (1973), 57H/7 (1979), 57H/9 (1980) and 57H/10 (1973), with edges on Kolar sheets 57G/11 (1975, 1977) and 57H/13 (1973)",
     licence: "CC BY 4.0",
-    status: "on-site",
     links: [
-      { label: "Open sheet 57 G/4 (1973)", key: "soi-57g4-1973" },
-      { label: "Open sheet 57 G/7 (1975)", key: "soi-57g7-1975" },
-      { label: "Open sheet 57 G/8 (1974)", key: "soi-57g8-1974" },
-      { label: "Open sheet 57 G/12 (1978)", key: "soi-57g12-1978" },
-      { label: "Open sheet 57 G/16 (1974)", key: "soi-57g16-1974" },
-      { label: "Open sheet 57 H/5 (1973)", key: "soi-57h5-1973" },
-      { label: "Open sheet 57 H/6 (1973)", key: "soi-57h6-1973" },
-      { label: "Open sheet 57 H/9 (1980)", key: "soi-57h9-1980" },
-      { label: "Open sheet 57 H/10 (1973)", key: "soi-57h10-1973" },
-      { label: "Open sheet 57 G/11 (1975)", key: "soi-57g11-1975" },
-      { label: "Open sheet 57 H/13 (1973)", key: "soi-57h13-1973" },
+      { label: "Sheet 57 G/4 (1973)", key: "soi-57g4-1973" },
+      { label: "Sheet 57 G/7 (1975)", key: "soi-57g7-1975" },
+      { label: "Sheet 57 G/8 (1974)", key: "soi-57g8-1974" },
+      { label: "Sheet 57 G/12 (1978)", key: "soi-57g12-1978" },
+      { label: "Sheet 57 G/16 (1974)", key: "soi-57g16-1974" },
+      { label: "Sheet 57 H/5 (1973)", key: "soi-57h5-1973" },
+      { label: "Sheet 57 H/6 (1973)", key: "soi-57h6-1973" },
+      { label: "Sheet 57 H/9 (1980)", key: "soi-57h9-1980" },
+      { label: "Sheet 57 H/10 (1973)", key: "soi-57h10-1973" },
+      { label: "Sheet 57 G/11 (1975)", key: "soi-57g11-1975" },
+      { label: "Sheet 57 H/13 (1973)", key: "soi-57h13-1973" },
     ],
   },
   {
@@ -190,8 +173,7 @@ export const MAPS: TimelineSource[] = [
     tells: "265 wetland outlines, without names.",
     coverage: "Bengaluru Urban",
     licence: "Public domain",
-    status: "on-site",
-    links: [{ label: "Open on OpenCity", key: "kgis-wetlands" }],
+    links: [{ label: "OpenCity", key: "kgis-wetlands" }],
   },
   {
     id: "osm-2026",
@@ -203,8 +185,7 @@ export const MAPS: TimelineSource[] = [
     tells: "Lake outlines drawn by volunteers, and Kannada names.",
     coverage: "Around Bengaluru",
     licence: "ODbL 1.0",
-    status: "on-site",
-    links: [{ label: "Open OpenStreetMap", key: "osm-2026-09" }],
+    links: [{ label: "OpenStreetMap", key: "osm-2026-09" }],
   },
   {
     id: "atree-lakes",
@@ -215,8 +196,7 @@ export const MAPS: TimelineSource[] = [
     tells: "Each lake's outline, the shape this site draws.",
     coverage: "1,350 lakes",
     licence: "CC BY",
-    status: "on-site",
-    links: [{ label: "Open on OpenCity", key: "atree-lakes" }],
+    links: [{ label: "OpenCity", key: "atree-lakes" }],
   },
   {
     id: "kgis-tanks-ponds",
@@ -227,10 +207,9 @@ export const MAPS: TimelineSource[] = [
     tells: "Outlines for lakes the ATREE map does not draw.",
     coverage: "Bengaluru Urban",
     licence: "Public domain",
-    status: "on-site",
     links: [
-      { label: "Open the lake map", key: "kgis-tanks" },
-      { label: "Open the pond map", key: "kgis-ponds" },
+      { label: "The lake map", key: "kgis-tanks" },
+      { label: "The pond map", key: "kgis-ponds" },
     ],
   },
   {
@@ -242,10 +221,9 @@ export const MAPS: TimelineSource[] = [
     tells: "The official map of each lake, by village and survey number.",
     coverage: "Bengaluru Urban and Bengaluru Rural",
     licence: "Not stated",
-    status: "on-site",
     links: [
-      { label: "Open the digital maps", key: "landrecords-lake-digital" },
-      { label: "Open the survey maps", key: "landrecords-lake-survey" },
+      { label: "The digital maps", key: "landrecords-lake-digital" },
+      { label: "The survey maps", key: "landrecords-lake-survey" },
     ],
   },
 ];

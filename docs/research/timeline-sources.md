@@ -4,6 +4,15 @@ Research done on 2026-09-14 for a per-lake timeline, from the oldest record to t
 Every link was opened by the researcher unless marked otherwise.
 "Have" means the source is already in the pipeline.
 
+## Our copies
+
+The timeline page shows every record the same way: what it tells us, our copy, and a link to the original.
+It never says whether a record is in the pipeline, found or not public.
+`scripts/archive.py` keeps a copy of every record below that has a file anyone can download, in the site's public Vercel Blob store, listed in `public/data/archive.json`.
+That covers the 1800, 1843, 1854, 1878 and c.1900 maps, the 1915 Singapura village map, the 1961, 1971 and 1991 census handbooks, the Ramaswamy, Patil, Koliwad and NEERI reports, the Minor Irrigation tank list, and six clear Landsat MSS scenes from 1972 to 1980 cut to the two districts.
+The 1854 plan is the 9 MB scan; the 100 MB high-resolution scan on Commons is too large to keep.
+No copy yet: CORONA frames need a USGS EarthExplorer login, HEXAGON scenes cost $30 each to scan, Bhuvan WBIS has no download, Dynamic World is only in Earth Engine, and the 2011 SHRUG tables sit behind a request form.
+
 ## Oldest to newest
 
 | Year | Source | What it gives per lake | Coverage | Access | Effort |
