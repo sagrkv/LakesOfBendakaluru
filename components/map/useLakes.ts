@@ -29,7 +29,9 @@ export function useLakes(): [LakesState, () => void] {
         const all = data as LakeSummary[];
         const existing = all.filter((lake) => lake.status === "exists");
         const lakes = existing.filter((lake) => lake.hasOutline);
-        setState({ status: "ready", lakes, gone: all.length - existing.length, missing: existing.length - lakes.length });
+        // Missing matches the Missing lakes page: no shape, but a location. A lake with neither is on no page's list.
+        const missing = existing.filter((lake) => !lake.hasOutline && lake.point).length;
+        setState({ status: "ready", lakes, gone: all.length - existing.length, missing });
       })
       .catch(() => {
         if (!controller.signal.aborted) setState({ status: "error" });

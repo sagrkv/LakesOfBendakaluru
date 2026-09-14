@@ -31,7 +31,10 @@ A disappeared lake has no current outline, only a location, survey numbers, a re
 It is drawn as a point.
 These lakes make up the "Once upon a kere" page.
 
-An inventory lake that still exists but is not in the ATREE map takes its outline from the KGIS tank or pond map, or OpenStreetMap, when its point falls inside one.
+An inventory lake that still exists but is not in the ATREE map borrows the nearest shape from the KGIS tank, pond or wetland map, or OpenStreetMap, within 50 m of its point.
+Survey points are often a few metres off the pond they mark.
+A shape under 5% of the lake's recorded 2018 extent is not borrowed: it is a different, smaller pond.
+An existing lake that still has no shape is not drawn on the map; it is listed on the "Missing lakes of Bangalore" page.
 
 ## Files
 
