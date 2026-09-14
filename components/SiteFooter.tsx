@@ -15,6 +15,9 @@ export default function SiteFooter() {
           <Link href="/once-upon-a-kere" className="ink-link">
             Once upon a kere
           </Link>
+          <Link href="/missing-lakes" className="ink-link">
+            Missing lakes
+          </Link>
           <Link href="/sources" className="ink-link">
             Sources and credits
           </Link>

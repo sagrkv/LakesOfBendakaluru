@@ -9,8 +9,9 @@ A lake enters the list from one of these anchors:
   hist:<id>       a tank on a 1927-1955 survey map that no current source knows (historic_lakes.py)
 
 2018 inventory rows are paired with ATREE outlines one-to-one by location, with the name
-breaking ties. A row left unpaired becomes its own lake; if it sits inside an unclaimed
-KGIS or OpenStreetMap water polygon, that polygon becomes its outline.
+breaking ties. A row left unpaired becomes its own lake; if an unclaimed KGIS or OpenStreetMap
+water polygon lies within 50 m of its pin and is not far smaller than its recorded extent,
+the nearest such polygon becomes its outline.
 
 IDs are stored in data/registry.csv and never change once assigned. The build reads
 the registry back, keeps every existing ID, and only mints new ones for new anchors.
@@ -41,6 +42,10 @@ COLUMNS = ["id", "anchor", "atreeFid", "empriCode", "histId", "outlineSource", "
 LON_RANGE, LAT_RANGE = (77.0, 78.1), (12.5, 13.7)
 PAIR_WITHIN_M = 150
 NAME_PAIR_WITHIN_M = 1000
+# An unpaired inventory lake borrows a KGIS or OSM shape near its pin: the pins are often a few metres off the pond.
+BORROW_WITHIN_M = 50
+# A shape under this share of the inventory's recorded extent is a different, smaller pond, not this lake.
+BORROW_MIN_SHARE = 0.05
 
 
 def in_area(lon, lat):
@@ -164,10 +169,15 @@ def build():
             }
         )
 
-    # Unpaired inventory rows: take an outline from KGIS or OSM if the point falls inside
-    # a water polygon that no ATREE lake already overlaps.
+    # Unpaired inventory rows: take the nearest KGIS or OSM water polygon near the pin
+    # that no ATREE lake already overlaps.
     outline_pool = []
-    for file, key, label in [("kgis_tanks.geojson", "kgisTankId", "kgis-tank"), ("kgis_ponds.geojson", "kgisPondId", "kgis-pond"), ("osm_water.geojson", "osmId", "osm")]:
+    for file, key, label in [
+        ("kgis_tanks.geojson", "kgisTankId", "kgis-tank"),
+        ("kgis_ponds.geojson", "kgisPondId", "kgis-pond"),
+        ("kgis_wetlands.geojson", "kgisWetlandId", "kgis-wetland"),
+        ("osm_water.geojson", "osmId", "osm"),
+    ]:
         for fid, f in load_features(file, key):
             outline_pool.append((f"{label}:{fid}", f))
     pool_index = LakeIndex([(k, "", feature_utm(f)) for k, f in outline_pool])
@@ -197,17 +207,23 @@ def build():
         }
         if pt and row.get("status") != "disappeared":
             p = utm_point(*pt)
-            for i in pool_index.tree.query(p, predicate="intersects"):
+            best = None
+            for i in pool_index.tree.query(p.buffer(BORROW_WITHIN_M), predicate="intersects"):
                 key = pool_index.keys[i]
                 geom = pool_index.geoms[i]
                 if key in claimed or geom.area > 4046.86 * 2000:
                     continue
+                if acres and geom.area < BORROW_MIN_SHARE * acres * 4046.86:
+                    continue
                 if atree_index.match_polygon(geom, min_share=0.2):
                     continue
-                claimed.add(key)
-                entry["outlineSource"], entry["outlineId"] = key.split(":", 1)
-                entry["geometry"] = pool_by_key[key]["geometry"]
-                break
+                d = geom.distance(p)
+                if best is None or (d, -geom.area) < (best[0], -best[2]):
+                    best = (d, key, geom.area)
+            if best:
+                claimed.add(best[1])
+                entry["outlineSource"], entry["outlineId"] = best[1].split(":", 1)
+                entry["geometry"] = pool_by_key[best[1]]["geometry"]
         lakes.append(entry)
 
     lakes += historic_lakes(lakes)

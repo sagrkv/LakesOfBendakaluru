@@ -149,7 +149,7 @@ def location(ctx, lake_id, reg, empri, atree):
 
 
 def outline_source_key(reg):
-    return {"atree": "atree-lakes", "kgis-tank": "kgis-tanks", "kgis-pond": "kgis-ponds", "osm": "osm-2026-09"}.get(reg["outlineSource"])
+    return {"atree": "atree-lakes", "kgis-tank": "kgis-tanks", "kgis-pond": "kgis-ponds", "kgis-wetland": "kgis-wetlands", "osm": "osm-2026-09"}.get(reg["outlineSource"])
 
 
 def ward_at(ctx, point):

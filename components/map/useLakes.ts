@@ -5,12 +5,13 @@ import type { LakeSummary } from "@/lib/lake";
 
 export type LakesState =
   | { status: "loading" }
-  | { status: "ready"; lakes: LakeSummary[]; gone: number }
+  | { status: "ready"; lakes: LakeSummary[]; gone: number; missing: number }
   | { status: "error" };
 
 /**
  * Reads public/data/lakes.json in the browser, so the page itself stays static and small.
- * The map shows only lakes that still exist; the rest are counted for the link to the Forgotten Lakes page.
+ * The map shows only lakes that still exist and have a shape. Lakes that disappeared, and lakes the
+ * 2018 survey recorded but no map draws, are counted for the links to their own pages.
  */
 export function useLakes(): [LakesState, () => void] {
   const [attempt, setAttempt] = useState(0);
@@ -26,8 +27,9 @@ export function useLakes(): [LakesState, () => void] {
       .then((data) => {
         if (!Array.isArray(data)) throw new Error("lakes.json is not a list");
         const all = data as LakeSummary[];
-        const lakes = all.filter((lake) => lake.status === "exists");
-        setState({ status: "ready", lakes, gone: all.length - lakes.length });
+        const existing = all.filter((lake) => lake.status === "exists");
+        const lakes = existing.filter((lake) => lake.hasOutline);
+        setState({ status: "ready", lakes, gone: all.length - existing.length, missing: existing.length - lakes.length });
       })
       .catch(() => {
         if (!controller.signal.aborted) setState({ status: "error" });

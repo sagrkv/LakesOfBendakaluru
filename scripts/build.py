@@ -12,6 +12,8 @@ Outputs (public/data/):
   lakes.geojson      outlines of every lake that has one, with a few map properties
   past.json          every lake that disappeared or was converted, lean rows for the Past Lakes page
   past-sheet.svg     the city as ink paper with a hole where each past lake was
+  missing.json       every lake recorded as existing that no map draws, lean rows for the Missing Lakes page
+  missing-sheet.svg  the city as dots: faint for lakes a map draws, a ring for each missing lake
   lake/<id>.json     the full record for one lake page
   sources.json       every source key: title, publisher, link, license, credit, dates
   hero.json          simplified outlines of existing lakes for the home page drawing
@@ -31,6 +33,7 @@ import joins  # noqa: E402
 import registry  # noqa: E402
 from assemble.context import Context  # noqa: E402
 from assemble.hero import Frame, build_hero, frame_points  # noqa: E402
+from assemble.missing import missing_rows, missing_sheet  # noqa: E402
 from assemble.past import past_rows, past_sheet  # noqa: E402
 from assemble.place import identity, location, responsibility, size  # noqa: E402
 from assemble.sheet import build_sheet  # noqa: E402
@@ -155,6 +158,11 @@ def build():
     past = past_rows(records, summaries)
     write_json(OUT / "past.json", past)
     (OUT / "past-sheet.svg").write_text(past_sheet(past, summaries, frame), encoding="utf-8")
+
+    missing = missing_rows(records, summaries)
+    write_json(OUT / "missing.json", missing)
+    (OUT / "missing-sheet.svg").write_text(missing_sheet(missing, summaries, frame), encoding="utf-8")
+    print(f"missing: {len(missing)} lakes recorded as existing that no map draws")
 
     used = set()
     for rec in records:

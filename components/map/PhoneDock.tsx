@@ -6,6 +6,7 @@ import type { CollectionKey } from "./collections";
 type Props = {
   stats: string | null;
   gone: number | null;
+  missing: number | null;
   ready: boolean;
   onChoose: (key: CollectionKey) => void;
   /** The tapped lake's card; while it shows, the list below keeps its scroll position hidden. */
@@ -15,7 +16,7 @@ type Props = {
 };
 
 /** The phone layout: a dock under the map, so nothing covers the map's own controls. */
-export default function PhoneDock({ stats, gone, ready, onChoose, card, list }: Props) {
+export default function PhoneDock({ stats, gone, missing, ready, onChoose, card, list }: Props) {
   return (
     <div className="relative z-10 flex max-h-[60dvh] flex-col border-t border-rule bg-table pr-[env(safe-area-inset-right)] pb-[max(12px,env(safe-area-inset-bottom))] pl-[env(safe-area-inset-left)] shadow-[0_-10px_18px_-8px_rgb(90_59_18/0.25)]">
       {card ? <div className="min-h-0 overflow-y-auto overscroll-contain">{card}</div> : null}
@@ -23,7 +24,7 @@ export default function PhoneDock({ stats, gone, ready, onChoose, card, list }: 
         {list ?? (
           <div className="px-4 pt-1">
             <p className={`label text-missing ${stats ? "" : "invisible"}`}>
-              {stats ?? "Counting the lakes"} <GoneLink gone={gone} />
+              {stats ?? "Counting the lakes"} <GoneLink gone={gone} missing={missing} />
             </p>
             <div className="mt-2">
               <CollectionPicker variant="strip" counts={null} disabled={!ready} onChoose={onChoose} />

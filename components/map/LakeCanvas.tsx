@@ -161,24 +161,16 @@ export default function LakeCanvas(props: Props) {
 
   useEffect(() => {
     const map = mapRef.current;
-    if (!loaded || !map || !lakes) return;
-    source(map, "spots")?.setData(pointsOf(lakes, (lake) => !lake.hasOutline));
-  }, [loaded, lakes]);
-
-  useEffect(() => {
-    const map = mapRef.current;
     if (!loaded || !map) return;
     const filters = collectionFilters(members);
     for (const layer of ["lake-shadow", "lake-fill", "lake-edge"]) map.setFilter(layer, filters.lakeLive);
     map.setFilter("lake-rest", filters.lakeRest);
-    map.setFilter("spot", filters.pointLive);
-    map.setFilter("spot-rest", filters.pointRest);
   }, [loaded, members]);
 
   useEffect(() => {
     const map = mapRef.current;
     if (!loaded || !map) return;
-    for (const layer of ["lake-selected", "spots-selected"]) map.setFilter(layer, onlyId(selectedId));
+    map.setFilter("lake-selected", onlyId(selectedId));
   }, [loaded, selectedId]);
 
   useEffect(() => {

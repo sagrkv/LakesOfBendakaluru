@@ -90,6 +90,7 @@ agara-kunte-3,kgis_wetlands,11007,outline,,1.0
 agara-kunte-4,empri2018,BUBSKGagr_ku5-1154,unpaired,,
 agara-kunte-4-2,empri2018,BUBSBGagr_ku4-1398,unpaired,,
 agara-kunte-5,empri2018,BUBSKGagr_ku6-1155,unpaired,,
+agara-kunte-5,kgis_ponds,947,outline,,1.0
 agara-kunte-6,empri2018,BUBSKGagr_gk8-1157,unpaired,,
 agara-kunte-7,empri2018,BUBSKGagr_ku9-1158,unpaired,,
 agara-kunte-8,empri2018,BUBSKGagr_ku10-1159,unpaired,,
@@ -256,10 +257,10 @@ arehalii-kere,kgis_tanks,1305,outline,,0.96
 arehalii-kere,kgis_wetlands,2331,outline,,0.79
 arehalii-kere,wbc2018,1/12/002/000001/000153/001,inside,0,
 arehalli-kere,empri2018,BUBSUHarh_kr1-1314,unpaired,,
-arehalli-kere,kgis_ponds,6055,outline,,1.0
+arehalli-kere,kgis_ponds,6229,outline,,1.0
 arehalli-kere,landrecords_survey,1865328,survey,,
 arehalli-kere,mi_tanks,KA20030010,unique-name,,
-arehalli-kere,wbc2018,2/12/002/276600/1302856/005,inside,0,
+arehalli-kere,wbc2018,2/12/002/276600/1302856/005,near,32,
 arehalli-kunte,empri2018,BUBSUHarh_gk2-1315,unpaired,,
 arehalli-kunte,kgis_ponds,6228,outline,,1.0
 arehalli-kunte,landrecords_survey,1865327,survey,,
@@ -390,13 +391,15 @@ badamanavartha-kaval-kere,empri2018,BUBSKGbvk_kr3-1161,unpaired,,
 badavamavarthe-kavalu-kunte1,empri2018,BUBSKGbvk_ku2-1160a,unpaired,,
 badavamavarthe-kavalu-kunte2,empri2018,BUBSKGbvk_ku4-1162,unpaired,,
 badavamavarthekavalu-hosakere-1,empri2018,BUBSKGbvk_kr1-1160,unpaired,,
-badavamavarthekavalu-hosakere-1,kgis_tanks,1173,outline,,0.45
-badavamavarthekavalu-hosakere-1,osm,way/1195513695,outline,,0.42
+badavamavarthekavalu-hosakere-1,kgis_tanks,1173,outline,,0.96
+badavamavarthekavalu-hosakere-1,osm,way/1195513695,outline,,1.0
 badavamavarthekavalu-kunte3,empri2018,BUBSKGbvk_ku5-1163,unpaired,,
 badavamavarthekavalu-kunte4,empri2018,BUBSKGbvk_ku6-1164,unpaired,,
 badavamavarthekavalu-kunte5,empri2018,BUBSKGbvk_ku7-1165,unpaired,,
 badavamavarthekavalu-kunte6,empri2018,BUBSKGbvk_ku8-1166,unpaired,,
 badavamavarthekavalu-kunte7,empri2018,BUBSKGbvk_kr12-1170,unpaired,,
+badavamavarthekavalu-kunte7,kgis_tanks,1166,outline,,1.0
+badavamavarthekavalu-kunte7,osm,way/1281359323,outline,,1.0
 bagalagunte-govt-lake,atree,249,outline,,
 bagalagunte-govt-lake,bbmp_lms,42,near,25,1.0
 bagalagunte-govt-lake,empri2018,BUBNYPbgk_kr5-85,near,5,1.0
@@ -503,6 +506,8 @@ bannerghatta-lake-2,atree,973,outline,,
 bannerghatta-lake-2,kgis_tanks,1109,outline,,0.84
 bannerghatta-lake-2,osm,way/28076551,outline,,0.93
 bannerughatta-kavalu-kunte,empri2018,BUAKJGbnk_ku1-1043,unpaired,,
+bannerughatta-kavalu-kunte,kgis_tanks,1106,outline,,0.98
+bannerughatta-kavalu-kunte,osm,way/128310895,outline,,1.0
 bannerughatta-kunte,atree,2,outline,,
 bannerughatta-kunte,empri2018,BUAKJGbng_kr1-1039,near,9,1.0
 bannerughatta-kunte,kgis_tanks,1120,outline,,0.95
@@ -654,7 +659,8 @@ beratena-agrahara-lake,ktcda,82-BBMP,ward-name,,0.68
 beratena-agrahara-lake,osm,way/560719107,outline,,0.98
 beratena-agrahara-lake,wbc2018,2/12/002/276600/1302864/005,inside,0,
 bettadasanapura-kunte1,empri2018,BUBSBGbdp_gk1-1418,unpaired,,
-bettadasanapura-kunte1,osm,way/1289591437,outline,,0.43
+bettadasanapura-kunte1,kgis_ponds,6028,outline,,1.0
+bettadasanapura-kunte1,osm,way/1289591437,outline,,1.0
 bettadasanapura-kunte2,empri2018,BUBSBGbdp_gk2-1419,unpaired,,
 bettadasanapura-kunte3,empri2018,BUBSBGbdp_ku4-1421,unpaired,,
 bettahalli-kere,atree,683,outline,,
@@ -668,6 +674,7 @@ bettahalsur-kere,osm,way/1174750888,outline,,0.96
 bettahalsur-kere,wbc2018,1/12/002/000002/000108/001,near,15,
 bettahalsur-kunte-1,empri2018,BUBNJLbth_ku1-333,unpaired,,
 bettahalsur-kunte-2,empri2018,BUBNJLbth_ku3-335,unpaired,,
+bettahalsur-kunte-2,kgis_ponds,5742,outline,,1.0
 bettahalsur-kunte-3,empri2018,BUBNJLbth_ku4-336,unpaired,,
 bettahalsur-narayanapura-kunte-newly-created,empri2018,BUBNJLbth_ku5-337,unpaired,,
 bettahalsur-narayanapura-kunte-newly-created,kgis_tanks,897,outline,,1.0
@@ -854,9 +861,11 @@ bilwaradahalli-kere,kgis_tanks,1113,outline,,0.85
 bilwaradahalli-kere,kgis_wetlands,2538,outline,,0.83
 bilwaradahalli-kere,wbc2018,1/12/002/000001/000002/001,inside,0,
 bilwaradahalli-kunte,empri2018,BUAKJGbwd_ku2-1056,unpaired,,
+bilwaradahalli-kunte,kgis_ponds,6183,outline,,1.0
 bimanakuppe-kere,atree,371,outline,,
 bimanakuppe-kere,empri2018,BUBSKGkks_gk2-1241,near,143,0.5
 bingipura-kunte1,empri2018,BUAKJGbin_ku2-1058,unpaired,,
+bingipura-kunte1,kgis_ponds,6151,outline,,1.0
 bingipura-kunte2,empri2018,BUAKJGbin_ku3-1059,unpaired,,
 bingipura-kunte3,empri2018,BUAKJGbin_ku4-1060,unpaired,,
 bingipura-kunte4,empri2018,BUAKJGbin_ku7-1063,unpaired,,
@@ -997,6 +1006,7 @@ carmelarm,landrecords_survey,1910295,survey,,
 carmelarm,osm,way/27993527,outline,,1.0
 carmelarm,wbc2018,2/12/002/276600/1302821/004,near,12,
 chagalatti-kunte-1,empri2018,BUBNJLcgl_ku1-339,unpaired,,
+chagalatti-kunte-1,kgis_ponds,5427,outline,,1.0
 chagalatti-kunte-1,landrecords_survey,19289149,survey,,
 chagalatti-kunte-2,empri2018,BUBNJLcgl_ku2-340,unpaired,,
 chagalatti-kunte-2,kgis_ponds,4771,outline,,1.0
@@ -1318,11 +1328,12 @@ chinnappanahalli-kere1,wq_historic,nwmp-2021:4520,station-code,,
 chinnappanahalli-kere1-2,empri2018,BUBEKRcnp_kr1-682,unpaired,,
 chinnappanahalli-kere1-2,landrecords_survey,1907717,survey,,
 chittekarepalya-lake,atree,965,outline,,
-chokkanahalli-katte,bbmp_lms,68,near,9,1.0
+chokkanahalli-katte,bbmp_lms,68,inside,0,1.0
 chokkanahalli-katte,empri2018,BUBNYHchk_gk1-255,unpaired,,
+chokkanahalli-katte,kgis_ponds,5157,outline,,0.86
 chokkanahalli-katte,landrecords_digital,1925666,survey,,
 chokkanahalli-katte,landrecords_survey,1925666,survey,,
-chokkanahalli-katte,osm,way/1252731180,outline,,0.59
+chokkanahalli-katte,osm,way/1252731180,outline,,1.0
 chokkanahalli-kunte-1,empri2018,BUBNYHchk_ku2-256,unpaired,,
 chokkanahalli-kunte-1,ktcda,158-BBMP,ward-name,,1.0
 chokkanahalli-kunte-1,landrecords_survey,1925649,survey,,
@@ -1584,13 +1595,16 @@ doddabanahalli-kere-2,landrecords_survey,19138104,survey,,
 doddabanahalli-kere-2,wbc2018,1/12/002/000005/000037/001,near,91,
 doddabanahalli-kunte1,empri2018,BUBEBDddb_ku1-821,unpaired,,
 doddabanahalli-kunte2,empri2018,BUBEBDddb_ku2-822,unpaired,,
+doddabanahalli-kunte2,kgis_ponds,4503,outline,,1.0
 doddabanahalli-kunte2,landrecords_survey,1913820,survey,,
 doddabanahalli-kunte3,empri2018,BUBEBDddb_ku3-823,unpaired,,
 doddabanahalli-kunte3,landrecords_survey,1913894,survey,,
 doddabele-kunte1,empri2018,BUBSKGddb_ku1-1187,unpaired,,
 doddabele-kunte2,empri2018,BUBSKGddb_ku2-1188,unpaired,,
+doddabele-kunte2,kgis_ponds,6279,outline,,1.0
 doddabele-small-2r,atree,627,outline,,
 doddabettahalli-kunte-1,empri2018,BUBNYHddb_ku1-259,unpaired,,
+doddabettahalli-kunte-1,osm,way/1507518076,outline,,1.0
 doddabettahalli-kunte-2,empri2018,BUBNYHddb_ku2-260,unpaired,,
 doddabidarakallu-kunte1,empri2018,BUBNYPdbk_gk1-96,unpaired,,
 doddabidarakallu-kunte10,empri2018,BUBNYPdbk_ku11-106,unpaired,,
@@ -1605,6 +1619,7 @@ doddabidarakallu-kunte6,empri2018,BUBNYPdbk_ku7-102,unpaired,,
 doddabidarakallu-kunte7,empri2018,BUBNYPdbk_ku8-103,unpaired,,
 doddabidarakallu-kunte8,empri2018,BUBNYPdbk_ku9-104,unpaired,,
 doddabidarakallu-kunte9,empri2018,BUBNYPdbk_ku10-105,unpaired,,
+doddabidarakallu-kunte9,osm,way/1384707572,outline,,1.0
 doddabidarakallu-lake,atree,252,outline,,
 doddabidarakallu-lake,bbmp_custody,147-0,survey,,
 doddabidarakallu-lake,bbmp_custody,147-1,survey,,
@@ -1634,7 +1649,7 @@ doddagubbi-kere,kspcb,5833,inside,0,1.0
 doddagubbi-kere,landrecords_survey,1917338,survey,,
 doddagubbi-kere,osm,way/35927597,outline,,0.98
 doddagubbi-kunte1,empri2018,BUBEBDdgb_gk2-826,unpaired,,
-doddagubbi-kunte1,kgis_tanks,796,outline,,0.39
+doddagubbi-kunte1,kgis_tanks,796,outline,,1.0
 doddagubbi-kunte2,empri2018,BUBEBDdgb_ku3-827,unpaired,,
 doddakallasandra-katte,empri2018,BUBSUHdks_gk2-1326,unpaired,,
 doddakallasandra-katte,landrecords_survey,1861418,survey,,
@@ -1781,6 +1796,7 @@ dommasandra-kunte-1,empri2018,BUAKSPdms_ku1-935,unpaired,,
 dommasandra-kunte-1,landrecords_survey,18978195,survey,,
 dommasandra-kunte-10,empri2018,BUAKSPdms_ku11-945,unpaired,,
 dommasandra-kunte-11,empri2018,BUAKSPdms_ku12-946,unpaired,,
+dommasandra-kunte-11,kgis_tanks,574,outline,,1.0
 dommasandra-kunte-12,empri2018,BUAKSPdms_ku13-947,unpaired,,
 dommasandra-kunte-13,empri2018,BUAKSPdms_ku14-948,unpaired,,
 dommasandra-kunte-14,empri2018,BUAKSPdms_ku15-949,unpaired,,
@@ -2025,6 +2041,7 @@ goravigere-kunte1,osm,way/1169237664,outline,,1.0
 goravigere-kunte2,empri2018,BUBEBDgrv_gk2-830,unpaired,,
 goravigere-kunte2,landrecords_survey,1914062,survey,,
 goravigere-kunte3,empri2018,BUBEBDgrv_ku3-831,unpaired,,
+goravigere-kunte3,kgis_ponds,593,outline,,1.0
 goravigere-kunte4,empri2018,BUBEBDgrv_ku4-832,unpaired,,
 gottamaranahalli-lake,atree,967,outline,,
 gottamaranahalli-lake,empri2018,BUAKSPgot_kr1-955,near,23,1.0
@@ -2090,12 +2107,12 @@ govt-gulimangalada-lake,wbc2018,1/12/002/000001/000060/001,near,43,
 govt-karabu,atree,263,outline,,
 govt-karabu,empri2018,BUBNYPkrv_kr1-140,near,7,1.0
 govt-karabu-katte,empri2018,BUAKJGbin_ku5-1061,unpaired,,
-govt-karabu-katte,kgis_tanks,1094,outline,,0.32
+govt-karabu-katte,kgis_tanks,1077,outline,,1.0
 govt-katte,atree,195,outline,,
 govt-katte,empri2018,BUBNJLdyk_kr3-347,near,3,1.0
 govt-katte,kgis_ponds,5000,outline,,0.98
 govt-kere,empri2018,BUBSBGbdp_gk3-1420,unpaired,,
-govt-kere,osm,way/1178402473,outline,,0.38
+govt-kere,osm,way/1178402473,outline,,1.0
 govt-kere-1,atree,211,outline,,
 govt-kere-1,empri2018,BUAKSPrny_kr1-1008,inside,0,0.0
 govt-kere-1,kgis_tanks,706,outline,,0.96
@@ -2303,6 +2320,7 @@ halasahalli-thippasandra-kunte-3,empri2018,BUAKSPhht_gk3-960,unpaired,,
 halasahalli-thippasandra-kunte-3,kgis_ponds,4340,outline,,0.78
 halasahalli-thippasandra-kunte-4,empri2018,BUAKSPhht_gk5-962,unpaired,,
 halasahalli-thippasandra-kunte-5,empri2018,BUAKSPhht_ku1-963,unpaired,,
+halasahalli-thippasandra-kunte-5,osm,way/1419396938,outline,,1.0
 haldenahalli-lake,atree,1141,outline,,
 haldenahalli-lake,kgis_tanks,267,outline,,0.99
 haldenahalli-lake,osm,way/1452539675,outline,,0.93
@@ -2498,10 +2516,11 @@ herohalli-kunte3,empri2018,BUBNYPher_ku5-118,unpaired,,
 herohalli-kunte3,landrecords_survey,1852052,survey,,
 herohalli-kunte4,empri2018,BUBNYPher_ku6-119,unpaired,,
 herohalli-kunte4,landrecords_survey,1852066,survey,,
+herohalli-kunte4,osm,way/1123272051,outline,,1.0
 herohalli-kunte5,empri2018,BUBNYPher_ku7-120,unpaired,,
 herohalli-kunte5,landrecords_survey,1852070,survey,,
 herohalli-kunte6-newly-created,empri2018,BUBNYPher_gk8-121,unpaired,,
-herohalli-kunte6-newly-created,osm,way/1123272056,outline,,0.86
+herohalli-kunte6-newly-created,osm,way/1123272056,outline,,1.0
 herohalli-lake,atree,253,outline,,
 herohalli-lake,bbmp_lms,127,near,38,1.0
 herohalli-lake,empri2018,BUBNYPher_kr1-114,near,12,1.0
@@ -2677,7 +2696,7 @@ hosahalli-kunte-3,empri2018,BUAKSPhsh_ku3-972,unpaired,,
 hosahalli-kunte-3,landrecords_survey,1956812,survey,,
 hosahalli-kunte-4,empri2018,BUAKSPhsh_ku4-973,unpaired,,
 hosahalli-kunte-5,empri2018,BUAKSPhsh_ku6-975,unpaired,,
-hosahalli-kunte-5,kgis_tanks,581,outline,,0.54
+hosahalli-kunte-5,kgis_tanks,581,outline,,1.0
 hosahalli-kunte-6,empri2018,BUAKSPhsh_ku7-976,unpaired,,
 hosahalli-kunte-6,kgis_tanks,563,outline,,1.0
 hosahalli-kunte-6,landrecords_survey,200857,survey,,
@@ -2794,6 +2813,7 @@ hullahalli-kunte1,empri2018,BUAKJGhul_gk2-1081,unpaired,,
 hullahalli-kunte1,landrecords_survey,1892135,survey,,
 hullahalli-kunte1,wbc2018,1/12/002/000001/000018/002,near,91,
 hullahalli-kunte2,empri2018,BUAKJGhul_gk4-1083,unpaired,,
+hullahalli-kunte2,kgis_ponds,6105,outline,,1.0
 hullahalli-kunte2,landrecords_survey,1892193,survey,,
 hullahalli-kunte3,empri2018,BUAKJGhul_ku5-1084,unpaired,,
 hullahalli-kunte3,kgis_wetlands,2518,outline,,0.91
@@ -3040,8 +3060,8 @@ jogipalya-low-kere,atree,740,outline,,
 jogiplya-kere,atree,738,outline,,
 jogiplya-kere,osm,way/1346869142,outline,,0.97
 jomala-kunte,empri2018,BUBNJLbth_ku6-338,unpaired,,
-jomala-kunte,kgis_tanks,873,outline,,0.43
-jomala-kunte,osm,way/1174629010,outline,,0.34
+jomala-kunte,kgis_tanks,873,outline,,1.0
+jomala-kunte,osm,way/1174629010,outline,,0.7
 junnasandra-kere,atree,129,outline,,
 junnasandra-kere,empri2018,BUBEVRjns_kr1-555,inside,0,1.0
 junnasandra-kere,ktcda,33-BBMP,ward-name,,1.0
@@ -3216,6 +3236,7 @@ kalena-agrahara-govt-lake,osm,relation/19509702,outline,,0.96
 kalena-agrahara-govt-lake,wbc2018,2/12/002/276600/1302864/010,near,40,
 kalena-agrahara-govt-lake,wq_historic,nwmp-2021:3616,station-code,,
 kalena-agrahara-kunte,empri2018,BUBSBGkla_ku2-1455,unpaired,,
+kalena-agrahara-kunte,kgis_ponds,6047,outline,,1.0
 kalena-agrahara-kunte,landrecords_survey,1870949,survey,,
 kalenahalli-kere,atree,191,outline,,
 kalenahalli-kere,empri2018,BUBNHGkln_kr1-392,near,2,1.0
@@ -3241,6 +3262,7 @@ kalkere-kere,wq_historic,nwmp-2021:3607,station-code,,
 kalkere-kunte1,empri2018,BUBEKRklk_ku2-712,unpaired,,
 kalkere-kunte2,empri2018,BUBEKRklk_kr3-713,unpaired,,
 kalkere-kunte3,empri2018,BUBEKRklk_ku4-714,unpaired,,
+kalkere-kunte3,osm,way/1512948235,outline,,1.0
 kalkere-kunte4,empri2018,BUBEKRklk_ku5-715,unpaired,,
 kalkere-sarkari-kunte,atree,91,outline,,
 kalkere-sarkari-kunte,empri2018,BUAKJGklk_kr1-1087,near,14,1.0
@@ -3256,7 +3278,7 @@ kallabalu-lake,kgis_wetlands,2353,outline,,0.99
 kallabalu-lake,osm,way/1120171566,outline,,0.89
 kallabalu-lake,wbc2018,1/12/002/000001/000022/001,near,30,
 kallakatte,empri2018,BUBNHGrjk_gk1-434,unpaired,,
-kallakatte,kgis_tanks,898,outline,,0.45
+kallakatte,kgis_tanks,898,outline,,1.0
 kallakatte,landrecords_survey,1937361,survey,,
 kallakere-lake-land,atree,242,outline,,
 kallakere-lake-land,empri2018,BUAKJGklk_kr2-1088,near,6,1.0
@@ -3272,8 +3294,8 @@ kallu-kunte-lake,atree,1255,outline,,
 kalludevanahalli-lake,atree,1261,outline,,
 kalludevanahalli-lake,osm,way/1479825645,outline,,0.92
 kallukere-kunte,empri2018,BUAKJGklk_gk3-1089,unpaired,,
-kallukere-kunte,kgis_ponds,6103,outline,,0.98
-kallukere-kunte,osm,relation/20959896,outline,,1.0
+kallukere-kunte,kgis_ponds,6103,outline,,1.0
+kallukere-kunte,osm,relation/20959896,outline,,0.98
 kallukunte-lake-2,atree,1256,outline,,
 kallupallya-kere,atree,360,outline,,
 kamakshipura-lake,atree,1047,outline,,
@@ -3299,7 +3321,7 @@ kambhipura-govt-karabu-kere-1,osm,way/1114982303,outline,,0.8
 kambhipura-govt-karabu-kere-1,wbc2018,1/12/002/000003/000001/001,near,21,
 kambhipura-govt-karabu-kere-2,atree,470,outline,,
 kambipura-kunte1,empri2018,BUBSKGkmp_kr2-1199,unpaired,,
-kambipura-kunte1,kgis_tanks,1231,outline,,0.84
+kambipura-kunte1,kgis_tanks,1231,outline,,1.0
 kambipura-kunte2,empri2018,BUBSKGkmp_ku4-1201,unpaired,,
 kambipura-kunte3,empri2018,BUBSKGkmp_ku5-1202,unpaired,,
 kambipura-kunte3,kgis_wetlands,254,outline,,1.0
@@ -3378,6 +3400,7 @@ kannaikana-agrahara-kere,kgis_tanks,1046,outline,,1.0
 kannaikana-agrahara-kere,osm,way/675519796,outline,,1.0
 kannaikana-agrahara-kunte,empri2018,BUAKJGkka_ku2-1091,unpaired,,
 kannalli-katte-1-newly-created,empri2018,BUBNYPkan_gk6-134,unpaired,,
+kannalli-katte-1-newly-created,kgis_tanks,1209,outline,,1.0
 kannalli-katte-2-newly-created,empri2018,BUBNYPkan_gk11-139,unpaired,,
 kannalli-kere,atree,521,outline,,
 kannalli-kere,bbmp_lms,213,near,46,1.0
@@ -3531,9 +3554,10 @@ katamnalluru-kunte1,empri2018,BUBEBDktm_ku1-872,unpaired,,
 katamnalluru-kunte2,empri2018,BUBEBDktm_ku3-874,unpaired,,
 kathriguppe-kunte-1,empri2018,BUAKSPktg_ku1-997,unpaired,,
 kathriguppe-kunte-2,empri2018,BUAKSPktg_ku2-998,unpaired,,
-kathriguppe-kunte-2,osm,way/1488662374,outline,,0.32
+kathriguppe-kunte-2,kgis_ponds,3400,outline,,1.0
+kathriguppe-kunte-2,osm,way/1488662374,outline,,1.0
 kathriguppe-kunte-3,empri2018,BUAKSPktg_ku3-999,unpaired,,
-kathriguppe-kunte-3,kgis_ponds,3373,outline,,0.85
+kathriguppe-kunte-3,kgis_ponds,3373,outline,,1.0
 kathriguppe-kunte-4,empri2018,BUAKSPktg_gk4-1000,unpaired,,
 katigenahalli-n,atree,612,outline,,
 katigenahalli-n,osm,way/1240406250,outline,,0.95
@@ -3701,7 +3725,7 @@ kethamaranahalli-kunte2,empri2018,BUBNYPktm_ku4-147,unpaired,,
 kethamaranahalli-kunte2,landrecords_survey,4000563,survey,,
 kethamaranahalli-kunte3,empri2018,BUBNYPktm_ku5-148,unpaired,,
 kethohalli-kunte,empri2018,BUBSTKkth_gk3-1128,unpaired,,
-kethohalli-kunte,kgis_tanks,108,outline,,0.33
+kethohalli-kunte,kgis_tanks,108,outline,,1.0
 ketohalli-kere,atree,353,outline,,
 ketohalli-kere,empri2018,BUBSTKkth_kr2-1127,near,14,0.24
 ketohalli-kere,kgis_tanks,131,outline,,0.99
@@ -3715,15 +3739,17 @@ ketohalli-kere-s,empri2018,BUBSTKknp_gk1-1129,near,67,0.62
 ketohalli-kere-s,kgis_tanks,121,outline,,0.35
 khajisonnenahalli-kunte1,empri2018,BUBEBDkjs_gk1-848,unpaired,,
 khajisonnenahalli-kunte10,empri2018,BUBEBDkjs_ku10-857,unpaired,,
-khajisonnenahalli-kunte10,osm,way/1194660534,outline,,0.99
+khajisonnenahalli-kunte10,kgis_ponds,4496,outline,,1.0
+khajisonnenahalli-kunte10,osm,way/1175428175,outline,,1.0
 khajisonnenahalli-kunte2,empri2018,BUBEBDkjs_gk2-849,unpaired,,
 khajisonnenahalli-kunte3,empri2018,BUBEBDkjs_ku3-850,unpaired,,
-khajisonnenahalli-kunte3,kgis_ponds,570,outline,,0.85
+khajisonnenahalli-kunte3,kgis_ponds,570,outline,,1.0
 khajisonnenahalli-kunte4,atree,522,outline,,
 khajisonnenahalli-kunte4,empri2018,BUBEBDkjs_kr7-854,near,10,0.5
 khajisonnenahalli-kunte4,kgis_ponds,4573,outline,,0.93
 khajisonnenahalli-kunte4-2,empri2018,BUBEBDkjs_ku4-851,unpaired,,
 khajisonnenahalli-kunte5,empri2018,BUBEBDkjs_ku5-852,unpaired,,
+khajisonnenahalli-kunte5,kgis_ponds,576,outline,,1.0
 khajisonnenahalli-kunte6,empri2018,BUBEBDkjs_ku6-853,unpaired,,
 khajisonnenahalli-kunte6,landrecords_survey,19137108,survey,,
 khajisonnenahalli-kunte8,empri2018,BUBEBDkjs_ku8-855,unpaired,,
@@ -3900,6 +3926,8 @@ kolur-kere-2,atree,1277,outline,,
 koluru-gururayanapura-kunte2,empri2018,BUBSTKkgp_ku2-1137,unpaired,,
 koluru-gururayanapura-kunte2,wbc2018,1/12/002/000003/000078/002,near,50,
 koluru-gururayanapura-kunte3,empri2018,BUBSTKkgp_ku3-1138,unpaired,,
+koluru-gururayanapura-kunte3,kgis_tanks,127,outline,,1.0
+koluru-gururayanapura-kunte3,osm,way/675486038,outline,,0.97
 koluru-kunte-1,empri2018,BUBSTKklr_ku1-1130,unpaired,,
 koluru-kunte-1,landrecords_survey,1880625,survey,,
 koluru-kunte-2,empri2018,BUBSTKklr_ku2-1131,unpaired,,
@@ -3934,10 +3962,11 @@ kommaghatta-kunte,landrecords_survey,18724106,survey,,
 kommasandra-kere-1,empri2018,BUAKSPkms_kr3-989,unpaired,,
 kommasandra-kunte-1,empri2018,BUAKSPkms_ku1-987,unpaired,,
 kommasandra-kunte-2,empri2018,BUAKSPkms_ku2-988,unpaired,,
-kommasandra-kunte-2,kgis_tanks,559,outline,,0.75
+kommasandra-kunte-2,kgis_tanks,559,outline,,1.0
 kommasandra-kunte-2,landrecords_survey,19023133,survey,,
 kommasandra-kunte-3,empri2018,BUAKSPkms_ku4-990,unpaired,,
 kommasandra-kunte-3,landrecords_survey,1902320,survey,,
+kommasandra-kunte-3,osm,way/1421391125,outline,,1.0
 kommasandra-kunte-4,empri2018,BUAKSPkms_gk6-992,unpaired,,
 kommasandra-kunte-4,landrecords_survey,19023152,survey,,
 kommasandra-kunte-5,empri2018,BUAKSPkms_ku7-993,unpaired,,
@@ -4084,7 +4113,8 @@ krishnaraja-puram-kere,wbc2018,2/12/002/253189/026026/002,near,16,
 krishnaraja-puram-kere-2-newly-created,empri2018,BUBEKRkrp_kr4-729,unpaired,,
 krishnaraja-puram-kunte,empri2018,BUBEKRkrp_ku3-728,unpaired,,
 krishnarajapura-karabu-katte,empri2018,BUBNHGkrp_kr2-404,unpaired,,
-krishnarajapura-karabu-katte,wbc2018,1/12/002/000002/000074/001,near,22,
+krishnarajapura-karabu-katte,osm,way/1243235925,outline,,1.0
+krishnarajapura-karabu-katte,wbc2018,1/12/002/000002/000074/001,near,78,
 krishnarajapura-kunte,empri2018,BUBNHGkrp_ku1-403,unpaired,,
 krishnarajapuram-kere,atree,59,outline,,
 krishnarajapuram-kere,bbmp_lms,174,inside,0,0.89
@@ -4135,6 +4165,7 @@ kumbalagodu-gollahalli-kunte1,landrecords_survey,1876241,survey,,
 kumbalagodu-gollahalli-kunte2,empri2018,BUBSKGkgl_ku3-1256,unpaired,,
 kumbalagodu-gollahalli-kunte2,kgis_ponds,6300,outline,,1.0
 kumbalagodu-gollahalli-kunte3,empri2018,BUBSKGkgl_ku4-1257,unpaired,,
+kumbalagodu-gollahalli-kunte3,kgis_ponds,6301,outline,,1.0
 kumbalagodu-gollahalli-kunte3,landrecords_survey,1876240,survey,,
 kumbalagodu-kere,atree,344,outline,,
 kumbalagodu-kere,kgis_tanks,1238,outline,,0.82
@@ -4169,7 +4200,7 @@ kumbarakere,landrecords_survey,18897202,survey,,
 kumbarakere,osm,way/378405407,outline,,0.95
 kumbenaagrahara-kunte,empri2018,BUBEBDkba_gk1-890,unpaired,,
 kumbenaagrahara-kunte,landrecords_survey,1914624,survey,,
-kumbenaagrahara-kunte,osm,way/1456248525,outline,,0.54
+kumbenaagrahara-kunte,osm,way/1456248525,outline,,1.0
 kun-madiwala-lake,atree,1148,outline,,
 kun-madiwala-lake,kgis_tanks,368,outline,,1.0
 kundalahalli-kere,atree,139,outline,,
@@ -4335,6 +4366,7 @@ linganahalli-kere,mi_tanks,KA21020049,unique-name,,
 linganahalli-kere,osm,way/1174697930,outline,,0.97
 linganahalli-kunte-1,empri2018,BUBNHGlgn_ku1-407,unpaired,,
 linganahalli-kunte-1,landrecords_survey,193947,survey,,
+linganahalli-kunte-1,osm,way/1173734194,outline,,1.0
 linganahalli-kunte-2,empri2018,BUBNHGlgn_ku3-409,unpaired,,
 lingapura-lake,atree,550,outline,,
 lingapura-lake,osm,way/1197259266,outline,,1.0
@@ -4343,6 +4375,7 @@ lingapura-lake-3,atree,990,outline,,
 lingapura-lake-3,kgis_tanks,143,outline,,0.9
 lingapura-lake-3,wbc2018,1/12/002/000003/000008/001,near,26,
 lingaraja-sagara-kunte-1,empri2018,BUBNHGlrs_gk1-411,unpaired,,
+lingaraja-sagara-kunte-1,kgis_ponds,5890,outline,,1.0
 lingaraja-sagara-kunte2,empri2018,BUBNHGlrs_ku2-412,unpaired,,
 lingaraja-sagara-kunte2,landrecords_survey,1935822,survey,,
 lingarajapura-lake,atree,825,outline,,
@@ -4503,9 +4536,9 @@ maligondanahalli-kunte1,empri2018,BUBSKGmlg_ku1-1259,unpaired,,
 maligondanahalli-kunte1,landrecords_survey,1873647,survey,,
 maligondanahalli-kunte2,empri2018,BUBSKGmlg_ku3-1261,unpaired,,
 mallammana-katte,empri2018,BUBSKGkom_gk6-1239,unpaired,,
-mallammana-katte,kgis_tanks,1216,outline,,0.92
+mallammana-katte,kgis_tanks,1216,outline,,1.0
 mallammana-katte,landrecords_survey,1872465,survey,,
-mallammana-katte,osm,way/1120291634,outline,,1.0
+mallammana-katte,osm,way/1120291634,outline,,0.92
 mallanayakanahalli-lake,atree,1229,outline,,
 mallanayakanahalli-lake,osm,way/319521051,outline,,0.93
 mallarabanavadi-kere,atree,655,outline,,
@@ -4587,6 +4620,7 @@ mantakurchi-kere,atree,702,outline,,
 mantakurchi-kere,osm,way/1512357739,outline,,0.93
 mantakurchi-low-kere,atree,704,outline,,
 mantapa-kunte,empri2018,BUAKJGmtp_ku2-1096,unpaired,,
+mantapa-kunte,kgis_ponds,6107,outline,,1.0
 mantapa-kunte,landrecords_survey,18910198,survey,,
 maragondanahalli-govt-lake,atree,464,outline,,
 maragondanahalli-govt-lake,empri2018,BUBSKGmrg_kr2-1266,near,4,1.0
@@ -4637,6 +4671,8 @@ marenahalli-kere-2,osm,way/1235996544,outline,,0.46
 marenahalli-kunte-1,empri2018,BUBNJLmrn_ku1-352,unpaired,,
 marenahalli-kunte-2,empri2018,BUBNJLmrn_ku2-353,unpaired,,
 marenahalli-kunte-3,empri2018,BUBNJLmrn_ku4-355,unpaired,,
+marenahalli-kunte-3,kgis_wetlands,11016,outline,,1.0
+marenahalli-kunte-3,osm,way/1457101314,outline,,0.9
 margondanahalli-kere,atree,722,outline,,
 marimakanaha-lake,atree,1215,outline,,
 marimakanaha-lake,osm,way/1173029646,outline,,0.87
@@ -4680,6 +4716,7 @@ mavallipura-kere-se,kgis_tanks,841,outline,,0.63
 mavallipura-kere-se,landrecords_survey,1939027,survey,,
 mavallipura-kere-se,osm,way/1458008253,outline,,0.73
 mavallipura-kunte-2,empri2018,BUBNHGmvp_ku3-424,unpaired,,
+mavallipura-kunte-2,kgis_ponds,5818,outline,,1.0
 mavallipura-kunte-3,empri2018,BUBNHGmvp_ku7-428,unpaired,,
 mavallipura-kunte-3,landrecords_survey,19390123,survey,,
 mavinakunte-lake-2,atree,1199,outline,,
@@ -4960,6 +4997,7 @@ nallurahallikere,wq_historic,dmg-2011:nallurahalli-tank-outlet,unique-name,,
 nallurahallikere,wq_historic,nwmp-2021:4523,station-code,,
 nallurahallin-kunte1,empri2018,BUBEKRnlr_ku2-740,unpaired,,
 nallurahallin-kunte1,landrecords_survey,1907615,survey,,
+nallurahallin-kunte1,osm,way/1511058427,outline,,1.0
 nallurahallin-kunte2,empri2018,BUBEKRnlr_ku3-741,unpaired,,
 nallurahallin-kunte2,landrecords_survey,1907682,survey,,
 nallurhalli-lake,atree,584,outline,,
@@ -5236,11 +5274,13 @@ pattandur-agrahara-kunte1,empri2018,BUBEKRpta_ku1-742,unpaired,,
 pattandur-agrahara-kunte1,landrecords_survey,1908120,survey,,
 pattandur-agrahara-kunte10,empri2018,BUBEKRpta_ku11-752,unpaired,,
 pattandur-agrahara-kunte12,empri2018,BUBEKRpta_ku13-754,unpaired,,
+pattandur-agrahara-kunte12,kgis_ponds,4462,outline,,1.0
 pattandur-agrahara-kunte13,empri2018,BUBEKRpta_ku14-755,unpaired,,
 pattandur-agrahara-kunte4,empri2018,BUBEKRpta_ku4-745,unpaired,,
 pattandur-agrahara-kunte5,empri2018,BUBEKRpta_ku5-746,unpaired,,
 pattandur-agrahara-kunte6,empri2018,BUBEKRpta_ku6-747,unpaired,,
 pattandur-agrahara-kunte7,empri2018,BUBEKRpta_ku7-748,unpaired,,
+pattandur-agrahara-kunte7,kgis_ponds,4460,outline,,1.0
 pattandur-agrahara-kunte8,empri2018,BUBEKRpta_ku9-750,unpaired,,
 pattandur-agrahara-kunte9,empri2018,BUBEKRpta_ku10-751,unpaired,,
 peddanapalya-lake,atree,1006,outline,,
@@ -5350,8 +5390,8 @@ ragihalli-lake,osm,way/28076488,outline,,0.86
 rajaghatta-kere,atree,1296,outline,,
 rajaghatta-kere,osm,way/41667642,outline,,0.81
 rajamahal-kere,empri2018,BUBNBKrjm_kr3-67,unpaired,,
-rajamahal-kere,kgis_tanks,759,outline,,0.43
-rajamahal-kere,osm,way/175293916,outline,,0.33
+rajamahal-kere,kgis_tanks,759,outline,,1.0
+rajamahal-kere,osm,way/175293916,outline,,1.0
 rajamahal-kunte1,empri2018,BUBNBKrjm_ku1-65,unpaired,,
 rajamahal-kunte2,empri2018,BUBNBKrjm_ku2-66,unpaired,,
 rajanakunte-1,empri2018,BUBNHGrjk_ku2-435,unpaired,,
@@ -5475,8 +5515,8 @@ rayasandra-kunte-4,empri2018,BUAKSPrys_ku5-1016,unpaired,,
 rayasandra-kunte-4,landrecords_survey,1904191,survey,,
 rayasandra-lake-2,atree,977,outline,,
 rocherenvu,empri2018,BUAKSPkms_kr5-991,unpaired,,
+rocherenvu,kgis_tanks,558,outline,,1.0
 rocherenvu,landrecords_survey,1902394,survey,,
-rocherenvu,osm,way/1421391125,outline,,0.3
 s-golahalli-kere,atree,324,outline,,
 s-golahalli-kere,kgis_tanks,95,outline,,0.87
 s-golahalli-kere,kgis_wetlands,2773,outline,,0.76
@@ -5502,7 +5542,6 @@ sakalavara-kunte,empri2018,BUAKJGskv_gk2-1105,unpaired,,
 sakalavara-kunte,landrecords_survey,1892368,survey,,
 sakkare-gollahalli-lake,atree,1227,outline,,
 salindradoddi-lake,atree,959,outline,,
-salindradoddi-lake,kgis_tanks,1106,outline,,0.91
 salindradoddi-lake,osm,way/128310896,outline,,0.87
 sametanahali-lake,atree,868,outline,,
 sametanahali-lake,osm,way/448900751,outline,,0.97
@@ -5577,6 +5616,7 @@ sasalu-lake,osm,way/1172657759,outline,,0.93
 sasiveghatta-kunte-1,empri2018,BUBNHGssv_ku1-444,unpaired,,
 sasiveghatta-kunte-2,empri2018,BUBNHGssv_ku2-445,unpaired,,
 sathanoor-kunte-5,empri2018,BUBNJLstn_ku5-362,unpaired,,
+sathanoor-kunte-5,kgis_ponds,5275,outline,,1.0
 sathanoor-kunte-7,empri2018,BUBNJLstn_kr7-364,unpaired,,
 sathanoor-kunte-7,kgis_ponds,5222,outline,,1.0
 sathanur-kere,atree,268,outline,,
@@ -5605,7 +5645,7 @@ seegihalli-katte-1,landrecords_survey,1914313,survey,,
 seegihalli-katte-2,empri2018,BUBEBDseg_gk4-904,unpaired,,
 seegihalli-katte-2,landrecords_survey,19143118,survey,,
 seegihalli-kunte1,empri2018,BUBEBDseg_ku1-901,unpaired,,
-seegihalli-kunte1,kgis_ponds,544,outline,,0.74
+seegihalli-kunte1,kgis_ponds,544,outline,,1.0
 seegihalli-kunte2,empri2018,BUBEBDseg_ku2-902,unpaired,,
 settyhalli-kunte1,empri2018,BUBNYPsty_ku1-217,unpaired,,
 settyhalli-kunte2,empri2018,BUBNYPsty_ku2-218,unpaired,,
@@ -5716,6 +5756,7 @@ singahalli-lake,kgis_wetlands,4499,outline,,0.81
 singahalli-lake,osm,way/1177759452,outline,,1.0
 singanayakanahalli-katte-2,empri2018,BUBNYHsny_gk3-317,unpaired,,
 singanayakanahalli-kunte-1,empri2018,BUBNYHsny_ku2-316,unpaired,,
+singanayakanahalli-kunte-1,kgis_ponds,5511,outline,,1.0
 singanayakayahalli-katte-1,empri2018,BUBNYHsny_gk1-315,unpaired,,
 singanayakayahalli-kere,atree,18,outline,,
 singanayakayahalli-kere,empri2018,BUBNYHsny_kr4-318,near,35,0.81
@@ -5764,7 +5805,7 @@ singena-agrahara-govt-sanna-kere,landrecords_survey,19028128,survey,,
 singena-agrahara-govt-sanna-kere,osm,way/1066603079,outline,,0.93
 singena-agrahara-govt-sanna-kere,wbc2018,1/12/002/000001/000069/001,near,47,
 singena-agrahara-kunte-1,empri2018,BUAKSPsga_gk2-1018,unpaired,,
-singena-agrahara-kunte-1,kgis_tanks,556,outline,,0.44
+singena-agrahara-kunte-1,kgis_tanks,556,outline,,1.0
 singena-agrahara-kunte-2,empri2018,BUAKSPsga_ku3-1019,unpaired,,
 singena-agrahara-kunte-3,empri2018,BUAKSPsga_ku4-1020,unpaired,,
 singena-agrahara-kunte-4,empri2018,BUAKSPsga_gk5-1021,unpaired,,
@@ -6136,7 +6177,7 @@ thammenahalli-kunte-1,empri2018,BUBNDPtmn_ku1-496,unpaired,,
 thammenahalli-kunte-2,empri2018,BUBNDPtmn_ku2-497,unpaired,,
 thannisandra-kunte1,empri2018,BUBEKRtns_gk1-769,unpaired,,
 thannisandra-kunte2,empri2018,BUBEKRtns_ku2-770,unpaired,,
-thannisandra-kunte2,osm,way/1545450033,outline,,0.96
+thannisandra-kunte2,osm,way/1545450033,outline,,1.0
 thigala-choudenahalli-kunte-1,empri2018,BUAKSPtgc_ku1-1023,unpaired,,
 thigala-choudenahalli-kunte-2,empri2018,BUAKSPtgc_ku3-1025,unpaired,,
 thigala-choudenahalli-kunte-3,empri2018,BUAKSPtgc_ku4-1026,unpaired,,
@@ -6180,7 +6221,7 @@ thupinkere,landrecords_survey,1927050,survey,,
 thupinkere,osm,way/1254929807,outline,,1.0
 thupinkere,wbc2018,1/12/002/000002/000086/001,inside,0,
 thurahalli-kunte,empri2018,BUBSUHtur_gk1-1368,unpaired,,
-thurahalli-kunte,kgis_ponds,6053,outline,,0.93
+thurahalli-kunte,kgis_ponds,6053,outline,,1.0
 tigalara-chowddenahalli-govt-karabukere,atree,213,outline,,
 tigalara-chowddenahalli-govt-karabukere,empri2018,BUAKSPtgc_kr2-1024,near,2,1.0
 tigalara-chowddenahalli-govt-karabukere,kgis_tanks,703,outline,,0.98
@@ -6320,10 +6361,12 @@ uttarsipalya-kere,kspcb,4505,inside,0,0.12
 uttarsipalya-kere,osm,way/41668782,outline,,0.9
 uttarsipalya-kere,wq_historic,nwmp-2021:4505,station-code,,
 vabasandra-kunte1,empri2018,BUAKJGvbs_gk1-1106,unpaired,,
-vabasandra-kunte1,kgis_tanks,1097,outline,,0.33
+vabasandra-kunte1,kgis_tanks,1097,outline,,1.0
 vabasandra-kunte1,landrecords_survey,1892815,survey,,
+vabasandra-kunte1,osm,way/1360684993,outline,,1.0
 vabasandra-kunte2,empri2018,BUAKJGvbs_ku3-1108,unpaired,,
 vabasandra-kunte3,empri2018,BUAKJGvbs_ku4-1109,unpaired,,
+vabasandra-kunte3,kgis_ponds,6128,outline,,1.0
 vabasandra-kunte3,landrecords_survey,1892831,survey,,
 vabasandra-kunte4,empri2018,BUAKJGvbs_ku5-1110,unpaired,,
 vabasandra-lake,atree,1093,outline,,
@@ -6444,7 +6487,7 @@ varthur-lake,osm,way/1463892251,outline,,1.0
 varthur-lake,wikidata,Q34933119,inside,0,0.92
 varthur-lake,wq_historic,nwmp-2021:3608,station-code,,
 varthuru-kunte1,empri2018,BUBEVRvrt_ku1-642,unpaired,,
-varthuru-kunte1,osm,way/1487667119,outline,,0.52
+varthuru-kunte1,osm,way/1487667119,outline,,1.0
 varthuru-kunte10,empri2018,BUBEVRvrt_ku10-651,unpaired,,
 varthuru-kunte2,empri2018,BUBEVRvrt_ku2-643,unpaired,,
 varthuru-kunte3,empri2018,BUBEVRvrt_ku3-644,unpaired,,

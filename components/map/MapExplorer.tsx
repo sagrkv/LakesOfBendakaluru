@@ -45,6 +45,7 @@ export default function MapExplorer() {
   }, [lakes]);
   const stats = lakes ? `${formatCount(lakes.length)} lakes on the map.` : null;
   const gone = data.status === "ready" ? data.gone : null;
+  const missing = data.status === "ready" ? data.missing : null;
   const rows = useMemo(() => (lakes && collection ? rank(collection, lakes, here) : null), [lakes, collection, here]);
   const members = useMemo(() => rows?.map((row) => row.lake.id) ?? null, [rows]);
   const selected = (selectedId && byId.get(selectedId)) || null;
@@ -168,6 +169,7 @@ export default function MapExplorer() {
         <SidePanel
           stats={stats}
           gone={gone}
+          missing={missing}
           index={index}
           failed={data.status === "error"}
           counts={counts}
@@ -221,6 +223,7 @@ export default function MapExplorer() {
         <PhoneDock
           stats={stats}
           gone={gone}
+          missing={missing}
           ready={Boolean(lakes)}
           onChoose={choose}
           card={selected ? <LakeCard lake={selected} onClose={close} floating={false} /> : null}

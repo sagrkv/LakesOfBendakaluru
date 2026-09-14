@@ -92,9 +92,18 @@ export default function Title({
       ) : null}
       {line ? <p className="mt-2 max-w-[65ch]">{line}</p> : null}
 
-      {lake.location?.point ? (
+      {/* The map draws only lakes that exist and have a shape; the others live on their own pages. */}
+      {lake.status !== "exists" ? (
+        <Link href="/once-upon-a-kere" className="button-ink mt-8 text-[28px] md:mt-10 md:text-[38px]">
+          See the lakes that disappeared
+        </Link>
+      ) : lake.location?.hasOutline ? (
         <Link href={`/map#${lake.id}`} className="button-ink mt-8 text-[28px] md:mt-10 md:text-[38px]">
           See it on the map
+        </Link>
+      ) : lake.location?.point ? (
+        <Link href="/missing-lakes" className="button-ink mt-8 text-[28px] md:mt-10 md:text-[38px]">
+          See the lakes no map draws
         </Link>
       ) : (
         <p className="missing mt-8">Not on the map: no location on record.</p>

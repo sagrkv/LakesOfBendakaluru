@@ -5,7 +5,7 @@ import { valleyColorExpression } from "@/lib/valleys";
  * Lakes are flat valley paper with a thin ink edge, laid on the same satellite view as the
  * lake pages: turned grey and pushed toward the cream table. The edge of Bengaluru Urban and
  * Bengaluru North districts is a solid ink line, the Greater Bengaluru city limit a dashed one.
- * Disappeared lakes are not drawn; they have their own page.
+ * Only lakes that exist and have a shape are drawn: disappeared lakes, and lakes no map draws, have their own pages.
  * Colours are the direction's table, ink and shadow (docs/brand/direction.md).
  */
 
@@ -16,7 +16,7 @@ const SHADOW = "#5A3B12";
 export const CITY: [number, number] = [77.594, 12.972];
 
 /** Layers a tap or hover can land on, top first. */
-export const TAP_LAYERS = ["spot", "lake-fill", "spot-rest", "lake-rest"];
+export const TAP_LAYERS = ["lake-fill", "lake-rest"];
 
 const EMPTY: GeoJSON.FeatureCollection = { type: "FeatureCollection", features: [] };
 
@@ -30,8 +30,6 @@ export function collectionFilters(members: string[] | null) {
   return {
     lakeLive: (members ? ["all", standing, isMember] : standing) as FilterSpecification,
     lakeRest: (members ? ["all", standing, ["!", isMember]] : nothing) as FilterSpecification,
-    pointLive: (members ? isMember : ["!=", id, ""]) as FilterSpecification,
-    pointRest: (members ? ["!", isMember] : nothing) as FilterSpecification,
   };
 }
 
@@ -70,7 +68,6 @@ export function mapStyle(): StyleSpecification {
         data: "/data/lakes.geojson",
         attribution: '<a href="/sources">Lake outlines ATREE-CSEI, CC BY</a>',
       },
-      spots: { type: "geojson", data: EMPTY },
       me: { type: "geojson", data: EMPTY },
     },
     layers: [
@@ -117,39 +114,9 @@ export function mapStyle(): StyleSpecification {
         paint: { "line-color": INK, "line-opacity": 0.75, "line-width": byZoom(9, 0.3, 14, 1) },
       },
 
-      {
-        id: "spot-rest",
-        type: "circle",
-        source: "spots",
-        filter: nothing,
-        paint: { "circle-color": paper, "circle-opacity": 0.22, "circle-radius": byZoom(9, 2, 15, 5) },
-      },
-      {
-        id: "spot",
-        type: "circle",
-        source: "spots",
-        paint: {
-          "circle-color": paper,
-          "circle-radius": byZoom(9, 2, 15, 5),
-          "circle-stroke-color": INK,
-          "circle-stroke-width": 0.75,
-        },
-      },
 
       { id: "lake-hover", type: "line", source: "lakes", filter: nothing, paint: { "line-color": INK, "line-width": 2 } },
       { id: "lake-selected", type: "line", source: "lakes", filter: nothing, paint: { "line-color": INK, "line-width": 3 } },
-      ...(["spots"] as const).map((source) => ({
-        id: `${source}-selected`,
-        type: "circle" as const,
-        source,
-        filter: nothing,
-        paint: {
-          "circle-opacity": 0,
-          "circle-radius": byZoom(9, 6, 15, 11),
-          "circle-stroke-color": INK,
-          "circle-stroke-width": 3,
-        },
-      })),
 
       {
         id: "me",

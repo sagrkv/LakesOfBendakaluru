@@ -11,6 +11,7 @@ import type { SearchIndex } from "./search";
 type Props = {
   stats: string | null;
   gone: number | null;
+  missing: number | null;
   index: SearchIndex | null;
   failed: boolean;
   counts: Partial<Record<CollectionKey, number>> | null;
@@ -21,7 +22,7 @@ type Props = {
 };
 
 /** The laptop layout: a fixed 400 px panel left of the map. */
-export default function SidePanel({ stats, gone, index, failed, counts, onChoose, onPick, list }: Props) {
+export default function SidePanel({ stats, gone, missing, index, failed, counts, onChoose, onPick, list }: Props) {
   return (
     <aside className="flex h-full w-[400px] shrink-0 flex-col border-r border-rule bg-table">
       <div className="px-6 pt-6 pb-6">
@@ -29,7 +30,7 @@ export default function SidePanel({ stats, gone, index, failed, counts, onChoose
           Lakes of Bendakaluru
         </Link>
         <p className={`label mt-2 text-missing ${stats ? "" : "invisible"}`}>
-          {stats ?? "Counting the lakes"} <GoneLink gone={gone} />
+          {stats ?? "Counting the lakes"} <GoneLink gone={gone} missing={missing} />
         </p>
         <div className="mt-4">
           <SearchBox index={index} failed={failed} onPick={onPick} />

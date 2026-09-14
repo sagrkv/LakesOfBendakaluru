@@ -57,6 +57,8 @@ Site outputs:
 | `city.geojson` | the Greater Bengaluru city limit: the 369 wards of the 2025 ward map merged |
 | `past.json` | one lean row per lake that disappeared or was converted, for the "Once upon a kere" page: id, name, acres, valley, `xy`, `goneBy`, `lastSeenWithWater`, `onMap` years, `knownOnlyFromOldMap`, `convertedBy`, `nowOccupiedBy` |
 | `past-sheet.svg` | the city as a sheet of ink paper with a hole where each past lake was, six times its real width, and a faint dot for each lake still there |
+| `missing.json` | one lean row per lake recorded as existing that no map draws (status exists, no outline, a point), for the "Missing lakes of Bangalore" page, largest first by 2018 extent: id, name, Kannada name, kind, 2018 acres, village, taluk, ward, custodian name, 2018 condition and uses, `onList2024` (custodian from the 2024 KTCDA list), `monitoringPage`, `waterSeen` (last year satellites saw water), `onMap` years, `xy` |
+| `missing-sheet.svg` | the city as dots in the `hero.json` frame: a faint dot for each lake a map draws, an ink ring for each missing lake |
 | `lake/<id>.json` | the full record for one lake page, including its monthly water quality series |
 | `sources.json` | every source key used, with title, publisher, link, license, credit and dates |
 | `hero.json` | simplified outlines of existing lakes for the home page drawing, in a frame that covers every lake point and outline |

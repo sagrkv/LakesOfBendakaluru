@@ -13,10 +13,6 @@ export default function Legend({ columns }: { columns: 1 | 2 }) {
           </li>
         ))}
         <li className="label flex items-center gap-2">
-          <span aria-hidden className="inline-block size-3 shrink-0 rounded-full border border-ink" />
-          No outline on record
-        </li>
-        <li className="label flex items-center gap-2">
           <span aria-hidden className="inline-block h-0 w-3 shrink-0 border-t-2 border-ink" />
           Bengaluru Urban and North districts
         </li>
