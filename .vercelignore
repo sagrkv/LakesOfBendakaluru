@@ -1,0 +1,10 @@
+# The site only needs the app, its components and public/data. The pipeline and its inputs stay local.
+node_modules
+.next
+.venv
+.env*
+__pycache__
+data
+scripts
+docs
+*.tsbuildinfo
