@@ -70,6 +70,7 @@ class Context:
         self.custody = {f"{r['slNo']}-{r['parcelIndex']}": r for r in _rows("bbmp_custody.csv")}
         self.ktcda = {f"{r['slNo']}-{r['custodian']}": r for r in _rows("ktcda_custodians.csv")}
         self.lake_groups = {str(n): r for n, r in enumerate(_rows("lake_groups.csv"))}
+        self.rau1986 = {r["rauId"]: r for r in _rows("rau1986.csv")}
         self.landrecords = {r["mapId"]: r for r in _rows("landrecords_lakes_digital.csv") + _rows("landrecords_lakes_survey.csv")}
         self.kspcb_stations = {r["stationId"]: r for r in _rows("kspcb_stations.csv")}
         self.kspcb_readings = defaultdict(list)

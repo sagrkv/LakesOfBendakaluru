@@ -135,10 +135,18 @@ Ward councillor names and phone numbers are not published: the only source is th
 | `presence` - share of satellite passes with water 1984-2024, permanent, seasonal, lost, gained, first and last year with water | JRC Global Surface Water |
 | `yearly` - water acres per year 1984-2021 | JRC Global Surface Water |
 | `current` - open water, floating weed and dry share from recent Sentinel-2 images | Sentinel-2 |
+| `landCoverYearly` - per year from 2017: `year`, `waterPct`, `floodedVegetationPct`, `builtPct`, `bareGroundPct`, `treesPct`, `cropsPct`, `rangelandPct`, `lowConfidence`, `source` | Impact Observatory, Microsoft and Esri 10 m land cover |
 | `nearestTreatmentPlant` - name, capacity, distance within 3 km | BWSSB |
 
 Floating weed reads as land to JRC, so weed-choked lakes such as Bellandur show low water presence.
 `current.weedCoverPct` is the check on that.
+
+`landCoverYearly` gives the share of the lake's area in each land cover class, one entry per year, each citing that year's release.
+The area is the outline, or for a lake known only as a point, a circle of its recorded extent (0.5 acre when none).
+Pixels are 10 m, so one pixel is about a fortieth of an acre, and shore pixels mix water and land.
+The classification is about 75% accurate, so a single year can flip; trust a change that holds for several years.
+Clouds are left out of the shares, and the shares add up to about 100.
+`lowConfidence` marks lakes with no outline, lakes under a quarter acre, and lakes too small to hold a pixel centre.
 
 ### `waterQuality`
 
@@ -177,10 +185,12 @@ We store areas and counts, never encroachers' names.
 | Field | Source |
 |---|---|
 | `yearBuilt`, `rejuvenated`, `yearRejuvenated` | 2018 inventory |
-| `onMap<year>` - drawn on that year's survey map | Survey of India and US Army Map Service sheets |
+| `onMap<edition>` - drawn on that edition of the survey map: `onMap1914` (one-inch sheets printed 1914-1917), `onMap1927`, `onMap1945`, `onMap1955`, `onMap1975` (1:50,000 sheets printed 1973-1980); its `src` names the sheets, whose citations carry the year each was printed | Survey of India and US Army Map Service sheets |
+| `knownOnlyFromOldMap`, `oldMapConfidence` - a tank no current source knows, traced from one old map with high or medium confidence | the same sheets |
 | `lastSeenWithWater` | JRC Global Surface Water |
 | `nowOccupiedBy`, `convertedBy`, `goneBy` - for disappeared lakes | 2018 inventory |
 | `surroundings2018`, `remarks2018` | 2018 inventory |
+| `rau1986` - the tank as the 1986 expert committee listed it: `list` (city or green belt), `status` (live or disused, city list only), `nameAsPrinted`, `tankNo`, `areaHa`, `condition`, `landUse` (the 1984 development plan's proposal), `recommendation` (the committee's proposal), `agency`, `zone` (road sector), `taluk` (green belt only). The list gives no location, so a row is linked only when exactly one lake within 25 km of Vidhana Soudha, standing in for the 1986 metropolitan area, has its name, and no other row points at that lake | Lakshman Rau Expert Committee report, 1986 (OCR of the scan) |
 
 ### `sheet`
 

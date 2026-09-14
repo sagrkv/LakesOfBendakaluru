@@ -1,0 +1,92 @@
+[
+ {
+  "key": "io-lulc-2017",
+  "title": "Sentinel-2 10m Land Use/Land Cover 2017 (Impact Observatory annual land cover v2)",
+  "publisher": "Impact Observatory, Microsoft and Esri",
+  "url": "https://www.arcgis.com/home/item.html?id=cfcb7609de5f478eb7666240902d4d3d",
+  "license": "CC BY 4.0",
+  "credit": "Esri Land Cover 2017, produced by Impact Observatory, Microsoft and Esri, CC BY 4.0",
+  "asOf": "2017",
+  "retrieved": "2026-09-14"
+ },
+ {
+  "key": "io-lulc-2018",
+  "title": "Sentinel-2 10m Land Use/Land Cover 2018 (Impact Observatory annual land cover v2)",
+  "publisher": "Impact Observatory, Microsoft and Esri",
+  "url": "https://www.arcgis.com/home/item.html?id=cfcb7609de5f478eb7666240902d4d3d",
+  "license": "CC BY 4.0",
+  "credit": "Esri Land Cover 2018, produced by Impact Observatory, Microsoft and Esri, CC BY 4.0",
+  "asOf": "2018",
+  "retrieved": "2026-09-14"
+ },
+ {
+  "key": "io-lulc-2019",
+  "title": "Sentinel-2 10m Land Use/Land Cover 2019 (Impact Observatory annual land cover v2)",
+  "publisher": "Impact Observatory, Microsoft and Esri",
+  "url": "https://www.arcgis.com/home/item.html?id=cfcb7609de5f478eb7666240902d4d3d",
+  "license": "CC BY 4.0",
+  "credit": "Esri Land Cover 2019, produced by Impact Observatory, Microsoft and Esri, CC BY 4.0",
+  "asOf": "2019",
+  "retrieved": "2026-09-14"
+ },
+ {
+  "key": "io-lulc-2020",
+  "title": "Sentinel-2 10m Land Use/Land Cover 2020 (Impact Observatory annual land cover v2)",
+  "publisher": "Impact Observatory, Microsoft and Esri",
+  "url": "https://www.arcgis.com/home/item.html?id=cfcb7609de5f478eb7666240902d4d3d",
+  "license": "CC BY 4.0",
+  "credit": "Esri Land Cover 2020, produced by Impact Observatory, Microsoft and Esri, CC BY 4.0",
+  "asOf": "2020",
+  "retrieved": "2026-09-14"
+ },
+ {
+  "key": "io-lulc-2021",
+  "title": "Sentinel-2 10m Land Use/Land Cover 2021 (Impact Observatory annual land cover v2)",
+  "publisher": "Impact Observatory, Microsoft and Esri",
+  "url": "https://www.arcgis.com/home/item.html?id=cfcb7609de5f478eb7666240902d4d3d",
+  "license": "CC BY 4.0",
+  "credit": "Esri Land Cover 2021, produced by Impact Observatory, Microsoft and Esri, CC BY 4.0",
+  "asOf": "2021",
+  "retrieved": "2026-09-14"
+ },
+ {
+  "key": "io-lulc-2022",
+  "title": "Sentinel-2 10m Land Use/Land Cover 2022 (Impact Observatory annual land cover v2)",
+  "publisher": "Impact Observatory, Microsoft and Esri",
+  "url": "https://www.arcgis.com/home/item.html?id=cfcb7609de5f478eb7666240902d4d3d",
+  "license": "CC BY 4.0",
+  "credit": "Esri Land Cover 2022, produced by Impact Observatory, Microsoft and Esri, CC BY 4.0",
+  "asOf": "2022",
+  "retrieved": "2026-09-14"
+ },
+ {
+  "key": "io-lulc-2023",
+  "title": "Sentinel-2 10m Land Use/Land Cover 2023 (Impact Observatory annual land cover v2)",
+  "publisher": "Impact Observatory, Microsoft and Esri",
+  "url": "https://www.arcgis.com/home/item.html?id=cfcb7609de5f478eb7666240902d4d3d",
+  "license": "CC BY 4.0",
+  "credit": "Esri Land Cover 2023, produced by Impact Observatory, Microsoft and Esri, CC BY 4.0",
+  "asOf": "2023",
+  "retrieved": "2026-09-14"
+ },
+ {
+  "key": "io-lulc-2024",
+  "title": "Sentinel-2 10m Land Use/Land Cover 2024 (Impact Observatory annual land cover v2)",
+  "publisher": "Impact Observatory, Microsoft and Esri",
+  "url": "https://www.arcgis.com/home/item.html?id=cfcb7609de5f478eb7666240902d4d3d",
+  "license": "CC BY 4.0",
+  "credit": "Esri Land Cover 2024, produced by Impact Observatory, Microsoft and Esri, CC BY 4.0",
+  "asOf": "2024",
+  "retrieved": "2026-09-14"
+ },
+ {
+  "key": "io-lulc-2025",
+  "title": "Sentinel-2 10m Land Use/Land Cover 2025 (Impact Observatory annual land cover v2)",
+  "publisher": "Impact Observatory, Microsoft and Esri",
+  "url": "https://www.arcgis.com/home/item.html?id=cfcb7609de5f478eb7666240902d4d3d",
+  "license": "CC BY 4.0",
+  "credit": "Esri Land Cover 2025, produced by Impact Observatory, Microsoft and Esri, CC BY 4.0",
+  "asOf": "2025",
+  "retrieved": "2026-09-14"
+ }
+]

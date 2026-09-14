@@ -39,6 +39,7 @@ def commands():
     return {
         "jrc_water": ["jrc_water.py", *common],
         "worldcover": ["worldcover.py", *common],
+        "io_lulc": ["io_lulc.py", "--input", lakes, "--key", "id"],
         "dem": ["dem.py", *common],
         "historic_presence": ["historic_presence.py", *common],
         "cascade": lambda: ["cascade.py", "--input", str(existing_outlines()), "--key", "id", "--area-prop", "areaM2"],

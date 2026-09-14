@@ -8,7 +8,7 @@ drawn here so the page links to it instead of inlining thousands of shapes.
 
 import math
 
-MAP_YEARS = (1927, 1945, 1955)
+MAP_YEARS = (1914, 1927, 1945, 1955, 1975)
 SQ_M_PER_ACRE = 4046.86
 M_PER_DEGREE = 111320
 HOLE_WIDENING = 6  # holes are drawn this many times wider than the lake was, so half-acre ponds show

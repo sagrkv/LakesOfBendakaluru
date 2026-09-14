@@ -7,7 +7,9 @@ A traced water body from data/sources/historic_water.geojson becomes a lake when
   - no lake already in the list (an ATREE outline or a 2018 inventory point) is within 250 m
   - no water polygon on today's maps (OpenStreetMap, KGIS tanks and ponds) is within 100 m,
     because a tank that still holds water is a gap in our list, not a lost lake
-The same tank traced on several maps is kept once, from the oldest map.
+The same tank traced on several maps is kept once. A tank already in the registry keeps
+the traced shape it was registered from, so its anchor and ID never change when an older
+map is added; any other tank is taken from the oldest edition that draws it.
 
 This reads the traced shapes directly, never historic_lost.csv: that file is computed
 against the lake list itself, so reading it here would loop.
@@ -56,8 +58,12 @@ def place_near(lon, lat, wards, places):
     return best[1] if best and best[0] <= 3000 else None
 
 
-def historic_lakes(lakes):
-    """lakes: entries already in the list, each with a lon/lat `geometry` or `point`. Returns new entries."""
+def historic_lakes(lakes, registered=frozenset()):
+    """
+    lakes: entries already in the list, each with a lon/lat `geometry` or `point`.
+    registered: anchors ("hist:<histId>") already in the registry.
+    Returns new entries.
+    """
     known = []
     for lake in lakes:
         if lake.get("geometry"):
@@ -70,7 +76,8 @@ def historic_lakes(lakes):
     wards, places = place_names()
 
     traced = [f for f in _features("historic_water.geojson") if f["properties"]["confidence"] in ("high", "medium")]
-    traced.sort(key=lambda f: (f["properties"]["year"], f["properties"]["histId"]))
+    # A sheet's edition is its own year unless it belongs to a multi-year campaign.
+    traced.sort(key=lambda f: (f"hist:{f['properties']['histId']}" not in registered, f["properties"].get("edition", f["properties"]["year"]), f["properties"]["histId"]))
     added = []  # (utm point, entry)
     for f in traced:
         p = f["properties"]
@@ -81,7 +88,7 @@ def historic_lakes(lakes):
         if known_index.near(u, LAKE_CLEAR_M) or water_index.near(u, WATER_CLEAR_M):
             continue
         if any(q.distance(u) <= SAME_TANK_M for q, _ in added):
-            continue  # the same tank, already taken from an older map
+            continue  # the same tank, already taken from a registered or older map
         place = place_near(point.x, point.y, wards, places)
         added.append(
             (

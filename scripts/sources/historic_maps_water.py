@@ -33,7 +33,14 @@ def blue_mask(img, p):
     """
     if "tintMin" in p:
         b = cv2.GaussianBlur(img, (0, 0), p["tintBlur"]).astype(np.int16)
-        return (b[..., 0] - b[..., 2]) >= p["tintMin"]
+        tint = b[..., 0] - b[..., 2]
+        # Black print is neutral too, so a tint rule on its own takes every letter and line.
+        light = b.max(axis=2) >= p.get("tintValMin", 0)
+        threshold = p["tintMin"]
+        if isinstance(threshold, list):
+            threshold = tint_gap(tint[::4, ::4][light[::4, ::4]], *threshold)
+        return (tint >= threshold) & light
+
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
     h, s, v = hsv[..., 0], hsv[..., 1], hsv[..., 2]
     hue = p["blueHue"]
@@ -48,7 +55,26 @@ def blue_mask(img, p):
     return light
 
 
-def dot_density(img, dark_max, dot_area, window, bright_min, grey_max=255, neighbours=None):
+def tint_gap(values, lo, hi):
+    """
+    The blue-minus-red value between a sheet's land and its water: the middle of the longest
+    run of near-empty 2-unit histogram bins in [lo, hi). Water covers a few percent of a
+    sheet, land the rest, and the paper's tint shifts from sheet to sheet.
+    """
+    counts, edges = np.histogram(values, bins=np.arange(lo, hi + 1, 2))
+    sparse = counts <= counts.min() + 0.0002 * len(values)
+    best, start = (0, lo), None
+    for i, s in enumerate(list(sparse) + [False]):
+        if s and start is None:
+            start = i
+        elif not s and start is not None:
+            if i - start > best[0]:
+                best = (i - start, (edges[start] + edges[i]) / 2)
+            start = None
+    return best[1]
+
+
+def dot_density(img, dark_max, dot_area, window, bright_min, grey_max=255, neighbours=None, paper_px=5, green_max=None):
     """
     Count of small isolated dark dots per window: the dot screens used for tank beds.
     Letters, lines and symbols are larger connected shapes and are not counted.
@@ -59,7 +85,12 @@ def dot_density(img, dark_max, dot_area, window, bright_min, grey_max=255, neigh
     """
     ink = img.max(axis=2)
     spread = ink.astype(np.int16) - img.min(axis=2)
-    dark = ((ink < dark_max) & (spread <= grey_max)).astype(np.uint8)
+    dark = (ink < dark_max) & (spread <= grey_max)
+    if green_max is not None:
+        # Dark green plantation dots pass as grey after JPEG compression; black print has no green cast.
+        b, g, r = (img[..., i].astype(np.int16) for i in range(3))
+        dark &= g - np.maximum(b, r) <= green_max
+    dark = dark.astype(np.uint8)
     _, _, stats, cent = cv2.connectedComponentsWithStats(dark, connectivity=8)
     area = stats[:, cv2.CC_STAT_AREA]
     w, h = stats[:, cv2.CC_STAT_WIDTH], stats[:, cv2.CC_STAT_HEIGHT]
@@ -68,13 +99,25 @@ def dot_density(img, dark_max, dot_area, window, bright_min, grey_max=255, neigh
     dots = np.zeros(dark.shape, np.float32)
     cx, cy = cent[is_dot, 0].astype(int), cent[is_dot, 1].astype(int)
     if neighbours and len(cx):
-        radius, count = neighbours
-        tree = cKDTree(np.column_stack([cx, cy]))
-        n_near = np.array([len(v) - 1 for v in tree.query_ball_point(np.column_stack([cx, cy]), radius)])
-        cx, cy = cx[n_near >= count], cy[n_near >= count]
+        radius, count = neighbours[:2]
+        pts = np.column_stack([cx, cy])
+        tree = cKDTree(pts)
+        groups = tree.query_ball_point(pts, radius)
+        keep = np.array([len(v) - 1 >= count for v in groups])
+        if len(neighbours) > 2:
+            # Optional third value: the neighbours must spread in two directions. A dotted line
+            # (field boundaries print dots 6 px apart) has several neighbours, all along one line;
+            # a screen has them all round. Kept when the spread across is at least this share of the spread along.
+            min_ratio = neighbours[2]
+            for i in np.flatnonzero(keep):
+                offsets = pts[groups[i]] - pts[i]
+                spread = np.sqrt(np.clip(np.linalg.eigvalsh(np.cov(offsets.T)), 0, None))
+                keep[i] = spread[1] > 0 and spread[0] >= min_ratio * spread[1]
+        cx, cy = cx[keep], cy[keep]
     dots[cy, cx] = 1.0
-    # Paper around the dots: brightest-channel median over the window.
-    paper = cv2.medianBlur(img.min(axis=2), 5) >= bright_min
+    # Paper around the dots: darkest-channel median over a window wider than one dot
+    # (coarse screens print dots that fill a 5 px window on their own).
+    paper = cv2.medianBlur(img.min(axis=2), paper_px) >= bright_min
     dots *= paper
     return cv2.boxFilter(dots, -1, (window, window), normalize=False)
 
@@ -103,9 +146,13 @@ def soi_colour(img, p):
             p["dotPaperMin"],
             p.get("dotGreyMax", 255),
             p.get("dotNeighbours"),
+            p.get("dotPaperPx", 5),
+            p.get("dotGreenMax"),
         )
         bed = density >= p["dotMinCount"]
-        bed = cv2.morphologyEx(bed.astype(np.uint8), cv2.MORPH_OPEN, disc(p["openPx"])).astype(bool)
+        # Beds are broad fills; a wider opening than for blue drops the small clusters of
+        # dotted symbols (scrub, tree screens) that a coarse dot screen lets through.
+        bed = cv2.morphologyEx(bed.astype(np.uint8), cv2.MORPH_OPEN, disc(p.get("dotOpenPx", p["openPx"]))).astype(bool)
         water |= bed
     water = cv2.morphologyEx(water.astype(np.uint8), cv2.MORPH_CLOSE, disc(p["closePx"])).astype(bool)
     return fill_holes(water, p["maxHolePx"]), blue
@@ -120,9 +167,10 @@ def soi_stipple(img, p):
         p["dotPaperMin"],
         p.get("dotGreyMax", 255),
         p.get("dotNeighbours"),
+        p.get("dotPaperPx", 5),
     )
     bed = density >= p["dotMinCount"]
-    bed = cv2.morphologyEx(bed.astype(np.uint8), cv2.MORPH_OPEN, disc(p["openPx"]))
+    bed = cv2.morphologyEx(bed.astype(np.uint8), cv2.MORPH_OPEN, disc(p.get("dotOpenPx", p["openPx"])))
     bed = cv2.morphologyEx(bed, cv2.MORPH_CLOSE, disc(p["closePx"])).astype(bool)
     return fill_holes(bed, p["maxHolePx"]), np.zeros_like(bed)
 

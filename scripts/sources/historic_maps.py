@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
-Water bodies drawn on old maps of Bengaluru (Survey of India 1927 and 1945, US Army 1955).
+Water bodies drawn on old maps of Bengaluru (Survey of India 1914-1917, 1927, 1945 and
+1973-1980, US Army 1955).
 
-For each map sheet (Survey of India and US Army Map Service, all public domain, from
-Wikimedia Commons):
+For each map sheet (Survey of India and US Army Map Service: public domain scans from
+Wikimedia Commons, and CC BY 4.0 scans from Zenodo):
   1. download the full-resolution scan to data/cache/historic_maps/
   2. georeference it from its printed graticule (historic_maps_georef.py)
   3. segment the water drawn on it (historic_maps_water.py)
@@ -20,6 +21,7 @@ Run: .venv/bin/python scripts/sources/historic_maps.py [sheet-key ...]
 """
 
 import json
+import math
 import subprocess
 import sys
 import urllib.request
@@ -88,6 +90,27 @@ def load_lakes():
     return lakes
 
 
+def load_other_water(lakes):
+    """
+    Today's water outlines from KGIS tanks and OpenStreetMap that no ATREE lake overlaps, as
+    extra alignment control for sheets beyond the ATREE map (the district's outer sheets).
+    """
+    atree = shapely.STRtree([g for _, _, g in lakes])
+    out = []
+    for file, key in (("kgis_tanks.geojson", "kgisTankId"), ("osm_water.geojson", "osmId")):
+        path = SOURCES / file
+        if not path.exists():
+            continue
+        for f in json.loads(path.read_text(encoding="utf-8"))["features"]:
+            if not f.get("geometry") or f["geometry"]["type"] not in ("Polygon", "MultiPolygon"):
+                continue
+            g = make_valid(to_utm(shape(f["geometry"]))).buffer(0)
+            if g.is_empty or len(atree.query(g, predicate="intersects")):
+                continue
+            out.append((f"{file.split('.')[0]}:{f['properties'][key]}", f["properties"].get("name"), g))
+    return out
+
+
 def polygons_from_mask(mask, fit, simplify_px):
     """Contours in scan pixels -> polygons on the sheet's lon/lat, then UTM metres."""
     contours, hierarchy = cv2.findContours(mask.astype(np.uint8), cv2.RETR_CCOMP, cv2.CHAIN_APPROX_NONE)
@@ -120,6 +143,20 @@ def polygons_from_mask(mask, fit, simplify_px):
     return polys
 
 
+def is_stream(poly, rule):
+    """
+    A stretch of river or stream drawn in the water colour: thin and far from round, straight
+    or meandering. Tanks are compact. A shape under `widthM` across on average (twice its area
+    over its perimeter) whose roundness (4 pi area / perimeter squared, 1 for a circle) is
+    below `maxCompactness` is dropped.
+    """
+    if poly.length == 0:
+        return True
+    width = 2 * poly.area / poly.length
+    compactness = 4 * math.pi * poly.area / poly.length**2
+    return width < rule["widthM"] and compactness < rule["maxCompactness"]
+
+
 def confidence(sheet, area, blue_share):
     """
     high/medium/low from how the tank was drawn and its size against the sheet's
@@ -127,6 +164,12 @@ def confidence(sheet, area, blue_share):
     anything near the size limit, where stream beads and symbols get through.
     """
     ratio = area / sheet["minAreaM2"]
+    # A sheet can raise its drawing style's limit where its own symbols are worse (the city sheets).
+    dot_only_min = sheet.get("dotOnlyMinAreaM2", sheet["water"].get("dotOnlyMinAreaM2"))
+    if dot_only_min and blue_share < 0.5 and area < dot_only_min:
+        # A dot-screen shape with no blue water, below the size where it was reliably a tank bed
+        # when checked against the scans: dotted field enclosures look the same to the tracer.
+        return "low"
     best = "medium" if sheet["style"] == "soi-stipple" else "high"
     if sheet["style"] == "soi-colour" and not sheet["water"].get("dotScreen") and blue_share < 0.5:
         best = "medium"
@@ -138,7 +181,7 @@ def confidence(sheet, area, blue_share):
     return "low"
 
 
-def process(sheet, lakes, study):
+def process(sheet, lakes, other_water, study):
     img = cv2.imread(str(fetch(sheet)), cv2.IMREAD_COLOR)
     fit, geo_report = georeference(sheet, img)
     mask, blue = water_mask(img, sheet)
@@ -157,9 +200,15 @@ def process(sheet, lakes, study):
     polys = [
         q for p in polys for q in getattr(p, "geoms", [p]) if isinstance(q, Polygon) and q.area >= sheet["minAreaM2"]
     ]
+    if sheet["water"].get("streamShape"):
+        polys = [p for p in polys if not is_stream(p, sheet["water"]["streamShape"])]
     blue_polys = unary_union(polygons_from_mask(blue, fit, sheet["simplifyPx"])) if blue.any() else Polygon()
 
     correct, align_report = align(polys, footprint, lakes, sheet["align"], NAMED)
+    if align_report["controlLakesKept"] < MIN_CONTROL_LAKES:
+        # Too few ATREE lakes on the sheet: align against every outline of water today.
+        correct, align_report = align(polys, footprint, lakes + other_water, sheet["align"], NAMED)
+        align_report["controlFrom"] = "ATREE, KGIS tanks and OpenStreetMap water"
     residual = align_report["residualP90M"]
     usable = (
         residual is not None
@@ -199,7 +248,7 @@ def process(sheet, lakes, study):
 
 
 def merge_across_edges(rows):
-    """Join the pieces of one tank split by the edge between two sheets of the same year."""
+    """Join the pieces of one tank split by the edge between two sheets of the same edition."""
     merged, used = [], set()
     for i, a in enumerate(rows):
         if i in used:
@@ -207,7 +256,7 @@ def merge_across_edges(rows):
         group = [i]
         for j in range(i + 1, len(rows)):
             b = rows[j]
-            if j in used or b["sheet"]["year"] != a["sheet"]["year"] or b["sheet"]["key"] == a["sheet"]["key"]:
+            if j in used or b["sheet"]["edition"] != a["sheet"]["edition"] or b["sheet"]["key"] == a["sheet"]["key"]:
                 continue
             if a["geom"].distance(b["geom"]) < 60:
                 group.append(j)
@@ -224,13 +273,14 @@ def merge_across_edges(rows):
 
 def main(only):
     lakes = load_lakes()
+    other_water = load_other_water(lakes)
     study = unary_union([g for _, _, g in lakes]).convex_hull.buffer(STUDY_MARGIN_M)
     rows, sheet_features, reports = [], [], {}
     for sheet in SHEETS:
         if only and sheet["key"] not in only:
             continue
         print(f"{sheet['key']}: {sheet['title']}", flush=True)
-        sheet_rows, coverage, report = process(sheet, lakes, study)
+        sheet_rows, coverage, report = process(sheet, lakes, other_water, study)
         reports[sheet["key"]] = report
         print(json.dumps(report, indent=1), flush=True)
         if not report["usable"]:
@@ -245,6 +295,7 @@ def main(only):
                     "sheet": sheet["key"],
                     "title": sheet["title"],
                     "year": sheet["year"],
+                    "edition": sheet["edition"],
                     "scale": sheet["scale"],
                     "url": sheet["url"],
                     "showsAllWater": sheet.get("showsAllWater", True),
@@ -263,7 +314,7 @@ def main(only):
         )
 
     rows = merge_across_edges(rows)
-    rows.sort(key=lambda r: (r["sheet"]["year"], r["sheet"]["key"], -r["geom"].centroid.y, r["geom"].centroid.x))
+    rows.sort(key=lambda r: (r["sheet"]["edition"], r["sheet"]["key"], -r["geom"].centroid.y, r["geom"].centroid.x))
     counters, features = {}, []
     for r in rows:
         s = r["sheet"]
@@ -278,6 +329,7 @@ def main(only):
                     "histId": f"{s['key']}-{counters[s['key']]:04d}",
                     "sheet": s["key"],
                     "year": s["year"],
+                    "edition": s["edition"],
                     "scale": s["scale"],
                     "areaM2": round(geom.area),
                     "name": None,
@@ -306,7 +358,7 @@ def main(only):
                 "license": s["license"],
                 "credit": s["credit"],
                 "asOf": str(s["year"]),
-                "retrieved": RETRIEVED,
+                "retrieved": s.get("retrieved", RETRIEVED),
             }
             for s in SHEETS
             if s["key"] in {f["properties"]["sheet"] for f in sheet_features}

@@ -212,8 +212,9 @@ def align(hist_polys, footprint, lakes, cfg, named):
             {
                 "id": ids[k],
                 "offsetM": [round(float(v)) for v in all_offsets[k] + g_shift],
-                "residualM": None if np.isnan(loo[j]) else round(float(loo[j])),
-                "kept": bool(keep[j]),
+                # Fewer than 3 control lakes: no correction was fitted, so no leave-one-out error.
+                "residualM": None if j >= len(loo) or np.isnan(loo[j]) else round(float(loo[j])),
+                "kept": bool(keep[j]) if j < len(keep) else False,
             }
             for j, k in enumerate(control_idx)
         ],

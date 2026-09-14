@@ -88,18 +88,30 @@ def history(ctx, lake_id, reg, empri, atree):
         # Known only from an old map: no list, survey or record mentions this tank.
         s.set("knownOnlyFromOldMap", True, traced["source"])
         s.set("oldMapConfidence", traced["confidence"], traced["source"])
-        s.set(f"onMap{traced['year']}", True, traced["source"])
+        # onMap<edition>: the 1914-1917 sheets are edition 1914, the 1973-1980 sheets 1975; the sheet's own year is its source's date.
+        # Single-year sheets (1927, 1945, 1955) are their own edition.
+        s.set(f"onMap{traced.get('edition', traced['year'])}", True, traced["source"])
 
     hist = ctx.stats["historic_presence"].get(lake_id)
     if hist:
         for col, value in hist.items():
             m = re.fullmatch(r"onMap(\d{4})", col)
             if m and value not in (None, ""):
-                s.set(col, flag(value), hist["source"])
+                s.set(col, flag(value), hist.get(f"source{m.group(1)}") or hist["source"])
 
     jrc = ctx.stats["jrc_water"].get(lake_id)
     if jrc:
         s.set("lastSeenWithWater", num(jrc.get("lastYearWithWater")), jrc["source"])
+
+    # The 1986 Lakshman Rau Expert Committee lists: the tank as the committee saw it and what it proposed.
+    rau = ctx.first(lake_id, "rau1986", ctx.rau1986)
+    if rau:
+        entry = {
+            "list": rau["list"], "status": rau.get("status"), "nameAsPrinted": rau.get("name"), "tankNo": rau.get("tankNo"),
+            "areaHa": num(rau.get("areaHa")), "condition": rau.get("condition"), "landUse": rau.get("landUse"),
+            "recommendation": rau.get("recommendation"), "agency": rau.get("agency"), "zone": rau.get("zone"), "taluk": rau.get("taluk"),
+        }
+        s.set("rau1986", {k: v for k, v in entry.items() if v not in (None, "")}, rau["source"])
     return s
 
 

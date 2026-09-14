@@ -1,6 +1,7 @@
 """Water and drainage, and water quality."""
 
 from collections import defaultdict
+from functools import cache
 
 from common import distance_m
 
@@ -58,6 +59,26 @@ def water(ctx, lake_id, reg, empri, atree):
         yearly.append({"year": int(r["year"]), "waterAcres": round(wet / ACRE_M2, 2), "observedAcres": round(observed / ACRE_M2, 2)})
     s.set("yearly", yearly, ctx.jrc_yearly[lake_id][0]["source"] if yearly else None)
 
+    # Yearly 10 m land cover since 2017; each year is its own dataset release, so each entry cites its year.
+    land_cover = []
+    for r in sorted(land_cover_rows(ctx).get(lake_id, []), key=lambda r: int(r["year"])):
+        if not num(r.get("pixels")):
+            continue
+        entry = {
+            "year": int(r["year"]),
+            "waterPct": num(r.get("waterPct")),
+            "floodedVegetationPct": num(r.get("floodedVegetationPct")),
+            "builtPct": num(r.get("builtPct")),
+            "bareGroundPct": num(r.get("bareGroundPct")),
+            "treesPct": num(r.get("treesPct")),
+            "cropsPct": num(r.get("cropsPct")),
+            "rangelandPct": num(r.get("rangelandPct")),
+            "lowConfidence": flag(r.get("lowConfidence")),
+            "source": r["source"],
+        }
+        land_cover.append(entry)
+    s.set("landCoverYearly", land_cover, "per-entry")
+
     # Both seasons: a single one misleads, because several big lakes were drained in spring 2026.
     seasons = []
     for season in ("postmonsoon", "dry"):
@@ -82,6 +103,12 @@ def water(ctx, lake_id, reg, empri, atree):
     if plant:
         s.set("nearestTreatmentPlant", plant[0], plant[1])
     return s
+
+
+@cache
+def land_cover_rows(ctx):
+    """Yearly land cover rows per lake, loaded once per build."""
+    return ctx._per_lake_many("io_lulc.csv")
 
 
 def sum_num(row, *cols):

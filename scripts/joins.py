@@ -15,11 +15,14 @@ Methods, strongest first:
   near         the point is within a short distance, and the name agrees where required
   survey       same village and land survey number as the lake's 2018 inventory record
   ward-name    same old ward, similar name (for lists that only give ward and name)
+  area-name    no location, but a known area (the 1986 metropolitan area); accepted only when exactly one
+               lake in that area has that name and no other record of the source claims the lake
   unique-name  no location at all; accepted only when exactly one lake has that name
 """
 
 import json
 import math
+import re
 import sys
 from collections import defaultdict
 from pathlib import Path
@@ -28,11 +31,19 @@ from shapely.geometry import shape
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import ROOT, SOURCES, name_key, read_csv, write_csv  # noqa: E402
-from match import LakeIndex, feature_utm, to_utm  # noqa: E402
+from match import LakeIndex, feature_utm, to_utm, utm_point  # noqa: E402
 
 CROSSWALK = ROOT / "data" / "crosswalk.csv"
 OVERRIDES = ROOT / "data" / "crosswalk_overrides.csv"
 COLUMNS = ["id", "source", "sourceId", "method", "distanceM", "nameScore"]
+
+# The 1986 Bangalore Metropolitan Area (the conurbation and its green belt, about 1,279 km2 in the 1984
+# plan) has no digital boundary. Its green belt list reaches Hoskote, Devanahalli, Magadi and Nelamangala
+# taluks, so lakes within 25 km of Vidhana Soudha stand in for it.
+RAU_CENTRE = (77.5906, 12.9796)
+RAU_RADIUS_M = 25_000
+# A printed name that only describes a place ("Tank east of Haralur") is not a name.
+RAU_DESCRIPTIVE = re.compile(r"\b(east|west|north|south|near|between|adjoining)\b", re.I)
 
 
 def lake_index():
@@ -169,6 +180,41 @@ def link_historic_tests(linker, index, station_lake):
             linker.add(lake_id, "wq_historic", sid, "unique-name")
 
 
+def word_key(name):
+    """name_key word by word, sorted, so "Amanikere, Belandur" and "Bellandur Amanikere" agree."""
+    return "".join(sorted(k for k in (name_key(w) for w in re.split(r"[\s,.&-]+", name or "")) if k))
+
+
+def rau_name_keys(printed):
+    """Keys for a tank name as printed in 1986: "A or B/C" gives three, a place note in brackets is dropped."""
+    if not printed or RAU_DESCRIPTIVE.search(printed):
+        return set()
+    bare = re.sub(r"\(.*?\)|\(.*$", " ", printed)
+    return {k for k in (word_key(part) for part in re.split(r"\bor\b|/", bare)) if k}
+
+
+def link_rau1986(linker, index):
+    """
+    The 1986 Lakshman Rau lists give a tank's name and no location. Candidates are the lakes in the
+    metropolitan area the report covers; a row links only when exactly one candidate has its name key,
+    and only when no other row of the report points at the same lake.
+    """
+    area = utm_point(*RAU_CENTRE).buffer(RAU_RADIUS_M)
+    lakes_by_key = defaultdict(set)
+    for i in index.tree.query(area, predicate="intersects"):
+        for name in index.aliases[i]:
+            if word_key(name):
+                lakes_by_key[word_key(name)].add(index.keys[i])
+    claims = defaultdict(list)
+    for r in rows("rau1986.csv"):
+        found = {next(iter(lakes_by_key[k])) for k in rau_name_keys(r["name"]) if len(lakes_by_key.get(k, ())) == 1}
+        if len(found) == 1:
+            claims[found.pop()].append(r["rauId"])
+    for lake_id, rau_ids in claims.items():
+        if len(rau_ids) == 1:
+            linker.add(lake_id, "rau1986", rau_ids[0], "area-name")
+
+
 def build():
     index, lakes = lake_index()
     registry = {r["id"]: r for r in read_csv(ROOT / "data" / "registry.csv")}
@@ -254,6 +300,8 @@ def build():
             lake_id = index.match_unique_name(lake_name)
             if lake_id:
                 linker.add(lake_id, "lake_groups", n, "unique-name")
+
+    link_rau1986(linker, index)
 
     links = apply_overrides(linker.links)
     links.sort(key=lambda l: (l["id"], l["source"], l["sourceId"]))

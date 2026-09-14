@@ -6,7 +6,7 @@ A lake enters the list from one of these anchors:
   atree:<fid>     an outline in the ATREE lake map (lakes that exist today)
   empri:<code>    a water body in the 2018 state inventory that is not one of those outlines,
                   including the 838 that have disappeared
-  hist:<id>       a tank on a 1927-1955 survey map that no current source knows (historic_lakes.py)
+  hist:<id>       a tank on a 1914-1980 survey map that no current source knows (historic_lakes.py)
 
 2018 inventory rows are paired with ATREE outlines one-to-one by location, with the name
 breaking ties. A row left unpaired becomes its own lake; if an unclaimed KGIS or OpenStreetMap
@@ -226,7 +226,7 @@ def build():
                 entry["geometry"] = pool_by_key[best[1]]["geometry"]
         lakes.append(entry)
 
-    lakes += historic_lakes(lakes)
+    lakes += historic_lakes(lakes, {a for a in previous if a.startswith("hist:")})
     assign_ids(lakes, previous)
     write_outputs(lakes, previous)
 
