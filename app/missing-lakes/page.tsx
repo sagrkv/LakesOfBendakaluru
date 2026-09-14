@@ -9,16 +9,18 @@ import MissingHero from "@/components/missing/MissingHero";
 import { getMissing } from "@/components/missing/read";
 import RecordNote from "@/components/missing/RecordNote";
 import { formatCount } from "@/lib/format";
+import { share } from "@/lib/share";
 import { getHero } from "@/lib/lakes";
 
 /** Rows rendered with the page; the rest of the list loads on demand. */
 const TOP = 40;
 
 export function generateMetadata(): Metadata {
-  return {
-    title: "Missing lakes of Bangalore - Lakes of Bendakaluru",
-    description: `In 2018 the state recorded ${formatCount(getMissing().length)} lakes in and around Bengaluru as still there, but no map we have draws them. What the record says about each one.`,
-  };
+  return share(
+    "Missing lakes of Bangalore - Lakes of Bendakaluru",
+    `In 2018 the state recorded ${formatCount(getMissing().length)} lakes in and around Bengaluru as still there, but no map we have draws them. See where each one should be and what the record says about it.`,
+    "/missing-lakes",
+  );
 }
 
 function median(values: number[]): number {

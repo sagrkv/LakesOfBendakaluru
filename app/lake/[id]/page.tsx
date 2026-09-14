@@ -3,8 +3,11 @@ import { notFound } from "next/navigation";
 import type { CSSProperties } from "react";
 import type { LakeRecord } from "@/lib/lake";
 import { paperFor } from "@/lib/valleys";
-import { formatAcres, formatMonth, WATER_CLASS } from "@/lib/format";
+import { formatAcres, formatMonth, ordinal, WATER_CLASS } from "@/lib/format";
+import JsonLd from "@/components/JsonLd";
+import { lakeJsonLd } from "@/components/lake/structured";
 import { getLake, getLakes, getSummary } from "@/lib/lakes";
+import { share } from "@/lib/share";
 import SiteFooter from "@/components/SiteFooter";
 import BuiltSection from "@/components/lake/BuiltSection";
 import CareSection from "@/components/lake/CareSection";
@@ -30,7 +33,7 @@ export function generateStaticParams() {
 }
 
 /** Two or three plain sentences a link preview can carry. */
-function describe(lake: LakeRecord, name: string): string {
+function describe(lake: LakeRecord, name: string, rank?: number): string {
   const size = bestAcres(lake);
   const valley = lake.water?.valley;
   const place = lake.location?.ward?.name ?? lake.location?.village;
@@ -42,6 +45,7 @@ function describe(lake: LakeRecord, name: string): string {
         valley ? `, in the ${valley} valley` : ""
       }.`,
     );
+    if (rank) parts.push(`It is the ${ordinal(rank)} largest lake in Bengaluru that still exists.`);
   } else {
     const now = lake.history?.nowOccupiedBy;
     parts.push(
@@ -63,18 +67,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const lake = getLake((await params).id);
   if (!lake) return { title: "Lake not found · Lakes of Bendakaluru" };
   const name = displayName(lake.name);
-  const description = describe(lake, name);
-  const photo = lake.photos?.[0];
-  return {
-    title: `${name} · Lakes of Bendakaluru`,
-    description,
-    openGraph: {
-      title: name,
-      description,
-      siteName: "Lakes of Bendakaluru",
-      images: photo ? [{ url: photo.thumb, alt: `${name}. Photo: ${photo.credit}` }] : undefined,
-    },
-  };
+  return share(`${name} · Lakes of Bendakaluru`, describe(lake, name, getSummary(lake.id)?.sizeRank), `/lake/${lake.id}`, true);
 }
 
 export default async function LakePage({ params }: Props) {
@@ -89,6 +82,7 @@ export default async function LakePage({ params }: Props) {
   return (
     <>
       <main>
+        <JsonLd data={lakeJsonLd(lake, name, describe(lake, name, getSummary(lake.id)?.sizeRank))} />
         <Hero lake={lake} name={name} />
         {/* Slips and headlines below take the lake's own paper. */}
         <div

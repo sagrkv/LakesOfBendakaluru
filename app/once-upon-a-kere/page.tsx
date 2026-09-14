@@ -9,15 +9,17 @@ import PastHero from "@/components/past/PastHero";
 import { getPast } from "@/components/past/read";
 import { formatCount } from "@/lib/format";
 import { getHero } from "@/lib/lakes";
+import { share } from "@/lib/share";
 
 /** Rows rendered with the page; the rest of the list loads on demand. */
 const TOP = 40;
 
 export function generateMetadata(): Metadata {
-  return {
-    title: "Once upon a kere - Lakes of Bendakaluru",
-    description: `${formatCount(getPast().length)} lakes in and around Bengaluru are on record as gone. When each one went, and what took its place.`,
-  };
+  return share(
+    "Once upon a kere - Lakes of Bendakaluru",
+    `${formatCount(getPast().length)} lakes in and around Bengaluru are on record as gone. See when each one went, how big it was, and what was built where it used to be.`,
+    "/once-upon-a-kere",
+  );
 }
 
 export default function OnceUponAKerePage() {

@@ -8,15 +8,17 @@ import { SOURCES } from "@/components/timeline/sources";
 import { tally } from "@/components/timeline/tally";
 import Timeline from "@/components/timeline/Timeline";
 import { formatCount } from "@/lib/format";
+import { share } from "@/lib/share";
 
 const TITLE = "Lakes on record, 1800 to today";
 
 export function generateMetadata(): Metadata {
   const { total, oldest, newest } = tally(SOURCES);
-  return {
-    title: `${TITLE} - Lakes of Bendakaluru`,
-    description: `Every map, census, satellite photo and report of Bengaluru's lakes we know of: ${formatCount(total)} records from ${oldest} to ${newest}, what each one tells us, our copy and the original.`,
-  };
+  return share(
+    `${TITLE} - Lakes of Bendakaluru`,
+    `${formatCount(total)} maps, censuses, satellite photos and reports of Bengaluru's lakes, from ${oldest} to ${newest}, on one timeline. What each one tells us about a lake, with our copy and a link to the original.`,
+    "/timeline",
+  );
 }
 
 export default function TimelinePage() {

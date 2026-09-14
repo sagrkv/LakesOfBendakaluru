@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Instrument_Sans, Instrument_Serif, Noto_Serif_Kannada } from "next/font/google";
+import { share, SITE_HOST, SITE_NAME } from "@/lib/share";
 import "./globals.css";
 
 const serif = Instrument_Serif({
@@ -24,8 +25,11 @@ const kannada = Noto_Serif_Kannada({
 });
 
 export const metadata: Metadata = {
-  title: "Lakes of Bendakaluru",
-  description: "Every lake in Bangalore, cut out one at a time: how big it is, who looks after it, how clean it is.",
+  metadataBase: new URL(`https://${SITE_HOST}`),
+  ...share(
+    SITE_NAME,
+    "Every lake in Bengaluru: how big it is, who looks after it, how clean its water is, how much of it is built over, and every map and report of it since 1800.",
+  ),
   authors: [{ name: "filtercoffee.dev", url: "https://filtercoffee.dev" }],
   publisher: "filtercoffee.dev",
 };

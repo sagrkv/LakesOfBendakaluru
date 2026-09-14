@@ -4,17 +4,18 @@ import SiteFooter from "@/components/SiteFooter";
 import PageTop from "@/components/PageTop";
 import { formatCount } from "@/lib/format";
 import { getSources } from "@/lib/lakes";
+import { share } from "@/lib/share";
 import { groupByPublisher, withKeys } from "./catalog";
 import CreditLines from "./CreditLines";
 import { requiredCredits } from "./required";
 import Section from "./Section";
 import SourceGroups from "./SourceGroups";
 
-export const metadata: Metadata = {
-  title: "Sources and credits - Lakes of Bendakaluru",
-  description:
-    "Every source behind Lakes of Bendakaluru, grouped by publisher, with its date, its licence and the credit line it asks for.",
-};
+export const metadata: Metadata = share(
+  "Sources and credits - Lakes of Bendakaluru",
+  "Every source behind Lakes of Bendakaluru, grouped by publisher, with its date, its licence and the credit line it asks for.",
+  "/sources",
+);
 
 export default function SourcesPage() {
   const sources = withKeys(getSources());
