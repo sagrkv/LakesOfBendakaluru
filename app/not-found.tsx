@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { CSSProperties } from "react";
 import SiteFooter from "@/components/SiteFooter";
 import PageTop from "@/components/PageTop";
 import PunchedSheet from "@/components/past/PunchedSheet";
@@ -8,11 +9,11 @@ export default function NotFound() {
     <>
       <title>Not on any list - Lakes of Bendakaluru</title>
       <PageTop />
-      <main className="page-x pt-10 md:pt-16 pb-16 md:pb-26">
+      <main className="page-x pt-10 md:pt-16 pb-16 md:pb-26" style={{ "--paper": "#F59AC0" } as CSSProperties}>
         <div className="grid grid-cols-12 gap-x-6 gap-y-10 items-center">
           <div className="col-span-12 md:col-span-7 lg:col-span-6">
             <h1 className="font-serif text-[64px] md:text-[96px] leading-[0.86] text-balance">
-              This lake is not on any list we have
+              <span className="highlight">This lake is not on any list we have</span>
             </h1>
             <p className="mt-6 max-w-[34rem]">
               The address may be mistyped, or the lake may be listed under another name. Every lake we know of is on

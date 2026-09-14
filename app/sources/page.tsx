@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import type { CSSProperties } from "react";
 import SiteFooter from "@/components/SiteFooter";
 import PageTop from "@/components/PageTop";
 import { formatCount } from "@/lib/format";
@@ -23,11 +24,11 @@ export default function SourcesPage() {
   return (
     <>
       <PageTop />
-      <main>
+      <main style={{ "--paper": "#2FA35B" } as CSSProperties}>
         <section className="page-x pt-10 md:pt-16">
           <div className="grid grid-cols-12 gap-x-6">
             <h1 className="col-span-12 font-serif text-[64px] md:text-[96px] leading-[0.86] text-balance">
-              Sources and credits
+              <span className="highlight">Sources and credits</span>
             </h1>
             <p className="col-span-12 md:col-span-8 lg:col-span-6 mt-6">
               Every fact on this site comes from a published source. Each one is listed here once, with its date, its

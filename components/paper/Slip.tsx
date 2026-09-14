@@ -8,7 +8,7 @@ export function tiltFor(seed: string): number {
 }
 
 /**
- * A cream slip pasted on top of a sheet or the table: a label, then the fact.
+ * A slip pasted on top of a sheet or the table: a label, then the fact. Tinted with the page's --paper.
  * `order` staggers the paste-in by 60 ms per slip after the sheet lands.
  */
 export default function Slip({
@@ -30,7 +30,7 @@ export default function Slip({
   } as CSSProperties;
 
   return (
-    <div className={`slip px-4 pt-3 pb-3.5 ${order === undefined ? "" : "pastes"} ${className}`} style={style}>
+    <div className={`slip slip-tint px-4 pt-3 pb-3.5 ${order === undefined ? "" : "pastes"} ${className}`} style={style}>
       <div className="label">{label}</div>
       <div className="mt-1 font-serif text-[26px] md:text-[36px] leading-none">{children}</div>
     </div>

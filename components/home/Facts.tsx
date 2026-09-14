@@ -89,7 +89,7 @@ export default function Facts({ opener, paper, className = "" }: { opener: Opene
   const stampStyle = { "--tilt": `${tiltFor(`${lake.id}-stamp`)}deg`, "--delay": "600ms" } as CSSProperties;
 
   return (
-    <div className={className}>
+    <div className={className} style={{ "--paper": paper.sheet } as CSSProperties}>
       {summary.campaign ? (
         <p
           className="slip pastes mb-6 inline-block px-6 pt-4 pb-4.5 font-serif italic text-[26px] leading-none outline-2 -outline-offset-8 outline-ink md:text-[36px]"

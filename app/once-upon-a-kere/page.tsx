@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import type { CSSProperties } from "react";
 import PageTop from "@/components/PageTop";
 import SiteFooter from "@/components/SiteFooter";
 import { printedYearsFor } from "@/components/lake/years/maps";
@@ -27,7 +28,7 @@ export default function OnceUponAKerePage() {
   return (
     <>
       <PageTop />
-      <main className="overflow-x-clip">
+      <main className="overflow-x-clip" style={{ "--paper": "#F2502B" } as CSSProperties}>
         <PastHero
           total={past.length}
           acres={acres}

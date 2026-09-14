@@ -26,6 +26,8 @@ const kannada = Noto_Serif_Kannada({
 export const metadata: Metadata = {
   title: "Lakes of Bendakaluru",
   description: "Every lake in Bangalore, cut out one at a time: how big it is, who looks after it, how clean it is.",
+  authors: [{ name: "filtercoffee.dev", url: "https://filtercoffee.dev" }],
+  publisher: "filtercoffee.dev",
 };
 
 export const viewport: Viewport = {

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import type { CSSProperties } from "react";
 import PageTop from "@/components/PageTop";
 import SiteFooter from "@/components/SiteFooter";
 import Legend from "@/components/timeline/Legend";
@@ -27,11 +28,11 @@ export default function TimelinePage() {
   return (
     <>
       <PageTop />
-      <main className="overflow-x-clip">
+      <main className="overflow-x-clip" style={{ "--paper": "#11A3B5" } as CSSProperties}>
         <section className="page-x pt-10 md:pt-16 pb-16 md:pb-26">
           <div className="grid grid-cols-12 gap-x-6 gap-y-6 items-end">
             <h1 className="col-span-12 lg:col-span-7 font-serif text-[64px] md:text-[96px] leading-[0.86] text-balance">
-              {TITLE}
+              <span className="highlight">{TITLE}</span>
             </h1>
             <p className="col-span-12 md:col-span-8 lg:col-span-5 max-w-[34rem]">
               We know of {formatCount(total)} records of Bengaluru&rsquo;s lakes, from {oldest} to {newest}.{" "}
@@ -45,7 +46,7 @@ export default function TimelinePage() {
         <section aria-labelledby="timeline-title" className="page-x pb-16 md:pb-26">
           <div className="flex flex-wrap items-baseline justify-between gap-x-10 gap-y-4 mb-10">
             <h2 id="timeline-title" className="font-serif text-[26px] md:text-[36px] leading-none">
-              Year by year
+              <span className="highlight">Year by year</span>
             </h2>
             <Legend counts={counts} />
           </div>
@@ -54,7 +55,7 @@ export default function TimelinePage() {
 
         <section aria-labelledby="closed-title" className="page-x pb-16 md:pb-26">
           <h2 id="closed-title" className="font-serif text-[26px] md:text-[36px] leading-none">
-            Not public
+            <span className="highlight">Not public</span>
           </h2>
           <p className="mt-2 label font-normal text-missing">
             These {formatCount(counts["not-public"])} records are known to exist, but no copy is public for anyone to use.
@@ -64,7 +65,7 @@ export default function TimelinePage() {
 
         <section aria-labelledby="list-title" className="page-x pb-16 md:pb-26">
           <h2 id="list-title" className="font-serif text-[26px] md:text-[36px] leading-none">
-            Every record, oldest first
+            <span className="highlight">Every record, oldest first</span>
           </h2>
           <p className="mt-2 label font-normal text-missing">
             The same {formatCount(total)} records as the timeline, with the same links.

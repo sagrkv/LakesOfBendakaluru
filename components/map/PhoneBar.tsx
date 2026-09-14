@@ -1,7 +1,8 @@
 "use client";
 
-import Link from "next/link";
 import { useState } from "react";
+import MadeBy from "@/components/MadeBy";
+import Wordmark from "@/components/Wordmark";
 import type { LakeSummary } from "@/lib/lake";
 import Legend from "./Legend";
 import SearchBox from "./SearchBox";
@@ -23,12 +24,10 @@ export default function PhoneBar({
     <div className="pointer-events-none absolute inset-x-0 top-0 z-20 pt-[max(12px,env(safe-area-inset-top))] pr-[max(16px,env(safe-area-inset-right))] pl-[max(16px,env(safe-area-inset-left))]">
       <div className="group slip pointer-events-auto flex items-center gap-3 py-2 pr-2 pl-4">
         {/* The wordmark steps aside while someone is searching, so the field gets the whole slip. */}
-        <Link
+        <Wordmark
           href="/"
-          className="font-serif text-[28px] leading-none whitespace-nowrap italic group-has-[[data-search]:focus-within]:hidden group-has-[input:not(:placeholder-shown)]:hidden"
-        >
-          Lakes of Bendakaluru
-        </Link>
+          className="[--tilt:0deg] shadow-none! group-has-[[data-search]:focus-within]:hidden group-has-[input:not(:placeholder-shown)]:hidden"
+        />
         <SearchBox index={index} failed={failed} compact onPick={onPick} />
       </div>
 
@@ -45,6 +44,7 @@ export default function PhoneBar({
         {keyOpen ? (
           <div id="map-key" className="slip pointer-events-auto mt-2 w-full max-w-[320px] p-4">
             <Legend columns={1} />
+            <MadeBy className="mt-3 border-t border-rule pt-3" />
           </div>
         ) : null}
       </div>

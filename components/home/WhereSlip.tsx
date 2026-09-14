@@ -57,7 +57,7 @@ export default function WhereSlip({
   const style = { "--tilt": `${tiltFor(`${lake.id}-where`)}deg`, "--delay": `${600 + order * 60}ms` } as CSSProperties;
 
   return (
-    <div className={`slip pastes px-4 pt-3 pb-4 ${className}`} style={style}>
+    <div className={`slip slip-tint pastes px-4 pt-3 pb-4 ${className}`} style={style}>
       <div className="label">Where it is</div>
       <div className="mt-3 flex items-start gap-4">
         <Locator city={city} xy={xy} name={lake.name} sheetColor={sheetColor} className="w-[120px] shrink-0 md:w-[160px]" />

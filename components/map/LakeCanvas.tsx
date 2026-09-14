@@ -5,7 +5,7 @@ import { AttributionControl, Map as MapLibreMap, NavigationControl, setWorkerUrl
 import "maplibre-gl/dist/maplibre-gl.css";
 import type { BBox, LakeSummary, LngLat } from "@/lib/lake";
 import { pointsOf } from "./geo";
-import { CITY, collectionFilters, mapStyle, onlyId, TAP_LAYERS } from "./mapStyle";
+import { AROUND_BENGALURU, BENGALURU, collectionFilters, mapStyle, onlyId, TAP_LAYERS } from "./mapStyle";
 
 export type Flight = { key: number; box: BBox; maxZoom: number };
 export type MapStatus = "loading" | "ready" | "error" | "unsupported";
@@ -72,8 +72,10 @@ export default function LakeCanvas(props: Props) {
       map = new MapLibreMap({
         container: el,
         style: mapStyle(),
-        center: CITY,
-        zoom: el.clientWidth < 640 ? 9.6 : 10.4,
+        // Open on the whole of Bengaluru, and never let it drift far out of view.
+        bounds: BENGALURU,
+        fitBoundsOptions: { padding: el.clientWidth < 640 ? 16 : 40 },
+        maxBounds: AROUND_BENGALURU,
         minZoom: 7,
         maxZoom: 17,
         attributionControl: false,

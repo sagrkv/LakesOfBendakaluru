@@ -27,7 +27,9 @@ export default function MissingHero({
     <section className="page-x pt-10 md:pt-16 pb-16 md:pb-26">
       <div className="grid grid-cols-12 gap-x-6 gap-y-16 items-start">
         <div className="col-span-12 lg:col-span-5">
-          <h1 className="font-serif text-[64px] md:text-[96px] leading-[0.86] text-balance">Missing lakes of Bangalore</h1>
+          <h1 className="font-serif text-[64px] md:text-[96px] leading-[0.86] text-balance">
+            <span className="highlight">Missing lakes of Bangalore</span>
+          </h1>
           <p className="mt-6 max-w-[34rem]">
             In 2018 the state&rsquo;s lake survey recorded {formatCount(total)} lakes in and around Bengaluru as still
             there. No map we have draws them, so they are not on our map. Most are small ponds, and half are under{" "}

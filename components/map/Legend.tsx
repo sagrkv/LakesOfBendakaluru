@@ -13,12 +13,16 @@ export default function Legend({ columns }: { columns: 1 | 2 }) {
           </li>
         ))}
         <li className="label flex items-center gap-2">
-          <span aria-hidden className="inline-block h-0 w-3 shrink-0 border-t-2 border-ink" />
+          <span aria-hidden className="inline-block h-1.5 w-3 shrink-0 border border-ink bg-sun" />
           Bengaluru Urban and North districts
         </li>
         <li className="label flex items-center gap-2">
           <span aria-hidden className="inline-block h-0 w-3 shrink-0 border-t-2 border-dashed border-ink" />
           Greater Bengaluru city limit
+        </li>
+        <li className="label flex items-center gap-2">
+          <Swatch sheet="var(--color-night)" />
+          Outside the two districts
         </li>
       </ul>
     </div>

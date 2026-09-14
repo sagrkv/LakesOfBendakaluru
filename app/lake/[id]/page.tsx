@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import type { CSSProperties } from "react";
 import type { LakeRecord } from "@/lib/lake";
+import { paperFor } from "@/lib/valleys";
 import { formatAcres, formatMonth, WATER_CLASS } from "@/lib/format";
 import { getLake, getLakes, getSummary } from "@/lib/lakes";
 import SiteFooter from "@/components/SiteFooter";
@@ -88,7 +90,11 @@ export default async function LakePage({ params }: Props) {
     <>
       <main>
         <Hero lake={lake} name={name} />
-        <div className="page-x mx-auto max-w-[1600px] pb-16 md:pb-[104px]">
+        {/* Slips and headlines below take the lake's own paper. */}
+        <div
+          className="page-x mx-auto max-w-[1600px] pb-16 md:pb-[104px]"
+          style={{ "--paper": paperFor(lake.water?.valley).sheet } as CSSProperties}
+        >
           <Title lake={lake} summary={getSummary(lake.id)} rankedCount={rankedCount} />
           <YearsSection lake={lake} />
           <SizeSection lake={lake} />

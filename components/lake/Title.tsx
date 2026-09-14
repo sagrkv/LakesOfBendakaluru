@@ -78,7 +78,9 @@ export default function Title({
         <p className="label mb-6 font-normal text-missing md:mb-10">Satellite view: Esri, Maxar, Earthstar Geographics</p>
       ) : null}
 
-      <h1 className="font-serif text-[length:var(--name)] leading-[0.86] break-words">{name}</h1>
+      <h1 className="font-serif text-[length:var(--name)] leading-[0.86] break-words">
+        <span className="highlight">{name}</span>
+      </h1>
       {lake.nameKannada ? (
         <p lang="kn" className="mt-4 font-kannada text-[length:max(20px,calc(var(--name)/4))] leading-[1.2] font-semibold">
           {lake.nameKannada}

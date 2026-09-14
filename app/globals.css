@@ -9,6 +9,9 @@
   --color-ink: #1b1a17;
   --color-missing: #6f675a;
   --color-shadow: #5a3b12;
+  /* The wordmark's paper, and the night around the city: the footer and everything outside Bengaluru on the map. */
+  --color-sun: #ffc933;
+  --color-night: #26315f;
   /* Hairlines and quiet fills on the table, derived from ink. */
   --color-rule: color-mix(in oklab, #1b1a17 16%, #f6eedb);
   --color-well: color-mix(in oklab, #1b1a17 6%, #f6eedb);
@@ -65,12 +68,60 @@ body {
 
   /* A cream slip pasted on top. Rotation comes from --tilt, set per slip. */
   .slip {
-    background: var(--color-table);
+    background: var(--slip-bg, var(--color-table));
     color: var(--color-ink);
     rotate: var(--tilt, 0deg);
     box-shadow:
       2px 4px 0 rgb(90 59 18 / 0.28),
       0 10px 18px -8px rgb(90 59 18 / 0.35);
+  }
+
+  /*
+   * A fact slip tinted with the paper of what it describes: the lake's valley on a lake page,
+   * the page's own colour elsewhere. --paper is set by the page. The grey is darkened to keep 4.5:1 on every tint.
+   */
+  .slip-tint {
+    --slip-bg: color-mix(in srgb, var(--paper, var(--color-sun)) 20%, var(--color-table));
+    --color-missing: #585145;
+  }
+
+  /* A strip of the page's paper pasted behind the lower half of a headline. */
+  .highlight {
+    background-image: linear-gradient(
+      transparent 52%,
+      color-mix(in srgb, var(--paper, var(--color-sun)) 50%, var(--color-table)) 52% 88%,
+      transparent 88%
+    );
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    padding-inline: 0.04em;
+  }
+
+  /* The name of the site: ink on sun-yellow paper, tilted and pasted down hard. */
+  .wordmark {
+    display: inline-block;
+    background: var(--color-sun);
+    color: var(--color-ink);
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 28px;
+    line-height: 1;
+    white-space: nowrap;
+    padding: 0.2em 0.4em 0.3em;
+    rotate: var(--tilt, -1.2deg);
+    box-shadow: 2px 4px 0 var(--color-ink);
+  }
+  a.wordmark {
+    text-underline-offset: 4px;
+    transition: translate 120ms var(--ease-settle), box-shadow 120ms var(--ease-settle);
+  }
+  a.wordmark:hover {
+    translate: -1px -1px;
+    box-shadow: 3px 6px 0 var(--color-ink);
+  }
+  a.wordmark:active {
+    translate: 1px 2px;
+    box-shadow: 1px 2px 0 var(--color-ink);
   }
 
   .label {

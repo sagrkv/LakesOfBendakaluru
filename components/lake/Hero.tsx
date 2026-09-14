@@ -1,8 +1,8 @@
 import type { CSSProperties } from "react";
-import Link from "next/link";
 import type { LakeRecord } from "@/lib/lake";
 import { paperFor } from "@/lib/valleys";
 import Cutout from "@/components/paper/Cutout";
+import Wordmark from "@/components/Wordmark";
 import { pointFrame, sheetFrame, type Frame } from "./frame";
 import { printedYears } from "./years/maps";
 
@@ -21,8 +21,8 @@ function Ground({ frame }: { frame: Frame }) {
         fetchPriority="high"
         className="absolute inset-0 size-full grayscale"
       />
-      {/* Grey pushed 35% toward cream, so the paper is the only colour. */}
-      <div className="absolute inset-0 bg-table/35" />
+      {/* Grey pushed 55% toward cream, so the paper is the only strong colour. */}
+      <div className="absolute inset-0 bg-table/55" />
     </>
   );
 }
@@ -76,13 +76,7 @@ export default function Hero({ lake, name }: { lake: LakeRecord; name: string })
         </div>
       ) : null}
 
-      <Link
-        href="/"
-        className="slip absolute top-4 left-4 px-3 pt-1.5 pb-2 font-serif text-[28px] leading-none italic underline-offset-4 hover:underline md:top-6 md:left-10"
-        style={{ "--tilt": "-1.2deg" } as CSSProperties}
-      >
-        Lakes of Bendakaluru
-      </Link>
+      <Wordmark href="/" className="absolute top-4 left-4 md:top-6 md:left-10" />
 
       {statement ? (
         <div

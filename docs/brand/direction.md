@@ -33,7 +33,7 @@ Missing data is shown, in italic grey: "Nobody on record looks after it", "Not t
 ## Mark
 
 The wordmark "Lakes of Bendakaluru" in Instrument Serif italic.
-Ink on cream, or cream on any sheet.
+Ink on a tilted label of sun-yellow paper, on every page.
 There is no logo shape; the lake on screen is the picture.
 
 ## Type
@@ -75,12 +75,24 @@ Valley sheets, with the text colour that passes 3:1 for large text:
 
 The valley names are the ones the data computes, so the sheets follow the data rather than the other way round.
 
-Small text never sits directly on a sheet; it sits on a cream slip.
+Small text never sits directly on a sheet; it sits on a slip.
+
+Sun #FFC933 is the wordmark's paper, ink on it at 11.3:1.
+Night #26315F is the footer and everything outside Bengaluru on the map, cream on it at 10.8:1 and sun at 8.1:1.
+
+Every page has its own paper, set once as `--paper`.
+A lake page takes its valley's sheet.
+Once upon a kere is #F2502B, Missing lakes #7B4BD1, Timeline #11A3B5, Sources #2FA35B, not found #F59AC0.
+Fact slips are tinted with 20% of that paper over cream, and the missing-data grey on them darkens to #585145 to keep 4.9:1.
+Headlines carry a strip of 50% of that paper behind the lower half of their letters.
+
+The footer opens with a strip of every valley sheet side by side, and says the site is a filtercoffee.dev project.
 
 ## Paper
 
 Sheets cast a soft brown shadow: 5 px right, 9 px down, 5 px blur, #5A3B12 at 30%.
-Slips are cream, rotated between -1.8 and 1.8 degrees, with a hard 2 px/4 px shadow plus a soft drop.
+Slips are cream or tinted, rotated between -1.8 and 1.8 degrees, with a hard 2 px/4 px shadow plus a soft drop.
+The wordmark is sun paper tilted -1.2 degrees with a hard 2 px/4 px ink shadow.
 
 ## Spacing
 
@@ -91,8 +103,11 @@ Inner pages use 12 columns with 24 px gutters.
 
 ## Imagery
 
-Satellite view, turned grey and pushed 35% toward cream, with the lake laid on top in its valley's paper.
-Used on the lake's own page, never on the opening screen.
+Satellite view, turned grey and pushed toward cream, with the lake laid on top in its valley's paper.
+On the lake's own page it is pushed 55% toward cream, on the map 60%.
+Never on the opening screen.
+The map opens framed on Bengaluru Urban and Bengaluru North districts.
+Outside them the map is covered in night at 88%, and their edge is sun-yellow tape on an ink line.
 
 ## Motion
 

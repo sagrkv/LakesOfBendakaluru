@@ -1,5 +1,6 @@
-import Link from "next/link";
 import type { ReactNode } from "react";
+import MadeBy from "@/components/MadeBy";
+import Wordmark from "@/components/Wordmark";
 import type { LakeSummary } from "@/lib/lake";
 import CollectionPicker from "./CollectionPicker";
 import GoneLink from "./GoneLink";
@@ -26,10 +27,8 @@ export default function SidePanel({ stats, gone, missing, index, failed, counts,
   return (
     <aside className="flex h-full w-[400px] shrink-0 flex-col border-r border-rule bg-table">
       <div className="px-6 pt-6 pb-6">
-        <Link href="/" className="font-serif text-[28px] leading-none italic">
-          Lakes of Bendakaluru
-        </Link>
-        <p className={`label mt-2 text-missing ${stats ? "" : "invisible"}`}>
+        <Wordmark href="/" />
+        <p className={`label mt-4 text-missing ${stats ? "" : "invisible"}`}>
           {stats ?? "Counting the lakes"} <GoneLink gone={gone} missing={missing} />
         </p>
         <div className="mt-4">
@@ -47,6 +46,7 @@ export default function SidePanel({ stats, gone, missing, index, failed, counts,
 
       <div className="border-t border-rule px-6 py-4">
         <Legend columns={2} />
+        <MadeBy className="mt-3 border-t border-rule pt-3" />
       </div>
     </aside>
   );

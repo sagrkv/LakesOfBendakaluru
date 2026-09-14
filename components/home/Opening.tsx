@@ -6,7 +6,7 @@ import { SLOT } from "./fit";
 import type { Opener } from "./opener";
 import ShowAnother from "./ShowAnother";
 import Stage from "./Stage";
-import Wordmark from "./Wordmark";
+import Wordmark from "@/components/Wordmark";
 
 /**
  * The opening screen: one lake cut out and filling the page, facts pasted on top.

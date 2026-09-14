@@ -17,7 +17,7 @@ export default function ViewSection({
       <div className="grid grid-cols-12 gap-x-6 gap-y-10">
         <div className="col-span-12 lg:col-span-4">
           <h2 id={`${id}-title`} className="font-serif text-[48px] md:text-[64px] leading-[0.95] text-balance">
-            {title}
+            <span className="highlight">{title}</span>
           </h2>
           <div className="mt-6 max-w-[34rem] space-y-4">{note}</div>
         </div>

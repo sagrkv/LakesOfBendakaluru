@@ -20,7 +20,7 @@ export default function Section({
   return (
     <section id={id} aria-labelledby={`${id}-title`} className="scroll-mt-6 pt-16 md:pt-[104px]">
       <h2 id={`${id}-title`} className="max-w-[18ch] font-serif text-[40px] md:text-[64px] leading-[0.95]">
-        {title}
+        <span className="highlight">{title}</span>
       </h2>
       {empty ? (
         <p className="missing mt-4 md:mt-6">{missing}</p>

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import type { CSSProperties } from "react";
 import PageTop from "@/components/PageTop";
 import SiteFooter from "@/components/SiteFooter";
 import { printedYearsFor } from "@/components/lake/years/maps";
@@ -34,7 +35,7 @@ export default function MissingLakesPage() {
   return (
     <>
       <PageTop />
-      <main className="overflow-x-clip">
+      <main className="overflow-x-clip" style={{ "--paper": "#7B4BD1" } as CSSProperties}>
         <MissingHero
           total={missing.length}
           median={sizes.length ? median(sizes) : 0}

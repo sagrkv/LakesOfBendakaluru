@@ -50,7 +50,7 @@ export default function ListSection({
     <section id="list" aria-labelledby="list-title" className="page-x pb-16 md:pb-26 scroll-mt-6">
       <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
         <h2 id="list-title" className="font-serif text-[26px] md:text-[36px] leading-none">
-          Every missing lake
+          <span className="highlight">Every missing lake</span>
         </h2>
         {filtered && (
           <button type="button" onClick={onClear} className="-my-3 py-3 ink-link cursor-pointer">

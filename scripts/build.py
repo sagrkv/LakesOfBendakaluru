@@ -10,6 +10,7 @@ Steps:
 Outputs (public/data/):
   lakes.json         one summary row per lake, for lists, search and stats
   lakes.geojson      outlines of every lake that has one, with a few map properties
+  outside.geojson    the world with the two districts cut out, tinted on the map
   past.json          every lake that disappeared or was converted, lean rows for the Past Lakes page
   past-sheet.svg     the city as ink paper with a hole where each past lake was
   missing.json       every lake recorded as existing that no map draws, lean rows for the Missing Lakes page
@@ -25,7 +26,7 @@ import shutil
 import sys
 from pathlib import Path
 
-from shapely.geometry import mapping, shape
+from shapely.geometry import box, mapping, shape
 from shapely.ops import unary_union
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -154,6 +155,7 @@ def build():
     write_json(OUT / "city.geojson", city_boundary(ctx.wards))
     districts, district_sources = district_boundary()
     write_json(OUT / "districts.geojson", districts)
+    write_json(OUT / "outside.geojson", outside_mask(districts))
 
     past = past_rows(records, summaries)
     write_json(OUT / "past.json", past)
@@ -213,6 +215,13 @@ def district_boundary():
         ],
     }
     return collection, keys
+
+
+def outside_mask(districts):
+    """Everything on the map except the two districts, so the map can tint it and keep Bengaluru in focus."""
+    edge = unary_union([shape(f["geometry"]) for f in districts["features"]])
+    world = box(-180, -85, 180, 85)
+    return {"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {}, "geometry": mapping(world.difference(edge))}]}
 
 
 def collect_sources(node, used):
