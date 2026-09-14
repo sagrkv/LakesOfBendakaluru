@@ -9,8 +9,21 @@ import { useAllPast } from "./useAllPast";
 import WhenView from "./WhenView";
 import WhyView from "./WhyView";
 
-/** The when and why views and the list below them share one set of choices. */
-export default function Explorer({ top, counts, total }: { top: PastLake[]; counts: Counts; total: number }) {
+/**
+ * The when and why views and the list below them share one set of choices.
+ * `printed` holds real map print years by lake id, for lakes on a map edition printed over several years.
+ */
+export default function Explorer({
+  top,
+  counts,
+  total,
+  printed,
+}: {
+  top: PastLake[];
+  counts: Counts;
+  total: number;
+  printed: Record<string, number[]>;
+}) {
   const [filter, setFilter] = useState<Filter>(NO_FILTER);
   const all = useAllPast();
   const topTagged = useMemo(() => top.map(tag), [top]);
@@ -42,6 +55,7 @@ export default function Explorer({ top, counts, total }: { top: PastLake[]; coun
         all={all}
         rows={rows}
         total={total}
+        printed={printed}
         onLoad={() => void all.load()}
         onClear={() => setFilter(NO_FILTER)}
       />

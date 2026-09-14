@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import PageTop from "@/components/PageTop";
 import SiteFooter from "@/components/SiteFooter";
+import { printedYearsFor } from "@/components/lake/years/maps";
 import Explorer from "@/components/missing/Explorer";
 import { hasNewer, tag, tally } from "@/components/missing/filter";
 import MissingHero from "@/components/missing/MissingHero";
@@ -47,6 +48,7 @@ export default function MissingLakesPage() {
           counts={tally(missing.map(tag))}
           total={missing.length}
           note={<RecordNote lakes={missing} />}
+          printed={printedYearsFor(missing)}
         />
       </main>
       <SiteFooter />

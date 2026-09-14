@@ -9,8 +9,8 @@ export const ROW = "-mx-2 px-2 grid-cols-12 gap-x-6 items-baseline";
 const SMALL = "label font-normal md:text-[17px] md:leading-[1.55]";
 
 /** One past lake: its name and size, when it went, and why, as far as the record says. */
-export default function PastRow({ lake }: { lake: Tagged }) {
-  const when = whenLine(lake);
+export default function PastRow({ lake, printed }: { lake: Tagged; printed?: number[] }) {
+  const when = whenLine(lake, printed);
   const filledIn = whoLine(lake.convertedBy);
 
   return (

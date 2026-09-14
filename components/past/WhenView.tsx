@@ -38,7 +38,7 @@ export default function WhenView({
         <>
           <p>
             Each lake is dated by the best evidence on record. The 2018 lake survey says which year it was gone by.
-            Satellites have watched for water since 1984. Survey maps from 1927, 1945 and 1955 show water where there is
+            Satellites have watched for water since 1984. Survey maps printed from 1914 to 1980 show water where there is
             none today.
           </p>
           <p>

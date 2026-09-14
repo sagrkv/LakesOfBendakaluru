@@ -13,6 +13,7 @@ export default function ListSection({
   all,
   rows,
   total,
+  printed,
   onLoad,
   onClear,
 }: {
@@ -22,6 +23,7 @@ export default function ListSection({
   /** The lakes that match, once the full list is here; null before. */
   rows: Tagged[] | null;
   total: number;
+  printed: Record<string, number[]>;
   onLoad: () => void;
   onClear: () => void;
 }) {
@@ -70,7 +72,7 @@ export default function ListSection({
           </div>
           <ul className="mt-6 md:mt-0 border-t border-rule md:border-t-0">
             {shown.map((lake) => (
-              <MissingRow key={lake.id} lake={lake} />
+              <MissingRow key={lake.id} lake={lake} printed={printed[lake.id]} />
             ))}
           </ul>
         </>

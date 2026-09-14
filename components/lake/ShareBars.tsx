@@ -4,8 +4,8 @@ type Share = { season: string; from: string; to: string; openWaterPct: number; w
 
 const PARTS = [
   { key: "openWaterPct", label: "open water", fill: "bg-ink" },
-  { key: "weedCoverPct", label: "floating weed", fill: "bg-missing" },
-  { key: "dryOrBuiltPct", label: "dry or built", fill: "bg-rule" },
+  { key: "weedCoverPct", label: "floating weed", fill: "bg-rule" },
+  { key: "dryOrBuiltPct", label: "dry or built", fill: "bg-missing" },
 ] as const;
 
 /** What covers the lake in each recent season, as one bar split three ways, every share written out. */

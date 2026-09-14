@@ -10,11 +10,11 @@ const SMALL = "label font-normal md:text-[17px] md:leading-[1.55]";
  * One missing lake: its name, the 2018 extent, where it is and who looks after it, and what the record says,
  * old and new. The whole row opens the lake's page; the monitoring site link sits above that.
  */
-export default function MissingRow({ lake }: { lake: Tagged }) {
+export default function MissingRow({ lake, printed }: { lake: Tagged; printed?: number[] }) {
   const kind = kindLine(lake.kind);
   const place = placeLine(lake);
   const survey = surveyLine(lake);
-  const maps = mapLine(lake.onMap);
+  const maps = mapLine(lake.onMap, printed);
   const water = waterLine(lake.waterSeen);
   const waterIsNewer = Boolean(lake.waterSeen && lake.waterSeen > SURVEY_YEAR);
 

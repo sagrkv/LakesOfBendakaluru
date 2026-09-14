@@ -12,14 +12,8 @@ export const REPORTS: TimelineSource[] = [
     tells: "Each tank's name, size in hectares, condition, land use and what the committee recommended.",
     coverage: "127 city tanks and 262 green belt tanks",
     licence: "No licence stated",
-    status: "found",
-    access: "A scan with rotated tables",
-    links: [
-      {
-        label: "Open the report (PDF)",
-        href: "https://prod-qt-images.s3.amazonaws.com/indiawaterportal/import/sites/default/files/iwp2/report_of_the_expert_committee_for_preservation_restoration_or_otherwise_of_the_existing_tanks_in_bangalore_metropolitan_area_laxman_rau_1986.pdf",
-      },
-    ],
+    status: "on-site",
+    links: [{ label: "Open the report (PDF)", key: "rau-1986" }],
   },
   {
     id: "district-gazetteer-1990",

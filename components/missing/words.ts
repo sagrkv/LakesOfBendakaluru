@@ -54,7 +54,9 @@ export function waterLine(waterSeen: number | undefined): string | null {
     : `Satellites last saw water near here in ${waterSeen}`;
 }
 
-export function mapLine(onMap: number[] | undefined): string | null {
-  if (!onMap?.length) return null;
-  return `Drawn on the ${joinList(onMap.map(String))} survey map${onMap.length > 1 ? "s" : ""}`;
+/** `printed` is the real print year of each sheet that draws it, when that differs from the edition year. */
+export function mapLine(onMap: number[] | undefined, printed?: number[]): string | null {
+  const years = printed ?? onMap;
+  if (!years?.length) return null;
+  return `Drawn on the ${joinList(years.map(String))} survey map${years.length > 1 ? "s" : ""}`;
 }

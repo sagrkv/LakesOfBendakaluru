@@ -24,7 +24,8 @@ export default function BuiltSection({ lake }: { lake: LakeRecord }) {
   const around = Object.entries(nature?.landAround ?? {})
     .filter(([, v]) => (v ?? 0) >= 0.5)
     .sort((a, b) => (b[1] ?? 0) - (a[1] ?? 0));
-  const hasEncroachment = e && Object.keys(e).some((key) => key !== "src");
+  // The 2018 survey's share and the census mark are dated, so they sit on the timeline.
+  const hasEncroachment = e && Object.keys(e).some((key) => !["src", "pct2018", "census2018Encroached"].includes(key));
   const empty = builtInside === undefined && !hasEncroachment && around.length === 0;
 
   return (
@@ -33,9 +34,6 @@ export default function BuiltSection({ lake }: { lake: LakeRecord }) {
         <Fact label="Built inside the outline" value={percent(builtInside)} sources={sourcesOf(nature, "builtInsideOutlinePct")}>
           <Note>From satellite land cover, 2021</Note>
         </Fact>
-      ) : null}
-      {e?.pct2018 !== undefined ? (
-        <Fact label="Encroached, 2018 survey" value={percent(e.pct2018)} sources={sourcesOf(e, "pct2018")} />
       ) : null}
       {e?.koliwadAcres !== undefined ? (
         <Fact label="Encroached area, 2017" value={`${formatAcres(e.koliwadAcres)} acres`} sources={sourcesOf(e, "koliwadAcres")}>
@@ -65,12 +63,6 @@ export default function BuiltSection({ lake }: { lake: LakeRecord }) {
       {e?.otherIssues ? (
         <Fact label="Other problems noted" sources={sourcesOf(e, "otherIssues")}>
           <p>{e.otherIssues}</p>
-        </Fact>
-      ) : null}
-      {e?.census2018Encroached !== undefined ? (
-        <Fact label="Water bodies census, 2017-18" sources={sourcesOf(e, "census2018Encroached")}>
-          <p>{e.census2018Encroached ? "Marked as encroached" : "Not marked as encroached"}</p>
-          <Note>This census&rsquo;s status marks are often wrong</Note>
         </Fact>
       ) : null}
       {e?.officialMaps?.length ? (

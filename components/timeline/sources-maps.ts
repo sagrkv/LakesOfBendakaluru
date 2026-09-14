@@ -1,7 +1,6 @@
 import type { TimelineSource } from "./types";
 
 const OLD_MAPS = "https://commons.wikimedia.org/wiki/Category:Old_maps_of_Bengaluru";
-const ZENODO_SOI = "https://zenodo.org/records/8388121";
 
 function cityPlan(year: number, when: string): TimelineSource {
   return {
@@ -76,14 +75,20 @@ export const MAPS: TimelineSource[] = [
     from: 1914,
     to: 1917,
     when: "1914 to 1917",
-    title: "Survey of India one-inch sheets 57G/4, 57G/8, 57G/16, 57H/5, 57H/6, 57H/7 and 57H/10",
+    title: "Survey of India one-inch sheets, first editions",
     holder: "Survey of India, via Zenodo",
     kind: "map",
-    tells: "Tank outlines and embankments, most of them unnamed.",
-    coverage: "7 of the 10 Bangalore District sheets: Nelamangala, Hoskote, Kengeri and Anekal, not the two city sheets",
+    tells: "Whether a lake was drawn on the map, from tank outlines and embankments, most of them unnamed.",
+    coverage:
+      "7 of the 10 Bangalore District sheets, not the two city sheets. On the site: 57G/8, 57G/16 and 57H/5 (1914) and 57H/10 (1915). Not yet: 57G/4, 57H/6 and 57H/7",
     licence: "CC BY 4.0",
-    status: "found",
-    links: [{ label: "Open the sheets on Zenodo", href: ZENODO_SOI }],
+    status: "on-site",
+    links: [
+      { label: "Open sheet 57 G/8 (1914)", key: "soi-57g8-1914" },
+      { label: "Open sheet 57 G/16 (1914)", key: "soi-57g16-1914" },
+      { label: "Open sheet 57 H/5 (1914)", key: "soi-57h5-1914" },
+      { label: "Open sheet 57 H/10 (1915)", key: "soi-57h10-1915" },
+    ],
   },
   {
     id: "revenue-maps-1915",
@@ -156,12 +161,24 @@ export const MAPS: TimelineSource[] = [
     title: "Survey of India one-inch sheets, later editions",
     holder: "Survey of India, via Zenodo",
     kind: "map",
-    tells: "Each tank's surveyed outline and name.",
+    tells: "Whether a lake was drawn on the map, from each tank's surveyed outline and name.",
     coverage:
-      "Every Bangalore District sheet: 57G/4 (1973), 57G/7 (1975), 57G/8 (1974), 57G/12 (1978), 57G/16 (1974), 57H/5 (1973), 57H/6 (1973), 57H/7 (1979), 57H/9 (1980) and 57H/10 (1973), with edges on Kolar sheets 57G/11 (1975, 1977) and 57H/13 (1973)",
+      "Every Bangalore District sheet: 57G/4 (1973), 57G/7 (1975), 57G/8 (1974), 57G/12 (1978), 57G/16 (1974), 57H/5 (1973), 57H/6 (1973), 57H/7 (1979), 57H/9 (1980) and 57H/10 (1973), with edges on Kolar sheets 57G/11 (1975, 1977) and 57H/13 (1973). On the site: all but 57H/7 and the 1977 edition of 57G/11",
     licence: "CC BY 4.0",
-    status: "found",
-    links: [{ label: "Open the sheets on Zenodo", href: ZENODO_SOI }],
+    status: "on-site",
+    links: [
+      { label: "Open sheet 57 G/4 (1973)", key: "soi-57g4-1973" },
+      { label: "Open sheet 57 G/7 (1975)", key: "soi-57g7-1975" },
+      { label: "Open sheet 57 G/8 (1974)", key: "soi-57g8-1974" },
+      { label: "Open sheet 57 G/12 (1978)", key: "soi-57g12-1978" },
+      { label: "Open sheet 57 G/16 (1974)", key: "soi-57g16-1974" },
+      { label: "Open sheet 57 H/5 (1973)", key: "soi-57h5-1973" },
+      { label: "Open sheet 57 H/6 (1973)", key: "soi-57h6-1973" },
+      { label: "Open sheet 57 H/9 (1980)", key: "soi-57h9-1980" },
+      { label: "Open sheet 57 H/10 (1973)", key: "soi-57h10-1973" },
+      { label: "Open sheet 57 G/11 (1975)", key: "soi-57g11-1975" },
+      { label: "Open sheet 57 H/13 (1973)", key: "soi-57h13-1973" },
+    ],
   },
   {
     id: "ksrsac-wetlands-2023",

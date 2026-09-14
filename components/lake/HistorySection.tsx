@@ -1,50 +1,22 @@
 import type { LakeRecord } from "@/lib/lake";
-import Fact, { Note } from "./Fact";
+import Fact from "./Fact";
 import Section from "./Section";
 import { sourcesOf } from "./sources";
-import { joinList, sentence, who } from "./words";
+import { sentence, who } from "./words";
 
+/** What the 2018 survey saw on and around the site. Dated facts live on the timeline. */
 export default function HistorySection({ lake }: { lake: LakeRecord }) {
   const h = lake.history;
-  const maps = ([1927, 1945, 1955] as const).filter((year) => h?.[`onMap${year}`]);
-  const empty = !h || !Object.keys(h).some((key) => key !== "src");
+  const gone = lake.status !== "exists";
+  const empty = !(h?.nowOccupiedBy || h?.convertedBy?.length || h?.surroundings2018 || h?.remarks2018);
 
   return (
-    <Section id="history" title="Its history" missing="No history on record." empty={empty}>
-      {h?.yearBuilt !== undefined ? (
-        <Fact label="Built" value={String(h.yearBuilt)} sources={sourcesOf(h, "yearBuilt")}>
-          <Note>As recorded in the 2018 lake survey</Note>
-        </Fact>
-      ) : null}
-      {h?.rejuvenated !== undefined ? (
-        <Fact
-          label="Restored"
-          value={h.rejuvenated ? (h.yearRejuvenated ? String(h.yearRejuvenated) : "Yes") : "Not restored"}
-          sources={sourcesOf(h, "rejuvenated", "yearRejuvenated")}
-        />
-      ) : null}
-      {maps.length ? (
-        <Fact
-          label="On old survey maps"
-          value={joinList(maps.map(String))}
-          sources={sourcesOf(h, ...maps.map((year) => `onMap${year}`), "knownOnlyFromOldMap")}
-        >
-          {h?.knownOnlyFromOldMap ? (
-            <p>
-              Known only from the old map; no lake has been seen here since.
-              {h.oldMapConfidence ? ` The match to the map is ${h.oldMapConfidence === "high" ? "sure" : "likely"}.` : ""}
-            </p>
-          ) : (
-            <Note>Drawn on the {maps.length === 1 ? "map" : "maps"} of those years</Note>
-          )}
-        </Fact>
-      ) : null}
-      {h?.lastSeenWithWater !== undefined ? (
-        <Fact label="Last seen with water" value={String(h.lastSeenWithWater)} sources={sourcesOf(h, "lastSeenWithWater")}>
-          <Note>By satellite, which has records from 1984</Note>
-        </Fact>
-      ) : null}
-      {h?.goneBy !== undefined ? <Fact label="Gone by" value={String(h.goneBy)} sources={sourcesOf(h, "goneBy")} /> : null}
+    <Section
+      id="the-site"
+      title={gone ? "What took its place" : "Around it"}
+      missing={gone ? "Nothing on record about what took its place." : "Nothing on record about what is around it."}
+      empty={empty}
+    >
       {h?.nowOccupiedBy ? (
         <Fact label="On the site now" value={h.nowOccupiedBy} sources={sourcesOf(h, "nowOccupiedBy")} />
       ) : null}

@@ -14,11 +14,14 @@ export default function Explorer({
   counts,
   total,
   note,
+  printed,
 }: {
   top: MissingLake[];
   counts: Counts;
   total: number;
   note: ReactNode;
+  /** Real map print years by lake id, for lakes on a map edition printed over several years. */
+  printed: Record<string, number[]>;
 }) {
   const [filter, setFilter] = useState<Filter>(NO_FILTER);
   const all = useAllMissing();
@@ -41,6 +44,7 @@ export default function Explorer({
         all={all}
         rows={rows}
         total={total}
+        printed={printed}
         onLoad={() => void all.load()}
         onClear={() => setFilter(NO_FILTER)}
       />

@@ -33,13 +33,19 @@ export function parseWhen(id: string): When {
   return year ? at(kind as WhenKind, Number(year)) : NONE;
 }
 
-/** The line in a lake's row; null when nothing on record dates it. */
-export function whenLine(lake: PastLake): string | null {
+/** Editions whose sheets were printed over several years. A bar holds lakes from all of them, so it names the span. */
+const EDITION_SPAN: Record<number, string> = { 1914: "1914 to 1917", 1975: "1973 to 1980" };
+
+/**
+ * The line in a lake's row; null when nothing on record dates it.
+ * `printed` is the real print year of each sheet that draws it, when that differs from the edition year.
+ */
+export function whenLine(lake: PastLake, printed?: number[]): string | null {
   const { kind } = whenOf(lake);
   if (kind === "survey") return `Gone by ${lake.goneBy}`;
   if (kind === "satellite") return `Last seen with water in ${lake.lastSeenWithWater}`;
   if (kind === "map") {
-    const maps = lake.onMap!;
+    const maps = printed ?? lake.onMap!;
     return `On the ${joinList(maps.map(String))} survey map${maps.length > 1 ? "s" : ""}, not on today's`;
   }
   return null;
@@ -49,6 +55,7 @@ export function whenLine(lake: PastLake): string | null {
 export function whenLabel(when: When): string {
   if (when.kind === "satellite") return `In the ${when.year}s`;
   if (when.kind === "none") return "Nothing on record dates them";
+  if (when.kind === "map") return EDITION_SPAN[when.year!] ?? String(when.year);
   return String(when.year);
 }
 
@@ -56,6 +63,9 @@ export function whenLabel(when: When): string {
 export function whenPhrase(when: When): string {
   if (when.kind === "survey") return `gone by ${when.year}`;
   if (when.kind === "satellite") return `last seen with water in the ${when.year}s`;
-  if (when.kind === "map") return `last drawn on the ${when.year} survey map`;
+  if (when.kind === "map") {
+    const span = EDITION_SPAN[when.year!];
+    return span ? `last drawn on the survey maps printed ${span}` : `last drawn on the ${when.year} survey map`;
+  }
   return "with no date on record";
 }

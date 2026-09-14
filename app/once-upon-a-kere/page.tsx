@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import PageTop from "@/components/PageTop";
 import SiteFooter from "@/components/SiteFooter";
+import { printedYearsFor } from "@/components/lake/years/maps";
 import Explorer from "@/components/past/Explorer";
 import { tag, tally } from "@/components/past/filter";
 import PastHero from "@/components/past/PastHero";
@@ -35,7 +36,12 @@ export default function OnceUponAKerePage() {
           width={width}
           height={height}
         />
-        <Explorer top={past.slice(0, TOP)} counts={tally(past.map(tag))} total={past.length} />
+        <Explorer
+          top={past.slice(0, TOP)}
+          counts={tally(past.map(tag))}
+          total={past.length}
+          printed={printedYearsFor(past)}
+        />
       </main>
       <SiteFooter />
     </>

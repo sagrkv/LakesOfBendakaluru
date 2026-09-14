@@ -16,8 +16,8 @@ import PlaceSection from "@/components/lake/PlaceSection";
 import QualitySection from "@/components/lake/QualitySection";
 import SizeSection from "@/components/lake/SizeSection";
 import Title, { bestAcres } from "@/components/lake/Title";
-import WaterYearsSection from "@/components/lake/WaterYearsSection";
 import { displayName, percent } from "@/components/lake/words";
+import YearsSection from "@/components/lake/years/YearsSection";
 
 type Props = { params: Promise<{ id: string }> };
 
@@ -90,12 +90,12 @@ export default async function LakePage({ params }: Props) {
         <Hero lake={lake} name={name} />
         <div className="page-x mx-auto max-w-[1600px] pb-16 md:pb-[104px]">
           <Title lake={lake} summary={getSummary(lake.id)} rankedCount={rankedCount} />
+          <YearsSection lake={lake} />
           <SizeSection lake={lake} />
           {gone ? <HistorySection lake={lake} /> : null}
           <QualitySection lake={lake} />
           <BuiltSection lake={lake} />
           <CareSection lake={lake} />
-          <WaterYearsSection lake={lake} />
           <FlowSection lake={lake} />
           <NatureSection lake={lake} />
           {gone ? null : <HistorySection lake={lake} />}

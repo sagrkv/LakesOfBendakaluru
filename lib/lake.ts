@@ -87,6 +87,36 @@ export type Photo = {
   date?: string;
 };
 
+/** Share of the lake's area in each land cover class for one year, from 10 m images. */
+export type LandCoverYear = {
+  year: number;
+  waterPct: number;
+  floodedVegetationPct: number;
+  builtPct: number;
+  bareGroundPct: number;
+  treesPct: number;
+  cropsPct: number;
+  rangelandPct: number;
+  /** A lake known only as a point, or under a quarter acre. */
+  lowConfidence: boolean;
+  source: string;
+};
+
+/** The tank as the 1986 Lakshman Rau committee listed it, read from a scan. Any field may be empty. */
+export type Rau1986 = {
+  list?: string;
+  status?: string;
+  nameAsPrinted?: string;
+  tankNo?: string;
+  areaHa?: number;
+  condition?: string;
+  landUse?: string;
+  recommendation?: string;
+  agency?: string;
+  zone?: string;
+  taluk?: string;
+};
+
 export type LakeRecord = {
   id: string;
   name: string;
@@ -157,6 +187,7 @@ export type LakeRecord = {
       lowConfidence: boolean;
     };
     yearly?: { year: number; waterAcres: number; observedAcres: number }[];
+    landCoverYearly?: LandCoverYear[];
     current?: {
       season: string;
       from: string;
@@ -220,9 +251,15 @@ export type LakeRecord = {
     yearBuilt?: number;
     rejuvenated?: boolean;
     yearRejuvenated?: number;
+    /**
+     * Drawn (true) or not drawn (false) on that edition of the survey map. A missing key is no answer:
+     * the sheet does not cover the lake, or no confident match. The src key names the sheet and its print year.
+     */
+    onMap1914?: boolean;
     onMap1927?: boolean;
     onMap1945?: boolean;
     onMap1955?: boolean;
+    onMap1975?: boolean;
     knownOnlyFromOldMap?: boolean;
     oldMapConfidence?: string;
     lastSeenWithWater?: number;
@@ -231,6 +268,7 @@ export type LakeRecord = {
     goneBy?: number;
     surroundings2018?: string;
     remarks2018?: string;
+    rau1986?: Rau1986;
   };
   links?: {
     src: Src;

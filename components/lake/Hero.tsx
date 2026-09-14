@@ -4,6 +4,7 @@ import type { LakeRecord } from "@/lib/lake";
 import { paperFor } from "@/lib/valleys";
 import Cutout from "@/components/paper/Cutout";
 import { pointFrame, sheetFrame, type Frame } from "./frame";
+import { printedYears } from "./years/maps";
 
 /** The satellite view that shows through a phone and a laptop crop of the same square image. */
 function Ground({ frame }: { frame: Frame }) {
@@ -30,7 +31,7 @@ function siteStatement(lake: LakeRecord): { label: string; text: string; gap: bo
   const history = lake.history;
   if (history?.nowOccupiedBy) return { label: "On the site now", text: history.nowOccupiedBy, gap: false };
   if (history?.knownOnlyFromOldMap) {
-    const year = history.onMap1955 ? 1955 : history.onMap1945 ? 1945 : history.onMap1927 ? 1927 : undefined;
+    const year = printedYears(history).at(-1);
     return { label: "Known only from an old map", text: year ? `Drawn here in ${year}` : "Drawn here once", gap: false };
   }
   return { label: "No outline on record", text: "Only this point is known", gap: true };
