@@ -1,10 +1,12 @@
 # The site only needs the app, its components and public/data. The pipeline and its inputs stay local.
-node_modules
-.next
-.venv
+# Anchored with a leading slash: a bare "data" would also drop public/data, which the site reads.
+/node_modules
+/.next
+/.venv
 .env*
 __pycache__
-data
-scripts
-docs
+/data
+/scripts
+/docs
+/public/maplibre
 *.tsbuildinfo
